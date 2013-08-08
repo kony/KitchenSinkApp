@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="UIDefaultAppJS" id="UIDefaultAppJS">
+    <container type="form" id="frmAni" displayname="Form"/>
+    <container type="form" id="frmAni1" displayname="Form"/>
+    <container type="form" id="frmAni2" displayname="Form"/>
+    <container type="form" id="frmAni3" displayname="Form"/>
+    <container type="form" id="frmAni4" displayname="Form"/>
+    <container type="form" id="frmAni5" displayname="Form"/>
+    <container type="form" id="frmAniWin" displayname="Form"/>
+    <container type="form" id="frmAniWin1" displayname="Form"/>
+    <container type="form" id="frmAniWin2" displayname="Form"/>
+    <container type="form" id="frmAniWin3" displayname="Form"/>
+    <container type="form" id="frmAniWin4" displayname="Form"/>
+    <container type="form" id="frmAniWin5" displayname="Form"/>
+    <container type="form" id="frmBrowser" displayname="Form"/>
+    <container type="form" id="frmBtn" displayname="Form"/>
+    <container type="form" id="frmCBox" displayname="Form">
+        <component type="combobox" id="combobox11798972524560" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326843" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326861" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326881" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326897" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326917" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077327167" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frmCal" displayname="Form">
+        <component type="calendar" id="calendar118082077329776" displayname="Calendar"/>
+        <component type="calendar" id="calendar118082077329786" displayname="Calendar"/>
+        <component type="calendar" id="calendar118082077329814" displayname="Calendar"/>
+        <component type="calendar" id="calendar118082077329855" displayname="Calendar"/>
+        <component type="calendar" id="calendar118082077329879" displayname="Calendar"/>
+    </container>
+    <container type="form" id="frmChk" displayname="Form"/>
+    <container type="form" id="frmCrousel" displayname="Form"/>
+    <container type="form" id="frmData" displayname="Form"/>
+    <container type="form" id="frmDatagrd" displayname="Form"/>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="textfield2103994549623675" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2103994549623701" displayname="TextBox2"/>
+        <component type="combobox" id="combobox103994549623724" displayname="ComboBox"/>
+        <component type="calendar" id="calendar103994549623759" displayname="Calendar"/>
+    </container>
+    <container type="form" id="frmGroup" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmIcons" displayname="Form"/>
+    <container type="form" id="frmImgGal" displayname="Form"/>
+    <container type="form" id="frmImgStrip" displayname="Form"/>
+    <container type="form" id="frmLbl" displayname="Form"/>
+    <container type="form" id="frmLink" displayname="Form"/>
+    <container type="form" id="frmLst" displayname="Form"/>
+    <container type="form" id="frmLstBox" displayname="Form">
+        <component type="listbox" id="listbox11798972524359" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326680" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326706" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326732" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326750" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326766" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326807" displayname="ListBox"/>
+    </container>
+    <container type="form" id="frmMap" displayname="Form">
+        <component type="map" id="mapNrm" displayname="Map">
+            <attributes value="Google map key is not defined in application properties" platform="general" name="key" datatype="string"/>
+        </component>
+    </container>
+    <container type="form" id="frmNList" displayname="Form"/>
+    <container type="form" id="frmNLst2" displayname="Form"/>
+    <container type="form" id="frmOnClickButt" displayname="Form"/>
+    <container type="form" id="frmPhn" displayname="Form"/>
+    <container type="form" id="frmRdo" displayname="Form"/>
+    <container type="form" id="frmRich" displayname="Form"/>
+    <container type="form" id="frmSeg" displayname="Form"/>
+    <container type="form" id="frmSlider" displayname="Form"/>
+    <container type="form" id="frmSwitch" displayname="Form"/>
+    <container type="form" id="frmTabWid" displayname="Form"/>
+    <container type="form" id="frmTabs" displayname="Form"/>
+    <container type="form" id="frmTbx" displayname="Form">
+        <component type="textbox2" id="textfield2192735980025983" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield211798972521729" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2192735980024559" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2192735980024586" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2192735980024620" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2192735980024664" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2118082077327321" displayname="TextBox2">
+            <attributes value="true" platform="spa" name="enablesearchbar" datatype="boolean"/>
+        </component>
+    </container>
+    <container type="form" id="frmTxt" displayname="Form"/>
+    <container type="form" id="frmUI" displayname="Form"/>
+    <container type="dialog" id="hdrOne" displayname="Popup"/>
+    <container type="dialog" id="ftrOne" displayname="Popup"/>
+    <container type="form" id="frmAni" displayname="Form"/>
+    <container type="form" id="frmAni1" displayname="Form"/>
+    <container type="form" id="frmAni10" displayname="Form"/>
+    <container type="form" id="frmAni11" displayname="Form"/>
+    <container type="form" id="frmAni12" displayname="Form"/>
+    <container type="form" id="frmAni13" displayname="Form"/>
+    <container type="form" id="frmAni14" displayname="Form"/>
+    <container type="form" id="frmAni15" displayname="Form"/>
+    <container type="form" id="frmAni16" displayname="Form"/>
+    <container type="form" id="frmAni17" displayname="Form"/>
+    <container type="form" id="frmAni18" displayname="Form"/>
+    <container type="form" id="frmAni19" displayname="Form"/>
+    <container type="form" id="frmAni2" displayname="Form"/>
+    <container type="form" id="frmAni20" displayname="Form"/>
+    <container type="form" id="frmAni21" displayname="Form"/>
+    <container type="form" id="frmAni3" displayname="Form"/>
+    <container type="form" id="frmAni4" displayname="Form"/>
+    <container type="form" id="frmAni5" displayname="Form"/>
+    <container type="form" id="frmAni6" displayname="Form"/>
+    <container type="form" id="frmAni7" displayname="Form"/>
+    <container type="form" id="frmAni8" displayname="Form"/>
+    <container type="form" id="frmAni9" displayname="Form"/>
+    <container type="form" id="frmAniWin" displayname="Form"/>
+    <container type="form" id="frmAniWin1" displayname="Form"/>
+    <container type="form" id="frmAniWin2" displayname="Form"/>
+    <container type="form" id="frmAniWin3" displayname="Form"/>
+    <container type="form" id="frmAniWin4" displayname="Form"/>
+    <container type="form" id="frmAniWin5" displayname="Form"/>
+    <container type="form" id="frmAppMenu" displayname="Form"/>
+    <container type="form" id="frmBrowser" displayname="Form"/>
+    <container type="form" id="frmBtn" displayname="Form"/>
+    <container type="form" id="frmCBox" displayname="Form">
+        <component type="combobox" id="combobox11798972524560" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326843" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326861" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326881" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326897" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077326917" displayname="ComboBox"/>
+        <component type="combobox" id="combobox118082077327167" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frmCal" displayname="Form">
+        <component type="calendar" id="calendar118082077329776" displayname="Calendar"/>
+        <component type="calendar" id="calendar118082077329786" displayname="Calendar"/>
+        <component type="calendar" id="calendar118082077329814" displayname="Calendar"/>
+        <component type="calendar" id="calendar118082077329855" displayname="Calendar"/>
+        <component type="calendar" id="calendar118082077329879" displayname="Calendar"/>
+    </container>
+    <container type="form" id="frmChk" displayname="Form"/>
+    <container type="form" id="frmCrousel" displayname="Form"/>
+    <container type="form" id="frmData" displayname="Form"/>
+    <container type="form" id="frmDatagrd" displayname="Form"/>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="textfield2103994549623675" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2103994549623701" displayname="TextBox2"/>
+        <component type="combobox" id="combobox103994549623724" displayname="ComboBox"/>
+        <component type="calendar" id="calendar103994549623759" displayname="Calendar"/>
+    </container>
+    <container type="form" id="frmFormOptions" displayname="Form"/>
+    <container type="form" id="frmGroup" displayname="Form"/>
+    <container type="form" id="frmHdrFooter" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmIcons" displayname="Form"/>
+    <container type="form" id="frmImgBck" displayname="Form"/>
+    <container type="form" id="frmImgGal" displayname="Form"/>
+    <container type="form" id="frmImgStrip" displayname="Form"/>
+    <container type="form" id="frmLbl" displayname="Form"/>
+    <container type="form" id="frmLink" displayname="Form"/>
+    <container type="form" id="frmLst" displayname="Form"/>
+    <container type="form" id="frmLstBox" displayname="Form">
+        <component type="listbox" id="listbox11798972524359" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326680" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326706" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326732" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326750" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326766" displayname="ListBox"/>
+        <component type="listbox" id="listbox118082077326807" displayname="ListBox"/>
+    </container>
+    <container type="form" id="frmMap" displayname="Form">
+        <component type="map" id="mapNrm" displayname="Map">
+            <attributes value="Google map key is not defined in application properties" platform="general" name="key" datatype="string"/>
+        </component>
+    </container>
+    <container type="form" id="frmNList" displayname="Form"/>
+    <container type="form" id="frmNLst2" displayname="Form"/>
+    <container type="form" id="frmOnClickButt" displayname="Form"/>
+    <container type="form" id="frmPhn" displayname="Form"/>
+    <container type="form" id="frmPop" displayname="Form"/>
+    <container type="form" id="frmPopUpModal" displayname="Form"/>
+    <container type="form" id="frmPopup" displayname="Form"/>
+    <container type="form" id="frmRdo" displayname="Form"/>
+    <container type="form" id="frmRich" displayname="Form"/>
+    <container type="form" id="frmSeg" displayname="Form"/>
+    <container type="form" id="frmSeg1" displayname="Form"/>
+    <container type="form" id="frmSeg2" displayname="Form"/>
+    <container type="form" id="frmSeg3" displayname="Form"/>
+    <container type="form" id="frmSeg4" displayname="Form"/>
+    <container type="form" id="frmSeg5" displayname="Form"/>
+    <container type="form" id="frmSeg6" displayname="Form"/>
+    <container type="form" id="frmSeg7" displayname="Form"/>
+    <container type="form" id="frmSeg8" displayname="Form"/>
+    <container type="form" id="frmSeg9" displayname="Form"/>
+    <container type="form" id="frmSegOptions" displayname="Form"/>
+    <container type="form" id="frmSlider" displayname="Form"/>
+    <container type="form" id="frmSwitch" displayname="Form"/>
+    <container type="form" id="frmTabWid" displayname="Form"/>
+    <container type="form" id="frmTabWid1" displayname="Form"/>
+    <container type="form" id="frmTabWid2" displayname="Form"/>
+    <container type="form" id="frmTabs" displayname="Form"/>
+    <container type="form" id="frmTbx" displayname="Form">
+        <component type="textbox2" id="textfield2192735980025983" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield211798972521729" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2192735980024559" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2192735980024586" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2192735980024620" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2192735980024664" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2118082077327321" displayname="TextBox2">
+            <attributes value="true" platform="spa" name="enablesearchbar" datatype="boolean"/>
+        </component>
+    </container>
+    <container type="form" id="frmTitleBar1" displayname="Form"/>
+    <container type="form" id="frmTitlebar" displayname="Form"/>
+    <container type="form" id="frmTitlebar2" displayname="Form"/>
+    <container type="form" id="frmTitlebar3" displayname="Form"/>
+    <container type="form" id="frmTitlebar4" displayname="Form"/>
+    <container type="form" id="frmTxt" displayname="Form"/>
+    <container type="form" id="frmUI" displayname="Form"/>
+    <container type="dialog" id="pop" displayname="Popup">
+        <component type="textbox2" id="textfield2118082077329084" displayname="TextBox2"/>
+        <component type="textbox2" id="textfield2118082077329085" displayname="TextBox2"/>
+    </container>
+    <container type="dialog" id="popModal" displayname="Popup"/>
+    <container type="dialog" id="popUpDimmedBck" displayname="Popup"/>
+    <globalsequences/>
+    <skins/>
+</application>
