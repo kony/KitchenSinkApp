@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNAContent", "DynamicXNAModeller\XNAContent\XNAContent.contentproj", "{4FBCE4CB-38ED-4F72-9371-F90F7F0E1EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNALib", "DynamicXNAModeller\XNALib\XNALib.csproj", "{004B6AF9-8EA6-4E20-8B6C-5EA37A9F5C7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Any CPU = Release|Any CPU
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FBCE4CB-38ED-4F72-9371-F90F7F0E1EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBCE4CB-38ED-4F72-9371-F90F7F0E1EBE}.Debug|Windows Phone.ActiveCfg = Debug|Any CPU
+		{4FBCE4CB-38ED-4F72-9371-F90F7F0E1EBE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBCE4CB-38ED-4F72-9371-F90F7F0E1EBE}.Release|Windows Phone.ActiveCfg = Debug|Any CPU
+		{004B6AF9-8EA6-4E20-8B6C-5EA37A9F5C7E}.Debug|Any CPU.ActiveCfg = Debug|Windows Phone
+		{004B6AF9-8EA6-4E20-8B6C-5EA37A9F5C7E}.Debug|Any CPU.Build.0 = Debug|Windows Phone
+		{004B6AF9-8EA6-4E20-8B6C-5EA37A9F5C7E}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{004B6AF9-8EA6-4E20-8B6C-5EA37A9F5C7E}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{004B6AF9-8EA6-4E20-8B6C-5EA37A9F5C7E}.Release|Any CPU.ActiveCfg = Release|Windows Phone
+		{004B6AF9-8EA6-4E20-8B6C-5EA37A9F5C7E}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{004B6AF9-8EA6-4E20-8B6C-5EA37A9F5C7E}.Release|Windows Phone.Build.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
