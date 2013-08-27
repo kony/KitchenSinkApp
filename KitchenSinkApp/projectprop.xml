@@ -148,7 +148,7 @@
     <attributes name="tciphonebasefontsize" value="12"/>
     <attributes name="tabletstartupformkey" value="frmPlatforms"/>
     <attributes name="pathpatternkey" value=""/>
-    <attributes name="splashlogokey" value="0=splash.png,1=splash.png,8=splash.9.png,2=splash.png,16=splashtab.png,18=splashtab.9.png,43=splashtab.png,31=splashtab.png,32=splashtab.png,45=splashtab.png,22=splash.png,23=splash.png,24=splash.png,37=splashtab.png"/>
+    <attributes name="splashlogokey" value="0=splash.png,1=splash.png,8=splash.9.png,2=splash.png,46=,3=,20=,9=,15=,14=,42=,16=splashtab.png,18=splashtab.9.png,43=splashtab.png,31=splashtab.png,32=splashtab.png,45=splashtab.png,22=splash.png,23=splash.png,24=splash.png,37=splash.png,1000=,1001=,1002=,35=,44=,36=,21="/>
     <attributes name="USE_SIP" value="false"/>
     <attributes name="wp8iconicsmallkey" value=""/>
     <attributes name="enablepushnotifications" value="false"/>
@@ -200,7 +200,7 @@
     <attributes name="tcbb360basefontsize" value="13"/>
     <attributes name="winmangotiletitlekey" value="KitchenSinkApp"/>
     <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
-    <attributes name="bgcolorkey" value="255,255,255"/>
+    <attributes name="bgcolorkey" value="181,217,245"/>
     <attributes name="WP8_ID_CAP_ISV_CAMERA" value="true"/>
     <attributes name="BIND_APPWIDGET" value="false"/>
     <attributes name="READ_CALENDAR" value="false"/>
@@ -246,6 +246,7 @@
     <attributes name="androidscreenlarge" value="true"/>
     <attributes name="tcnth360basefontsize" value="13"/>
     <attributes name="INJECT_EVENTS" value="false"/>
+    <attributes name="generateJavaCodeForForms" value="false"/>
     <attributes name="wintilebackcolornamekey" value="128,128,128"/>
     <attributes name="win8versionrevisionkey" value="0"/>
     <attributes name="wp8cyclesmallkey" value=""/>
@@ -281,7 +282,7 @@
     <attributes name="Webcam" value="true"/>
     <attributes name="winmobileguidkey" value="3918fdb1-83cc-48a2-a0ed-75b78b896999"/>
     <attributes name="tcbjs240basefontsize" value="10"/>
-    <attributes name="desktopstartupformkey" value="frmPlatforms"/>
+    <attributes name="desktopstartupformkey" value="frmUInterface"/>
     <attributes name="wp8lockscreenbackgroundkey" value="false"/>
     <attributes name="SET_ALWAYS_FINISH" value="false"/>
     <attributes name="apptitle" value="KitchenSinkApp"/>
@@ -360,7 +361,7 @@
     <attributes name="bbservicemenuitemlabel" value=""/>
     <attributes name="spawindows320basefontsize" value="12"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.0.98.QA_v201308062156_r8"/>
+    <attributes name="currentgaversion" value="5.0.98.QA_v201308231109_r11"/>
     <attributes name="ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>

@@ -1123,8 +1123,8 @@
                 <defaults>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>px</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -1134,7 +1134,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </desktop_kiosk>
-                <desktop_kiosk_override>false</desktop_kiosk_override>
+                <desktop_kiosk_override>true</desktop_kiosk_override>
                 <desktop_web>
                     <left>0</left>
                     <right>0</right>
@@ -1417,16 +1417,16 @@
                 </gridMetaData>
                 <widgetID>p2kwiet192735980011552</widgetID>
                 <location>
-                    <x>122</x>
+                    <x>1</x>
                     <y>1</y>
                 </location>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <size>
-                    <width>324</width>
+                    <width>144</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>73</width>
+                    <width>32</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
@@ -1527,7 +1527,7 @@
                     </desktop_kiosk>
                     <desktop_kiosk_override>false</desktop_kiosk_override>
                     <desktop_web>
-                        <left>0</left>
+                        <left>2</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
@@ -2115,15 +2115,15 @@
                 <widgetID>p2kwiet192924143923</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
-                    <x>1</x>
+                    <x>146</x>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>120</width>
+                    <width>300</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>27</width>
+                    <width>67</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>lblWhite1</skinId>
@@ -2465,7 +2465,7 @@
                     </bb10>
                     <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
-                    <default_override>true</default_override>
+                    <default_override>false</default_override>
                     <defaults>
                         <left>1</left>
                         <right>1</right>
@@ -2480,7 +2480,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </desktop_kiosk>
-                    <desktop_kiosk_override>false</desktop_kiosk_override>
+                    <desktop_kiosk_override>true</desktop_kiosk_override>
                     <desktop_web>
                         <left>0</left>
                         <right>0</right>
@@ -2488,7 +2488,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </desktop_web>
-                    <desktop_web_override>false</desktop_web_override>
+                    <desktop_web_override>true</desktop_web_override>
                     <ipad>
                         <left>0</left>
                         <right>0</right>
