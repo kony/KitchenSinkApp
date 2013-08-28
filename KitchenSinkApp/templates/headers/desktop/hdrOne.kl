@@ -1422,17 +1422,17 @@
                 </location>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <size>
-                    <width>144</width>
+                    <width>200</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>32</width>
+                    <width>45</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <referenceWidth>1000</referenceWidth>
-                <referenceHeight>75</referenceHeight>
+                <referenceHeight>500</referenceHeight>
                 <localeId>None</localeId>
                 <visible>true</visible>
                 <rendererData>
@@ -2115,15 +2115,15 @@
                 <widgetID>p2kwiet192924143923</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
-                    <x>146</x>
+                    <x>202</x>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>300</width>
+                    <width>244</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>67</width>
+                    <width>55</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>lblWhite1</skinId>
