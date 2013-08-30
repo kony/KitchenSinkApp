@@ -3297,7 +3297,7 @@
                     </paddings>
                     <activetab>2</activetab>
                     <tabviewdata>
-                        <category>100</category>
+                        <category>200</category>
                         <desktopWeb>tabview</desktopWeb>
                         <platform>0</platform>
                         <rc_android>tabview</rc_android>
@@ -9865,7 +9865,7 @@
                     </paddings>
                     <activetab>2</activetab>
                     <tabviewdata>
-                        <category>100</category>
+                        <category>200</category>
                         <desktopWeb>tabview</desktopWeb>
                         <platform>0</platform>
                         <rc_android>collapsibleview</rc_android>
@@ -16433,7 +16433,7 @@
                     </paddings>
                     <activetab>2</activetab>
                     <tabviewdata>
-                        <category>100</category>
+                        <category>200</category>
                         <desktopWeb>tabview</desktopWeb>
                         <platform>0</platform>
                         <rc_android>collapsibleview</rc_android>
@@ -23001,7 +23001,7 @@
                     </paddings>
                     <activetab>2</activetab>
                     <tabviewdata>
-                        <category>100</category>
+                        <category>200</category>
                         <desktopWeb>tabview</desktopWeb>
                         <platform>0</platform>
                         <rc_android>collapsibleview</rc_android>
@@ -29569,7 +29569,7 @@
                     </paddings>
                     <activetab>2</activetab>
                     <tabviewdata>
-                        <category>100</category>
+                        <category>200</category>
                         <desktopWeb>tabview</desktopWeb>
                         <platform>0</platform>
                         <rc_android>pageview</rc_android>
@@ -36137,7 +36137,7 @@
                     </paddings>
                     <activetab>2</activetab>
                     <tabviewdata>
-                        <category>100</category>
+                        <category>200</category>
                         <desktopWeb>tabview</desktopWeb>
                         <platform>0</platform>
                         <rc_android>tabview</rc_android>
