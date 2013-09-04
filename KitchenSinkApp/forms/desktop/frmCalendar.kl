@@ -2718,11 +2718,11 @@
                             <y>1</y>
                         </location>
                         <size>
-                            <width>176</width>
+                            <width>131</width>
                             <height>33</height>
                         </size>
                         <sizePercent>
-                            <width>40</width>
+                            <width>30</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>lblNormalTab</skinId>
@@ -3359,15 +3359,15 @@
                         <widgetID>p2kwiet19292664248402</widgetID>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <location>
-                            <x>178</x>
+                            <x>133</x>
                             <y>1</y>
                         </location>
                         <size>
-                            <width>265</width>
+                            <width>310</width>
                             <height>33</height>
                         </size>
                         <sizePercent>
-                            <width>60</width>
+                            <width>70</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>calNormal</skinId>
@@ -4913,11 +4913,11 @@
                             <y>1</y>
                         </location>
                         <size>
-                            <width>176</width>
+                            <width>131</width>
                             <height>33</height>
                         </size>
                         <sizePercent>
-                            <width>40</width>
+                            <width>30</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>lblNormalTab</skinId>
@@ -5558,15 +5558,15 @@
                         <widgetID>p2kwiet19292664248418</widgetID>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <location>
-                            <x>178</x>
+                            <x>133</x>
                             <y>1</y>
                         </location>
                         <size>
-                            <width>265</width>
+                            <width>310</width>
                             <height>33</height>
                         </size>
                         <sizePercent>
-                            <width>60</width>
+                            <width>70</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>calNormal</skinId>
@@ -7112,11 +7112,11 @@
                             <y>1</y>
                         </location>
                         <size>
-                            <width>176</width>
+                            <width>131</width>
                             <height>39</height>
                         </size>
                         <sizePercent>
-                            <width>40</width>
+                            <width>30</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>lblNormalTab</skinId>
@@ -7754,15 +7754,15 @@
                         <widgetID>p2kwiet6850804342100</widgetID>
                         <createdGAVersion>5.5.0</createdGAVersion>
                         <location>
-                            <x>178</x>
+                            <x>133</x>
                             <y>1</y>
                         </location>
                         <size>
-                            <width>265</width>
+                            <width>310</width>
                             <height>39</height>
                         </size>
                         <sizePercent>
-                            <width>60</width>
+                            <width>70</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>calNormal</skinId>
@@ -9308,11 +9308,11 @@
                             <y>1</y>
                         </location>
                         <size>
-                            <width>176</width>
+                            <width>131</width>
                             <height>34</height>
                         </size>
                         <sizePercent>
-                            <width>40</width>
+                            <width>30</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>lblNormalTab</skinId>
@@ -9950,15 +9950,15 @@
                         <widgetID>p2kwiet6850804342383</widgetID>
                         <createdGAVersion>5.5.0</createdGAVersion>
                         <location>
-                            <x>178</x>
+                            <x>133</x>
                             <y>1</y>
                         </location>
                         <size>
-                            <width>265</width>
+                            <width>310</width>
                             <height>34</height>
                         </size>
                         <sizePercent>
-                            <width>60</width>
+                            <width>70</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>calNormal</skinId>
