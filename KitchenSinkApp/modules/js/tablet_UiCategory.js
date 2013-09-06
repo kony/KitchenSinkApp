@@ -269,7 +269,7 @@ function tabContainerWidgets(selIndex)
 				break;
 		case 2:
 				if(kony.os.deviceInfo().name == "thinclient")
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmScrollBoxSPA.hbxScrbxDemo));
+					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmScrollBoxSPA.hbxScrbxDemo),owl.deepCopy(frmScrollBoxSPA.imgVertiScrollWall),owl.deepCopy(frmScrollBoxSPA.imgVertiScrollCylinder));
 				else
 					frmUInterface.sbxWidgetDetails.add(frmScrollBoxMenu.sboxGlobalHome);
 				break;

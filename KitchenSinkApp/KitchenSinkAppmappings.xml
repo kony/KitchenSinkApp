@@ -424,7 +424,6 @@
     <container type="form" id="frmRadioButton" displayname="Form"/>
     <container type="form" id="frmRichText" displayname="Form"/>
     <container type="form" id="frmScrollBoxMenu" displayname="Form"/>
-    <container type="form" id="frmScrollBoxSPA" displayname="Form"/>
     <container type="form" id="frmSegDictView" displayname="Form"/>
     <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
     <container type="form" id="frmSegOnReachEnd" displayname="Form"/>
@@ -470,6 +469,7 @@
     <container type="form" id="frmIcons" displayname="Form"/>
     <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmTabPane" displayname="Form"/>
+    <container type="form" id="frmScrollBoxSPA" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>
