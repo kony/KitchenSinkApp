@@ -3322,6 +3322,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -3726,7 +3727,7 @@
                             </desktop_kiosk>
                             <desktop_kiosk_override>false</desktop_kiosk_override>
                             <desktop_web>
-                                <left>3</left>
+                                <left>2</left>
                                 <right>1</right>
                                 <top>1</top>
                                 <bottom>1</bottom>
@@ -5517,6 +5518,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -5925,7 +5927,7 @@
                             </desktop_kiosk>
                             <desktop_kiosk_override>false</desktop_kiosk_override>
                             <desktop_web>
-                                <left>3</left>
+                                <left>2</left>
                                 <right>1</right>
                                 <top>1</top>
                                 <bottom>1</bottom>
@@ -7716,6 +7718,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -8121,7 +8124,7 @@
                             </desktop_kiosk>
                             <desktop_kiosk_override>false</desktop_kiosk_override>
                             <desktop_web>
-                                <left>3</left>
+                                <left>2</left>
                                 <right>1</right>
                                 <top>1</top>
                                 <bottom>1</bottom>
@@ -9912,6 +9915,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -10317,7 +10321,7 @@
                             </desktop_kiosk>
                             <desktop_kiosk_override>false</desktop_kiosk_override>
                             <desktop_web>
-                                <left>3</left>
+                                <left>2</left>
                                 <right>1</right>
                                 <top>1</top>
                                 <bottom>1</bottom>

@@ -465,6 +465,7 @@
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -530,6 +531,7 @@
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -660,6 +662,12 @@
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -689,6 +697,9 @@
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -780,7 +791,7 @@
                 <width>100</width>
                 <height>100</height>
             </sizePercent>
-            <skinId>Skin Defaults</skinId>
+            <skinId>hBoxWhite</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
@@ -854,10 +865,10 @@
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>4</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -1121,10 +1132,10 @@
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -2064,7 +2075,7 @@
                         <width>100</width>
                         <height>26</height>
                     </sizePercent>
-                    <skinId>richNormalSimilar</skinId>
+                    <skinId>richTextCustom</skinId>
                     <focusSkinId>Skin_Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -2405,10 +2416,10 @@
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
                             <unit>%</unit>
                         </defaults>
                         <desktop_kiosk>
@@ -2651,7 +2662,7 @@
 &lt;u&gt;This is underlined text&lt;/u&gt;
 &lt;br/&gt;
 &lt;br/&gt;
- &lt;label style="color:#F25E22"&gt;This is text with font color&lt;/label&gt; 
+ &lt;label style="color:#8A2BE2"&gt;This is text with font color&lt;/label&gt; 
 &lt;br/&gt;
 &lt;br/&gt;
 &lt;i&gt;This is italic text&lt;/i&gt;
@@ -2664,7 +2675,8 @@
 &lt;a href="http://www.kony.com"&gt;&lt;label style="color:#F25E22"&gt;This is link (Click to visit kony.com)&lt;/label&gt;&lt;/a&gt;
 &lt;br/&gt;&lt;br/&gt;
 &lt;b&gt;Below is an image&lt;/b&gt;&lt;br/&gt;
-&lt;img src="http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080525/1211728825.png" alt="image" height="60" width="60" &gt;&lt;/img&gt;</SText>
+&lt;img src="http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080525/1211728825.png" alt="image" height="60" width="60" &gt;&lt;/img&gt;
+</SText>
                     <overridePerferred>
                         <width>true</width>
                         <height>false</height>
@@ -2815,6 +2827,7 @@
                 <seqname></seqname>
             </evtSequence>
         </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

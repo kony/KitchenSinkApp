@@ -3322,6 +3322,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -3717,8 +3718,8 @@
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>0</left>
-                                <right>0</right>
+                                <left>2</left>
+                                <right>1</right>
                                 <top>1</top>
                                 <bottom>1</bottom>
                                 <unit>%</unit>
@@ -4838,7 +4839,7 @@
                             <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>0</left>
+                                <left>2</left>
                                 <right>2</right>
                                 <top>2</top>
                                 <bottom>2</bottom>
@@ -5345,7 +5346,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>ComboBox with image background :</SText>
+                        <SText>Image background :</SText>
                         <overridePerferred>
                             <width>true</width>
                             <height>false</height>
@@ -5361,6 +5362,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -5756,8 +5758,8 @@
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>0</left>
-                                <right>0</right>
+                                <left>2</left>
+                                <right>1</right>
                                 <top>1</top>
                                 <bottom>1</bottom>
                                 <unit>%</unit>
@@ -6878,7 +6880,7 @@
                             <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>0</left>
+                                <left>2</left>
                                 <right>2</right>
                                 <top>2</top>
                                 <bottom>2</bottom>
@@ -7385,7 +7387,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>ComboBox with color backGround :</SText>
+                        <SText>Color backGround :</SText>
                         <overridePerferred>
                             <width>true</width>
                             <height>false</height>
@@ -7401,6 +7403,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -7796,8 +7799,8 @@
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>0</left>
-                                <right>0</right>
+                                <left>2</left>
+                                <right>1</right>
                                 <top>1</top>
                                 <bottom>1</bottom>
                                 <unit>%</unit>
@@ -7859,15 +7862,15 @@
                             </spaWinphone8>
                             <spaWinphone8_override>false</spaWinphone8_override>
                             <spaipad>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </spaipad>
-                            <spaipad_override>true</spaipad_override>
-                            <spatablet_android_override>true</spatablet_android_override>
-                            <spatablet_windows_override>true</spatablet_windows_override>
+                            <spaipad_override>false</spaipad_override>
+                            <spatablet_android_override>false</spatablet_android_override>
+                            <spatablet_windows_override>false</spatablet_windows_override>
                             <symbian>
                                 <left>1</left>
                                 <right>1</right>
@@ -7885,10 +7888,10 @@
                             </tabRCAndroid>
                             <tablet_rc_android_override>false</tablet_rc_android_override>
                             <tabspaAndroid>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>1</top>
-                                <bottom>1</bottom>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
                                 <unit>%</unit>
                             </tabspaAndroid>
                             <tabspaWindows>
@@ -9428,6 +9431,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -9823,10 +9827,10 @@
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>15</top>
-                                <bottom>3</bottom>
+                                <left>2</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </defaults>
                             <desktop_kiosk>
