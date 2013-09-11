@@ -9,7 +9,7 @@ function browserOptions(eventObj)
 	if(channel=="tablet")
 		frmBrowser.destroy();
 		
-	if(eventObj.text == "Inline browser navigation")
+	if(eventObj.text == "Browser with inline Navigation")
 	{
 		frmBrowser.hbxInLineBrowser.setVisibility(true);
 		frmBrowser.btnInlineBack.setVisibility(true);
@@ -27,25 +27,27 @@ function browserOptions(eventObj)
 	
 	switch(eventObj.text)
 	{
-		case "Static HTML content":
+		case "Browser with static content":
 			frmBrowser.title = "Static HTML";
 			if (kony.os.deviceInfo().name == "thinclient" && channel!="tablet")
 				frmBrowser.brwDemo.htmlString ="<h3><font color=\"red\"><br/><br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/></font></h3> ";
 			else if(kony.os.deviceInfo().name == "android" && channel != "tablet")
 				frmBrowser.brwDemo.htmlString ="<p><font size=\"3\" color=\"black\">This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.</font></p>";
-			else if(channel== "tablet")
+			else if(channel== "tablet" && kony.os.deviceInfo().name != "iPad")
 				frmBrowser.brwDemo.htmlString ="<p><font size=\"5\" color=\"white\"><br/>This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.</font></p>";
+			else if(channel== "tablet" && kony.os.deviceInfo().name == "iPad")
+				frmBrowser.brwDemo.htmlString ="<p><font size=\"5\" color=\"black\"><br/>This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.</font></p>";
 			else
 				frmBrowser.brwDemo.htmlString ="<h3>This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/></ ";
 			break;
-		case "Dynamic URL content":
+		case "Browser with dynamic content":
 			frmBrowser.title = "Dynamic URL";
 			frmBrowser.brwDemo.requestURLConfig = {
 		        "URL": "http://www.kony.com",
 		        "requestMethod": constants.BROWSER_REQUEST_METHOD_GET
 		    };
 			break;
-		case "Inline browser navigation":
+		case "Browser with inline Navigation":
 			frmBrowser.title = "Inline browser";
 			frmBrowser.brwDemo.screenLevelWidget=false;
 			frmBrowser.brwDemo.requestURLConfig = {
@@ -53,14 +55,14 @@ function browserOptions(eventObj)
 		        "requestMethod": constants.BROWSER_REQUEST_METHOD_GET
 		    };
 		    break;
-		case "Detect telephone number":
+		case "Detect Telephone numbers":
 			frmBrowser.title = "Detect phone num";
 			frmBrowser.brwDemo.requestURLConfig = {
-		        "URL": "http://www.google.com/contact/",
+		        "URL": "http://www.google.com/contact",
 		        "requestMethod": constants.BROWSER_REQUEST_METHOD_GET
 		    };
 		    break;
-		case "Enable zoom":
+		case "Enable Zoom property of Browser":
 			 frmBrowser.title = "Enable zoom";
 			 frmBrowser.brwDemo.requestURLConfig = {
 		        "URL": "http://www.apple.com/in/",
@@ -68,14 +70,7 @@ function browserOptions(eventObj)
 		    };
 		    frmBrowser.brwDemo.enableZoom = true;
 		    break;
-		case "Screen level widget":
-			frmBrowser.title = "Screen level widget";
-			frmBrowser.brwDemo.requestURLConfig = {
-		        "URL": "http://www.google.co.in",
-		        "requestMethod": constants.BROWSER_REQUEST_METHOD_GET
-		    };
-		    frmBrowser.brwDemo.screenLevelWidget = true;
-		    break;
+		
 	}
 	frmBrowser.show();
 

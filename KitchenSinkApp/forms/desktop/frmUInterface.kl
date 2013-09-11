@@ -13445,7 +13445,7 @@
                 <skinId>scbKonyBg</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
-                <showScrollbar>false</showScrollbar>
+                <showScrollbar>true</showScrollbar>
                 <event_onReaching_begin>
                     <evtSequence>
                         <enabled>true</enabled>

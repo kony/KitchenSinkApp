@@ -93,7 +93,11 @@ function GenericGestureHandler()//This function registers the Gesture events for
 	
 function hIS(eventobj)
 {
+	alert("Onselection") ;
+	kony.print( "HELLO ^&^&^&^&^&")
+	kony.print(JSON.stringify(eventobj.selectedIndex));
 	var focIn = eventobj.selectedIndex;
+	alert(focIn);
 	if(focIn==0)
 		frmImgStrip.lblhIS.text ="First Image is selected";
 	else if(focIn==1)
