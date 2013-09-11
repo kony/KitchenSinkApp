@@ -12001,10 +12001,6 @@
                             <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Browser</data>
                             <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
                         </newSegData>
-                        <newSegData>
-                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Switch</data>
-                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
-                        </newSegData>
                         <tablerowData/>
                         <dummydata>false</dummydata>
                         <updatedToNewSegmentData>true</updatedToNewSegmentData>
