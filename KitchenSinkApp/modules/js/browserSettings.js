@@ -8,21 +8,23 @@ function browserOptions(eventObj)
 {
 	if(channel=="tablet" || channel == "desktopweb")
 		frmBrowser.destroy();
+	if(channel != "desktopweb")	
+	{
+		if(eventObj.text == "Browser with inline Navigation")
+		{
+			frmBrowser.hbxInLineBrowser.setVisibility(true);
+			frmBrowser.btnInlineBack.setVisibility(true);
+			frmBrowser.btnInlineForward.setVisibility(true);
+			frmBrowser.btnInlineReload.setVisibility(true);
 		
-	if(eventObj.text == "Browser with inline Navigation")
-	{
-		frmBrowser.hbxInLineBrowser.setVisibility(true);
-		frmBrowser.btnInlineBack.setVisibility(true);
-		frmBrowser.btnInlineForward.setVisibility(true);
-		frmBrowser.btnInlineReload.setVisibility(true);
-	
-	}
-	else
-	{
-		frmBrowser.hbxInLineBrowser.setVisibility(false);
-		frmBrowser.btnInlineBack.setVisibility(false);
-		frmBrowser.btnInlineForward.setVisibility(false);
-		frmBrowser.btnInlineReload.setVisibility(false);
+		}
+		else
+		{
+			frmBrowser.hbxInLineBrowser.setVisibility(false);
+			frmBrowser.btnInlineBack.setVisibility(false);
+			frmBrowser.btnInlineForward.setVisibility(false);
+			frmBrowser.btnInlineReload.setVisibility(false);
+		}
 	}
 	
 	switch(eventObj.text)

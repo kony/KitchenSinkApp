@@ -85,6 +85,7 @@ function GenericGestureHandler()//This function registers the Gesture events for
 	}
 }
 	
+
 /*****************************************************************
 *	Name    : hIS
 *	Author  : Kony 
@@ -95,7 +96,7 @@ function hIS(eventobj)
 {
 	alert("Onselection") ;
 	kony.print( "HELLO ^&^&^&^&^&")
-	kony.print(JSON.stringify(eventobj.selectedIndex));
+	kony.print(eventobj.selectedIndex);
 	var focIn = eventobj.selectedIndex;
 	alert(focIn);
 	if(focIn==0)

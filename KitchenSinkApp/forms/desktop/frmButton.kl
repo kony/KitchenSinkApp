@@ -3332,6 +3332,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -4014,6 +4015,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -5355,6 +5357,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -6037,6 +6040,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -7378,6 +7382,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -7529,7 +7534,7 @@
                             <defaults>
                                 <left>2</left>
                                 <right>2</right>
-                                <top>2</top>
+                                <top>3</top>
                                 <bottom>2</bottom>
                                 <unit>%</unit>
                             </defaults>
@@ -8060,6 +8065,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -9401,6 +9407,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -10083,6 +10090,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -11424,6 +11432,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -12106,6 +12115,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>

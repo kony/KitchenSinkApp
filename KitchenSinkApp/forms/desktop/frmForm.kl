@@ -53,7 +53,7 @@
         </location>
         <size>
             <width>450</width>
-            <height>450</height>
+            <height>733</height>
         </size>
         <sizePercent>
             <width>100</width>
@@ -465,6 +465,7 @@
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -530,6 +531,7 @@
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -660,6 +662,12 @@
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -689,6 +697,9 @@
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -777,7 +788,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>4</height>
             </sizePercent>
             <skinId>lblNormalSimilar</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -1376,6 +1387,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -1422,12 +1434,13 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>3</height>
             </sizePercent>
             <skinId>textBoxNormal</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
+            <android_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</android_containerHeightMode>
             <android_onEndEditing>
                 <evtSequence>
                     <enabled>true</enabled>
@@ -1441,6 +1454,7 @@
                 </evtSequence>
             </android_onBeginEditing>
             <android_placeHoler>Skin Defaults</android_placeHoler>
+            <spa_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</spa_containerHeightMode>
             <spa_blockedUI>Skin Defaults</spa_blockedUI>
             <tc_blockedUI>Skin Defaults</tc_blockedUI>
             <rendererData>
@@ -2047,6 +2061,7 @@
             </onTextChange>
             <parent_placeholderSkin>Skin Defaults</parent_placeholderSkin>
             <iphone_placeholderSkin>Skin Defaults</iphone_placeholderSkin>
+            <iphone_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</iphone_containerHeightMode>
             <iphone_showProgressIndicator>true</iphone_showProgressIndicator>
             <iphone_paste_board>4</iphone_paste_board>
             <iphone_npi>0</iphone_npi>
@@ -2068,6 +2083,7 @@
             <iphoneCloseButtonText>Done</iphoneCloseButtonText>
             <iphone_label_in_keyboard>0</iphone_label_in_keyboard>
             <ipad_placeholderSkin>Skin Defaults</ipad_placeholderSkin>
+            <ipad_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</ipad_containerHeightMode>
             <ipad_closeButtonText></ipad_closeButtonText>
             <ipad_showCloseButton>true</ipad_showCloseButton>
             <ipad_label_in_keyboard>0</ipad_label_in_keyboard>
@@ -2087,6 +2103,7 @@
             <ipad_leftview></ipad_leftview>
             <ipad_clear_required>true</ipad_clear_required>
             <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
+            <bb_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</bb_containerHeightMode>
             <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
             <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
             <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
@@ -2139,6 +2156,8 @@
                 </evtSequence>
             </desktopweb_onBeginEditing>
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+            <windows_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows_containerHeightMode>
+            <windows8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows8_containerHeightMode>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <parent_contentalignment>middle-left</parent_contentalignment>
             <iphone_contentAlignment>1</iphone_contentAlignment>
@@ -2152,6 +2171,10 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_autofilter>false</winphone8_autofilter>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <c_containerheightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</c_containerheightMode>
+            <winphone8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</winphone8_containerHeightMode>
+            <general_containerHeightReference>CONTAINER_HEIGHT_BY_FORM_REFERENCE</general_containerHeightReference>
+            <general_containerHeight></general_containerHeight>
         </children>
         <children xsi:type="kLabel">
             <ID>lblPasword</ID>
@@ -2178,7 +2201,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>4</height>
             </sizePercent>
             <skinId>lblNormalSimilar</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -2777,6 +2800,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -2823,12 +2847,13 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>3</height>
             </sizePercent>
             <skinId>textBoxNormal</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
+            <android_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</android_containerHeightMode>
             <android_onEndEditing>
                 <evtSequence>
                     <enabled>true</enabled>
@@ -2842,6 +2867,7 @@
                 </evtSequence>
             </android_onBeginEditing>
             <android_placeHoler>Skin Defaults</android_placeHoler>
+            <spa_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</spa_containerHeightMode>
             <spa_blockedUI>Skin Defaults</spa_blockedUI>
             <tc_blockedUI>Skin Defaults</tc_blockedUI>
             <rendererData>
@@ -3448,6 +3474,7 @@
             </onTextChange>
             <parent_placeholderSkin>Skin Defaults</parent_placeholderSkin>
             <iphone_placeholderSkin>Skin Defaults</iphone_placeholderSkin>
+            <iphone_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</iphone_containerHeightMode>
             <iphone_showProgressIndicator>true</iphone_showProgressIndicator>
             <iphone_paste_board>4</iphone_paste_board>
             <iphone_npi>0</iphone_npi>
@@ -3469,6 +3496,7 @@
             <iphoneCloseButtonText>Done</iphoneCloseButtonText>
             <iphone_label_in_keyboard>0</iphone_label_in_keyboard>
             <ipad_placeholderSkin>Skin Defaults</ipad_placeholderSkin>
+            <ipad_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</ipad_containerHeightMode>
             <ipad_closeButtonText></ipad_closeButtonText>
             <ipad_showCloseButton>true</ipad_showCloseButton>
             <ipad_label_in_keyboard>0</ipad_label_in_keyboard>
@@ -3488,6 +3516,7 @@
             <ipad_leftview></ipad_leftview>
             <ipad_clear_required>true</ipad_clear_required>
             <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
+            <bb_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</bb_containerHeightMode>
             <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
             <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
             <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
@@ -3540,6 +3569,8 @@
                 </evtSequence>
             </desktopweb_onBeginEditing>
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+            <windows_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows_containerHeightMode>
+            <windows8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows8_containerHeightMode>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <parent_contentalignment>middle-left</parent_contentalignment>
             <iphone_contentAlignment>1</iphone_contentAlignment>
@@ -3553,6 +3584,10 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_autofilter>false</winphone8_autofilter>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <c_containerheightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</c_containerheightMode>
+            <winphone8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</winphone8_containerHeightMode>
+            <general_containerHeightReference>CONTAINER_HEIGHT_BY_FORM_REFERENCE</general_containerHeightReference>
+            <general_containerHeight></general_containerHeight>
         </children>
         <children xsi:type="kLabel">
             <ID>lblCountry</ID>
@@ -3579,7 +3614,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>4</height>
             </sizePercent>
             <skinId>lblNormalSimilar</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -4178,6 +4213,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -4224,7 +4260,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>5</height>
+                <height>3</height>
             </sizePercent>
             <skinId>Skin Defaults</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -4941,8 +4977,8 @@
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeSkin>None</bb10_nativeSkin>
-            <bb10_nativeFocusSkin>None</bb10_nativeFocusSkin>
+            <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
+            <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_ph_i18nId>None</bb10_ph_i18nId>
         </children>
@@ -4971,7 +5007,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>5</height>
+                <height>3</height>
             </sizePercent>
             <skinId>cboxColorBG</skinId>
             <focusSkinId>cboxColorBG</focusSkinId>
@@ -5688,8 +5724,8 @@
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeSkin>None</bb10_nativeSkin>
-            <bb10_nativeFocusSkin>None</bb10_nativeFocusSkin>
+            <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
+            <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_ph_i18nId>None</bb10_ph_i18nId>
         </children>
@@ -5718,7 +5754,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>4</height>
             </sizePercent>
             <skinId>lblNormalSimilar</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -6317,6 +6353,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -6363,7 +6400,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>4</height>
             </sizePercent>
             <skinId>Skin Defaults</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -6981,6 +7018,12 @@
                 <view>wheelCalendar</view>
                 <weekendSelectable>true</weekendSelectable>
             </gridConfig>
+            <iphone_data/>
+            <iphone_containerHeightReference>0</iphone_containerHeightReference>
+            <iphone_dayTextAlignmentInCell>CONTENT_ALIGN_CENTER</iphone_dayTextAlignmentInCell>
+            <iphone_cellTemplate></iphone_cellTemplate>
+            <iphone_containerHeight></iphone_containerHeight>
+            <iphone_hideDaysHeader>false</iphone_hideDaysHeader>
             <iphone_image></iphone_image>
             <iphoneStartDate></iphoneStartDate>
             <iphoneEndDate></iphoneEndDate>
@@ -7010,6 +7053,13 @@
             <view_type>CALENDAR_VIEW_TYPE_DEFAULT</view_type>
             <iphone_viewType>CALENDAR_VIEW_TYPE_WHEEL_POPUP</iphone_viewType>
             <iphone_mode>CALENDAR_WHEEL_ONLY_DATE</iphone_mode>
+            <ipad_data/>
+            <ipad_containerHeightReference>0</ipad_containerHeightReference>
+            <ipad_dayTextAlignmentInCell>CONTENT_ALIGN_CENTER</ipad_dayTextAlignmentInCell>
+            <ipad_cellTemplate></ipad_cellTemplate>
+            <ipad_containerHeight></ipad_containerHeight>
+            <ipad_hideMonthsHeader>false</ipad_hideMonthsHeader>
+            <ipad_hideDaysHeader>false</ipad_hideDaysHeader>
             <ipad_image></ipad_image>
             <ipadViewData>
                 <cancelButtonSkinID>Skin Defaults</cancelButtonSkinID>
@@ -7189,6 +7239,7 @@
             <winphone8_startdate></winphone8_startdate>
             <winphone8_enddate></winphone8_enddate>
             <winphone8_view>CALENDAR_VIEW_TYPE_DEFAULT</winphone8_view>
+            <iphone_hideMonthsHeader>false</iphone_hideMonthsHeader>
             <bb10_contentalignment>3</bb10_contentalignment>
             <bb10_image></bb10_image>
             <bb10_startDate></bb10_startDate>
@@ -7240,7 +7291,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>4</height>
             </sizePercent>
             <skinId>lblNormalSimilar</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -7839,6 +7890,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -7885,7 +7937,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>4</height>
+                <height>3</height>
             </sizePercent>
             <skinId>radioNormal</skinId>
             <focusSkinId>radioNormal</focusSkinId>
@@ -8591,7 +8643,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>4</height>
             </sizePercent>
             <skinId>lblNormalSimilar</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -9190,6 +9242,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -9236,7 +9289,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>10</height>
+                <height>6</height>
             </sizePercent>
             <skinId>richNormal</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -9914,7 +9967,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>4</height>
+                <height>3</height>
             </sizePercent>
             <skinId>chkBxAcceptTab</skinId>
             <focusSkinId>cbxAccept</focusSkinId>
@@ -10538,6 +10591,7 @@
             <ipad_groupCells>false</ipad_groupCells>
             <ipad_tickedImage></ipad_tickedImage>
             <ipad_untickedImage></ipad_untickedImage>
+            <bb_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</bb_itemOrientation>
             <bb_tickedImage></bb_tickedImage>
             <bb_untickedImage></bb_untickedImage>
             <bb_focus_tickedImage></bb_focus_tickedImage>
@@ -10547,6 +10601,7 @@
             <j2me_untickedImage></j2me_untickedImage>
             <j2me_focus_tickedImage></j2me_focus_tickedImage>
             <j2me_focus_untickedImage></j2me_focus_untickedImage>
+            <android_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</android_itemOrientation>
             <android_tickedImage></android_tickedImage>
             <android_untickedImage></android_untickedImage>
             <wm_tickedImage></wm_tickedImage>
@@ -10557,14 +10612,17 @@
             <postOnclickJS></postOnclickJS>
             <tc_preLuaJSEvent></tc_preLuaJSEvent>
             <tc_postLuaJSEvent></tc_postLuaJSEvent>
+            <spa_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</spa_itemOrientation>
             <spa_preLuaJSEvent></spa_preLuaJSEvent>
             <spa_postLuaJSEvent></spa_postLuaJSEvent>
             <pb_preLuaJSEvent></pb_preLuaJSEvent>
             <pb_postLuaJSEvent></pb_postLuaJSEvent>
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+            <winmobile_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winmobile_itemOrientation>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_tickedimage></winphone8_tickedimage>
             <winphone8_untickedimage></winphone8_untickedimage>
+            <winphone8_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winphone8_itemOrientation>
             <bb10_TickedImage></bb10_TickedImage>
             <bb10_UnTickedImage></bb10_UnTickedImage>
             <bb10_FocusTickedImage></bb10_FocusTickedImage>
@@ -10619,6 +10677,7 @@
                 <seqname></seqname>
             </evtSequence>
         </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
