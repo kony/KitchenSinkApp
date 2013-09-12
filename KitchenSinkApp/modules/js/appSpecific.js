@@ -15,9 +15,9 @@ function onGestureFunction(commonWidget,gestureInfo)// The callback function whe
 		var tapParams = gestureInfo.gesturesetUpParams.taps;
 		if (GesType == "1") //Double tap gesture
 		{  
-		    if(kony.os.deviceInfo().name == "thinclient" && channel !="tablet")
+		    if(kony.os.deviceInfo().name == "thinclient" && channel !="tablet" && channel !="desktopweb")
 	        	frmGestures.lblGesture.text ="A Double tap gesture was performed."; 
-	        else if (channel=="tablet")
+	        else if (channel=="tablet" ||channel=="desktopweb" )
 	        	frmGestures.lblGestureInfo.text = "A Double tap gesture was performed."; 
 			frmGestures.imgGes.src = "doubletap.png";
 		}
@@ -45,16 +45,16 @@ function onGestureFunction(commonWidget,gestureInfo)// The callback function whe
 				frmGestures.imgGes.src = "arrowsbottom.png";
 			}
 			
-			if(kony.os.deviceInfo().name == "thinclient" && channel !="tablet")
+			if(kony.os.deviceInfo().name == "thinclient" && channel !="tablet" && channel !="desktopweb")
 	        	frmGestures.lblGesture.text = "A swipe gesture was performed in the "+direction+" direction."; 
-	        else if (channel=="tablet")
+	        else if (channel=="tablet" || channel =="desktopweb")
 	        	frmGestures.lblGestureInfo.text = "A swipe gesture was performed in the "+direction+" direction.";  
 		}
 		else if (GesType == "3") 
 		{   
-		    if(kony.os.deviceInfo().name == "thinclient" && channel !="tablet")
+		    if(kony.os.deviceInfo().name == "thinclient" && channel !="tablet"&& channel !="desktopweb")
 	        	frmGestures.lblGesture.text = "A longpress gesture was performed"; 
-	         else if (channel=="tablet")
+	         else if (channel=="tablet"|| channel =="desktopweb")
 	        	frmGestures.lblGestureInfo.text =  "A longpress gesture was performed"; 
 			frmGestures.imgGes.src = "longpress.png";
 		}
@@ -172,18 +172,16 @@ function appExitCallBack()
 
 function createAppMenu() 
 {
-	if (kony.os.deviceInfo().name =="thinclient" && channel != "tablet" )
+	if (kony.os.deviceInfo().name =="thinclient" && channel != "tablet" && channel != "desktopweb" )
 		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAniSPA.show()}];
-	else if (kony.os.deviceInfo().name =="android" && channel == "tablet")
-   		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAnimations.show()}];
-   	else if (channel == "tablet")
+	else if (channel == "tablet" || channel == "desktopweb")
    		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAnimations.show()}];
 	else
 		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAni.show()}];
 		
 	var homeMItem = ["homeId", "Home", "app_home.png", function homeMenuCallBack(){frmHome.show()}];
 	var closeMItem = ["closeId", "Close", "app_close.png",function closeMenuCallBack(){kony.application.exit()}];
-	if (channel=="tablet")
+	if (channel=="tablet" || channel == "desktopweb")
 	{
 		var featuresMItem = ["featuresId", "Features", "app_features.png",function featuresMenuCallBack(){frmDeviceFeatures.show()}];
 	}
@@ -194,7 +192,7 @@ function createAppMenu()
 		
 	//var feedbackMItem = ["feedbackId", "FeedBack", "app_feedback.png",function fBackMenuCallBack(){frmHome.show()}];
 	
-	if (channel=="tablet")
+	if (channel=="tablet"|| channel == "desktopweb")
 	{
 		var uiMItem = ["uiId", "UI", "app_ui.png",function uiMenuCallBack(){frmUInterface.show()}];
 	}
@@ -205,11 +203,11 @@ function createAppMenu()
 	
 	var appMenu= [homeMItem,uiMItem,animationMItem,featuresMItem,closeMItem];
     
-    if(kony.os.deviceInfo().name == "thinclient"&& channel != "tablet")
+    if(kony.os.deviceInfo().name == "thinclient"&& channel != "tablet" && channel != "desktopweb")
 	{
 		kony.application.createAppMenu("ksaAppMenu", appMenu, "appMenuSPA", "");
 	}
-    else if(channel == "tablet")
+    else if(channel == "tablet" ||  channel == "desktopweb")
     {
 		kony.application.createAppMenu("ksaAppMenu", appMenu, "AppMenuIpad", "");
 	}

@@ -17,7 +17,7 @@ function requestAPiKey()
 
 function APIKeyCheck()
 {
-	if(channel == "tablet")
+	if(channel == "tablet" || channel == "desktopweb")
 	{
 		if (frmAsyncDataAccess.txtAPIKey.text=="" || frmAsyncDataAccess.txtAPIKey.text==null )
 		{
@@ -93,7 +93,7 @@ function handleResponse(pplObj)
  		dataArr.push(dummyObj);
  	}
  	kony.print("last before===========================================================================");
- 	if(channel == "tablet")
+ 	if(channel == "tablet" || channel == "desktopweb")
  	{
  		
  		frmAsyncDataAccess.segSmall.removeAll();
@@ -197,7 +197,7 @@ function httpRequestCall()
 	if(flag == 0)
 	{	
 		//we need to remove the existing results when the user clicks for the next, So cleaning the scrollbox.
-		if(channel == "tablet" && kony.os.deviceInfo().name != "thinclient")
+		if(channel == "tablet" && kony.os.deviceInfo().name != "thinclient" )
  			frmDeviceFeatures.sbxDevFeatureDeatils.remove(frmAsyncDataAccess.hbxAsyncDataDisplay);
  		
 		flag = 1;
@@ -215,7 +215,7 @@ function httpRequestCall()
 		var requestMethod = constants.HTTP_METHOD_GET;
 		var fname = frmAsyncDataAccess.tbxFName.text;
 		var lname = frmAsyncDataAccess.tbxLName.text;
-		if(channel =="tablet")
+		if(channel =="tablet" || channel == "desktopweb")
 			var apiKey = frmAsyncDataAccess.txtAPIKey.text;
 		else
 			var apiKey = frmAPIKey.txtAPIKey.text;

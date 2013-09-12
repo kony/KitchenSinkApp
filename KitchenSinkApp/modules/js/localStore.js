@@ -7,7 +7,7 @@
 
 function setItemvalues(  )
 {
-	if(kony.os.deviceInfo().name == "thinclient" && channel == "tablet")
+	if((kony.os.deviceInfo().name == "thinclient" && channel == "tablet")||  channel == "desktopweb")
 	{
 		var key = frmDeviceFeatures.frmLocalTxtSet1.text;
 		var value = frmDeviceFeatures.frmLocalTxtSet2.text;
@@ -46,7 +46,7 @@ function setItemvalues(  )
 
 function getItemvalues(  )
 {
-	if(kony.os.deviceInfo().name == "thinclient" && channel == "tablet")
+	if((kony.os.deviceInfo().name == "thinclient" && channel == "tablet")|| channel == "desktopweb")
 	{
 		if (frmDeviceFeatures.frmLocalTxtGet1.text == "" || frmDeviceFeatures.frmLocalTxtGet1.text == null)
 		{

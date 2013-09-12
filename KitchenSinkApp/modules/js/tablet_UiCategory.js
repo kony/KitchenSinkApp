@@ -268,7 +268,9 @@ function tabContainerWidgets(selIndex)
 					frmUInterface.sbxWidgetDetails.add(frmTabPane.hbxDefaultTbpTab,frmTabPane.hbxCollapseTbpTab,frmTabPane.hbxToggleTbpTab,frmTabPane.hbxImgPosTbpTab,frmTabPane.hbxPageTbpTab);
 				break;
 		case 2:
-				if(kony.os.deviceInfo().name == "thinclient")
+				if(kony.os.deviceInfo().name == "thinclient" && channel == "desktopweb")
+					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmScrollBox.hbxScrbxDemo));
+				else if(kony.os.deviceInfo().name == "thinclient" && channel != "desktopweb")
 					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmScrollBoxSPA.hbxScrbxDemo));
 				else
 					frmUInterface.sbxWidgetDetails.add(frmScrollBoxMenu.sboxGlobalHome);

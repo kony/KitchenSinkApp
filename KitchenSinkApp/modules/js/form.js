@@ -124,7 +124,7 @@ function frmOptions()
 
 function titleBar()
 {
-	if(channel == "tablet")
+	if(channel == "tablet"|| channel == "desktopweb")
 		frmTitlebarOptions.show();
 	else
 		frmTtlbarOptions.show();

@@ -1,7 +1,19 @@
+
+/*****************************************************************
+*	Name    : setChannelDesktop
+*	Author  : Kony 
+*	Purpose : To set the channel parameter value as "setChannelDesktop" to identify the application is for desktopweb channels.
+******************************************************************/
+
+function setChannelDesktop()
+{
+	channel ="desktopweb";
+}
+
 /*****************************************************************
 *	Name    : setChannelTablet
 *	Author  : Kony 
-*	Purpose : To set the channel parameter value as "tablet" to identify the application is for tablet channels or mobile channels.
+*	Purpose : To set the channel parameter value as "tablet" to identify the application is for tablet channels .
 ******************************************************************/
 
 function setChannelTablet()
@@ -12,7 +24,7 @@ function setChannelTablet()
 /*****************************************************************
 *	Name    : setChannelTablet
 *	Author  : Kony 
-*	Purpose : To set the channel parameter value as "mobile" to identify the application is for tablet channels or mobile channels.
+*	Purpose : To set the channel parameter value as "mobile" to identify the application is for mobile channels.
 ******************************************************************/
 
 function setChannelMobile()
@@ -29,7 +41,7 @@ function setChannelMobile()
 function platformCheck()
 {
 	var platform = kony.os.deviceInfo().name ;
-	if(channel == "tablet")
+	if(channel == "tablet"||channel == "desktopweb")
 	{
 		switch(platform)
 		{

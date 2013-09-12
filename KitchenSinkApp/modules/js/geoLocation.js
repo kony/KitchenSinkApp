@@ -32,9 +32,9 @@ function geoSuccessCallBack(position)
 		alert("error is : "+err);
 		kony.application.dismissLoadingScreen();
 	}
-	if(channel != "tablet")
+	if(channel != "tablet" && channel != "desktopweb")
 		frmGeoCurrentNWatch.show();
-	else if(channel == "tablet" && kony.os.deviceInfo().name == "thinclient")
+	else if((channel == "tablet"||channel == "desktopweb")&& kony.os.deviceInfo().name == "thinclient")
 		frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmGeoCurrentNWatch.hbxGeoLocation));
 	else
 		frmDeviceFeatures.sbxDevFeatureDeatils.add(frmGeoCurrentNWatch.hbxGeoLocation);

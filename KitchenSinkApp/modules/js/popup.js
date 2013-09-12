@@ -6,7 +6,7 @@
 
 function popUpFromBottom()
 {   
-	if (kony.os.deviceInfo().name == "thinclient" && channel !="tablet")
+	if (kony.os.deviceInfo().name == "thinclient" && channel !="tablet"&& channel !="desktopweb")
 	{
 		popFormAnchor.show();
 	}
@@ -14,7 +14,7 @@ function popUpFromBottom()
 	{
 		if(kony.os.deviceInfo().name == "windowsPhone")
 			var context4={"widget":frmPopup,"anchor":"bottom"};	
-		else if(channel=="tablet")
+		else if(channel=="tablet" || channel=="desktopweb" )
 			var context4={"widget":frmUInterface,"anchor":"bottom"};	
 		else
 			var context4={"widget":frmPopup,"anchor":"bottom","sizetoanchorwidth":true};

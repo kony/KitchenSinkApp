@@ -37,7 +37,7 @@ function setLocationData()
 			WidgetModel.containerHeightReference = constants.MAP_HEIGHT_BY_FORM_REFERENCE; 
 			Note: currently these properties are not exposed from IDE. */
 			
-		if(kony.os.deviceInfo().name == "thinclient" && channel == "tablet")
+		if(kony.os.deviceInfo().name == "thinclient" && channel == "tablet" && channel != "desktopweb")
 		{
 			frmMap.mapNrm.containerHeight = 90; 
 			frmMap.mapNrm.containerHeightReference = constants.MAP_HEIGHT_BY_FORM_REFERENCE; 
