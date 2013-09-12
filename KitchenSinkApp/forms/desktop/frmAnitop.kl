@@ -425,7 +425,7 @@
         <idle_timeout>false</idle_timeout>
         <retain_scrollPosition>false</retain_scrollPosition>
         <dialog_width>80</dialog_width>
-        <headerId>None</headerId>
+        <headerId>hdrOne</headerId>
         <footerId>None</footerId>
         <title>top</title>
         <init>

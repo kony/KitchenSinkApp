@@ -262,9 +262,6 @@
     <container type="dialog" id="template2" displayname="Popup"/>
     <container type="dialog" id="template3" displayname="Popup"/>
     <container type="form" id="frmAclMeterReadings" displayname="Form"/>
-    <container type="form" id="frmAnileft" displayname="Form"/>
-    <container type="form" id="frmAniright" displayname="Form"/>
-    <container type="form" id="frmAnitop" displayname="Form"/>
     <container type="form" id="frmAppSettings" displayname="Form">
         <component type="textbox2" id="txtAppSet" displayname="TextBox2"/>
         <component type="combobox" id="CmbAppSet" displayname="ComboBox"/>
@@ -393,11 +390,14 @@
         <component type="textbox2" id="textbox2117822895617111" displayname="TextBox2"/>
     </container>
     <container type="form" id="frmAnibottom" displayname="Form"/>
-    <container type="form" id="frmAnibottom" displayname="Form"/>
     <container type="form" id="frmAnileft" displayname="Form"/>
     <container type="form" id="frmAniright" displayname="Form"/>
     <container type="form" id="frmAnitop" displayname="Form"/>
     <container type="form" id="frmAnimations" displayname="Form"/>
+    <container type="form" id="frmAnibottom" displayname="Form"/>
+    <container type="form" id="frmAnileft" displayname="Form"/>
+    <container type="form" id="frmAniright" displayname="Form"/>
+    <container type="form" id="frmAnitop" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>
