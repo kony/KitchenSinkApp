@@ -10,6 +10,8 @@ This application showcases many of the features available to developers that use
 * Transitions/Animations those are supported across platforms.
 * Collection of device features like application settings, Local storage, Web SQL, Geo location, camera, etc.
 
+To build and run this app you will need to download and install [Kony Studio](http://www.kony.com/products/development). You can register and download the trial version from www.kony.com.
+
 # Screenshot
 ![A screenshot of Kony's Kitchen Sink app running on an Android emulator](https://raw.github.com/kony-solutions/screenshots/master/KitchenSinkApp/Mobile/Android/1.png "A screenshot of Kony's Kitchen Sink app running on an Android emulator")
 
