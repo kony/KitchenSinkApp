@@ -353,19 +353,28 @@ function tabSegmentViewsHandle(selIndex)
 	{
 		case 0:
 				//owl.deepCopy is for deepCopying the object instead of passing the reference of an object
-				if(kony.os.deviceInfo().name == "thinclient")
+				if(kony.os.deviceInfo().name == "thinclient" && channel != "desktopweb")
 				{
 					frmSegmentViews.sbxSegmentViewDetails.add(owl.deepCopy(frmSegmentTablet.segTableView));
+				}
+				else if (channel == "desktopweb")
+				{
+					frmSegmentViews.sbxSegmentViewDetails.add(owl.deepCopy(frmSegmentTablet.hbxSegTableView));
 				}
 				else
 				{
 					frmSegmentViews.sbxSegmentViewDetails.add(frmSegmentTablet.segTableView);
 				}
+				
 				break;
 		case 1:
-				if(kony.os.deviceInfo().name == "thinclient")
+				if(kony.os.deviceInfo().name == "thinclient"&& channel != "desktopweb")
 				{
 					frmSegmentViews.sbxSegmentViewDetails.add(owl.deepCopy(frmSegmentTablet.segPageView));
+				}
+				else if (channel == "desktopweb")
+				{
+					frmSegmentViews.sbxSegmentViewDetails.add(owl.deepCopy(frmSegmentTablet.hbxSegPageView));
 				}
 				else
 				{
