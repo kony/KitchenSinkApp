@@ -146,7 +146,6 @@
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmDeviceFeatures" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmUInterface" displayname="Form"/>
     <container type="form" id="frmBrowser" displayname="Form"/>
     <container type="form" id="frmForm" displayname="Form">
         <component type="textbox2" id="tbxName" displayname="TextBox2"/>
@@ -258,7 +257,6 @@
     <container type="dialog" id="template3" displayname="Popup"/>
     <container type="form" id="frmAnibottom" displayname="Form"/>
     <container type="form" id="frmAnileft" displayname="Form"/>
-    <container type="form" id="frmAnimations" displayname="Form"/>
     <container type="form" id="frmAniright" displayname="Form"/>
     <container type="form" id="frmAnitop" displayname="Form"/>
     <container type="form" id="frmAsyncDataAccess" displayname="Form">
@@ -345,8 +343,6 @@
     <container type="form" id="frmSegScreenLevel" displayname="Form"/>
     <container type="form" id="frmSegSecHdrDock" displayname="Form"/>
     <container type="form" id="frmSegmentFeatures" displayname="Form"/>
-    <container type="form" id="frmSegmentTablet" displayname="Form"/>
-    <container type="form" id="frmSegmentViews" displayname="Form"/>
     <container type="form" id="frmSwitch" displayname="Form"/>
     <container type="form" id="frmTabPane" displayname="Form"/>
     <container type="form" id="frmTextArea" displayname="Form"/>
@@ -377,6 +373,10 @@
         <component type="textbox2" id="textbox2117822895617091" displayname="TextBox2"/>
         <component type="textbox2" id="textbox2117822895617111" displayname="TextBox2"/>
     </container>
+    <container type="form" id="frmAnimations" displayname="Form"/>
+    <container type="form" id="frmSegmentTablet" displayname="Form"/>
+    <container type="form" id="frmUInterface" displayname="Form"/>
+    <container type="form" id="frmSegmentViews" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>
