@@ -7,10 +7,10 @@
 
 function setLocationData()
 {    
-	if(kony.os.deviceInfo.name != "thinclient" && kony.os.deviceInfo.name != "android")
+	if((kony.os.deviceInfo.name != "thinclient" && kony.os.deviceInfo.name != "android")|| (channel == "desktopweb"))
 	{
-	
-	frmMap.mapNrm.locationData = [ 
+		
+		frmMap.mapNrm.locationData = [ 
 	                              {
 	                            	   lat:"17.447326",lon:"78.371358",name:"KonyLabs(new)",desc:"Phoenix infocity, Gachibowli"
 	                            	  },
@@ -54,5 +54,4 @@ function setLocationData()
 	                            	  }
 	                              ]
 	}
-	
 }
