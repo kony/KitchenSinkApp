@@ -8,7 +8,7 @@
 	
 function segwidMultiTemplate()
 {
-	if(channel =="tablet")
+	if(channel =="tablet" || channel == "desktopweb")
 	{
 		kony.print("entered ipad tablet")
 		frmSegmentTablet.segMultiRowTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3"};
@@ -330,7 +330,7 @@ function dataForSeg(eventObj)
 	[ "  W", [ { cname : "Wake Island " ,metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE}} , { cname : "Wallis and Futuna" ,metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE}}  ] ],
 	[ "  Y", [ { cname : "Yemen " ,metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE}}  ] ],
 	[ "  Z", [ { cname : "Zambia ",metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE} } , { cname : "Zimbabwe",metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE} }  ] ] ];
-	if(kony.os.deviceInfo().name != "iPad" && channel=="tablet")
+	if((kony.os.deviceInfo().name != "iPad" && channel=="tablet") || (channel == "desktopweb"))
 	{
 		kony.print("do nothing");
 	}

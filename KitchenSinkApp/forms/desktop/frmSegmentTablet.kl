@@ -4140,8 +4140,8 @@
                     <localeId>None</localeId>
                     <visible>true</visible>
                     <rendererData>
-                        <desktop_kiosk_channel>true</desktop_kiosk_channel>
-                        <desktop_web_channel>true</desktop_web_channel>
+                        <desktop_kiosk_channel>false</desktop_kiosk_channel>
+                        <desktop_web_channel>false</desktop_web_channel>
                         <mixed_android>true</mixed_android>
                         <mixed_android_tab>true</mixed_android_tab>
                         <mixed_bb>true</mixed_bb>
@@ -28060,7 +28060,7 @@
                 <width>100</width>
                 <height>1</height>
             </sizePercent>
-            <skinId>Skin Defaults</skinId>
+            <skinId>btnNormal</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
