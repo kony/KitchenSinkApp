@@ -135,18 +135,10 @@ function tabBasicWidgets(selIndex)
 					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmDatagrid.hbxDatagrids));
 					break;
 			case 5:
-					//#ifndef desktop
-						var crop =owl.deepCopy(frmImage.hbxCrop);						
-						var fitToDim = owl.deepCopy(frmImage.hbxFitToDimensions);
-						var matnAspctRtio =owl.deepCopy(frmImage.hbxMaintainAspectRatio);
-						var UrlBased = owl.deepCopy(frmImage.hbxURLBasedImages);
-						frmUInterface.sbxWidgetDetails.add(fitToDim,matnAspctRtio,crop,UrlBased);
-					//#else
-						var UrlBased = owl.deepCopy(frmImage.hbxURLBasedImages);
-						var fitToDim = owl.deepCopy(frmImage.hbxFitToDimensions);
-						var matnAspctRtio =owl.deepCopy(frmImage.hbxMaintainAspectRatio);
-						frmUInterface.sbxWidgetDetails.add(fitToDim,matnAspctRtio,UrlBased);
-					//#endif
+					var UrlBased = owl.deepCopy(frmImage.hbxURLBasedImages);
+					var fitToDim = owl.deepCopy(frmImage.hbxFitToDimensions);
+					var matnAspctRtio =owl.deepCopy(frmImage.hbxMaintainAspectRatio);
+					frmUInterface.sbxWidgetDetails.add(fitToDim,matnAspctRtio,UrlBased);
 					break;
 			case 6:
 					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmLabels.hbxLabels));
