@@ -27,3 +27,6 @@ To build and run this app you will need to download and install [Kony Studio](ht
  * iPad
  * SPA iPad
  * SPA Android
+
+**Desktop** 
+ * DesktopWeb
