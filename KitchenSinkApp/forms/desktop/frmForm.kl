@@ -8272,7 +8272,7 @@
                             <width>35</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>Skin Defaults</skinId>
+                        <skinId>comboBB</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
@@ -8913,9 +8913,9 @@
                             <segData/>
                             <tablerowData/>
                             <dummydata>false</dummydata>
-                            <updatedToNewSegmentData>false</updatedToNewSegmentData>
-                            <updatedToNewTableRowData>false</updatedToNewTableRowData>
-                            <updatedToNewImageData>false</updatedToNewImageData>
+                            <updatedToNewSegmentData>true</updatedToNewSegmentData>
+                            <updatedToNewTableRowData>true</updatedToNewTableRowData>
+                            <updatedToNewImageData>true</updatedToNewImageData>
                         </choiceData>
                         <blockedUISkin>Skin Defaults</blockedUISkin>
                         <placeHolder></placeHolder>
@@ -10970,7 +10970,7 @@
                             <width>36</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>Skin Defaults</skinId>
+                        <skinId>calDesktopWebNormal</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
@@ -11861,7 +11861,7 @@
                             <width>35</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>Skin Defaults</skinId>
+                        <skinId>comboBB</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>

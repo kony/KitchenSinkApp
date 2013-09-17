@@ -247,34 +247,6 @@
         <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
         <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
-        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
-    </container>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
-        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
-    </container>
     <container type="dialog" id="ftrOne" displayname="Popup"/>
     <container type="dialog" id="ftrOne" displayname="Popup"/>
     <container type="dialog" id="ftrOne" displayname="Popup"/>
@@ -414,6 +386,34 @@
     <container type="dialog" id="popFormAnchor" displayname="Popup"/>
     <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmFormOptions" displayname="Form"/>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
+    </container>
     <globalsequences/>
     <skins/>
 </application>
