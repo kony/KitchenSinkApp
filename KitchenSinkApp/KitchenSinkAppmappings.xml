@@ -4,14 +4,6 @@
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmBrowser" displayname="Form"/>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="combobox" id="combobox1931202839100076" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-    </container>
-    <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmBrowser" displayname="Form"/>
     <container type="form" id="frmCrypto" displayname="Form">
@@ -20,16 +12,7 @@
         <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
         <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="combobox" id="combobox1931202839100076" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-    </container>
-    <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
-    <container type="form" id="frmGestures" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmLocalStore" displayname="Form">
         <component type="textbox2" id="frmLocalTxtSet1" displayname="TextBox2"/>
@@ -45,16 +28,8 @@
         <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
         <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="combobox" id="combobox1931202839100076" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-    </container>
     <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
-    <container type="form" id="frmGestures" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmLocalStore" displayname="Form">
         <component type="textbox2" id="frmLocalTxtSet1" displayname="TextBox2"/>
@@ -70,16 +45,8 @@
         <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
         <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="combobox" id="combobox1931202839100076" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-    </container>
     <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
-    <container type="form" id="frmGestures" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmLocalStore" displayname="Form">
         <component type="textbox2" id="frmLocalTxtSet1" displayname="TextBox2"/>
@@ -88,6 +55,8 @@
         <component type="textbox2" id="frmLocalTxtGetKey1" displayname="TextBox2"/>
         <component type="textbox2" id="frmLocalTxtIndex" displayname="TextBox2"/>
     </container>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmBrowser" displayname="Form"/>
     <container type="form" id="frmCrypto" displayname="Form">
         <component type="textbox2" id="textEncrypt" displayname="TextBox2"/>
@@ -96,16 +65,9 @@
         <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
     </container>
     <container type="form" id="frmDeviceInfo" displayname="Form"/>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="combobox" id="combobox1931202839100076" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-    </container>
     <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
-    <container type="form" id="frmGestures" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmLocalStore" displayname="Form">
         <component type="textbox2" id="frmLocalTxtSet1" displayname="TextBox2"/>
@@ -114,6 +76,12 @@
         <component type="textbox2" id="frmLocalTxtGetKey1" displayname="TextBox2"/>
         <component type="textbox2" id="frmLocalTxtIndex" displayname="TextBox2"/>
     </container>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmDeviceFeatures" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmUInterface" displayname="Form"/>
+    <container type="dialog" id="hdrOne" displayname="Popup"/>
     <container type="form" id="frmBrowser" displayname="Form"/>
     <container type="form" id="frmBrowserOptions" displayname="Form"/>
     <container type="form" id="frmCrypto" displayname="Form">
@@ -122,17 +90,10 @@
         <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
         <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
     </container>
+    <container type="form" id="frmDeviceFeatures" displayname="Form"/>
     <container type="form" id="frmDeviceInfo" displayname="Form"/>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="combobox" id="combobox1931202839100076" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-    </container>
     <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
-    <container type="form" id="frmGestures" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmLocalStore" displayname="Form">
@@ -147,9 +108,7 @@
             <attributes value="AIzaSyBBR_-JLwZ9Ami6h5m7KgaGvIxpno6vFDU" platform="general" name="key" datatype="string"/>
         </component>
     </container>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmUInterface" displayname="Form"/>
     <container type="dialog" id="hdrOne" displayname="Popup"/>
     <container type="dialog" id="hdrSearch" displayname="Popup">
         <component type="textbox2" id="tbxSearchORE" displayname="TextBox2">
@@ -157,11 +116,6 @@
         </component>
     </container>
     <container type="dialog" id="winMangoHeader" displayname="Popup"/>
-    <container type="dialog" id="hdrOne" displayname="Popup"/>
-    <container type="dialog" id="ftrOne" displayname="Popup"/>
-    <container type="dialog" id="ftrOne" displayname="Popup"/>
-    <container type="dialog" id="ftrOne" displayname="Popup"/>
-    <container type="dialog" id="ftrOne" displayname="Popup"/>
     <container type="dialog" id="dynamicTemplate1" displayname="Popup"/>
     <container type="dialog" id="dynamicTemplate2" displayname="Popup"/>
     <container type="dialog" id="hdr" displayname="Popup"/>
@@ -194,19 +148,13 @@
         <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
         <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
     </container>
+    <container type="form" id="frmDeviceFeatures" displayname="Form"/>
     <container type="form" id="frmDeviceInfo" displayname="Form"/>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="combobox" id="combobox1931202839100076" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-    </container>
     <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
-    <container type="form" id="frmGestures" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmIcons" displayname="Form"/>
+    <container type="form" id="frmImage" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmLink" displayname="Form"/>
     <container type="form" id="frmLocalStore" displayname="Form">
@@ -226,17 +174,111 @@
     <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
     <container type="form" id="frmSegOnReachEnd" displayname="Form"/>
     <container type="form" id="frmSwitch" displayname="Form"/>
+    <container type="form" id="frmUInterface" displayname="Form"/>
     <container type="form" id="frmWebSQL" displayname="Form"/>
     <container type="dialog" id="popFormAnchor" displayname="Popup"/>
-    <container type="form" id="frmDeviceFeatures" displayname="Form"/>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmUInterface" displayname="Form"/>
-    <container type="form" id="frmDeviceFeatures" displayname="Form"/>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmUInterface" displayname="Form"/>
-    <container type="form" id="frmDeviceFeatures" displayname="Form"/>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="form" id="frmUInterface" displayname="Form"/>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
+    </container>
+    <container type="dialog" id="ftrOne" displayname="Popup"/>
+    <container type="dialog" id="ftrOne" displayname="Popup"/>
+    <container type="dialog" id="ftrOne" displayname="Popup"/>
+    <container type="dialog" id="ftrOne" displayname="Popup"/>
     <container type="dialog" id="hdrOne" displayname="Popup"/>
     <container type="dialog" id="hdrSearch" displayname="Popup">
         <component type="textbox2" id="tbxSearchORE" displayname="TextBox2">
@@ -304,17 +346,24 @@
     <container type="form" id="frmForm" displayname="Form">
         <component type="textbox2" id="tbxName" displayname="TextBox2"/>
         <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434212766" displayname="TextBox2"/>
+        <component type="combobox" id="combobox685080434212889" displayname="ComboBox"/>
         <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="combobox" id="combobox1931202839100076" displayname="ComboBox"/>
         <component type="calendar" id="calBDate" displayname="Calendar"/>
+        <component type="textbox2" id="textbox2685080434213280" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434213470" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214067" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214147" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214723" displayname="TextBox2"/>
+        <component type="textbox2" id="textbox2685080434214726" displayname="TextBox2"/>
     </container>
     <container type="form" id="frmFormImgBG" displayname="Form"/>
     <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
-    <container type="form" id="frmGestures" displayname="Form"/>
     <container type="form" id="frmHdrFtr" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmIcons" displayname="Form"/>
+    <container type="form" id="frmImage" displayname="Form"/>
     <container type="form" id="frmImgGallery" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmLabels" displayname="Form"/>
@@ -360,27 +409,11 @@
         <component type="textbox2" id="textfield2192735980024620" displayname="TextBox2"/>
         <component type="textbox2" id="textfield2192735980024664" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmTitlebarBgColor" displayname="Form"/>
-    <container type="form" id="frmTitlebarBgImage" displayname="Form"/>
-    <container type="form" id="frmTitlebarCustom" displayname="Form"/>
-    <container type="form" id="frmTitlebarDefault" displayname="Form"/>
-    <container type="form" id="frmTitlebarOptions" displayname="Form"/>
     <container type="form" id="frmUInterface" displayname="Form"/>
     <container type="form" id="frmWebSQL" displayname="Form"/>
-    <container type="dialog" id="frmPop" displayname="Popup">
-        <component type="segment" id="segPop" displayname="Segment"/>
-    </container>
     <container type="dialog" id="popFormAnchor" displayname="Popup"/>
-    <container type="dialog" id="popLeftNright" displayname="Popup">
-        <component type="textbox2" id="textbox2117822895617269" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2117822895617299" displayname="TextBox2"/>
-    </container>
-    <container type="dialog" id="popTopNBottom" displayname="Popup">
-        <component type="textbox2" id="textbox2117822895617091" displayname="TextBox2"/>
-        <component type="textbox2" id="textbox2117822895617111" displayname="TextBox2"/>
-    </container>
-    <container type="form" id="frmImage" displayname="Form"/>
-    <container type="form" id="frmImage" displayname="Form"/>
+    <container type="form" id="frmFormOptions" displayname="Form"/>
+    <container type="form" id="frmFormOptions" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>
