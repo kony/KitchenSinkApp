@@ -79,6 +79,7 @@
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
+            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -121,6 +122,7 @@
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
+            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -168,6 +170,14 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
+            <bb10>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </bb10>
+            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>false</default_override>
             <defaults>
@@ -482,6 +492,7 @@ if (kony.os.deviceInfo().name != "thinclient")
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -570,6 +581,7 @@ if (kony.os.deviceInfo().name != "thinclient")
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -686,6 +698,7 @@ if (kony.os.deviceInfo().name != "thinclient")
         <win_enablescreenmenu>false</win_enablescreenmenu>
         <win_autofocus>true</win_autofocus>
         <wm_orientation>2</wm_orientation>
+        <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
         <wm_onOrientation_root>
             <evtSequence>
                 <actionList xsi:type="eventExpressionAction">
@@ -727,6 +740,7 @@ if (kony.os.deviceInfo().name != "thinclient")
         <winphone8_layout>Vertical</winphone8_layout>
         <winphone8_showformtitle>false</winphone8_showformtitle>
         <winphone8_backButton>false</winphone8_backButton>
+        <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
@@ -767,6 +781,12 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -796,6 +816,9 @@ if (kony.os.deviceInfo().name != "thinclient")
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -902,6 +925,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>false</rc_j2me>
@@ -949,6 +973,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>4</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -1072,11 +1104,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>8</left>
+                    <right>8</right>
                     <top>5</top>
                     <bottom>4</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>0</left>
@@ -1088,11 +1120,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>8</left>
+                    <right>8</right>
                     <top>5</top>
                     <bottom>4</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -1208,6 +1240,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -1468,6 +1508,7 @@ if (kony.os.deviceInfo().name != "thinclient")
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
+            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -1533,6 +1574,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>false</rc_j2me>
@@ -1580,6 +1622,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -1839,6 +1889,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>1</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>true</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -1962,8 +2020,8 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>3</left>
-                        <right>3</right>
+                        <left>6</left>
+                        <right>6</right>
                         <top>10</top>
                         <bottom>10</bottom>
                         <unit>px</unit>
@@ -1978,8 +2036,8 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>3</left>
-                        <right>3</right>
+                        <left>6</left>
+                        <right>6</right>
                         <top>10</top>
                         <bottom>10</bottom>
                         <unit>px</unit>
@@ -2098,6 +2156,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -2117,6 +2176,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <desktopweb_toolTip></desktopweb_toolTip>
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                 <winphone8_contentalign>middle-left</winphone8_contentalign>
+                <bb10_contentalignment>0</bb10_contentalignment>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -2169,6 +2229,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <rc_android>false</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>false</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>false</rc_iphone>
                 <rc_j2me>false</rc_j2me>
@@ -2216,6 +2277,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>1</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
@@ -2475,6 +2544,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>1</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
@@ -2598,8 +2675,8 @@ if (kony.os.deviceInfo().name != "thinclient")
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>3</left>
-                    <right>3</right>
+                    <left>6</left>
+                    <right>6</right>
                     <top>10</top>
                     <bottom>10</bottom>
                     <unit>px</unit>
@@ -2614,8 +2691,8 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>3</left>
-                    <right>3</right>
+                    <left>6</left>
+                    <right>6</right>
                     <top>10</top>
                     <bottom>10</bottom>
                     <unit>px</unit>
@@ -2734,6 +2811,7 @@ if (kony.os.deviceInfo().name != "thinclient")
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -2753,6 +2831,7 @@ if (kony.os.deviceInfo().name != "thinclient")
             <desktopweb_toolTip></desktopweb_toolTip>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_contentalign>middle-left</winphone8_contentalign>
+            <bb10_contentalignment>0</bb10_contentalignment>
         </children>
         <children xsi:type="khBox">
             <ID>hbxPlatinumAcc</ID>
@@ -2797,6 +2876,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>true</rc_j2me>
@@ -2844,6 +2924,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -3103,6 +3191,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -3363,6 +3459,7 @@ if (kony.os.deviceInfo().name != "thinclient")
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
+            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -3434,6 +3531,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -3481,6 +3579,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -3604,10 +3710,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -3620,10 +3726,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>false</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>false</winphone8_override>
@@ -3740,6 +3846,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -4046,6 +4160,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -4093,6 +4208,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -4352,6 +4475,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -4611,6 +4742,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -4630,6 +4762,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="khBox">
                     <ID>hbxTotal</ID>
@@ -4674,6 +4807,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -4721,6 +4855,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -4846,7 +4988,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <winmobile>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>2</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winmobile>
@@ -4862,7 +5004,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
+                            <top>2</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
@@ -4980,6 +5122,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -5240,6 +5390,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_option>0</ipad_option>
                     <ipad_fixed_height>false</ipad_fixed_height>
                     <bb_position>0</bb_position>
+                    <bb10_position>0</bb10_position>
                     <j2me_position>0</j2me_position>
                     <android_position>0</android_position>
                     <wm_position>0</wm_position>
@@ -5311,6 +5462,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
                             <rc_blackberry>true</rc_blackberry>
+                            <rc_blackberry10>true</rc_blackberry10>
                             <rc_ipad>true</rc_ipad>
                             <rc_iphone>true</rc_iphone>
                             <rc_j2me>true</rc_j2me>
@@ -5358,6 +5510,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
+                            <bb10>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
+                            </bb10>
+                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -5481,10 +5641,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </windows8>
                             <windows8_override>false</windows8_override>
                             <winmobile>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>px</unit>
                             </winmobile>
                             <winmobile6x>
@@ -5497,10 +5657,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <winmobile6x_override>true</winmobile6x_override>
                             <winmobile_override>false</winmobile_override>
                             <winphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>px</unit>
                             </winphone8>
                             <winphone8_override>false</winphone8_override>
@@ -5617,6 +5777,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
+                            <bb10>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
+                            </bb10>
+                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -5923,6 +6091,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
+                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -5970,6 +6139,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
+                                <bb10>
+                                    <left>0</left>
+                                    <right>0</right>
+                                    <top>0</top>
+                                    <bottom>0</bottom>
+                                    <unit>%</unit>
+                                </bb10>
+                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -6093,11 +6270,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </windows8>
                                 <windows8_override>false</windows8_override>
                                 <winmobile>
-                                    <left>0</left>
+                                    <left>4</left>
                                     <right>0</right>
-                                    <top>0</top>
+                                    <top>3</top>
                                     <bottom>0</bottom>
-                                    <unit>%</unit>
+                                    <unit>px</unit>
                                 </winmobile>
                                 <winmobile6x>
                                     <left>1</left>
@@ -6107,15 +6284,15 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <unit>px</unit>
                                 </winmobile6x>
                                 <winmobile6x_override>true</winmobile6x_override>
-                                <winmobile_override>false</winmobile_override>
+                                <winmobile_override>true</winmobile_override>
                                 <winphone8>
-                                    <left>0</left>
+                                    <left>4</left>
                                     <right>0</right>
-                                    <top>0</top>
+                                    <top>3</top>
                                     <bottom>0</bottom>
-                                    <unit>%</unit>
+                                    <unit>px</unit>
                                 </winphone8>
-                                <winphone8_override>false</winphone8_override>
+                                <winphone8_override>true</winphone8_override>
                                 <xhtmlAdvBB>
                                     <left>0</left>
                                     <right>0</right>
@@ -6229,6 +6406,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
+                                <bb10>
+                                    <left>0</left>
+                                    <right>0</right>
+                                    <top>0</top>
+                                    <bottom>0</bottom>
+                                    <unit>%</unit>
+                                </bb10>
+                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -6352,11 +6537,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </windows8>
                                 <windows8_override>false</windows8_override>
                                 <winmobile>
-                                    <left>2</left>
+                                    <left>0</left>
                                     <right>0</right>
-                                    <top>2</top>
+                                    <top>0</top>
                                     <bottom>0</bottom>
-                                    <unit>px</unit>
+                                    <unit>%</unit>
                                 </winmobile>
                                 <winmobile6x>
                                     <left>3</left>
@@ -6366,15 +6551,15 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <unit>px</unit>
                                 </winmobile6x>
                                 <winmobile6x_override>true</winmobile6x_override>
-                                <winmobile_override>true</winmobile_override>
+                                <winmobile_override>false</winmobile_override>
                                 <winphone8>
-                                    <left>2</left>
+                                    <left>0</left>
                                     <right>0</right>
-                                    <top>2</top>
+                                    <top>0</top>
                                     <bottom>0</bottom>
-                                    <unit>px</unit>
+                                    <unit>%</unit>
                                 </winphone8>
-                                <winphone8_override>true</winphone8_override>
+                                <winphone8_override>false</winphone8_override>
                                 <xhtmlAdvBB>
                                     <left>0</left>
                                     <right>0</right>
@@ -6488,6 +6673,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -6507,6 +6693,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <desktopweb_toolTip></desktopweb_toolTip>
                             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                             <winphone8_contentalign>middle-left</winphone8_contentalign>
+                            <bb10_contentalignment>0</bb10_contentalignment>
                         </children>
                         <children xsi:type="kLabel">
                             <ID>lblAsset</ID>
@@ -6550,6 +6737,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <rc_android>true</rc_android>
                                 <rc_android_tab>true</rc_android_tab>
                                 <rc_blackberry>true</rc_blackberry>
+                                <rc_blackberry10>true</rc_blackberry10>
                                 <rc_ipad>true</rc_ipad>
                                 <rc_iphone>true</rc_iphone>
                                 <rc_j2me>true</rc_j2me>
@@ -6597,6 +6785,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
+                                <bb10>
+                                    <left>0</left>
+                                    <right>0</right>
+                                    <top>0</top>
+                                    <bottom>0</bottom>
+                                    <unit>%</unit>
+                                </bb10>
+                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -6720,11 +6916,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </windows8>
                                 <windows8_override>false</windows8_override>
                                 <winmobile>
-                                    <left>0</left>
+                                    <left>4</left>
                                     <right>0</right>
                                     <top>1</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
+                                    <bottom>3</bottom>
+                                    <unit>px</unit>
                                 </winmobile>
                                 <winmobile6x>
                                     <left>1</left>
@@ -6734,15 +6930,15 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <unit>px</unit>
                                 </winmobile6x>
                                 <winmobile6x_override>true</winmobile6x_override>
-                                <winmobile_override>false</winmobile_override>
+                                <winmobile_override>true</winmobile_override>
                                 <winphone8>
-                                    <left>0</left>
+                                    <left>4</left>
                                     <right>0</right>
                                     <top>1</top>
-                                    <bottom>0</bottom>
-                                    <unit>%</unit>
+                                    <bottom>3</bottom>
+                                    <unit>px</unit>
                                 </winphone8>
-                                <winphone8_override>false</winphone8_override>
+                                <winphone8_override>true</winphone8_override>
                                 <xhtmlAdvBB>
                                     <left>0</left>
                                     <right>0</right>
@@ -6856,6 +7052,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <bottom>0</bottom>
                                     <unit>%</unit>
                                 </bb>
+                                <bb10>
+                                    <left>0</left>
+                                    <right>0</right>
+                                    <top>0</top>
+                                    <bottom>0</bottom>
+                                    <unit>%</unit>
+                                </bb10>
+                                <bb10_override>false</bb10_override>
                                 <bb_override>false</bb_override>
                                 <default_override>true</default_override>
                                 <defaults>
@@ -6979,11 +7183,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </windows8>
                                 <windows8_override>false</windows8_override>
                                 <winmobile>
-                                    <left>2</left>
+                                    <left>0</left>
                                     <right>0</right>
                                     <top>0</top>
-                                    <bottom>2</bottom>
-                                    <unit>px</unit>
+                                    <bottom>0</bottom>
+                                    <unit>%</unit>
                                 </winmobile>
                                 <winmobile6x>
                                     <left>3</left>
@@ -6993,15 +7197,15 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <unit>px</unit>
                                 </winmobile6x>
                                 <winmobile6x_override>true</winmobile6x_override>
-                                <winmobile_override>true</winmobile_override>
+                                <winmobile_override>false</winmobile_override>
                                 <winphone8>
-                                    <left>2</left>
+                                    <left>0</left>
                                     <right>0</right>
                                     <top>0</top>
-                                    <bottom>2</bottom>
-                                    <unit>px</unit>
+                                    <bottom>0</bottom>
+                                    <unit>%</unit>
                                 </winphone8>
-                                <winphone8_override>true</winphone8_override>
+                                <winphone8_override>false</winphone8_override>
                                 <xhtmlAdvBB>
                                     <left>0</left>
                                     <right>0</right>
@@ -7115,6 +7319,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -7134,6 +7339,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <desktopweb_toolTip></desktopweb_toolTip>
                             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                             <winphone8_contentalign>middle-left</winphone8_contentalign>
+                            <bb10_contentalignment>0</bb10_contentalignment>
                         </children>
                         <desktopweb_onRightClick>
                             <evtSequence>
@@ -7185,6 +7391,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
                             <rc_blackberry>true</rc_blackberry>
+                            <rc_blackberry10>true</rc_blackberry10>
                             <rc_ipad>true</rc_ipad>
                             <rc_iphone>true</rc_iphone>
                             <rc_j2me>true</rc_j2me>
@@ -7232,6 +7439,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
+                            <bb10>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
+                            </bb10>
+                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -7491,6 +7706,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
+                            <bb10>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
+                            </bb10>
+                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -7750,6 +7973,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -7769,6 +7993,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <desktopweb_toolTip></desktopweb_toolTip>
                         <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                         <winphone8_contentalign>middle-left</winphone8_contentalign>
+                        <bb10_contentalignment>0</bb10_contentalignment>
                     </children>
                     <general_contextMenu>None</general_contextMenu>
                     <desktopweb_onRightClick>
@@ -7843,6 +8068,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>true</rc_j2me>
@@ -7890,6 +8116,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -8149,6 +8383,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -8575,6 +8817,12 @@ if (kony.os.deviceInfo().name != "thinclient")
             <behavior>0</behavior>
             <selection_indctrId>None</selection_indctrId>
             <render_seperator>false</render_seperator>
+            <c_viewConfig></c_viewConfig>
+            <rowItemWidth></rowItemWidth>
+            <coverflowDepth></coverflowDepth>
+            <coverflowAngle></coverflowAngle>
+            <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
+            <containerHeight></containerHeight>
             <iphone_executeonClosure>2</iphone_executeonClosure>
             <iphone_enableDictionary>false</iphone_enableDictionary>
             <iphone_npi>true</iphone_npi>
@@ -8614,6 +8862,7 @@ if (kony.os.deviceInfo().name != "thinclient")
             <tooltip></tooltip>
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
             <android_dockingHeader>false</android_dockingHeader>
+            <android_view>0</android_view>
             <blockedUISkin>Skin Defaults</blockedUISkin>
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
@@ -8674,6 +8923,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -8721,6 +8971,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -8844,10 +9102,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -8860,10 +9118,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>false</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>false</winphone8_override>
@@ -8980,6 +9238,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -9240,6 +9506,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <ipad_option>0</ipad_option>
                 <ipad_fixed_height>false</ipad_fixed_height>
                 <bb_position>0</bb_position>
+                <bb10_position>0</bb10_position>
                 <j2me_position>0</j2me_position>
                 <android_position>0</android_position>
                 <wm_position>0</wm_position>
@@ -9311,6 +9578,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -9358,6 +9626,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -9481,10 +9757,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </windows8>
                         <windows8_override>false</windows8_override>
                         <winmobile>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>px</unit>
                         </winmobile>
                         <winmobile6x>
@@ -9497,10 +9773,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>false</winmobile_override>
                         <winphone8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>px</unit>
                         </winphone8>
                         <winphone8_override>false</winphone8_override>
@@ -9617,6 +9893,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -9923,6 +10207,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
                             <rc_blackberry>true</rc_blackberry>
+                            <rc_blackberry10>true</rc_blackberry10>
                             <rc_ipad>true</rc_ipad>
                             <rc_iphone>true</rc_iphone>
                             <rc_j2me>true</rc_j2me>
@@ -9970,6 +10255,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
+                            <bb10>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
+                            </bb10>
+                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -10229,6 +10522,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
+                            <bb10>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
+                            </bb10>
+                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -10488,6 +10789,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -10507,6 +10809,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <desktopweb_toolTip></desktopweb_toolTip>
                         <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                         <winphone8_contentalign>middle-left</winphone8_contentalign>
+                        <bb10_contentalignment>0</bb10_contentalignment>
                     </children>
                     <children xsi:type="kLabel">
                         <ID>lblWMTDIS</ID>
@@ -10550,6 +10853,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <rc_android>true</rc_android>
                             <rc_android_tab>true</rc_android_tab>
                             <rc_blackberry>true</rc_blackberry>
+                            <rc_blackberry10>true</rc_blackberry10>
                             <rc_ipad>true</rc_ipad>
                             <rc_iphone>true</rc_iphone>
                             <rc_j2me>true</rc_j2me>
@@ -10597,6 +10901,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
+                            <bb10>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
+                            </bb10>
+                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -10856,6 +11168,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
+                            <bb10>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
+                            </bb10>
+                            <bb10_override>false</bb10_override>
                             <bb_override>false</bb_override>
                             <default_override>true</default_override>
                             <defaults>
@@ -11115,6 +11435,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -11134,6 +11455,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <desktopweb_toolTip></desktopweb_toolTip>
                         <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                         <winphone8_contentalign>middle-left</winphone8_contentalign>
+                        <bb10_contentalignment>0</bb10_contentalignment>
                     </children>
                     <desktopweb_onRightClick>
                         <evtSequence>
@@ -11195,6 +11517,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -11242,6 +11565,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -11365,10 +11696,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -11381,10 +11712,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>false</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>false</winphone8_override>
@@ -11501,6 +11832,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -11761,6 +12100,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <ipad_option>0</ipad_option>
                 <ipad_fixed_height>false</ipad_fixed_height>
                 <bb_position>0</bb_position>
+                <bb10_position>0</bb10_position>
                 <j2me_position>0</j2me_position>
                 <android_position>0</android_position>
                 <wm_position>0</wm_position>
@@ -11826,6 +12166,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -11873,6 +12214,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -12132,6 +12481,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -12391,6 +12748,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -12410,6 +12768,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblValueWMDisney</ID>
@@ -12453,6 +12812,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -12500,6 +12860,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -12759,6 +13127,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -13018,6 +13394,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -13037,6 +13414,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblDiffWallmartDisney</ID>
@@ -13080,6 +13458,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -13127,6 +13506,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -13386,6 +13773,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -13645,6 +14040,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -13664,6 +14060,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -13717,6 +14114,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -13764,6 +14162,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -13887,10 +14293,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -13903,10 +14309,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>false</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>false</winphone8_override>
@@ -14023,6 +14429,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -14283,6 +14697,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <ipad_option>0</ipad_option>
                 <ipad_fixed_height>false</ipad_fixed_height>
                 <bb_position>0</bb_position>
+                <bb10_position>0</bb10_position>
                 <j2me_position>0</j2me_position>
                 <android_position>0</android_position>
                 <wm_position>0</wm_position>
@@ -14348,6 +14763,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -14395,6 +14811,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -14654,6 +15078,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -14913,6 +15345,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -14932,6 +15365,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblWMDValue</ID>
@@ -14975,6 +15409,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -15022,6 +15457,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -15281,6 +15724,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -15540,6 +15991,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -15559,6 +16011,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblWMDDiff</ID>
@@ -15602,6 +16055,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -15649,6 +16103,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -15908,6 +16370,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -16167,6 +16637,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -16186,6 +16657,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -16238,6 +16710,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>false</rc_j2me>
@@ -16285,6 +16758,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -16544,6 +17025,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -16667,10 +17156,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -16683,10 +17172,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -16840,6 +17329,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -16887,6 +17377,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -17010,10 +17508,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -17026,10 +17524,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>false</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>false</winphone8_override>
@@ -17146,6 +17644,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -17406,6 +17912,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <ipad_option>0</ipad_option>
                 <ipad_fixed_height>false</ipad_fixed_height>
                 <bb_position>0</bb_position>
+                <bb10_position>0</bb10_position>
                 <j2me_position>0</j2me_position>
                 <android_position>0</android_position>
                 <wm_position>0</wm_position>
@@ -17471,6 +17978,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -17518,6 +18026,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -17777,6 +18293,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -18036,6 +18560,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -18055,6 +18580,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblAvgValue</ID>
@@ -18098,6 +18624,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -18145,6 +18672,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -18404,6 +18939,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -18663,6 +19206,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -18682,6 +19226,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblAvgDiff</ID>
@@ -18725,6 +19270,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -18772,6 +19318,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -19031,6 +19585,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -19290,6 +19852,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -19309,6 +19872,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -19361,6 +19925,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>false</rc_j2me>
@@ -19408,6 +19973,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -19667,6 +20240,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -19790,10 +20371,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -19806,10 +20387,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -19963,6 +20544,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -20010,6 +20592,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -20133,10 +20723,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -20149,10 +20739,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>false</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>false</winphone8_override>
@@ -20269,6 +20859,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -20529,6 +21127,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <ipad_option>0</ipad_option>
                 <ipad_fixed_height>false</ipad_fixed_height>
                 <bb_position>0</bb_position>
+                <bb10_position>0</bb10_position>
                 <j2me_position>0</j2me_position>
                 <android_position>0</android_position>
                 <wm_position>0</wm_position>
@@ -20594,6 +21193,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -20641,6 +21241,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -20900,6 +21508,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -21159,6 +21775,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -21178,6 +21795,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblPEValue</ID>
@@ -21221,6 +21839,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -21268,6 +21887,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -21527,6 +22154,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -21786,6 +22421,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -21805,6 +22441,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblPEDiff</ID>
@@ -21848,6 +22485,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -21895,6 +22533,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -22154,6 +22800,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -22413,6 +23067,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -22432,6 +23087,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -22484,6 +23140,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>false</rc_j2me>
@@ -22531,6 +23188,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -22790,6 +23455,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -22913,10 +23586,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -22929,10 +23602,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -23086,6 +23759,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -23133,6 +23807,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -23256,10 +23938,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winmobile>
                     <winmobile6x>
@@ -23272,10 +23954,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>false</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>px</unit>
                     </winphone8>
                     <winphone8_override>false</winphone8_override>
@@ -23392,6 +24074,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -23652,6 +24342,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <ipad_option>0</ipad_option>
                 <ipad_fixed_height>false</ipad_fixed_height>
                 <bb_position>0</bb_position>
+                <bb10_position>0</bb10_position>
                 <j2me_position>0</j2me_position>
                 <android_position>0</android_position>
                 <wm_position>0</wm_position>
@@ -23717,6 +24408,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -23764,6 +24456,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -24023,6 +24723,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -24282,6 +24990,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -24301,6 +25010,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblMarketCapValue</ID>
@@ -24344,6 +25054,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -24391,6 +25102,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -24650,6 +25369,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -24909,6 +25636,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -24928,6 +25656,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -24982,6 +25711,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <rc_android>false</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>false</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>false</rc_iphone>
                 <rc_j2me>false</rc_j2me>
@@ -25029,6 +25759,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>false</default_override>
                 <defaults>
@@ -25152,10 +25890,10 @@ if (kony.os.deviceInfo().name != "thinclient")
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
@@ -25168,13 +25906,13 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
+                    <unit>px</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -25288,6 +26026,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>false</default_override>
                 <defaults>
@@ -25431,9 +26177,9 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -25548,6 +26294,7 @@ if (kony.os.deviceInfo().name != "thinclient")
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
+            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -25613,6 +26360,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -25660,6 +26408,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -25799,13 +26555,13 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </winphone8>
-                    <winphone8_override>false</winphone8_override>
+                    <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
                         <left>0</left>
                         <right>0</right>
@@ -25919,6 +26675,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <bottom>1</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>true</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -26042,8 +26806,8 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>3</left>
-                        <right>3</right>
+                        <left>6</left>
+                        <right>6</right>
                         <top>10</top>
                         <bottom>10</bottom>
                         <unit>px</unit>
@@ -26058,13 +26822,13 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>6</left>
+                        <right>6</right>
+                        <top>10</top>
+                        <bottom>10</bottom>
+                        <unit>px</unit>
                     </winphone8>
-                    <winphone8_override>false</winphone8_override>
+                    <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
                         <left>1</left>
                         <right>1</right>
@@ -26178,6 +26942,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -26197,6 +26962,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <desktopweb_toolTip></desktopweb_toolTip>
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                 <winphone8_contentalign>middle-left</winphone8_contentalign>
+                <bb10_contentalignment>0</bb10_contentalignment>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -26245,6 +27011,33 @@ if (kony.os.deviceInfo().name != "thinclient")
             </evtSequence>
         </winphone8_ondevback_root>
         <winphone8_animateheaderfooter>false</winphone8_animateheaderfooter>
+        <bb10_autofocus>true</bb10_autofocus>
+        <bb10_titleSkinId>Skin Defaults</bb10_titleSkinId>
+        <blackberry10_fixed_items>0</blackberry10_fixed_items>
+        <bb10_enablescreenmenu>false</bb10_enablescreenmenu>
+        <bb10_enablescreenformmenu>false</bb10_enablescreenformmenu>
+        <bb10_ignoreescape>false</bb10_ignoreescape>
+        <bb10_trans_direction>0</bb10_trans_direction>
+        <bb10_trans_out_direction>0</bb10_trans_out_direction>
+        <bb10Titlebar>true</bb10Titlebar>
+        <bb10_orientation>0</bb10_orientation>
+        <bb10_onOrientation_root>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </bb10_onOrientation_root>
+        <bb10MenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bb10MenuPosition>
+        <bb10_undockappheader>false</bb10_undockappheader>
+        <bb10_undockappfooter>false</bb10_undockappfooter>
+        <bb10SkinAroundPopup>Skin Defaults</bb10SkinAroundPopup>
+        <bb10_onEscape10_root>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
@@ -26298,6 +27091,7 @@ if (kony.os.deviceInfo().name != "thinclient")
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
+            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -26345,6 +27139,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
+            <bb10>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </bb10>
+            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>false</default_override>
             <defaults>
@@ -26604,6 +27406,14 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
+            <bb10>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </bb10>
+            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>false</default_override>
             <defaults>

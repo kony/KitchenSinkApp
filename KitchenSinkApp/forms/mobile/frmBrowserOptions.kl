@@ -1002,11 +1002,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>4</left>
-                    <right>4</right>
-                    <top>5</top>
-                    <bottom>5</bottom>
-                    <unit>%</unit>
+                    <left>12</left>
+                    <right>12</right>
+                    <top>15</top>
+                    <bottom>15</bottom>
+                    <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>0</left>
@@ -1018,11 +1018,11 @@
                 <winmobile6x_override>false</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>4</left>
-                    <right>4</right>
-                    <top>5</top>
-                    <bottom>5</bottom>
-                    <unit>%</unit>
+                    <left>12</left>
+                    <right>12</right>
+                    <top>15</top>
+                    <bottom>15</bottom>
+                    <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -1439,6 +1439,23 @@
                                     </paramList>
                                 </value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>eventObj</paramName>
+                                        <valType>0</valType>
+                                        <value>eventobject</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>eventobject</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
                         </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
@@ -1734,11 +1751,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>12</left>
+                    <right>12</right>
                     <top>0</top>
-                    <bottom>4</bottom>
-                    <unit>%</unit>
+                    <bottom>15</bottom>
+                    <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>0</left>
@@ -1750,11 +1767,11 @@
                 <winmobile6x_override>false</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>12</left>
+                    <right>12</right>
                     <top>0</top>
-                    <bottom>4</bottom>
-                    <unit>%</unit>
+                    <bottom>15</bottom>
+                    <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -2171,6 +2188,23 @@
                                     </paramList>
                                 </value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>eventObj</paramName>
+                                        <valType>0</valType>
+                                        <value>eventobject</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>eventobject</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
                         </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
@@ -2466,11 +2500,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>12</left>
+                    <right>12</right>
                     <top>0</top>
-                    <bottom>4</bottom>
-                    <unit>%</unit>
+                    <bottom>12</bottom>
+                    <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>0</left>
@@ -2482,11 +2516,11 @@
                 <winmobile6x_override>false</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>12</left>
+                    <right>12</right>
                     <top>0</top>
-                    <bottom>4</bottom>
-                    <unit>%</unit>
+                    <bottom>12</bottom>
+                    <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -2903,6 +2937,23 @@
                                     </paramList>
                                 </value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>eventObj</paramName>
+                                        <valType>0</valType>
+                                        <value>eventobject</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>eventobject</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
                         </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
@@ -3198,11 +3249,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>12</left>
+                    <right>12</right>
                     <top>0</top>
-                    <bottom>4</bottom>
-                    <unit>%</unit>
+                    <bottom>15</bottom>
+                    <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>0</left>
@@ -3214,11 +3265,11 @@
                 <winmobile6x_override>false</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>12</left>
+                    <right>12</right>
                     <top>0</top>
-                    <bottom>4</bottom>
-                    <unit>%</unit>
+                    <bottom>15</bottom>
+                    <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -3635,6 +3686,23 @@
                                     </paramList>
                                 </value>
                             </entry>
+                            <entry>
+                                <key>lua</key>
+                                <value>
+                                    <paramList>
+                                        <datatype>string</datatype>
+                                        <paramName>eventObj</paramName>
+                                        <valType>0</valType>
+                                        <value>eventobject</value>
+                                        <valueMap>
+                                            <entry>
+                                                <key>js</key>
+                                                <value>eventobject</value>
+                                            </entry>
+                                        </valueMap>
+                                    </paramList>
+                                </value>
+                            </entry>
                         </paramDataMap>
                     </actionList>
                     <enabled>true</enabled>
@@ -3930,11 +3998,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>12</left>
+                    <right>12</right>
                     <top>0</top>
-                    <bottom>4</bottom>
-                    <unit>%</unit>
+                    <bottom>15</bottom>
+                    <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>0</left>
@@ -3946,11 +4014,11 @@
                 <winmobile6x_override>false</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>12</left>
+                    <right>12</right>
                     <top>0</top>
-                    <bottom>4</bottom>
-                    <unit>%</unit>
+                    <bottom>15</bottom>
+                    <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -4684,10 +4752,10 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
@@ -4700,13 +4768,13 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
+                    <unit>px</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -4971,9 +5039,9 @@
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -5349,13 +5417,13 @@
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
+                        <unit>px</unit>
                     </winphone8>
-                    <winphone8_override>false</winphone8_override>
+                    <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
                         <left>0</left>
                         <right>0</right>
@@ -5600,8 +5668,8 @@
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>3</left>
-                        <right>3</right>
+                        <left>6</left>
+                        <right>6</right>
                         <top>10</top>
                         <bottom>10</bottom>
                         <unit>px</unit>
@@ -5616,13 +5684,13 @@
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>%</unit>
+                        <left>6</left>
+                        <right>6</right>
+                        <top>10</top>
+                        <bottom>10</bottom>
+                        <unit>px</unit>
                     </winphone8>
-                    <winphone8_override>false</winphone8_override>
+                    <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
                         <left>1</left>
                         <right>1</right>

@@ -6827,8 +6827,8 @@
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>0</left>
-                            <right>0</right>
+                            <left>5</left>
+                            <right>5</right>
                             <top>2</top>
                             <bottom>2</bottom>
                             <unit>%</unit>
