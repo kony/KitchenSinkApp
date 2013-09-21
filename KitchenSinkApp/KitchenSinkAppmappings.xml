@@ -227,7 +227,6 @@
             <attributes datatype="boolean" name="enablesearchbar" platform="spa" value="true"/>
         </component>
     </container>
-    <container displayname="Popup" id="hdrUI" type="dialog"/>
     <container displayname="Popup" id="winMangoHeader" type="dialog"/>
     <container displayname="Popup" id="hdrOne" type="dialog"/>
     <container displayname="Popup" id="ftrOne" type="dialog"/>
@@ -248,60 +247,19 @@
     <container displayname="Popup" id="template1" type="dialog"/>
     <container displayname="Popup" id="template2" type="dialog"/>
     <container displayname="Popup" id="template3" type="dialog"/>
-    <container displayname="Form" id="frmAclMeterReadings" type="form"/>
-    <container displayname="Form" id="frmAni2SplitHorizontalIn" type="form"/>
-    <container displayname="Form" id="frmAni2SplitHorizontalOut" type="form"/>
-    <container displayname="Form" id="frmAni2SplitVerticalIn" type="form"/>
-    <container displayname="Form" id="frmAni2SplitVerticalOut" type="form"/>
-    <container displayname="Form" id="frmAni4SplitIn" type="form"/>
-    <container displayname="Form" id="frmAni4SplitOut" type="form"/>
-    <container displayname="Form" id="frmAni4SplitRotateIn" type="form"/>
-    <container displayname="Form" id="frmAni4SplitRotateOut" type="form"/>
-    <container displayname="Form" id="frmAniCloth" type="form"/>
-    <container displayname="Form" id="frmAniCurl" type="form"/>
-    <container displayname="Form" id="frmAniDoor" type="form"/>
-    <container displayname="Form" id="frmAniFade" type="form"/>
-    <container displayname="Form" id="frmAniFlip" type="form"/>
-    <container displayname="Form" id="frmAniFlipLeft" type="form"/>
-    <container displayname="Form" id="frmAniFlipRight" type="form"/>
-    <container displayname="Form" id="frmAniMoveIn" type="form"/>
-    <container displayname="Form" id="frmAniMoveInFromBottom" type="form"/>
-    <container displayname="Form" id="frmAniMoveInFromTop" type="form"/>
-    <container displayname="Form" id="frmAniPush" type="form"/>
-    <container displayname="Form" id="frmAniReveal" type="form"/>
-    <container displayname="Form" id="frmAniRotateExchange" type="form"/>
-    <container displayname="Form" id="frmAniSwitchLeft" type="form"/>
-    <container displayname="Form" id="frmAniSwitchRight" type="form"/>
     <container displayname="Form" id="frmAnibottom" type="form"/>
-    <container displayname="Form" id="frmAnibottomlefttop" type="form"/>
-    <container displayname="Form" id="frmAnibottomtop" type="form"/>
-    <container displayname="Form" id="frmAnibottomtopstyle1" type="form"/>
-    <container displayname="Form" id="frmAnifromcenter" type="form"/>
-    <container displayname="Form" id="frmAnifromleft" type="form"/>
-    <container displayname="Form" id="frmAnifromright" type="form"/>
     <container displayname="Form" id="frmAnileft" type="form"/>
     <container displayname="Form" id="frmAnimations" type="form"/>
     <container displayname="Form" id="frmAniright" type="form"/>
-    <container displayname="Form" id="frmAnitoleft" type="form"/>
     <container displayname="Form" id="frmAnitop" type="form"/>
-    <container displayname="Form" id="frmAnitoprightbottom" type="form"/>
-    <container displayname="Form" id="frmAnitoright" type="form"/>
-    <container displayname="Form" id="frmAppSettings" type="form">
-        <component displayname="TextBox2" id="txtAppSet" type="textbox2"/>
-        <component displayname="ComboBox" id="CmbAppSet" type="combobox"/>
-    </container>
     <container displayname="Form" id="frmAsyncDataAccess" type="form">
         <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
         <component displayname="TextBox2" id="tbxFName" type="textbox2"/>
         <component displayname="TextBox2" id="tbxLName" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmBadge" type="form"/>
     <container displayname="Form" id="frmBrowser" type="form"/>
     <container displayname="Form" id="frmBrowserOptions" type="form"/>
     <container displayname="Form" id="frmButton" type="form"/>
-    <container displayname="Form" id="frmCalendarEvents" type="form"/>
-    <container displayname="Form" id="frmCamera" type="form"/>
-    <container displayname="Form" id="frmCameraOverlaid" type="form"/>
     <container displayname="Form" id="frmCheckbox" type="form"/>
     <container displayname="Form" id="frmComboBox" type="form">
         <component displayname="ComboBox" id="combobox11798972524560" type="combobox"/>
@@ -323,7 +281,6 @@
     <container displayname="Form" id="frmDatagrid" type="form"/>
     <container displayname="Form" id="frmDeviceFeatures" type="form"/>
     <container displayname="Form" id="frmDeviceInfo" type="form"/>
-    <container displayname="Form" id="frmDummy" type="form"/>
     <container displayname="Form" id="frmForm" type="form">
         <component displayname="TextBox2" id="tbxName" type="textbox2"/>
         <component displayname="TextBox2" id="tbxPassword" type="textbox2"/>
@@ -334,7 +291,6 @@
     <container displayname="Form" id="frmFormImgBG" type="form"/>
     <container displayname="Form" id="frmFormOptions" type="form"/>
     <container displayname="Form" id="frmGeoCurrentNWatch" type="form"/>
-    <container displayname="Form" id="frmGestures" type="form"/>
     <container displayname="Form" id="frmHdrFtr" type="form"/>
     <container displayname="Form" id="frmHome" type="form"/>
     <container displayname="Form" id="frmIcons" type="form"/>
@@ -369,20 +325,13 @@
     <container displayname="Form" id="frmPlatforms" type="form"/>
     <container displayname="Form" id="frmRadioButton" type="form"/>
     <container displayname="Form" id="frmRichText" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
-    <container displayname="Form" id="frmScrollBoxSPA" type="form"/>
-    <container displayname="Form" id="frmSegDictView" type="form"/>
     <container displayname="Form" id="frmSegDynRowTemplate" type="form"/>
     <container displayname="Form" id="frmSegOnReachEnd" type="form"/>
     <container displayname="Form" id="frmSegPull" type="form"/>
     <container displayname="Form" id="frmSegScreenLevel" type="form"/>
-    <container displayname="Form" id="frmSegSearchView" type="form"/>
     <container displayname="Form" id="frmSegSecHdrDock" type="form"/>
-    <container displayname="Form" id="frmSegSwipe" type="form"/>
     <container displayname="Form" id="frmSegmentFeatures" type="form"/>
     <container displayname="Form" id="frmSegmentTablet" type="form"/>
-    <container displayname="Form" id="frmSegmentViews" type="form"/>
-    <container displayname="Form" id="frmSlider" type="form"/>
     <container displayname="Form" id="frmSwitch" type="form"/>
     <container displayname="Form" id="frmTabPane" type="form"/>
     <container displayname="Form" id="frmTextArea" type="form"/>
@@ -397,28 +346,11 @@
             <attributes datatype="boolean" name="enablesearchbar" platform="spa" value="true"/>
         </component>
     </container>
-    <container displayname="Form" id="frmTitlebarBgColor" type="form"/>
-    <container displayname="Form" id="frmTitlebarBgImage" type="form"/>
-    <container displayname="Form" id="frmTitlebarCustom" type="form"/>
-    <container displayname="Form" id="frmTitlebarDefault" type="form"/>
-    <container displayname="Form" id="frmTitlebarOptions" type="form"/>
     <container displayname="Form" id="frmUInterface" type="form"/>
     <container displayname="Form" id="frmWebSQL" type="form"/>
-    <container displayname="Popup" id="frmPop" type="dialog">
-        <component displayname="Segment" id="segPop" type="segment"/>
-    </container>
     <container displayname="Popup" id="popFormAnchor" type="dialog"/>
-    <container displayname="Popup" id="popLeftNright" type="dialog">
-        <component displayname="TextBox2" id="textbox2117822895617269" type="textbox2"/>
-        <component displayname="TextBox2" id="textbox2117822895617299" type="textbox2"/>
-    </container>
-    <container displayname="Popup" id="popTopNBottom" type="dialog">
-        <component displayname="TextBox2" id="textbox2117822895617091" type="textbox2"/>
-        <component displayname="TextBox2" id="textbox2117822895617111" type="textbox2"/>
-    </container>
     <container displayname="Form" id="frmDeviceFeatures" type="form"/>
     <container displayname="Form" id="frmHome" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmUInterface" type="form"/>
     <container displayname="Form" id="frmDeviceFeatures" type="form"/>
     <container displayname="Form" id="frmHome" type="form"/>
@@ -436,6 +368,7 @@
         <component displayname="Calendar" id="calendar1181029310129177" type="calendar"/>
         <component displayname="Calendar" id="calendar192920684267015" type="calendar"/>
     </container>
+    <container displayname="Form" id="frmSegmentViews" type="form"/>
     <globalsequences/>
     <skins/>
 </application>
