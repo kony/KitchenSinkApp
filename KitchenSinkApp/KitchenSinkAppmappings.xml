@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <application id="KitchenSinkApp" name="KitchenSinkApp">
-    <container displayname="Popup" id="ftrOne" type="dialog"/>
-    <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Popup" id="hdrOne" type="dialog"/>
-    <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Form" id="frmBrowserOptions" type="form"/>
     <container displayname="Form" id="frmMap" type="form">
         <component displayname="Map" id="mapNrm" type="map">
@@ -17,7 +14,6 @@
         </component>
     </container>
     <container displayname="Popup" id="winMangoHeader" type="dialog"/>
-    <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Popup" id="dynamicTemplate1" type="dialog"/>
     <container displayname="Popup" id="dynamicTemplate2" type="dialog"/>
     <container displayname="Popup" id="hdr" type="dialog"/>
@@ -65,12 +61,6 @@
         <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
         <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
         <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
-    </container>
-    <container displayname="Form" id="frmForm" type="form">
-        <component displayname="TextBox2" id="textfield2103994549623675" type="textbox2"/>
-        <component displayname="TextBox2" id="textfield2103994549623701" type="textbox2"/>
-        <component displayname="ComboBox" id="combobox103994549623724" type="combobox"/>
-        <component displayname="Calendar" id="calendar103994549623759" type="calendar"/>
     </container>
     <container displayname="Form" id="frmFormOptions" type="form"/>
     <container displayname="Form" id="frmGeoCurrentNWatch" type="form"/>
@@ -132,6 +122,13 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
+    <container displayname="Form" id="frmForm" type="form">
+        <component displayname="TextBox2" id="tbxName" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxPassword" type="textbox2"/>
+        <component displayname="ComboBox" id="cmbCountry" type="combobox"/>
+        <component displayname="Calendar" id="calBDate" type="calendar"/>
+    </container>
+    <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Popup" id="hdrIconEdit" type="dialog"/>
     <container displayname="Popup" id="hdrOne" type="dialog"/>
     <container displayname="Popup" id="hdrSearch" type="dialog">
@@ -553,6 +550,9 @@
         </component>
     </container>
     <container displayname="Form" id="frmTxtArea" type="form"/>
+    <container displayname="Popup" id="ftrOne" type="dialog"/>
+    <container displayname="Popup" id="ftrOne" type="dialog"/>
+    <container displayname="Popup" id="ftrOne" type="dialog"/>
     <globalsequences/>
     <skins/>
 </application>

@@ -3219,10 +3219,10 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
@@ -4632,10 +4632,10 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
@@ -6029,10 +6029,10 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
@@ -6684,11 +6684,11 @@
                     </windows8>
                     <windows8_override>false</windows8_override>
                     <winmobile>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
-                        <unit>px</unit>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>2</top>
+                        <bottom>2</bottom>
+                        <unit>%</unit>
                     </winmobile>
                     <winmobile6x>
                         <left>1</left>
@@ -6932,8 +6932,8 @@
                 <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
                 <bb10_contentalignment>1</bb10_contentalignment>
                 <bb10_dropDownImage></bb10_dropDownImage>
-                <bb10_nativeSkin>None</bb10_nativeSkin>
-                <bb10_nativeFocusSkin>None</bb10_nativeFocusSkin>
+                <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
+                <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                 <bb10_placeHolder></bb10_placeHolder>
                 <bb10_ph_i18nId>None</bb10_ph_i18nId>
             </children>
@@ -7813,8 +7813,8 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>3</left>
-                    <right>3</right>
+                    <left>2</left>
+                    <right>2</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
@@ -8080,11 +8080,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -9625,9 +9625,9 @@
                 <winmobile>
                     <left>1</left>
                     <right>1</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -11380,7 +11380,7 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>4</left>
+                    <left>2</left>
                     <right>2</right>
                     <top>1</top>
                     <bottom>3</bottom>
@@ -11821,8 +11821,8 @@
             <android_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</android_itemOrientation>
             <android_tickedImage></android_tickedImage>
             <android_untickedImage></android_untickedImage>
-            <wm_tickedImage></wm_tickedImage>
-            <wm_untickedImage></wm_untickedImage>
+            <wm_tickedImage>chkboxchkd.png</wm_tickedImage>
+            <wm_untickedImage>chkbox.png</wm_untickedImage>
             <palm_tickedImage></palm_tickedImage>
             <palm_untickedImage></palm_untickedImage>
             <preOnclickJS></preOnclickJS>
@@ -11837,6 +11837,8 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <winmobile_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winmobile_itemOrientation>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
+            <overrideProperties>KCheckBox.wm_TickedImage</overrideProperties>
+            <overrideProperties>KCheckBox.wm_UnTickedImage</overrideProperties>
             <winphone8_tickedimage></winphone8_tickedimage>
             <winphone8_untickedimage></winphone8_untickedimage>
             <winphone8_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winphone8_itemOrientation>
