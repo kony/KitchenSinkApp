@@ -2597,8 +2597,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -3698,8 +3698,8 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,Arial-BoldMT" type="map"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -4249,8 +4249,8 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,HelveticaNeue-Bold" type="map"/>
-        <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -5764,8 +5764,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111110111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -5905,8 +5905,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -6046,8 +6046,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -9054,8 +9054,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="Android,default_bold" type="map"/>
         <att name="FontNameMap" value="IPhone,HelveticaNeue-Bold" type="map"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Blackberry,BBAlpha Sans" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -9747,8 +9747,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -10986,8 +10986,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -11128,8 +11128,8 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,HelveticaNeue-Bold" type="map"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -12355,8 +12355,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -13048,8 +13048,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -14145,8 +14145,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -15644,8 +15644,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -16059,8 +16059,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -17149,8 +17149,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -18505,8 +18505,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -18646,8 +18646,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111110111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -19736,8 +19736,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -20687,8 +20687,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -20828,8 +20828,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -21374,8 +21374,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -21785,8 +21785,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -21926,8 +21926,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -23020,8 +23020,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -26588,8 +26588,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -27003,8 +27003,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -29205,8 +29205,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -29346,8 +29346,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -29622,8 +29622,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -31118,8 +31118,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -31533,8 +31533,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111110111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -32893,8 +32893,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -33035,8 +33035,8 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="Android,serif" type="map"/>
-        <att name="FontNameMap" value="WinMobile,GenericSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSerif" type="map"/>
         <att name="FontNameMap" value="Blackberry,BBSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -34005,8 +34005,8 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="Android,sans_serif" type="map"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Blackberry,BBSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -34287,8 +34287,8 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="Android,monospace" type="map"/>
-        <att name="FontNameMap" value="WinMobile,GenericMonospace" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericMonospace" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericMonospace" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -34833,8 +34833,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -35523,8 +35523,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -35803,8 +35803,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -36079,8 +36079,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -36634,8 +36634,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -38010,8 +38010,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -39383,8 +39383,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="FontNameMap" value="Windows8,GenericSansSerif" type="map"/>
+        <att name="FontNameMap" value="WinMobile,GenericSansSerif" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>

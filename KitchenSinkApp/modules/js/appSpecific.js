@@ -178,6 +178,8 @@ function createAppMenu()
 		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAniSPA.show()}];
 	else if (channel == "tablet" || channel == "desktopweb")
    		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAnimations.show()}];
+	else if (channel == "mobile" || channel == "WindowsPhone")
+   		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAniWin.show()}];
 	else
 		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAni.show()}];
 		
@@ -203,7 +205,15 @@ function createAppMenu()
 		var uiMItem = ["uiId", "UI", "app_ui.png",function uiMenuCallBack(){frmUICategory.show()}];
 	}
 	
-	var appMenu= [homeMItem,uiMItem,animationMItem,featuresMItem,closeMItem];
+	
+	if(channel == "mobile" && kony.os.deviceInfo().name == "WindowsPhone")
+    {
+  	  	var appMenu= [homeMItem,animationMItem,featuresMItem,closeMItem];
+    }
+    else
+    {
+    	var appMenu= [homeMItem,uiMItem,animationMItem,featuresMItem,closeMItem];
+    }
     
     if(kony.os.deviceInfo().name == "thinclient"&& channel != "tablet" && channel != "desktopweb")
 	{
@@ -213,7 +223,11 @@ function createAppMenu()
     {
 		kony.application.createAppMenu("ksaAppMenu", appMenu, "AppMenuIpad", "");
 	}
-	else
+	else if(channel == "mobile" && kony.os.deviceInfo().name == "WindowsPhone")
+    {
+  	  kony.application.createAppMenu("ksaAppMenu", appMenu, "appMenuSPA", "");
+    }
+    else 
     {
   	  kony.application.createAppMenu("ksaAppMenu", appMenu, "", "");
     }

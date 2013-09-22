@@ -4778,8 +4778,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="Desktop_web,Verdana" type="map"/>
         <att name="FontNameMap" value="iPad,Verdana" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Verdana" type="map"/>
         <att name="FontNameMap" value="IPhone,Verdana" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -5902,8 +5902,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="Desktop_web,Helvetica" type="map"/>
         <att name="FontNameMap" value="iPad,Helvetica" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Helvetica" type="map"/>
         <att name="FontNameMap" value="IPhone,Helvetica" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -13364,8 +13364,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="iPad,Courier" type="map"/>
         <att name="FontNameMap" value="Desktop_web,Courier New" type="map"/>
+        <att name="FontNameMap" value="iPad,Courier" type="map"/>
         <att name="FontNameMap" value="IPhone,Courier" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -23591,8 +23591,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="iPad,Zapfino" type="map"/>
         <att name="FontNameMap" value="Desktop_web,Andale Mono" type="map"/>
+        <att name="FontNameMap" value="iPad,Zapfino" type="map"/>
         <att name="FontNameMap" value="IPhone,Zapfino" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -28650,8 +28650,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="iPad,TimesNewRomanPSMT" type="map"/>
         <att name="FontNameMap" value="Desktop_web,Times New Roman" type="map"/>
+        <att name="FontNameMap" value="iPad,TimesNewRomanPSMT" type="map"/>
         <att name="FontNameMap" value="IPhone,TimesNewRomanPSMT" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -29645,8 +29645,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="Desktop_web,Arial" type="map"/>
         <att name="FontNameMap" value="iPad,Arial" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Arial" type="map"/>
         <att name="FontNameMap" value="IPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -33453,8 +33453,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="Desktop_web,Georgia" type="map"/>
         <att name="FontNameMap" value="iPad,Georgia" type="map"/>
+        <att name="FontNameMap" value="Desktop_web,Georgia" type="map"/>
         <att name="FontNameMap" value="IPhone,Georgia" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -34577,8 +34577,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="iPad,TrebuchetMS" type="map"/>
         <att name="FontNameMap" value="Desktop_web,Trebuchet MS" type="map"/>
+        <att name="FontNameMap" value="iPad,TrebuchetMS" type="map"/>
         <att name="FontNameMap" value="IPhone,TrebuchetMS" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
@@ -43182,8 +43182,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="iPad,HelveticaNeue" type="map"/>
         <att name="FontNameMap" value="Desktop_web,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="iPad,HelveticaNeue" type="map"/>
         <att name="FontNameMap" value="IPhone,HelveticaNeue" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
