@@ -178,7 +178,7 @@ function createAppMenu()
 		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAniSPA.show()}];
 	else if (channel == "tablet" || channel == "desktopweb")
    		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAnimations.show()}];
-	else if (channel == "mobile" || channel == "WindowsPhone")
+	else if (channel == "mobile" && channel == "WindowsPhone")
    		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAniWin.show()}];
 	else
 		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAni.show()}];
