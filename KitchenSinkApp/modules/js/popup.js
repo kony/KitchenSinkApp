@@ -12,7 +12,7 @@ function popUpFromBottom()
 	}
 	else
 	{
-		if(kony.os.deviceInfo().name == "windowsPhone")
+		if(kony.os.deviceInfo().name == "WindowsPhone")
 			var context4={"widget":frmPopup,"anchor":"bottom"};	
 		else if(channel=="tablet" || channel=="desktopweb" )
 			var context4={"widget":frmUInterface,"anchor":"bottom"};	

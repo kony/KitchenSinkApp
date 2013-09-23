@@ -13836,7 +13836,7 @@
         <att name="Name" value="cboxNormal" type="String"/>
         <att name="WidgetType" value="ComboBox" type="String"/>
         <att name="Bg_type" value="0" type="int"/>
-        <att name="Background_color" value="60,149,186" type="RGB"/>
+        <att name="Background_color" value="210,232,240" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
         <att name="Rightbg_gradient_style" value="0" type="int"/>
@@ -13895,7 +13895,7 @@
         <att name="Font_weight" value="bold" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="144" type="String"/>
-        <att name="Font_color" value="255,255,255" type="RGB"/>
+        <att name="Font_color" value="0,0,0" type="RGB"/>
         <att name="Font_color_alpha" value="0" type="String"/>
         <att name="Rightfont_weight" value="normal" type="String"/>
         <att name="Rightfont_style" value="" type="String"/>
