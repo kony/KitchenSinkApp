@@ -418,10 +418,10 @@
         <att name="Chart2d3dProperties" value="" type="String"/>
     </skin>
     <skin>
-        <att name="Name" value="cbxFocus" type="String"/>
-        <att name="WidgetType" value="CheckBoxGroup" type="String"/>
-        <att name="Bg_type" value="3" type="int"/>
-        <att name="Background_color" value="0,0,0" type="RGB"/>
+        <att name="Name" value="txtAreaNormal" type="String"/>
+        <att name="WidgetType" value="TextArea2" type="String"/>
+        <att name="Bg_type" value="0" type="int"/>
+        <att name="Background_color" value="192,192,192" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
         <att name="Rightbg_gradient_style" value="0" type="int"/>
@@ -556,10 +556,10 @@
         <att name="Chart2d3dProperties" value="" type="String"/>
     </skin>
     <skin>
-        <att name="Name" value="txtAreaNormal" type="String"/>
-        <att name="WidgetType" value="TextArea2" type="String"/>
-        <att name="Bg_type" value="0" type="int"/>
-        <att name="Background_color" value="192,192,192" type="RGB"/>
+        <att name="Name" value="cbxFocus" type="String"/>
+        <att name="WidgetType" value="CheckBoxGroup" type="String"/>
+        <att name="Bg_type" value="3" type="int"/>
+        <att name="Background_color" value="0,0,0" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
         <att name="Rightbg_gradient_style" value="0" type="int"/>

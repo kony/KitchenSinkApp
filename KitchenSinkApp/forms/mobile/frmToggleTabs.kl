@@ -989,11 +989,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>7</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>6</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -1003,7 +1003,7 @@
                     <unit>px</unit>
                 </winmobile6x>
                 <winmobile6x_override>true</winmobile6x_override>
-                <winmobile_override>false</winmobile_override>
+                <winmobile_override>true</winmobile_override>
                 <winphone8>
                     <left>0</left>
                     <right>0</right>
@@ -2297,8 +2297,8 @@
                         </windows8>
                         <windows8_override>false</windows8_override>
                         <winmobile>
-                            <left>6</left>
-                            <right>6</right>
+                            <left>12</left>
+                            <right>12</right>
                             <top>6</top>
                             <bottom>6</bottom>
                             <unit>px</unit>
@@ -3605,10 +3605,10 @@
                         </windows8>
                         <windows8_override>false</windows8_override>
                         <winmobile>
-                            <left>4</left>
-                            <right>0</right>
-                            <top>4</top>
-                            <bottom>2</bottom>
+                            <left>12</left>
+                            <right>12</right>
+                            <top>6</top>
+                            <bottom>6</bottom>
                             <unit>px</unit>
                         </winmobile>
                         <winmobile6x>
@@ -4913,10 +4913,10 @@
                         </windows8>
                         <windows8_override>false</windows8_override>
                         <winmobile>
-                            <left>4</left>
-                            <right>0</right>
-                            <top>4</top>
-                            <bottom>2</bottom>
+                            <left>12</left>
+                            <right>12</right>
+                            <top>6</top>
+                            <bottom>6</bottom>
                             <unit>px</unit>
                         </winmobile>
                         <winmobile6x>

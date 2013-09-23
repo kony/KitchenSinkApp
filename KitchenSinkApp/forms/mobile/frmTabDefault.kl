@@ -2296,7 +2296,7 @@
                 <winmobile>
                     <left>2</left>
                     <right>2</right>
-                    <top>4</top>
+                    <top>6</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </winmobile>
@@ -3602,8 +3602,8 @@
                         </windows8>
                         <windows8_override>false</windows8_override>
                         <winmobile>
-                            <left>6</left>
-                            <right>6</right>
+                            <left>12</left>
+                            <right>12</right>
                             <top>6</top>
                             <bottom>6</bottom>
                             <unit>px</unit>
@@ -4910,8 +4910,8 @@
                         </windows8>
                         <windows8_override>false</windows8_override>
                         <winmobile>
-                            <left>6</left>
-                            <right>6</right>
+                            <left>12</left>
+                            <right>12</right>
                             <top>6</top>
                             <bottom>6</bottom>
                             <unit>px</unit>
@@ -6218,8 +6218,8 @@
                         </windows8>
                         <windows8_override>false</windows8_override>
                         <winmobile>
-                            <left>6</left>
-                            <right>6</right>
+                            <left>12</left>
+                            <right>12</right>
                             <top>6</top>
                             <bottom>0</bottom>
                             <unit>px</unit>

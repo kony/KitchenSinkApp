@@ -20,7 +20,7 @@
     <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.debug.ui.LuaDebugUIPlugin" plugin-name="Lua Debug UI"/>
     <pluginInfo version-no="5.5.16.QA_v201309171623" plugin-id="com.pat.android.Activator" plugin-name="Tablet Android"/>
     <pluginInfo version-no="5.5.7.QA_v201309181131" plugin-id="com.pat.j2me.J2MEPlugin" plugin-name="Blackberry &amp; J2ME"/>
-    <pluginInfo version-no="5.5.0.beta_v201308311937" plugin-id="com.pat.winmobile.WinMobilePlugin" plugin-name="Winmobile Plug-in"/>
+    <pluginInfo version-no="5.5.3.QA_v201309181647" plugin-id="com.pat.winmobile.WinMobilePlugin" plugin-name="Winmobile Plug-in"/>
     <pluginInfo version-no="5.5.4.QA_v201309181628" plugin-id="com.kony.windows.WindowsPhone8Plugin" plugin-name="Windows Phone 8 Plug-in"/>
     <pluginInfo version-no="5.5.4.QA_v201309181541" plugin-id="com.kony.windows.Windows8Plugin" plugin-name="Windows 8 Plug-in"/>
     <pluginInfo version-no="5.5.16.QA_v201309171434" plugin-id="com.pat.android.Activator" plugin-name="Android"/>
@@ -30,5 +30,5 @@
     <pluginInfo version-no="5.5.11.QA_v201309181139_r2" plugin-name="Desktop Web"/>
     <pluginInfo version-no="5.5.4.GA_v201309162142" plugin-id="com.kony.sync.ide.SyncPlugin" plugin-name="Kony Sync"/>
     <pluginInfo version-no="5.5.3.QA_v201309021725" plugin-id="com.kony.web.Activator" plugin-name="Kony Web Commons"/>
-    <pluginInfo version-no="5.5.0.beta_v201309010031" plugin-id="iosplugin.Activator" plugin-name="iOS Plugin"/>
+    <pluginInfo version-no="5.5.13.QA_v201309191426" plugin-id="iosplugin.Activator" plugin-name="iOS Plugin"/>
 </plugins>

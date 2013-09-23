@@ -698,8 +698,8 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA Blackberry,Arial" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -3120,8 +3120,8 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,TimesNewRomanPSMT" type="map"/>
-        <att name="FontNameMap" value="SPA Blackberry,Times New Roman" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Times New Roman" type="map"/>
+        <att name="FontNameMap" value="SPA Blackberry,Times New Roman" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -10689,8 +10689,8 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,TrebuchetMS" type="map"/>
-        <att name="FontNameMap" value="SPA Blackberry,Trebuchet MS" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Trebuchet MS" type="map"/>
+        <att name="FontNameMap" value="SPA Blackberry,Trebuchet MS" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -11118,8 +11118,8 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,Courier" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Courier New" type="map"/>
         <att name="FontNameMap" value="SPA Blackberry,Courier New" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Courier New" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -11401,8 +11401,8 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA Blackberry,Arial" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -15517,11 +15517,6 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-<att name="Shadow_color" value="0,0,0" type="RGB"/>
-<att name="Shadow_x" value="0" type="Integer"/>
-<att name="Shadow_y" value="0" type="Integer"/>
-<att name="BlurRadius" value="0" type="Integer"/>
-<att name="InnerShadow" value="false" type="Boolean"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
