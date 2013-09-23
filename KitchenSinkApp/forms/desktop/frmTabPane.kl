@@ -9233,7 +9233,7 @@
                     <activetab>2</activetab>
                     <tabviewdata>
                         <category>200</category>
-                        <desktopWeb>tabview</desktopWeb>
+                        <desktopWeb>collapsibleview</desktopWeb>
                         <platform>0</platform>
                         <rc_android>collapsibleview</rc_android>
                         <rc_bb>tabview</rc_bb>
@@ -15802,7 +15802,7 @@
                     <activetab>2</activetab>
                     <tabviewdata>
                         <category>200</category>
-                        <desktopWeb>tabview</desktopWeb>
+                        <desktopWeb>collapsibleview</desktopWeb>
                         <platform>0</platform>
                         <rc_android>collapsibleview</rc_android>
                         <rc_bb>tabview</rc_bb>
@@ -22371,7 +22371,7 @@
                     <activetab>2</activetab>
                     <tabviewdata>
                         <category>200</category>
-                        <desktopWeb>tabview</desktopWeb>
+                        <desktopWeb>collapsibleview</desktopWeb>
                         <platform>0</platform>
                         <rc_android>collapsibleview</rc_android>
                         <rc_bb>tabview</rc_bb>
