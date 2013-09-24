@@ -40,7 +40,7 @@ function browserOptions(eventObj)
 			else if((channel== "tablet" && kony.os.deviceInfo().name == "iPad")||channel=="desktopweb")
 				frmBrowser.brwDemo.htmlString ="<p><font size=\"5\" color=\"black\"><br/>This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.</font></p>";
 			else
-				frmBrowser.brwDemo.htmlString ="<h3>This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/></ ";
+				frmBrowser.brwDemo.htmlString ="<h3>This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.</h3> ";
 			break;
 		case "Browser with dynamic content":
 			frmBrowser.title = "Dynamic URL";

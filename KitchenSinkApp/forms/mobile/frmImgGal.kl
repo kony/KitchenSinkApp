@@ -3407,7 +3407,7 @@
                 <winmobile6x_override>false</winmobile6x_override>
                 <winmobile6x_space>0</winmobile6x_space>
                 <winmobile_override>false</winmobile_override>
-                <winmobile_space>2</winmobile_space>
+                <winmobile_space>4</winmobile_space>
                 <winphone8_override>false</winphone8_override>
                 <winphone8_space>0</winphone8_space>
                 <xhtmlAdvAndroid_override>false</xhtmlAdvAndroid_override>
