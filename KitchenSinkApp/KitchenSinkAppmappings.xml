@@ -282,7 +282,6 @@
     <container displayname="Form" id="frmHdrFooter" type="form"/>
     <container displayname="Form" id="frmHome" type="form"/>
     <container displayname="Form" id="frmIconEditStyle" type="form"/>
-    <container displayname="Form" id="frmIcons" type="form"/>
     <container displayname="Form" id="frmImage" type="form"/>
     <container displayname="Form" id="frmImgFitToDimensions" type="form"/>
     <container displayname="Form" id="frmImgGal" type="form"/>
@@ -553,6 +552,7 @@
         </component>
     </container>
     <container displayname="Form" id="frmTxtArea" type="form"/>
+    <container displayname="Form" id="frmIcons" type="form"/>
     <globalsequences/>
     <skins/>
 </application>
