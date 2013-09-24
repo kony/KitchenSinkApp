@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <application id="KitchenSinkApp" name="KitchenSinkApp">
     <container displayname="Popup" id="ftrOne" type="dialog"/>
-    <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Popup" id="hdrOne" type="dialog"/>
     <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Form" id="frmBrowserOptions" type="form"/>
@@ -36,10 +35,6 @@
     <container displayname="Form" id="frmAnileft" type="form"/>
     <container displayname="Form" id="frmAniright" type="form"/>
     <container displayname="Form" id="frmAnitop" type="form"/>
-    <container displayname="Form" id="frmAsyncDataAccess" type="form">
-        <component displayname="TextBox2" id="tbxFName" type="textbox2"/>
-        <component displayname="TextBox2" id="tbxLName" type="textbox2"/>
-    </container>
     <container displayname="Form" id="frmBrowserOptions" type="form"/>
     <container displayname="Form" id="frmContact" type="form"/>
     <container displayname="Form" id="frmIcons" type="form"/>
@@ -59,6 +54,15 @@
     <container displayname="Popup" id="popFormAnchor" type="dialog"/>
     <container displayname="Form" id="frmHome" type="form"/>
     <container displayname="Form" id="frmImgStrip" type="form"/>
+    <container displayname="Form" id="frmForm" type="form">
+        <component displayname="TextBox2" id="textfield2103994549623675" type="textbox2"/>
+        <component displayname="TextBox2" id="textfield2103994549623701" type="textbox2"/>
+        <component displayname="ComboBox" id="combobox103994549623724" type="combobox"/>
+        <component displayname="Calendar" id="calendar103994549623759" type="calendar"/>
+    </container>
+    <container displayname="Form" id="frmFormOptions" type="form"/>
+    <container displayname="Form" id="frmHome" type="form"/>
+    <container displayname="Form" id="frmImgStrip" type="form"/>
     <container displayname="Form" id="frmCrypto" type="form">
         <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
         <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
@@ -82,31 +86,6 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmCrypto" type="form">
-        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
-    </container>
-    <container displayname="Form" id="frmDeviceInfo" type="form"/>
-    <container displayname="Form" id="frmForm" type="form">
-        <component displayname="TextBox2" id="textfield2103994549623675" type="textbox2"/>
-        <component displayname="TextBox2" id="textfield2103994549623701" type="textbox2"/>
-        <component displayname="ComboBox" id="combobox103994549623724" type="combobox"/>
-        <component displayname="Calendar" id="calendar103994549623759" type="calendar"/>
-    </container>
-    <container displayname="Form" id="frmFormOptions" type="form"/>
-    <container displayname="Form" id="frmGeoCurrentNWatch" type="form"/>
-    <container displayname="Form" id="frmHome" type="form"/>
-    <container displayname="Form" id="frmImgStrip" type="form"/>
-    <container displayname="Form" id="frmLocalStore" type="form">
-        <component displayname="TextBox2" id="frmLocalTxtSet1" type="textbox2"/>
-        <component displayname="TextBox2" id="frmLocalTxtSet2" type="textbox2"/>
-        <component displayname="TextBox2" id="frmLocalTxtGet1" type="textbox2"/>
-        <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
-        <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
-    </container>
-    <container displayname="Form" id="frmBrowser" type="form"/>
     <container displayname="Form" id="frmCrypto" type="form">
         <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
         <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
@@ -156,10 +135,6 @@
     <container displayname="Popup" id="template2" type="dialog"/>
     <container displayname="Popup" id="template3" type="dialog"/>
     <container displayname="Form" id="frm3DObj" type="form"/>
-    <container displayname="Form" id="frmAPIKey" type="form">
-        <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
-    </container>
-    <container displayname="Form" id="frmAclMeterReadings" type="form"/>
     <container displayname="Form" id="frmAclmeterOptions" type="form"/>
     <container displayname="Form" id="frmAdvancedWidgets" type="form"/>
     <container displayname="Form" id="frmAni" type="form"/>
@@ -266,10 +241,8 @@
     </container>
     <container displayname="Form" id="frmCustomCollapsTab" type="form"/>
     <container displayname="Form" id="frmDatagrd" type="form"/>
-    <container displayname="Form" id="frmDeviceInfo" type="form"/>
     <container displayname="Form" id="frmDictView" type="form"/>
     <container displayname="Form" id="frmDummy" type="form"/>
-    <container displayname="Form" id="frmDvcFeatures" type="form"/>
     <container displayname="Form" id="frmEmail" type="form"/>
     <container displayname="Form" id="frmForm" type="form">
         <component displayname="TextBox2" id="tbxName" type="textbox2"/>
@@ -280,7 +253,6 @@
     <container displayname="Form" id="frmFormImgBck" type="form"/>
     <container displayname="Form" id="frmFormOptions" type="form"/>
     <container displayname="Form" id="frmGeoCurrentNWatch" type="form"/>
-    <container displayname="Form" id="frmGestures" type="form"/>
     <container displayname="Form" id="frmHdrFooter" type="form"/>
     <container displayname="Form" id="frmHome" type="form"/>
     <container displayname="Form" id="frmIconEditStyle" type="form"/>
@@ -329,7 +301,6 @@
     <container displayname="Form" id="frmRegisterAccelerometer" type="form"/>
     <container displayname="Form" id="frmRichText" type="form"/>
     <container displayname="Form" id="frmRowTemplates" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmScrollSPA" type="form"/>
     <container displayname="Form" id="frmSecHdrWidoutTemplates" type="form"/>
     <container displayname="Form" id="frmSegBoxes" type="form"/>
@@ -356,7 +327,6 @@
     <container displayname="Form" id="frmSwitch" type="form"/>
     <container displayname="Form" id="frmTabCollpasible" type="form"/>
     <container displayname="Form" id="frmTabDefault" type="form"/>
-    <container displayname="Form" id="frmTabPageView" type="form"/>
     <container displayname="Form" id="frmTabScreenLevel" type="form">
         <component displayname="TextBox2" id="textfieldTS1" type="textbox2"/>
         <component displayname="TextBox2" id="textfieldTS2" type="textbox2"/>
@@ -385,7 +355,6 @@
     <container displayname="Form" id="frmUICategory" type="form"/>
     <container displayname="Form" id="frmURLBasedImage" type="form"/>
     <container displayname="Form" id="frmWebSQL" type="form"/>
-    <container displayname="Form" id="frmWebSQLResults" type="form"/>
     <container displayname="Form" id="frmsegGroupMode" type="form"/>
     <container displayname="Popup" id="popFormAnchor" type="dialog"/>
     <container displayname="Form" id="frmAdvancedWidgets" type="form"/>
@@ -404,12 +373,9 @@
     <container displayname="Form" id="frmUICategory" type="form"/>
     <container displayname="Form" id="frmBrowser" type="form"/>
     <container displayname="Form" id="frmImgStrip" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
-    <container displayname="Form" id="frmTabPageView" type="form"/>
     <container displayname="Form" id="frmComplex" type="form"/>
     <container displayname="Form" id="frmImgGal" type="form"/>
     <container displayname="Form" id="frmImgStrip" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmSegPageView" type="form"/>
     <container displayname="Form" id="frmSegSections" type="form"/>
     <container displayname="Form" id="frmsegGroupMode" type="form"/>
@@ -443,7 +409,6 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmSegPageView" type="form"/>
     <container displayname="Form" id="frmSegTableView" type="form"/>
     <container displayname="Form" id="frmSegmentOptions" type="form"/>
@@ -490,7 +455,6 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmSegPageView" type="form"/>
     <container displayname="Form" id="frmSegTableView" type="form"/>
     <container displayname="Form" id="frmSegmentOptions" type="form"/>
@@ -553,6 +517,42 @@
         </component>
     </container>
     <container displayname="Form" id="frmTxtArea" type="form"/>
+    <container displayname="Form" id="frmAclMeterReadings" type="form"/>
+    <container displayname="Form" id="frmDeviceInfo" type="form"/>
+    <container displayname="Form" id="frmGeoCurrentNWatch" type="form"/>
+    <container displayname="Form" id="frmDeviceInfo" type="form"/>
+    <container displayname="Form" id="frmWebSQLResults" type="form"/>
+    <container displayname="Form" id="frmAPIKey" type="form">
+        <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
+    </container>
+    <container displayname="Form" id="frmAsyncDataAccess" type="form">
+        <component displayname="TextBox2" id="tbxFName" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxLName" type="textbox2"/>
+    </container>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
+    </container>
+    <container displayname="Form" id="frmDvcFeatures" type="form"/>
+    <container displayname="Form" id="frmLocalStore" type="form">
+        <component displayname="TextBox2" id="frmLocalTxtSet1" type="textbox2"/>
+        <component displayname="TextBox2" id="frmLocalTxtSet2" type="textbox2"/>
+        <component displayname="TextBox2" id="frmLocalTxtGet1" type="textbox2"/>
+        <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
+        <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
+    </container>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
+    <container displayname="Form" id="frmGestures" type="form"/>
+    <container displayname="Form" id="frmTabPageView" type="form"/>
+    <container displayname="Popup" id="ftrOne" type="dialog"/>
+    <container displayname="Form" id="frmTabPageView" type="form"/>
+    <container displayname="Form" id="frmBrowser" type="form"/>
     <globalsequences/>
     <skins/>
 </application>

@@ -25,13 +25,15 @@ function Encrypt()
 		{
 			var inputstr=frmCrypto.textEncrypt.text;
 		}
-		
-		var prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
+		//if(kony.os.deviceInfo().name !="WindowsPhone")
+			var prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
+		//else
+		//	var prptobj={};
 
 		var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);
 		var myEncryptedText  = kony.convertToBase64(myEncryptedTextRaw);
 		
-		if(kony.os.deviceInfo().name == "Windows 8")
+		if(kony.os.deviceInfo().name == "Windows 8" || kony.os.deviceInfo().name == "WindowsPhone")
 		{
 			frmCrypto.lblEncrypt.text = "Encrypted text = "+myEncryptedTextRaw.toString();
 		}

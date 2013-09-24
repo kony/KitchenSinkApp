@@ -1442,8 +1442,8 @@
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
-                <referenceWidth>446</referenceWidth>
-                <referenceHeight>35</referenceHeight>
+                <referenceWidth>480</referenceWidth>
+                <referenceHeight>40</referenceHeight>
                 <localeId>None</localeId>
                 <visible>true</visible>
                 <rendererData>

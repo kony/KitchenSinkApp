@@ -645,6 +645,26 @@ kony.accelerometer.stopMonitoringAcceleration();</value>
         <win_autofocus>true</win_autofocus>
         <wm_orientation>2</wm_orientation>
         <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
+        <wm_onDevBack_root>
+            <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>alert("device back")
+kony.accelerometer.stopMonitoringAcceleration()
+frmAclmeterOptions.show();</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </wm_onDevBack_root>
         <win_intransition>Default</win_intransition>
         <win_outtransition>Default</win_outtransition>
         <win_intransitionmode>Default</win_intransitionmode>
@@ -6857,8 +6877,8 @@ kony.accelerometer.stopMonitoringAcceleration();</value>
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>12</left>
-                    <right>12</right>
+                    <left>1</left>
+                    <right>1</right>
                     <top>6</top>
                     <bottom>6</bottom>
                     <unit>px</unit>

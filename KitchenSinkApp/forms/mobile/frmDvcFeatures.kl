@@ -9355,7 +9355,7 @@ frmLocalStore.frmLocalTxtSet1.text == ""</value>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>false</rc_j2me>
@@ -9364,7 +9364,7 @@ frmLocalStore.frmLocalTxtSet1.text == ""</value>
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -9373,7 +9373,7 @@ frmLocalStore.frmLocalTxtSet1.text == ""</value>
                 <tc_spabb_nth>false</tc_spabb_nth>
                 <tc_spaiphone>false</tc_spaiphone>
                 <tc_spawindows>false</tc_spawindows>
-                <tc_spawinphone8>true</tc_spawinphone8>
+                <tc_spawinphone8>false</tc_spawinphone8>
                 <tc_xhtml>true</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>

@@ -2091,9 +2091,9 @@
             <tc_postonClickJSEvent></tc_postonClickJSEvent>
             <tooltip></tooltip>
             <contentAlign>0</contentAlign>
-            <panorama_image>bg.png</panorama_image>
+            <panorama_image>bgpanorama.png</panorama_image>
             <panorama_title></panorama_title>
-            <panorama_title_image>konygreen.png</panorama_title_image>
+            <panorama_title_image>konygreenpanorama.png</panorama_title_image>
             <children xsi:type="kTab">
                 <ID>tab117989725218498</ID>
                 <gridMetaData>

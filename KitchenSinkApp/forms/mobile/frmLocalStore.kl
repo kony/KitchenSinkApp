@@ -3849,10 +3849,10 @@
                             </windows8>
                             <windows8_override>false</windows8_override>
                             <winmobile>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </winmobile>
                             <winmobile6x>
@@ -3863,7 +3863,7 @@
                                 <unit>%</unit>
                             </winmobile6x>
                             <winmobile6x_override>false</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
                                 <left>0</left>
                                 <right>0</right>
@@ -3986,6 +3986,7 @@
                         </onClick>
                         <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                         <placeholder>Key</placeholder>
+                        <placeholder_I18N></placeholder_I18N>
                         <keyboard_type>0</keyboard_type>
                         <onTextChange>
                             <evtSequence>
@@ -4053,6 +4054,18 @@
                         <tc_autocorrect>false</tc_autocorrect>
                         <tcPostOnclickJs></tcPostOnclickJs>
                         <tcPreOnclickJs></tcPreOnclickJs>
+                        <spa_onBeginEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onBeginEditing>
+                        <spa_onEndEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onEndEditing>
                         <spa_autoComplete>false</spa_autoComplete>
                         <bb_autoFilter>false</bb_autoFilter>
                         <bb10_autoFilter>false</bb10_autoFilter>
@@ -4615,10 +4628,10 @@
                             </windows8>
                             <windows8_override>false</windows8_override>
                             <winmobile>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </winmobile>
                             <winmobile6x>
@@ -4629,7 +4642,7 @@
                                 <unit>%</unit>
                             </winmobile6x>
                             <winmobile6x_override>false</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
                                 <left>0</left>
                                 <right>0</right>
@@ -4752,6 +4765,7 @@
                         </onClick>
                         <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                         <placeholder>Value</placeholder>
+                        <placeholder_I18N></placeholder_I18N>
                         <keyboard_type>0</keyboard_type>
                         <onTextChange>
                             <evtSequence>
@@ -4819,6 +4833,18 @@
                         <tc_autocorrect>false</tc_autocorrect>
                         <tcPostOnclickJs></tcPostOnclickJs>
                         <tcPreOnclickJs></tcPreOnclickJs>
+                        <spa_onBeginEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onBeginEditing>
+                        <spa_onEndEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onEndEditing>
                         <spa_autoComplete>false</spa_autoComplete>
                         <bb_autoFilter>false</bb_autoFilter>
                         <bb10_autoFilter>false</bb10_autoFilter>
@@ -9362,10 +9388,10 @@
                             </windows8>
                             <windows8_override>false</windows8_override>
                             <winmobile>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </winmobile>
                             <winmobile6x>
@@ -9376,7 +9402,7 @@
                                 <unit>%</unit>
                             </winmobile6x>
                             <winmobile6x_override>false</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
                                 <left>0</left>
                                 <right>0</right>
@@ -9499,6 +9525,7 @@
                         </onClick>
                         <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                         <placeholder>Key</placeholder>
+                        <placeholder_I18N></placeholder_I18N>
                         <keyboard_type>0</keyboard_type>
                         <onTextChange>
                             <evtSequence>
@@ -9566,6 +9593,18 @@
                         <tc_autocorrect>false</tc_autocorrect>
                         <tcPostOnclickJs></tcPostOnclickJs>
                         <tcPreOnclickJs></tcPreOnclickJs>
+                        <spa_onBeginEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onBeginEditing>
+                        <spa_onEndEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onEndEditing>
                         <spa_autoComplete>false</spa_autoComplete>
                         <bb_autoFilter>false</bb_autoFilter>
                         <bb10_autoFilter>false</bb10_autoFilter>
@@ -14747,10 +14786,10 @@
                             </windows8>
                             <windows8_override>false</windows8_override>
                             <winmobile>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </winmobile>
                             <winmobile6x>
@@ -14761,7 +14800,7 @@
                                 <unit>%</unit>
                             </winmobile6x>
                             <winmobile6x_override>false</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
                                 <left>0</left>
                                 <right>0</right>
@@ -14884,6 +14923,7 @@
                         </onClick>
                         <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                         <placeholder>Index</placeholder>
+                        <placeholder_I18N></placeholder_I18N>
                         <keyboard_type>0</keyboard_type>
                         <onTextChange>
                             <evtSequence>
@@ -14951,6 +14991,18 @@
                         <tc_autocorrect>false</tc_autocorrect>
                         <tcPostOnclickJs></tcPostOnclickJs>
                         <tcPreOnclickJs></tcPreOnclickJs>
+                        <spa_onBeginEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onBeginEditing>
+                        <spa_onEndEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onEndEditing>
                         <spa_autoComplete>false</spa_autoComplete>
                         <bb_autoFilter>false</bb_autoFilter>
                         <bb10_autoFilter>false</bb10_autoFilter>
@@ -20132,10 +20184,10 @@
                             </windows8>
                             <windows8_override>false</windows8_override>
                             <winmobile>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </winmobile>
                             <winmobile6x>
@@ -20146,7 +20198,7 @@
                                 <unit>%</unit>
                             </winmobile6x>
                             <winmobile6x_override>false</winmobile6x_override>
-                            <winmobile_override>false</winmobile_override>
+                            <winmobile_override>true</winmobile_override>
                             <winphone8>
                                 <left>0</left>
                                 <right>0</right>
@@ -20269,6 +20321,7 @@
                         </onClick>
                         <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                         <placeholder>Key</placeholder>
+                        <placeholder_I18N></placeholder_I18N>
                         <keyboard_type>0</keyboard_type>
                         <onTextChange>
                             <evtSequence>
@@ -20336,6 +20389,18 @@
                         <tc_autocorrect>false</tc_autocorrect>
                         <tcPostOnclickJs></tcPostOnclickJs>
                         <tcPreOnclickJs></tcPreOnclickJs>
+                        <spa_onBeginEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onBeginEditing>
+                        <spa_onEndEditing>
+                            <evtSequence>
+                                <enabled>true</enabled>
+                                <seqname></seqname>
+                            </evtSequence>
+                        </spa_onEndEditing>
                         <spa_autoComplete>false</spa_autoComplete>
                         <bb_autoFilter>false</bb_autoFilter>
                         <bb10_autoFilter>false</bb10_autoFilter>

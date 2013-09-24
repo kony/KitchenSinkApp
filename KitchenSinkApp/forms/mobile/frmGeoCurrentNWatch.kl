@@ -3875,7 +3875,7 @@
                             <unit>%</unit>
                         </winmobile6x>
                         <winmobile6x_override>false</winmobile6x_override>
-                        <winmobile_override>false</winmobile_override>
+                        <winmobile_override>true</winmobile_override>
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
@@ -5826,7 +5826,7 @@
                             <unit>%</unit>
                         </winmobile6x>
                         <winmobile6x_override>false</winmobile6x_override>
-                        <winmobile_override>false</winmobile_override>
+                        <winmobile_override>true</winmobile_override>
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
@@ -7777,7 +7777,7 @@
                             <unit>%</unit>
                         </winmobile6x>
                         <winmobile6x_override>false</winmobile6x_override>
-                        <winmobile_override>false</winmobile_override>
+                        <winmobile_override>true</winmobile_override>
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
@@ -9728,7 +9728,7 @@
                             <unit>%</unit>
                         </winmobile6x>
                         <winmobile6x_override>false</winmobile6x_override>
-                        <winmobile_override>false</winmobile_override>
+                        <winmobile_override>true</winmobile_override>
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
@@ -11679,7 +11679,7 @@
                             <unit>%</unit>
                         </winmobile6x>
                         <winmobile6x_override>false</winmobile6x_override>
-                        <winmobile_override>false</winmobile_override>
+                        <winmobile_override>true</winmobile_override>
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
@@ -13630,7 +13630,7 @@
                             <unit>%</unit>
                         </winmobile6x>
                         <winmobile6x_override>false</winmobile6x_override>
-                        <winmobile_override>false</winmobile_override>
+                        <winmobile_override>true</winmobile_override>
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
@@ -15581,7 +15581,7 @@
                             <unit>%</unit>
                         </winmobile6x>
                         <winmobile6x_override>false</winmobile6x_override>
-                        <winmobile_override>false</winmobile_override>
+                        <winmobile_override>true</winmobile_override>
                         <winphone8>
                             <left>0</left>
                             <right>0</right>
