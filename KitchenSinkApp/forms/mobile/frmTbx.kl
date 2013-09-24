@@ -3219,8 +3219,8 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>2</left>
+                    <right>2</right>
                     <top>2</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
@@ -3356,6 +3356,7 @@
             </onClick>
             <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
             <placeholder></placeholder>
+            <placeholder_I18N></placeholder_I18N>
             <keyboard_type>0</keyboard_type>
             <onTextChange>
                 <evtSequence>
@@ -3423,6 +3424,18 @@
             <tc_autocorrect>false</tc_autocorrect>
             <tcPostOnclickJs></tcPostOnclickJs>
             <tcPreOnclickJs></tcPreOnclickJs>
+            <spa_onBeginEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onBeginEditing>
+            <spa_onEndEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onEndEditing>
             <spa_autoComplete>false</spa_autoComplete>
             <bb_autoFilter>false</bb_autoFilter>
             <bb10_autoFilter>false</bb10_autoFilter>
@@ -4631,8 +4644,8 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>2</left>
+                    <right>2</right>
                     <top>2</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
@@ -4768,6 +4781,7 @@
             </onClick>
             <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
             <placeholder>Enter Text</placeholder>
+            <placeholder_I18N></placeholder_I18N>
             <keyboard_type>0</keyboard_type>
             <onTextChange>
                 <evtSequence>
@@ -4835,6 +4849,18 @@
             <tc_autocorrect>false</tc_autocorrect>
             <tcPostOnclickJs></tcPostOnclickJs>
             <tcPreOnclickJs></tcPreOnclickJs>
+            <spa_onBeginEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onBeginEditing>
+            <spa_onEndEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onEndEditing>
             <spa_autoComplete>false</spa_autoComplete>
             <bb_autoFilter>false</bb_autoFilter>
             <bb10_autoFilter>false</bb10_autoFilter>
@@ -6043,8 +6069,8 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>2</left>
+                    <right>2</right>
                     <top>2</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
@@ -6180,6 +6206,7 @@
             </onClick>
             <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
             <placeholder>Enter Text</placeholder>
+            <placeholder_I18N></placeholder_I18N>
             <keyboard_type>0</keyboard_type>
             <onTextChange>
                 <evtSequence>
@@ -6247,6 +6274,18 @@
             <tc_autocorrect>false</tc_autocorrect>
             <tcPostOnclickJs></tcPostOnclickJs>
             <tcPreOnclickJs></tcPreOnclickJs>
+            <spa_onBeginEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onBeginEditing>
+            <spa_onEndEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onEndEditing>
             <spa_autoComplete>false</spa_autoComplete>
             <bb_autoFilter>false</bb_autoFilter>
             <bb10_autoFilter>false</bb10_autoFilter>
@@ -7455,8 +7494,8 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>2</left>
+                    <right>2</right>
                     <top>2</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
@@ -7592,6 +7631,7 @@
             </onClick>
             <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
             <placeholder>Enter Text</placeholder>
+            <placeholder_I18N></placeholder_I18N>
             <keyboard_type>0</keyboard_type>
             <onTextChange>
                 <evtSequence>
@@ -7659,6 +7699,18 @@
             <tc_autocorrect>false</tc_autocorrect>
             <tcPostOnclickJs></tcPostOnclickJs>
             <tcPreOnclickJs></tcPreOnclickJs>
+            <spa_onBeginEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onBeginEditing>
+            <spa_onEndEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onEndEditing>
             <spa_autoComplete>false</spa_autoComplete>
             <bb_autoFilter>false</bb_autoFilter>
             <bb10_autoFilter>false</bb10_autoFilter>
@@ -8867,8 +8919,8 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>1</left>
-                    <right>1</right>
+                    <left>2</left>
+                    <right>2</right>
                     <top>2</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
@@ -9004,6 +9056,7 @@
             </onClick>
             <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
             <placeholder>Enter Text</placeholder>
+            <placeholder_I18N></placeholder_I18N>
             <keyboard_type>0</keyboard_type>
             <onTextChange>
                 <evtSequence>
@@ -9071,6 +9124,18 @@
             <tc_autocorrect>false</tc_autocorrect>
             <tcPostOnclickJs></tcPostOnclickJs>
             <tcPreOnclickJs></tcPreOnclickJs>
+            <spa_onBeginEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onBeginEditing>
+            <spa_onEndEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onEndEditing>
             <spa_autoComplete>false</spa_autoComplete>
             <bb_autoFilter>false</bb_autoFilter>
             <bb10_autoFilter>false</bb10_autoFilter>
@@ -10416,6 +10481,7 @@
             </onClick>
             <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
             <placeholder>Enter Text</placeholder>
+            <placeholder_I18N></placeholder_I18N>
             <keyboard_type>0</keyboard_type>
             <onTextChange>
                 <evtSequence>
@@ -10483,6 +10549,18 @@
             <tc_autocorrect>false</tc_autocorrect>
             <tcPostOnclickJs></tcPostOnclickJs>
             <tcPreOnclickJs></tcPreOnclickJs>
+            <spa_onBeginEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onBeginEditing>
+            <spa_onEndEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onEndEditing>
             <spa_autoComplete>false</spa_autoComplete>
             <bb_autoFilter>false</bb_autoFilter>
             <bb10_autoFilter>false</bb10_autoFilter>
@@ -11828,6 +11906,7 @@
             </onClick>
             <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
             <placeholder></placeholder>
+            <placeholder_I18N></placeholder_I18N>
             <keyboard_type>0</keyboard_type>
             <onTextChange>
                 <evtSequence>
@@ -11895,6 +11974,18 @@
             <tc_autocorrect>false</tc_autocorrect>
             <tcPostOnclickJs></tcPostOnclickJs>
             <tcPreOnclickJs></tcPreOnclickJs>
+            <spa_onBeginEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onBeginEditing>
+            <spa_onEndEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onEndEditing>
             <spa_autoComplete>false</spa_autoComplete>
             <bb_autoFilter>false</bb_autoFilter>
             <bb10_autoFilter>false</bb10_autoFilter>

@@ -4699,8 +4699,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,Verdana" type="map"/>
         <att name="FontNameMap" value="IPhone,Verdana" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Verdana" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Verdana" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Verdana" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -5699,8 +5699,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,Helvetica" type="map"/>
         <att name="FontNameMap" value="IPhone,Helvetica" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Helvetica" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Helvetica" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -6276,8 +6276,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -10552,8 +10552,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -13119,8 +13119,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,Courier" type="map"/>
         <att name="FontNameMap" value="IPhone,Courier" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Courier New" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Courier New" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Courier New" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -21339,8 +21339,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -25906,8 +25906,8 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -26048,8 +26048,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -27464,8 +27464,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,TimesNewRomanPSMT" type="map"/>
         <att name="FontNameMap" value="IPhone,TimesNewRomanPSMT" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Times New Roman" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Times New Roman" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Times New Roman" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -28472,8 +28472,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,Arial" type="map"/>
         <att name="FontNameMap" value="IPhone,Arial" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -31752,8 +31752,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,Georgia" type="map"/>
         <att name="FontNameMap" value="IPhone,Georgia" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Georgia" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Georgia" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Georgia" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -32317,8 +32317,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -32746,8 +32746,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,TrebuchetMS" type="map"/>
         <att name="FontNameMap" value="IPhone,TrebuchetMS" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Trebuchet MS" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Trebuchet MS" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Trebuchet MS" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -36310,8 +36310,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -40446,8 +40446,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,HelveticaNeue" type="map"/>
         <att name="FontNameMap" value="IPhone,HelveticaNeue" type="map"/>
-        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -41582,8 +41582,8 @@
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="iPad,Arial-BoldMT" type="map"/>
         <att name="FontNameMap" value="IPhone,HelveticaNeue-Bold" type="map"/>
-        <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="SPA Android,Helvetica Neue" type="map"/>
+        <att name="FontNameMap" value="SPA iPhone,Helvetica Neue" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>

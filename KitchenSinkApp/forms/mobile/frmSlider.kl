@@ -3355,6 +3355,8 @@ frmSlider.lblSlid.text = 0;</value>
             <parent_RightSkin>Skin Defaults</parent_RightSkin>
             <parent_ThumbImg></parent_ThumbImg>
             <parent_FocusThumbImg></parent_FocusThumbImg>
+            <overrideProperties>KSlider.win_mobLeftSkin</overrideProperties>
+            <overrideProperties>KSlider.win_mobRightSkin</overrideProperties>
             <parentThickness></parentThickness>
             <parentMinLabel></parentMinLabel>
             <parentMaxLabel></parentMaxLabel>
@@ -3387,8 +3389,8 @@ frmSlider.lblSlid.text = 0;</value>
             <androidMaxLabel></androidMaxLabel>
             <androidMinSkin>Skin Defaults</androidMinSkin>
             <androidMaxSkin>Skin Defaults</androidMaxSkin>
-            <winMobLeftSkin>Skin Defaults</winMobLeftSkin>
-            <winMobRightSkin>Skin Defaults</winMobRightSkin>
+            <winMobLeftSkin>sliderLeft</winMobLeftSkin>
+            <winMobRightSkin>sliderRight</winMobRightSkin>
             <winMobThumbImg></winMobThumbImg>
             <winMobFocusThumbImg></winMobFocusThumbImg>
             <winThickness></winThickness>
@@ -4749,8 +4751,8 @@ frmSlider.lblSlid.text = 0;</value>
             <androidMaxLabel></androidMaxLabel>
             <androidMinSkin>Skin Defaults</androidMinSkin>
             <androidMaxSkin>Skin Defaults</androidMaxSkin>
-            <winMobLeftSkin>sliderLeft</winMobLeftSkin>
-            <winMobRightSkin>sliderRight</winMobRightSkin>
+            <winMobLeftSkin>sliderLeftWin</winMobLeftSkin>
+            <winMobRightSkin>sliderRightWin</winMobRightSkin>
             <winMobThumbImg></winMobThumbImg>
             <winMobFocusThumbImg></winMobFocusThumbImg>
             <winThickness></winThickness>

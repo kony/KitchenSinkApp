@@ -2559,11 +2559,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -2800,8 +2800,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -4197,8 +4197,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -5594,8 +5594,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -6979,8 +6979,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -8364,8 +8364,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -9749,8 +9749,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -10506,8 +10506,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -11519,8 +11519,8 @@
                 <android>
                     <left>0</left>
                     <right>0</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </android>
                 <android_override>false</android_override>
@@ -11540,7 +11540,7 @@
                 </bb10>
                 <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
-                <default_override>true</default_override>
+                <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
                     <right>0</right>
@@ -11662,11 +11662,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -11905,8 +11905,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -13302,8 +13302,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -14699,8 +14699,8 @@
             <spa_contentAlignment>1</spa_contentAlignment>
             <winphone8_contentalign>middle-center</winphone8_contentalign>
             <bb10_dropDownImage></bb10_dropDownImage>
-            <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-            <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+            <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+            <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
             <bb10_placeHolder></bb10_placeHolder>
             <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
             <bb10_contentalignment>1</bb10_contentalignment>
