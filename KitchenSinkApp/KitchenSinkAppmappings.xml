@@ -16,11 +16,9 @@
             <attributes datatype="boolean" name="enablesearchbar" platform="spa" value="true"/>
         </component>
     </container>
-    <container displayname="Popup" id="winMangoHeader" type="dialog"/>
     <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Popup" id="dynamicTemplate1" type="dialog"/>
     <container displayname="Popup" id="dynamicTemplate2" type="dialog"/>
-    <container displayname="Popup" id="hdr" type="dialog"/>
     <container displayname="Popup" id="segHdrTemp1" type="dialog"/>
     <container displayname="Popup" id="segHdrTemp2" type="dialog"/>
     <container displayname="Popup" id="segLoading" type="dialog"/>
@@ -130,6 +128,10 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
+    <container displayname="Form" id="frmLink" type="form"/>
+    <container displayname="Form" id="frmIcons" type="form"/>
+    <container displayname="Popup" id="hdr" type="dialog"/>
+    <container displayname="Popup" id="winMangoHeader" type="dialog"/>
     <container displayname="Popup" id="hdrIconEdit" type="dialog"/>
     <container displayname="Popup" id="hdrOne" type="dialog"/>
     <container displayname="Popup" id="hdrSearch" type="dialog">
@@ -282,12 +284,15 @@
     <container displayname="Form" id="frmHdrFooter" type="form"/>
     <container displayname="Form" id="frmHome" type="form"/>
     <container displayname="Form" id="frmIconEditStyle" type="form"/>
+    <container displayname="Form" id="frmIcons" type="form"/>
     <container displayname="Form" id="frmImage" type="form"/>
+    <container displayname="Form" id="frmImgCrop" type="form"/>
     <container displayname="Form" id="frmImgFitToDimensions" type="form"/>
     <container displayname="Form" id="frmImgGal" type="form"/>
     <container displayname="Form" id="frmImgMaintainAspectRatio" type="form"/>
     <container displayname="Form" id="frmImgStrip" type="form"/>
     <container displayname="Form" id="frmLbl" type="form"/>
+    <container displayname="Form" id="frmLink" type="form"/>
     <container displayname="Form" id="frmLiveTiles" type="form"/>
     <container displayname="Form" id="frmLocalStore" type="form">
         <component displayname="TextBox2" id="frmLocalTxtSet1" type="textbox2"/>
@@ -295,6 +300,18 @@
         <component displayname="TextBox2" id="frmLocalTxtGet1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
+    </container>
+    <container displayname="Form" id="frmLstBox" type="form">
+        <component displayname="ListBox" id="listbox11798972524359" type="listbox"/>
+        <component displayname="ListBox" id="listbox118082077326680" type="listbox"/>
+        <component displayname="ListBox" id="listbox118082077326706" type="listbox"/>
+        <component displayname="ListBox" id="listbox118082077326732" type="listbox"/>
+        <component displayname="ListBox" id="listbox118082077326750" type="listbox"/>
+        <component displayname="ListBox" id="listbox118082077326766" type="listbox"/>
+        <component displayname="ListBox" id="listbox117989725237746" type="listbox"/>
+        <component displayname="ListBox" id="listbox118082077326807" type="listbox"/>
+        <component displayname="ListBox" id="listbox117989725236244" type="listbox"/>
+        <component displayname="ListBox" id="listbox1042716061159937" type="listbox"/>
     </container>
     <container displayname="Form" id="frmLstItems" type="form"/>
     <container displayname="Form" id="frmMap" type="form">
@@ -308,6 +325,7 @@
     <container displayname="Form" id="frmPlatforms" type="form"/>
     <container displayname="Form" id="frmPopup" type="form"/>
     <container displayname="Form" id="frmPushPull" type="form"/>
+    <container displayname="Form" id="frmRdo" type="form"/>
     <container displayname="Form" id="frmRegisterAccelerometer" type="form"/>
     <container displayname="Form" id="frmRichText" type="form"/>
     <container displayname="Form" id="frmRowTemplates" type="form"/>
@@ -333,6 +351,7 @@
     <container displayname="Form" id="frmSegViews" type="form"/>
     <container displayname="Form" id="frmSegmentMoreFeatures" type="form"/>
     <container displayname="Form" id="frmSegmentOptions" type="form"/>
+    <container displayname="Form" id="frmSlider" type="form"/>
     <container displayname="Form" id="frmSwipe" type="form"/>
     <container displayname="Form" id="frmSwitch" type="form"/>
     <container displayname="Form" id="frmTabCollpasible" type="form"/>
@@ -345,12 +364,24 @@
         <component displayname="Calendar" id="calendarTS1" type="calendar"/>
     </container>
     <container displayname="Form" id="frmTabs" type="form"/>
+    <container displayname="Form" id="frmTbx" type="form">
+        <component displayname="TextBox2" id="textfield2192735980025983" type="textbox2"/>
+        <component displayname="TextBox2" id="textfield211798972521729" type="textbox2"/>
+        <component displayname="TextBox2" id="textfield2192735980024559" type="textbox2"/>
+        <component displayname="TextBox2" id="textfield2192735980024586" type="textbox2"/>
+        <component displayname="TextBox2" id="textfield2192735980024620" type="textbox2"/>
+        <component displayname="TextBox2" id="textfield2192735980024664" type="textbox2"/>
+        <component displayname="TextBox2" id="textfield2118082077327321" type="textbox2">
+            <attributes datatype="boolean" name="enablesearchbar" platform="spa" value="true"/>
+        </component>
+    </container>
     <container displayname="Form" id="frmToggleTabs" type="form"/>
     <container displayname="Form" id="frmTtlbarBgColor" type="form"/>
     <container displayname="Form" id="frmTtlbarBgImg" type="form"/>
     <container displayname="Form" id="frmTtlbarCustom" type="form"/>
     <container displayname="Form" id="frmTtlbarDefault" type="form"/>
     <container displayname="Form" id="frmTtlbarOptions" type="form"/>
+    <container displayname="Form" id="frmTxtArea" type="form"/>
     <container displayname="Form" id="frmUICategory" type="form"/>
     <container displayname="Form" id="frmURLBasedImage" type="form"/>
     <container displayname="Form" id="frmWebSQL" type="form"/>
@@ -522,37 +553,6 @@
         </component>
     </container>
     <container displayname="Form" id="frmTxtArea" type="form"/>
-    <container displayname="Form" id="frmImgCrop" type="form"/>
-    <container displayname="Form" id="frmLink" type="form"/>
-    <container displayname="Form" id="frmIcons" type="form"/>
-    <container displayname="Form" id="frmLink" type="form"/>
-    <container displayname="Form" id="frmLstBox" type="form">
-        <component displayname="ListBox" id="listbox11798972524359" type="listbox"/>
-        <component displayname="ListBox" id="listbox118082077326680" type="listbox"/>
-        <component displayname="ListBox" id="listbox118082077326706" type="listbox"/>
-        <component displayname="ListBox" id="listbox118082077326732" type="listbox"/>
-        <component displayname="ListBox" id="listbox118082077326750" type="listbox"/>
-        <component displayname="ListBox" id="listbox118082077326766" type="listbox"/>
-        <component displayname="ListBox" id="listbox117989725237746" type="listbox"/>
-        <component displayname="ListBox" id="listbox118082077326807" type="listbox"/>
-        <component displayname="ListBox" id="listbox117989725236244" type="listbox"/>
-        <component displayname="ListBox" id="listbox1042716061159937" type="listbox"/>
-    </container>
-    <container displayname="Form" id="frmRdo" type="form"/>
-    <container displayname="Form" id="frmSlider" type="form"/>
-    <container displayname="Form" id="frmTbx" type="form">
-        <component displayname="TextBox2" id="textfield2192735980025983" type="textbox2"/>
-        <component displayname="TextBox2" id="textfield211798972521729" type="textbox2"/>
-        <component displayname="TextBox2" id="textfield2192735980024559" type="textbox2"/>
-        <component displayname="TextBox2" id="textfield2192735980024586" type="textbox2"/>
-        <component displayname="TextBox2" id="textfield2192735980024620" type="textbox2"/>
-        <component displayname="TextBox2" id="textfield2192735980024664" type="textbox2"/>
-        <component displayname="TextBox2" id="textfield2118082077327321" type="textbox2">
-            <attributes datatype="boolean" name="enablesearchbar" platform="spa" value="true"/>
-        </component>
-    </container>
-    <container displayname="Form" id="frmTxtArea" type="form"/>
-    <container displayname="Form" id="frmIcons" type="form"/>
     <globalsequences/>
     <skins/>
 </application>

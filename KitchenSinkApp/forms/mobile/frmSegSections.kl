@@ -1635,10 +1635,10 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
