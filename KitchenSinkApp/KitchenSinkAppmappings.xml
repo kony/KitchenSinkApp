@@ -109,8 +109,25 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmBrowser" type="form"/>
-    <container displayname="Form" id="frmBrowser" type="form"/>
+    <container displayname="Form" id="frmGeoCurrentNWatch" type="form"/>
+    <container displayname="Form" id="frmAsyncDataAccess" type="form">
+        <component displayname="TextBox2" id="tbxFName" type="textbox2"/>
+        <component displayname="TextBox2" id="tbxLName" type="textbox2"/>
+    </container>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
+    </container>
+    <container displayname="Form" id="frmLocalStore" type="form">
+        <component displayname="TextBox2" id="frmLocalTxtSet1" type="textbox2"/>
+        <component displayname="TextBox2" id="frmLocalTxtSet2" type="textbox2"/>
+        <component displayname="TextBox2" id="frmLocalTxtGet1" type="textbox2"/>
+        <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
+        <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
+    </container>
+    <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Popup" id="hdrIconEdit" type="dialog"/>
     <container displayname="Popup" id="hdrOne" type="dialog"/>
     <container displayname="Popup" id="hdrSearch" type="dialog">
@@ -135,6 +152,9 @@
     <container displayname="Popup" id="template2" type="dialog"/>
     <container displayname="Popup" id="template3" type="dialog"/>
     <container displayname="Form" id="frm3DObj" type="form"/>
+    <container displayname="Form" id="frmAPIKey" type="form">
+        <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
+    </container>
     <container displayname="Form" id="frmAclmeterOptions" type="form"/>
     <container displayname="Form" id="frmAdvancedWidgets" type="form"/>
     <container displayname="Form" id="frmAni" type="form"/>
@@ -166,9 +186,6 @@
     <container displayname="Form" id="frmAniWin" type="form"/>
     <container displayname="Form" id="frmAniWinPop" type="form"/>
     <container displayname="Form" id="frmAniWinRotate3DDual" type="form"/>
-    <container displayname="Form" id="frmAniWinRotate3DSingle" type="form"/>
-    <container displayname="Form" id="frmAniWinSlide" type="form"/>
-    <container displayname="Form" id="frmAniWinSqueeze" type="form"/>
     <container displayname="Form" id="frmAnibottom" type="form"/>
     <container displayname="Form" id="frmAnibottomlefttop" type="form"/>
     <container displayname="Form" id="frmAnibottomtop" type="form"/>
@@ -195,7 +212,6 @@
     <container displayname="Form" id="frmAsyncDataDisplay" type="form"/>
     <container displayname="Form" id="frmBadge" type="form"/>
     <container displayname="Form" id="frmBasicWidgets" type="form"/>
-    <container displayname="Form" id="frmBrowser" type="form"/>
     <container displayname="Form" id="frmBrowserOptions" type="form"/>
     <container displayname="Form" id="frmBtn" type="form"/>
     <container displayname="Form" id="frmCBox" type="form">
@@ -226,7 +242,6 @@
     <container displayname="Form" id="frmCamAcsModes" type="form"/>
     <container displayname="Form" id="frmCamOrient" type="form"/>
     <container displayname="Form" id="frmCameraBasic" type="form"/>
-    <container displayname="Form" id="frmCameraFrmOverlay" type="form"/>
     <container displayname="Form" id="frmCameraOptions" type="form"/>
     <container displayname="Form" id="frmCameraOverlaid" type="form"/>
     <container displayname="Form" id="frmChk" type="form"/>
@@ -241,6 +256,7 @@
     </container>
     <container displayname="Form" id="frmCustomCollapsTab" type="form"/>
     <container displayname="Form" id="frmDatagrd" type="form"/>
+    <container displayname="Form" id="frmDeviceInfo" type="form"/>
     <container displayname="Form" id="frmDictView" type="form"/>
     <container displayname="Form" id="frmDummy" type="form"/>
     <container displayname="Form" id="frmEmail" type="form"/>
@@ -253,6 +269,7 @@
     <container displayname="Form" id="frmFormImgBck" type="form"/>
     <container displayname="Form" id="frmFormOptions" type="form"/>
     <container displayname="Form" id="frmGeoCurrentNWatch" type="form"/>
+    <container displayname="Form" id="frmGestures" type="form"/>
     <container displayname="Form" id="frmHdrFooter" type="form"/>
     <container displayname="Form" id="frmHome" type="form"/>
     <container displayname="Form" id="frmIconEditStyle" type="form"/>
@@ -327,6 +344,7 @@
     <container displayname="Form" id="frmSwitch" type="form"/>
     <container displayname="Form" id="frmTabCollpasible" type="form"/>
     <container displayname="Form" id="frmTabDefault" type="form"/>
+    <container displayname="Form" id="frmTabPageView" type="form"/>
     <container displayname="Form" id="frmTabScreenLevel" type="form">
         <component displayname="TextBox2" id="textfieldTS1" type="textbox2"/>
         <component displayname="TextBox2" id="textfieldTS2" type="textbox2"/>
@@ -355,6 +373,7 @@
     <container displayname="Form" id="frmUICategory" type="form"/>
     <container displayname="Form" id="frmURLBasedImage" type="form"/>
     <container displayname="Form" id="frmWebSQL" type="form"/>
+    <container displayname="Form" id="frmWebSQLResults" type="form"/>
     <container displayname="Form" id="frmsegGroupMode" type="form"/>
     <container displayname="Popup" id="popFormAnchor" type="dialog"/>
     <container displayname="Form" id="frmAdvancedWidgets" type="form"/>
@@ -372,10 +391,16 @@
     <container displayname="Form" id="frmImgStrip" type="form"/>
     <container displayname="Form" id="frmUICategory" type="form"/>
     <container displayname="Form" id="frmBrowser" type="form"/>
+    <container displayname="Form" id="frmDeviceInfo" type="form"/>
+    <container displayname="Form" id="frmGestures" type="form"/>
     <container displayname="Form" id="frmImgStrip" type="form"/>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
+    <container displayname="Form" id="frmTabPageView" type="form"/>
+    <container displayname="Form" id="frmWebSQLResults" type="form"/>
     <container displayname="Form" id="frmComplex" type="form"/>
     <container displayname="Form" id="frmImgGal" type="form"/>
     <container displayname="Form" id="frmImgStrip" type="form"/>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmSegPageView" type="form"/>
     <container displayname="Form" id="frmSegSections" type="form"/>
     <container displayname="Form" id="frmsegGroupMode" type="form"/>
@@ -409,6 +434,7 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmSegPageView" type="form"/>
     <container displayname="Form" id="frmSegTableView" type="form"/>
     <container displayname="Form" id="frmSegmentOptions" type="form"/>
@@ -455,6 +481,7 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmSegPageView" type="form"/>
     <container displayname="Form" id="frmSegTableView" type="form"/>
     <container displayname="Form" id="frmSegmentOptions" type="form"/>
@@ -517,42 +544,17 @@
         </component>
     </container>
     <container displayname="Form" id="frmTxtArea" type="form"/>
+    <container displayname="Form" id="frmBrowser" type="form"/>
+    <container displayname="Form" id="frmBrowser" type="form"/>
+    <container displayname="Form" id="frmBrowser" type="form"/>
+    <container displayname="Form" id="frmBrowser" type="form"/>
     <container displayname="Form" id="frmAclMeterReadings" type="form"/>
-    <container displayname="Form" id="frmDeviceInfo" type="form"/>
-    <container displayname="Form" id="frmGeoCurrentNWatch" type="form"/>
-    <container displayname="Form" id="frmDeviceInfo" type="form"/>
-    <container displayname="Form" id="frmWebSQLResults" type="form"/>
-    <container displayname="Form" id="frmAPIKey" type="form">
-        <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
-    </container>
-    <container displayname="Form" id="frmAsyncDataAccess" type="form">
-        <component displayname="TextBox2" id="tbxFName" type="textbox2"/>
-        <component displayname="TextBox2" id="tbxLName" type="textbox2"/>
-    </container>
-    <container displayname="Form" id="frmCrypto" type="form">
-        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
-    </container>
+    <container displayname="Form" id="frmCameraFrmOverlay" type="form"/>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmDvcFeatures" type="form"/>
-    <container displayname="Form" id="frmLocalStore" type="form">
-        <component displayname="TextBox2" id="frmLocalTxtSet1" type="textbox2"/>
-        <component displayname="TextBox2" id="frmLocalTxtSet2" type="textbox2"/>
-        <component displayname="TextBox2" id="frmLocalTxtGet1" type="textbox2"/>
-        <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
-        <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
-    </container>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
-    <container displayname="Form" id="frmGestures" type="form"/>
-    <container displayname="Form" id="frmTabPageView" type="form"/>
-    <container displayname="Popup" id="ftrOne" type="dialog"/>
-    <container displayname="Form" id="frmTabPageView" type="form"/>
-    <container displayname="Form" id="frmBrowser" type="form"/>
+    <container displayname="Form" id="frmAniWinSlide" type="form"/>
+    <container displayname="Form" id="frmAniWinSqueeze" type="form"/>
+    <container displayname="Form" id="frmAniWinRotate3DSingle" type="form"/>
     <globalsequences/>
     <skins/>
 </application>

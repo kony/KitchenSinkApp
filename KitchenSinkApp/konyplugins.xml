@@ -18,13 +18,13 @@
     <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.kepler.ldt.laucher.LauncherPlugin" plugin-name="Lua Debug Launcher"/>
     <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.debug.core.LuaDebuggerPlugin" plugin-name="Lua Debug Core"/>
     <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.debug.ui.LuaDebugUIPlugin" plugin-name="Lua Debug UI"/>
-    <pluginInfo version-no="5.5.16.QA_v201309171623" plugin-id="com.pat.android.Activator" plugin-name="Tablet Android"/>
-    <pluginInfo version-no="5.5.7.QA_v201309181131" plugin-id="com.pat.j2me.J2MEPlugin" plugin-name="Blackberry &amp; J2ME"/>
+    <pluginInfo version-no="5.5.17.QA_v201309231631" plugin-id="com.pat.android.Activator" plugin-name="Tablet Android"/>
+    <pluginInfo version-no="5.5.8.QA_v201309241205" plugin-id="com.pat.j2me.J2MEPlugin" plugin-name="Blackberry &amp; J2ME"/>
     <pluginInfo version-no="5.5.3.QA_v201309181647" plugin-id="com.pat.winmobile.WinMobilePlugin" plugin-name="Winmobile Plug-in"/>
     <pluginInfo version-no="5.5.4.QA_v201309181628" plugin-id="com.kony.windows.WindowsPhone8Plugin" plugin-name="Windows Phone 8 Plug-in"/>
     <pluginInfo version-no="5.5.4.QA_v201309181541" plugin-id="com.kony.windows.Windows8Plugin" plugin-name="Windows 8 Plug-in"/>
-    <pluginInfo version-no="5.5.16.QA_v201309171434" plugin-id="com.pat.android.Activator" plugin-name="Android"/>
-    <pluginInfo version-no="5.5.9.QA_v201309181647_r1" plugin-id="thinclientplugin.Activator" plugin-name="ThinClient"/>
+    <pluginInfo version-no="5.5.17.QA_v201309231435" plugin-id="com.pat.android.Activator" plugin-name="Android"/>
+    <pluginInfo version-no="5.5.9.QA_v201309241152_r3" plugin-id="thinclientplugin.Activator" plugin-name="ThinClient"/>
     <pluginInfo version-no="5.5.3.QA_v201309181642" plugin-id="com.kony.windows.WinDesktopPlugin" plugin-name="Windows Desktop Plug-in"/>
     <pluginInfo version-no="5.5.11.QA_v201309181237_r2" plugin-name="SPA"/>
     <pluginInfo version-no="5.5.11.QA_v201309181139_r2" plugin-name="Desktop Web"/>

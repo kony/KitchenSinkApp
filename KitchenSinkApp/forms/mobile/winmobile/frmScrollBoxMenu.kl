@@ -428,25 +428,6 @@
         <headerId>None</headerId>
         <footerId>None</footerId>
         <title>ScrollBox Menu</title>
-        <preShow_root>
-            <evtSequence>
-                <actionList xsi:type="eventExpressionAction">
-                    <enabled>true</enabled>
-                    <name></name>
-                    <type>5</type>
-                    <expr></expr>
-                    <exprMap>
-                        <entry>
-                            <key>js</key>
-                            <value>glbScrollBegining = false;
-frmScrollBoxMenu.scrollToBeginning()</value>
-                        </entry>
-                    </exprMap>
-                </actionList>
-                <enabled>true</enabled>
-                <seqname></seqname>
-            </evtSequence>
-        </preShow_root>
         <init>
             <evtSequence>
                 <enabled>true</enabled>

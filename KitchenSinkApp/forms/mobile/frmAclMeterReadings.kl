@@ -655,7 +655,7 @@ kony.accelerometer.stopMonitoringAcceleration();</value>
                     <exprMap>
                         <entry>
                             <key>js</key>
-                            <value>alert("device back")
+                            <value>
 kony.accelerometer.stopMonitoringAcceleration()
 frmAclmeterOptions.show();</value>
                         </entry>

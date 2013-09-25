@@ -1515,7 +1515,7 @@
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8CropPhotoEnabled>false</winphone8CropPhotoEnabled>
             <winphone8_imgwidgetId>None</winphone8_imgwidgetId>
-            <winphone8_overlayformId>None</winphone8_overlayformId>
+            <winphone8_overlayformId>frmCameraOverlaid</winphone8_overlayformId>
             <winphone8_tap_anywhere>false</winphone8_tap_anywhere>
             <winphone8_contentalign>3</winphone8_contentalign>
         </children>
