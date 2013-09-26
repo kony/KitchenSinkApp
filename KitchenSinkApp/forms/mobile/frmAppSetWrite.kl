@@ -2719,6 +2719,7 @@
                 </onClick>
                 <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                 <placeholder>Enter Message</placeholder>
+                <placeholder_I18N></placeholder_I18N>
                 <keyboard_type>0</keyboard_type>
                 <onTextChange>
                     <evtSequence>
@@ -2786,6 +2787,18 @@
                 <tc_autocorrect>false</tc_autocorrect>
                 <tcPostOnclickJs></tcPostOnclickJs>
                 <tcPreOnclickJs></tcPreOnclickJs>
+                <spa_onBeginEditing>
+                    <evtSequence>
+                        <enabled>true</enabled>
+                        <seqname></seqname>
+                    </evtSequence>
+                </spa_onBeginEditing>
+                <spa_onEndEditing>
+                    <evtSequence>
+                        <enabled>true</enabled>
+                        <seqname></seqname>
+                    </evtSequence>
+                </spa_onEndEditing>
                 <spa_autoComplete>false</spa_autoComplete>
                 <bb_autoFilter>false</bb_autoFilter>
                 <bb10_autoFilter>false</bb10_autoFilter>
@@ -4879,13 +4892,13 @@
                 <winMobileContentAlign>middle-left</winMobileContentAlign>
                 <tc_content_align>1</tc_content_align>
                 <spa_contentAlignment>1</spa_contentAlignment>
-                <winphone8_contentalign>middle-center</winphone8_contentalign>
+                <winphone8_contentalign>middle-left</winphone8_contentalign>
                 <winphone8_placeholder></winphone8_placeholder>
                 <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
                 <bb10_contentalignment>1</bb10_contentalignment>
                 <bb10_dropDownImage></bb10_dropDownImage>
-                <bb10_nativeSkin>None</bb10_nativeSkin>
-                <bb10_nativeFocusSkin>None</bb10_nativeFocusSkin>
+                <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
+                <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                 <bb10_placeHolder></bb10_placeHolder>
                 <bb10_ph_i18nId>None</bb10_ph_i18nId>
             </children>

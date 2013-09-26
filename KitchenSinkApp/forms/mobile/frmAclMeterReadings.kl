@@ -6893,8 +6893,8 @@ frmAclmeterOptions.show();</value>
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>12</left>
-                    <right>12</right>
+                    <left>1</left>
+                    <right>1</right>
                     <top>6</top>
                     <bottom>6</bottom>
                     <unit>px</unit>

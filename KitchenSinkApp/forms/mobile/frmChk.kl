@@ -2951,7 +2951,7 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>6</left>
+                    <left>12</left>
                     <right>12</right>
                     <top>6</top>
                     <bottom>6</bottom>
@@ -3218,11 +3218,11 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>8</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -3404,10 +3404,12 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <winmobile_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winmobile_itemOrientation>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
+            <overrideProperties>KCheckBox.winphone8_tickedimage</overrideProperties>
+            <overrideProperties>KCheckBox.winphone8_untickedimage</overrideProperties>
             <overrideProperties>KCheckBox.wm_TickedImage</overrideProperties>
             <overrideProperties>KCheckBox.wm_UnTickedImage</overrideProperties>
-            <winphone8_tickedimage></winphone8_tickedimage>
-            <winphone8_untickedimage></winphone8_untickedimage>
+            <winphone8_tickedimage>chkboxchkd.png</winphone8_tickedimage>
+            <winphone8_untickedimage>chkbox.png</winphone8_untickedimage>
             <winphone8_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winphone8_itemOrientation>
             <bb10_TickedImage></bb10_TickedImage>
             <bb10_UnTickedImage></bb10_UnTickedImage>
@@ -3465,7 +3467,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -4111,7 +4113,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -4565,7 +4567,7 @@
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
                     <left>4</left>
-                    <right>0</right>
+                    <right>8</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>px</unit>
@@ -4809,7 +4811,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -5455,7 +5457,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -7252,13 +7254,13 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -8598,13 +8600,13 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -8786,10 +8788,12 @@
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <overrideProperties>KCheckBox.and_TickedImage</overrideProperties>
             <overrideProperties>KCheckBox.and_UnTickedImage</overrideProperties>
+            <overrideProperties>KCheckBox.winphone8_tickedimage</overrideProperties>
+            <overrideProperties>KCheckBox.winphone8_untickedimage</overrideProperties>
             <overrideProperties>KCheckBox.wm_TickedImage</overrideProperties>
             <overrideProperties>KCheckBox.wm_UnTickedImage</overrideProperties>
-            <winphone8_tickedimage></winphone8_tickedimage>
-            <winphone8_untickedimage></winphone8_untickedimage>
+            <winphone8_tickedimage>chkboxchkd.png</winphone8_tickedimage>
+            <winphone8_untickedimage>chkbox.png</winphone8_untickedimage>
             <winphone8_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winphone8_itemOrientation>
             <bb10_TickedImage></bb10_TickedImage>
             <bb10_UnTickedImage></bb10_UnTickedImage>

@@ -1426,6 +1426,9 @@
             <overrideProperties>KRichText.winmobile_contentAlignment</overrideProperties>
             <overrideProperties>KRichText.winmobile_linkSkin</overrideProperties>
             <overrideProperties>KRichText.winmobile_superScriptTextSkin</overrideProperties>
+            <overrideProperties>KRichText.winphone8_contentalign</overrideProperties>
+            <overrideProperties>KRichText.winphone8_linkskin</overrideProperties>
+            <overrideProperties>KRichText.winphone8_superscripttextskin</overrideProperties>
             <overrideProperties>KRichText.wrapping</overrideProperties>
             <bb_longtext>false</bb_longtext>
             <bb_linkSkinId>Skin_Defaults</bb_linkSkinId>
@@ -1470,10 +1473,10 @@
             <spa_linkSkin>Skin Defaults</spa_linkSkin>
             <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
             <pb_renderAsAnchor>false</pb_renderAsAnchor>
-            <winphone8_contentalign>3</winphone8_contentalign>
-            <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
-            <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
-            <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>
+            <winphone8_contentalign>0</winphone8_contentalign>
+            <winphone8_linkskin>Skin_Defaults</winphone8_linkskin>
+            <winphone8_superscripttextskin>Skin_Defaults</winphone8_superscripttextskin>
+            <winphone8_telephonelinkskin>No Skin</winphone8_telephonelinkskin>
             <bb10_linkSkin>Skin Defaults</bb10_linkSkin>
             <bb10_linkFocusSkin>Skin Defaults</bb10_linkFocusSkin>
             <bb10_superScriptSkin>Skin Defaults</bb10_superScriptSkin>

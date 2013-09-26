@@ -4382,7 +4382,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -5927,13 +5927,13 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>0</left>
+                            <left>1</left>
                             <right>0</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
-                        <winphone8_override>false</winphone8_override>
+                        <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>
@@ -7858,13 +7858,13 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <winmobile6x_override>true</winmobile6x_override>
                                 <winmobile_override>true</winmobile_override>
                                 <winphone8>
-                                    <left>0</left>
+                                    <left>2</left>
                                     <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
+                                    <top>1</top>
+                                    <bottom>1</bottom>
                                     <unit>%</unit>
                                 </winphone8>
-                                <winphone8_override>false</winphone8_override>
+                                <winphone8_override>true</winphone8_override>
                                 <xhtmlAdvBB>
                                     <left>0</left>
                                     <right>0</right>
@@ -8504,13 +8504,13 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <winmobile6x_override>true</winmobile6x_override>
                                 <winmobile_override>true</winmobile_override>
                                 <winphone8>
-                                    <left>0</left>
+                                    <left>2</left>
                                     <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
+                                    <top>1</top>
+                                    <bottom>1</bottom>
                                     <unit>%</unit>
                                 </winphone8>
-                                <winphone8_override>false</winphone8_override>
+                                <winphone8_override>true</winphone8_override>
                                 <xhtmlAdvBB>
                                     <left>0</left>
                                     <right>0</right>

@@ -3883,7 +3883,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
-                        <winphone8_override>false</winphone8_override>
+                        <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>
@@ -5834,7 +5834,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
-                        <winphone8_override>false</winphone8_override>
+                        <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>
@@ -7785,7 +7785,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
-                        <winphone8_override>false</winphone8_override>
+                        <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>
@@ -9736,7 +9736,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
-                        <winphone8_override>false</winphone8_override>
+                        <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>
@@ -11687,7 +11687,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
-                        <winphone8_override>false</winphone8_override>
+                        <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>
@@ -13638,7 +13638,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
-                        <winphone8_override>false</winphone8_override>
+                        <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>
@@ -15589,7 +15589,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </winphone8>
-                        <winphone8_override>false</winphone8_override>
+                        <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
                             <left>0</left>
                             <right>0</right>

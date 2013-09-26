@@ -2965,9 +2965,9 @@
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
                         <left>1</left>
-                        <right>0</right>
+                        <right>3</right>
                         <top>3</top>
-                        <bottom>3</bottom>
+                        <bottom>0</bottom>
                         <unit>%</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -3231,7 +3231,7 @@
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
+                        <left>1</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
@@ -3663,9 +3663,9 @@
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
                         <left>1</left>
-                        <right>0</right>
+                        <right>6</right>
                         <top>3</top>
-                        <bottom>3</bottom>
+                        <bottom>0</bottom>
                         <unit>%</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -3929,7 +3929,7 @@
                     <winmobile6x_override>true</winmobile6x_override>
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
-                        <left>0</left>
+                        <left>1</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
@@ -4361,9 +4361,9 @@
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
                         <left>1</left>
-                        <right>0</right>
+                        <right>3</right>
                         <top>3</top>
-                        <bottom>3</bottom>
+                        <bottom>0</bottom>
                         <unit>%</unit>
                     </winphone8>
                     <winphone8_override>true</winphone8_override>
@@ -6416,7 +6416,7 @@
                     <winmobile_override>true</winmobile_override>
                     <winphone8>
                         <left>0</left>
-                        <right>2</right>
+                        <right>1</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>

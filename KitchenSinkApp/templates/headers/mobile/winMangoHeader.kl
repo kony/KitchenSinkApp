@@ -1656,7 +1656,7 @@
                         <bottom>1</bottom>
                         <unit>px</unit>
                     </winphone8>
-                    <winphone8_override>false</winphone8_override>
+                    <winphone8_override>true</winphone8_override>
                     <xhtmlAdvBB>
                         <left>0</left>
                         <right>0</right>

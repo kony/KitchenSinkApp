@@ -3243,10 +3243,10 @@
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
                             <unit>%</unit>
                         </winphone8>
                         <winphone8_override>true</winphone8_override>
@@ -4668,10 +4668,10 @@
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
                             <unit>%</unit>
                         </winphone8>
                         <winphone8_override>true</winphone8_override>
@@ -6732,11 +6732,11 @@
                             <winmobile6x_override>true</winmobile6x_override>
                             <winmobile_override>true</winmobile_override>
                             <winphone8>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
-                                <unit>px</unit>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
+                                <unit>%</unit>
                             </winphone8>
                             <winphone8_override>true</winphone8_override>
                             <xhtmlAdvBB>
@@ -6959,7 +6959,7 @@
                         <winMobileContentAlign>middle-left</winMobileContentAlign>
                         <tc_content_align>1</tc_content_align>
                         <spa_contentAlignment>1</spa_contentAlignment>
-                        <winphone8_contentalign>middle-center</winphone8_contentalign>
+                        <winphone8_contentalign>middle-left</winphone8_contentalign>
                         <winphone8_placeholder></winphone8_placeholder>
                         <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
                         <bb10_contentalignment>1</bb10_contentalignment>
@@ -7861,8 +7861,8 @@
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>3</left>
-                            <right>3</right>
+                            <left>2</left>
+                            <right>2</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -8128,11 +8128,11 @@
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>4</top>
-                            <bottom>0</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </winphone8>
                         <winphone8_override>true</winphone8_override>
                         <xhtmlAdvBB>
@@ -8487,7 +8487,7 @@
                     <winphone8_placeholder></winphone8_placeholder>
                     <winphone8_startdate></winphone8_startdate>
                     <winphone8_enddate></winphone8_enddate>
-                    <winphone8_view>CALENDAR_VIEW_TYPE_DEFAULT</winphone8_view>
+                    <winphone8_view>CALENDAR_VIEW_TYPE_GRID_POPUP</winphone8_view>
                     <iphone_hideMonthsHeader>false</iphone_hideMonthsHeader>
                     <bb10_contentalignment>3</bb10_contentalignment>
                     <bb10_image></bb10_image>
@@ -9404,7 +9404,7 @@
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>3</left>
+                            <left>2</left>
                             <right>3</right>
                             <top>0</top>
                             <bottom>0</bottom>
@@ -10750,7 +10750,7 @@
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>12</left>
+                            <left>6</left>
                             <right>12</right>
                             <top>6</top>
                             <bottom>6</bottom>
@@ -11183,7 +11183,7 @@
                     <spa_linkSkin>Skin Defaults</spa_linkSkin>
                     <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                     <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                    <winphone8_contentalign>3</winphone8_contentalign>
+                    <winphone8_contentalign>0</winphone8_contentalign>
                     <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                     <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                     <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>
@@ -11428,7 +11428,7 @@
                         <winmobile6x_override>true</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>4</left>
+                            <left>2</left>
                             <right>2</right>
                             <top>0</top>
                             <bottom>0</bottom>
@@ -11869,10 +11869,12 @@
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                     <winmobile_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winmobile_itemOrientation>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
+                    <overrideProperties>KCheckBox.winphone8_tickedimage</overrideProperties>
+                    <overrideProperties>KCheckBox.winphone8_untickedimage</overrideProperties>
                     <overrideProperties>KCheckBox.wm_TickedImage</overrideProperties>
                     <overrideProperties>KCheckBox.wm_UnTickedImage</overrideProperties>
-                    <winphone8_tickedimage></winphone8_tickedimage>
-                    <winphone8_untickedimage></winphone8_untickedimage>
+                    <winphone8_tickedimage>chkboxchkd.png</winphone8_tickedimage>
+                    <winphone8_untickedimage>chkbox.png</winphone8_untickedimage>
                     <winphone8_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winphone8_itemOrientation>
                     <bb10_TickedImage></bb10_TickedImage>
                     <bb10_UnTickedImage></bb10_UnTickedImage>
@@ -13865,7 +13867,7 @@
                     <spa_linkSkin>Skin Defaults</spa_linkSkin>
                     <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                     <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                    <winphone8_contentalign>3</winphone8_contentalign>
+                    <winphone8_contentalign>0</winphone8_contentalign>
                     <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                     <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                     <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>
@@ -14119,8 +14121,8 @@
                         <winmobile6x_override>false</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>1</left>
-                            <right>1</right>
+                            <left>16</left>
+                            <right>15</right>
                             <top>1</top>
                             <bottom>1</bottom>
                             <unit>px</unit>
@@ -14386,11 +14388,11 @@
                         <winmobile6x_override>false</winmobile6x_override>
                         <winmobile_override>false</winmobile_override>
                         <winphone8>
-                            <left>0</left>
-                            <right>0</right>
+                            <left>10</left>
+                            <right>6</right>
                             <top>0</top>
                             <bottom>0</bottom>
-                            <unit>%</unit>
+                            <unit>px</unit>
                         </winphone8>
                         <winphone8_override>false</winphone8_override>
                         <xhtmlAdvBB>
@@ -15871,7 +15873,7 @@
                     <spa_linkSkin>Skin Defaults</spa_linkSkin>
                     <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                     <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                    <winphone8_contentalign>3</winphone8_contentalign>
+                    <winphone8_contentalign>0</winphone8_contentalign>
                     <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                     <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                     <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>
@@ -16125,8 +16127,8 @@
                         <winmobile6x_override>false</winmobile6x_override>
                         <winmobile_override>true</winmobile_override>
                         <winphone8>
-                            <left>1</left>
-                            <right>1</right>
+                            <left>15</left>
+                            <right>22</right>
                             <top>1</top>
                             <bottom>1</bottom>
                             <unit>px</unit>

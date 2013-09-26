@@ -2119,7 +2119,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -2956,9 +2956,9 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>4</left>
-                    <right>4</right>
-                    <top>8</top>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </winphone8>

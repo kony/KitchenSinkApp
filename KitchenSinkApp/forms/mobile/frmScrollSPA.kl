@@ -10870,7 +10870,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -12175,7 +12175,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -14210,7 +14210,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -16245,7 +16245,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -18248,7 +18248,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -20251,7 +20251,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -22254,7 +22254,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -23559,7 +23559,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -25562,7 +25562,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -27565,7 +27565,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -29568,7 +29568,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -31571,7 +31571,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -33574,7 +33574,7 @@
                                 <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                                 <desktopweb_toolTip></desktopweb_toolTip>
                                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                                <winphone8_contentalign>middle-left</winphone8_contentalign>
+                                <winphone8_contentalign>top-left</winphone8_contentalign>
                                 <bb10_contentalignment>0</bb10_contentalignment>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
@@ -36272,7 +36272,7 @@
                         <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
                         <desktopweb_toolTip></desktopweb_toolTip>
                         <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
-                        <winphone8_contentalign>middle-left</winphone8_contentalign>
+                        <winphone8_contentalign>top-left</winphone8_contentalign>
                         <bb10_contentalignment>0</bb10_contentalignment>
                     </children>
                     <general_contextMenu>None</general_contextMenu>

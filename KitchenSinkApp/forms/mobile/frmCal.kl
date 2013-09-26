@@ -2951,8 +2951,8 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>12</left>
-                    <right>12</right>
+                    <left>6</left>
+                    <right>6</right>
                     <top>4</top>
                     <bottom>4</bottom>
                     <unit>px</unit>
@@ -3218,13 +3218,13 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -4268,6 +4268,7 @@
             <overrideProperties>KDateField.bb_viewType</overrideProperties>
             <overrideProperties>KDateField.iphone_viewType</overrideProperties>
             <overrideProperties>KDateField.win7_viewType</overrideProperties>
+            <overrideProperties>KDateField.winphone8_view</overrideProperties>
             <widgetID>p2kwiet118082077313782</widgetID>
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
@@ -4492,8 +4493,8 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>12</left>
-                    <right>12</right>
+                    <left>14</left>
+                    <right>14</right>
                     <top>4</top>
                     <bottom>4</bottom>
                     <unit>px</unit>
@@ -4759,13 +4760,13 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -5118,7 +5119,7 @@
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_startdate></winphone8_startdate>
             <winphone8_enddate></winphone8_enddate>
-            <winphone8_view>CALENDAR_VIEW_TYPE_DEFAULT</winphone8_view>
+            <winphone8_view>CALENDAR_VIEW_TYPE_GRID_ONSCREEN</winphone8_view>
             <iphone_hideMonthsHeader>false</iphone_hideMonthsHeader>
             <bb10_contentalignment>3</bb10_contentalignment>
             <bb10_image></bb10_image>
@@ -5384,10 +5385,10 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
@@ -5813,6 +5814,7 @@
                 <overrideProperties>KDateField.bb_viewType</overrideProperties>
                 <overrideProperties>KDateField.iphone_viewType</overrideProperties>
                 <overrideProperties>KDateField.win7_viewType</overrideProperties>
+                <overrideProperties>KDateField.winphone8_view</overrideProperties>
                 <widgetID>p2kwiet685080434193103</widgetID>
                 <createdGAVersion>5.5.0</createdGAVersion>
                 <location>
@@ -6663,7 +6665,7 @@
                 <winphone8_placeholder></winphone8_placeholder>
                 <winphone8_startdate></winphone8_startdate>
                 <winphone8_enddate></winphone8_enddate>
-                <winphone8_view>CALENDAR_VIEW_TYPE_DEFAULT</winphone8_view>
+                <winphone8_view>CALENDAR_VIEW_TYPE_GRID_ONSCREEN</winphone8_view>
                 <iphone_hideMonthsHeader>false</iphone_hideMonthsHeader>
                 <bb10_contentalignment>3</bb10_contentalignment>
                 <bb10_image></bb10_image>
@@ -7363,6 +7365,7 @@
             <overrideProperties>KDateField.bb_viewType</overrideProperties>
             <overrideProperties>KDateField.iphone_viewType</overrideProperties>
             <overrideProperties>KDateField.win7_viewType</overrideProperties>
+            <overrideProperties>KDateField.winphone8_view</overrideProperties>
             <widgetID>p2kwiet118082077313796</widgetID>
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
@@ -7587,8 +7590,8 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>12</left>
-                    <right>12</right>
+                    <left>6</left>
+                    <right>6</right>
                     <top>4</top>
                     <bottom>4</bottom>
                     <unit>px</unit>
@@ -7854,13 +7857,13 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -8213,7 +8216,7 @@
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_startdate></winphone8_startdate>
             <winphone8_enddate></winphone8_enddate>
-            <winphone8_view>CALENDAR_VIEW_TYPE_DEFAULT</winphone8_view>
+            <winphone8_view>CALENDAR_VIEW_TYPE_GRID_POPUP</winphone8_view>
             <iphone_hideMonthsHeader>false</iphone_hideMonthsHeader>
             <bb10_contentalignment>3</bb10_contentalignment>
             <bb10_image></bb10_image>
@@ -8292,7 +8295,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -8939,7 +8942,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -9830,7 +9833,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -10477,7 +10480,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -11368,7 +11371,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -12015,7 +12018,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -12906,7 +12909,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -13553,7 +13556,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -14444,7 +14447,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -15091,7 +15094,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -15982,7 +15985,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -16629,7 +16632,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -18355,8 +18358,8 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>12</left>
-                    <right>12</right>
+                    <left>6</left>
+                    <right>6</right>
                     <top>4</top>
                     <bottom>4</bottom>
                     <unit>px</unit>
@@ -18622,11 +18625,11 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>

@@ -3357,6 +3357,8 @@ frmSlider.lblSlid.text = 0;</value>
             <parent_FocusThumbImg></parent_FocusThumbImg>
             <overrideProperties>KSlider.win_mobLeftSkin</overrideProperties>
             <overrideProperties>KSlider.win_mobRightSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_LeftSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_RightSkin</overrideProperties>
             <parentThickness></parentThickness>
             <parentMinLabel></parentMinLabel>
             <parentMaxLabel></parentMaxLabel>
@@ -3410,8 +3412,8 @@ frmSlider.lblSlid.text = 0;</value>
             <spa_maxLabelSkin>Skin Defaults</spa_maxLabelSkin>
             <spa_maxLabel></spa_maxLabel>
             <spa_thickness>5</spa_thickness>
-            <winphone8_LeftSkin>Skin Defaults</winphone8_LeftSkin>
-            <winphone8_RightSkin>Skin Defaults</winphone8_RightSkin>
+            <winphone8_LeftSkin>sliderLeft</winphone8_LeftSkin>
+            <winphone8_RightSkin>sliderRight</winphone8_RightSkin>
             <winphone8_ThumbImg></winphone8_ThumbImg>
             <winphone8_FocusThumbImg></winphone8_FocusThumbImg>
             <winphone8_MinLabel></winphone8_MinLabel>
@@ -4719,6 +4721,11 @@ frmSlider.lblSlid.text = 0;</value>
             <overrideProperties>KSlider.win_mobRightSkin</overrideProperties>
             <overrideProperties>KSlider.win_mobThumbImg</overrideProperties>
             <overrideProperties>KSlider.win_thickness</overrideProperties>
+            <overrideProperties>KSlider.winphone8_FocusThumbImg</overrideProperties>
+            <overrideProperties>KSlider.winphone8_LeftSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_RightSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_ThumbImg</overrideProperties>
+            <overrideProperties>KSlider.winphone8_thickness</overrideProperties>
             <parentThickness></parentThickness>
             <parentMinLabel></parentMinLabel>
             <parentMaxLabel></parentMaxLabel>
@@ -4772,8 +4779,8 @@ frmSlider.lblSlid.text = 0;</value>
             <spa_maxLabelSkin>Skin Defaults</spa_maxLabelSkin>
             <spa_maxLabel></spa_maxLabel>
             <spa_thickness>5</spa_thickness>
-            <winphone8_LeftSkin>Skin Defaults</winphone8_LeftSkin>
-            <winphone8_RightSkin>Skin Defaults</winphone8_RightSkin>
+            <winphone8_LeftSkin>sliderLeftWin</winphone8_LeftSkin>
+            <winphone8_RightSkin>sliderRightWin</winphone8_RightSkin>
             <winphone8_ThumbImg></winphone8_ThumbImg>
             <winphone8_FocusThumbImg></winphone8_FocusThumbImg>
             <winphone8_MinLabel></winphone8_MinLabel>
@@ -6085,6 +6092,13 @@ frmSlider.lblSlid.text = 0;</value>
             <overrideProperties>KSlider.win_mobRightSkin</overrideProperties>
             <overrideProperties>KSlider.win_mobThumbImg</overrideProperties>
             <overrideProperties>KSlider.win_thickness</overrideProperties>
+            <overrideProperties>KSlider.winphone8_FocusThumbImg</overrideProperties>
+            <overrideProperties>KSlider.winphone8_LeftSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_MaxLabel</overrideProperties>
+            <overrideProperties>KSlider.winphone8_MinLabel</overrideProperties>
+            <overrideProperties>KSlider.winphone8_RightSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_ThumbImg</overrideProperties>
+            <overrideProperties>KSlider.winphone8_thickness</overrideProperties>
             <parentThickness></parentThickness>
             <parentMinLabel></parentMinLabel>
             <parentMaxLabel></parentMaxLabel>
@@ -6142,8 +6156,8 @@ frmSlider.lblSlid.text = 0;</value>
             <winphone8_RightSkin>Skin Defaults</winphone8_RightSkin>
             <winphone8_ThumbImg></winphone8_ThumbImg>
             <winphone8_FocusThumbImg></winphone8_FocusThumbImg>
-            <winphone8_MinLabel></winphone8_MinLabel>
-            <winphone8_MaxLabel></winphone8_MaxLabel>
+            <winphone8_MinLabel>100</winphone8_MinLabel>
+            <winphone8_MaxLabel>2000</winphone8_MaxLabel>
             <winphone8_ShowMinMaxLabels>false</winphone8_ShowMinMaxLabels>
             <winphone8_MinLabelSkin>Skin Defaults</winphone8_MinLabelSkin>
             <winphone8_MaxLabelSkin>Skin Defaults</winphone8_MaxLabelSkin>
@@ -7447,6 +7461,11 @@ frmSlider.lblSlid.text = 0;</value>
             <overrideProperties>KSlider.win_mobRightSkin</overrideProperties>
             <overrideProperties>KSlider.win_mobThumbImg</overrideProperties>
             <overrideProperties>KSlider.win_thickness</overrideProperties>
+            <overrideProperties>KSlider.winphone8_FocusThumbImg</overrideProperties>
+            <overrideProperties>KSlider.winphone8_LeftSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_RightSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_ThumbImg</overrideProperties>
+            <overrideProperties>KSlider.winphone8_thickness</overrideProperties>
             <parentThickness></parentThickness>
             <parentMinLabel></parentMinLabel>
             <parentMaxLabel></parentMaxLabel>
@@ -7504,8 +7523,8 @@ frmSlider.lblSlid.text = 0;</value>
             <winphone8_RightSkin>Skin Defaults</winphone8_RightSkin>
             <winphone8_ThumbImg></winphone8_ThumbImg>
             <winphone8_FocusThumbImg></winphone8_FocusThumbImg>
-            <winphone8_MinLabel></winphone8_MinLabel>
-            <winphone8_MaxLabel></winphone8_MaxLabel>
+            <winphone8_MinLabel>0</winphone8_MinLabel>
+            <winphone8_MaxLabel>100</winphone8_MaxLabel>
             <winphone8_ShowMinMaxLabels>false</winphone8_ShowMinMaxLabels>
             <winphone8_MinLabelSkin>Skin Defaults</winphone8_MinLabelSkin>
             <winphone8_MaxLabelSkin>Skin Defaults</winphone8_MaxLabelSkin>
@@ -8879,6 +8898,11 @@ frmSlider.lblSlid.text = 0;</value>
             <overrideProperties>KSlider.win_mobRightSkin</overrideProperties>
             <overrideProperties>KSlider.win_mobThumbImg</overrideProperties>
             <overrideProperties>KSlider.win_thickness</overrideProperties>
+            <overrideProperties>KSlider.winphone8_FocusThumbImg</overrideProperties>
+            <overrideProperties>KSlider.winphone8_LeftSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_RightSkin</overrideProperties>
+            <overrideProperties>KSlider.winphone8_ThumbImg</overrideProperties>
+            <overrideProperties>KSlider.winphone8_thickness</overrideProperties>
             <parentThickness></parentThickness>
             <parentMinLabel></parentMinLabel>
             <parentMaxLabel></parentMaxLabel>

@@ -819,7 +819,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -2746,7 +2746,7 @@
                     <spa_linkSkin>Skin Defaults</spa_linkSkin>
                     <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                     <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                    <winphone8_contentalign>3</winphone8_contentalign>
+                    <winphone8_contentalign>0</winphone8_contentalign>
                     <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                     <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                     <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>
@@ -4054,7 +4054,7 @@
                     <spa_linkSkin>Skin Defaults</spa_linkSkin>
                     <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                     <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                    <winphone8_contentalign>3</winphone8_contentalign>
+                    <winphone8_contentalign>0</winphone8_contentalign>
                     <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                     <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                     <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>
@@ -5363,7 +5363,7 @@
                     <spa_linkSkin>Skin Defaults</spa_linkSkin>
                     <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                     <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                    <winphone8_contentalign>3</winphone8_contentalign>
+                    <winphone8_contentalign>0</winphone8_contentalign>
                     <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                     <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                     <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>
@@ -6657,7 +6657,7 @@
                 <rc_palmpre>tabview</rc_palmpre>
                 <rc_symbian>tabview</rc_symbian>
                 <rc_win8>tabview</rc_win8>
-                <rc_winPhone8>tabview</rc_winPhone8>
+                <rc_winPhone8>panoramaview</rc_winPhone8>
                 <rc_wm>panoramaview</rc_wm>
                 <rc_wm6x>panoramaview</rc_wm6x>
                 <spa>tabview</spa>
@@ -8013,7 +8013,7 @@
                     <spa_linkSkin>Skin Defaults</spa_linkSkin>
                     <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                     <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                    <winphone8_contentalign>3</winphone8_contentalign>
+                    <winphone8_contentalign>0</winphone8_contentalign>
                     <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                     <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                     <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>
@@ -9321,7 +9321,7 @@
                     <spa_linkSkin>Skin Defaults</spa_linkSkin>
                     <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                     <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                    <winphone8_contentalign>3</winphone8_contentalign>
+                    <winphone8_contentalign>0</winphone8_contentalign>
                     <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                     <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                     <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>
@@ -10630,7 +10630,7 @@
                     <spa_linkSkin>Skin Defaults</spa_linkSkin>
                     <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                     <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                    <winphone8_contentalign>3</winphone8_contentalign>
+                    <winphone8_contentalign>0</winphone8_contentalign>
                     <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                     <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                     <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>

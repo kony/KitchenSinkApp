@@ -1,5 +1,5 @@
 <properties>
-    <attributes name="applogokey" value="0=konyap.png,3=app_icon.png"/>
+    <attributes name="applogokey" value="0=konyap.png,3=app_icon.png,42=app_icon.png"/>
     <attributes name="androidmapkey2" value=""/>
     <attributes name="ACCESS_WIFI_STATE" value="false"/>
     <attributes name="mwaddrkey" value="10.10.5.172"/>
@@ -23,14 +23,14 @@
     <attributes name="GLOBAL_SEARCH" value="false"/>
     <attributes name="winsmoothscrollkey" value="true"/>
     <attributes name="CLEAR_APP_USER_DATA" value="false"/>
-    <attributes name="wp8flipsmallkey" value=""/>
     <attributes name="tcnth440basefontsize" value="15"/>
+    <attributes name="wp8flipsmallkey" value=""/>
     <attributes name="ACCESS_COARSE_LOCATION" value="false"/>
     <attributes name="RESTART_PACKAGES" value="false"/>
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="true"/>
-    <attributes name="removeprintstatements" value="false"/>
     <attributes name="appversionkey" value="1.0.0"/>
+    <attributes name="removeprintstatements" value="false"/>
     <attributes name="WP8_ID_CAP_GAMERSERVICES" value="true"/>
     <attributes name="BIND_WALLPAPER" value="false"/>
     <attributes name="isNewAppWithRespectToAndroidPackageName" value="true"/>
@@ -40,12 +40,12 @@
     <attributes name="wp8tilestitlekey" value="KitchenSinkApp"/>
     <attributes name="SET_TIME" value="false"/>
     <attributes name="Enterprise_Authentication" value="true"/>
-    <attributes name="DIAGNOSTIC" value="false"/>
     <attributes name="WRITE_CALENDAR" value="false"/>
+    <attributes name="DIAGNOSTIC" value="false"/>
     <attributes name="Videos_Library_Access" value="true"/>
     <attributes name="WRITE_SMS" value="false"/>
-    <attributes name="ID_REQ_GYROSCOPE" value="false"/>
     <attributes name="WP8_ID_CAP_PUSH_NOTIFICATION" value="true"/>
+    <attributes name="ID_REQ_GYROSCOPE" value="false"/>
     <attributes name="DEVICE_POWER" value="false"/>
     <attributes name="win8versionminorkey" value="0"/>
     <attributes name="androidscreenextralarge" value="true"/>
@@ -94,8 +94,8 @@
     <attributes name="pathpatternkey" value=""/>
     <attributes name="wp8iconicsmallkey" value=""/>
     <attributes name="splashlogokey" value="0=splash.png,1=splash.png,8=splash.9.png,2=splash.png,46=,3=,20=,9=,15=,14=,42=,16=splashtab.png,18=splashtab.9.png,43=splashtab.png,31=splashtab.png,32=splashtab.png,45=splashtab.png,22=splash.png,23=splash.png,24=splash.png,37=splash.png,1000=,1001=,1002=,35=,44=,36=,21="/>
-    <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="inputaccessoryviewtype" value="nextprevtoolbar"/>
+    <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
     <attributes name="imagewhendownloading" value=""/>
     <attributes name="WP8_ID_CAP_IDENTITY_DEVICE" value="true"/>
@@ -108,28 +108,28 @@
     <attributes name="iphoneipadglossyeffectkey" value="true"/>
     <attributes name="Text_Messaging" value="true"/>
     <attributes name="HARDWARE_TEST" value="false"/>
-    <attributes name="WP8_ID_CAP_APPOINTMENTS" value="true"/>
     <attributes name="USE_CREDENTIALS" value="false"/>
+    <attributes name="WP8_ID_CAP_APPOINTMENTS" value="true"/>
     <attributes name="GET_PACKAGE_SIZE" value="false"/>
     <attributes name="allowselfsignedcertificate" value="false"/>
     <attributes name="NFC" value="false"/>
-    <attributes name="tcnth240basefontsize" value="12"/>
     <attributes name="tcbb480basefontsize" value="17"/>
+    <attributes name="tcnth240basefontsize" value="12"/>
     <attributes name="desktopwebnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>
     <attributes name="tcbb360basefontsize" value="13"/>
-    <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="appportkey" value="8080"/>
+    <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="bgcolorkey" value="181,217,245"/>
     <attributes name="BIND_APPWIDGET" value="false"/>
     <attributes name="wp8cycle5key" value=""/>
     <attributes name="hybdridcontextkey" value=""/>
-    <attributes name="ipadlandscapemodekey" value="true"/>
     <attributes name="KILL_BACKGROUND_PROCESSES" value="false"/>
+    <attributes name="ipadlandscapemodekey" value="true"/>
     <attributes name="tcnth400basefontsize" value="14"/>
     <attributes name="schemekey" value=""/>
     <attributes name="appprotokey" value="https"/>
-    <attributes name="win8versionmajorkey" value="1"/>
     <attributes name="win8lockscreennotificationskey" value="not set"/>
+    <attributes name="win8versionmajorkey" value="1"/>
     <attributes name="andapplicationtags" value=""/>
     <attributes name="exceptionalert" value="true"/>
     <attributes name="wp8cycle8key" value=""/>
@@ -141,8 +141,8 @@
     <attributes name="READ_FRAME_BUFFER" value="false"/>
     <attributes name="wp8fliplargekey" value=""/>
     <attributes name="BIND_DEVICE_ADMIN" value="false"/>
-    <attributes name="build" value="debug"/>
     <attributes name="MANAGE_APP_TOKENS" value="false"/>
+    <attributes name="build" value="debug"/>
     <attributes name="Pictures_Library_Access" value="true"/>
     <attributes name="RECEIVE_BOOT_COMPLETED" value="false"/>
     <attributes name="tcnth360basefontsize" value="13"/>
@@ -151,13 +151,13 @@
     <attributes name="win8versionrevisionkey" value="0"/>
     <attributes name="ACCESS_MOCK_LOCATION" value="false"/>
     <attributes name="SYSTEM_ALERT_WINDOW" value="false"/>
-    <attributes name="iphoneloadindicatorkey" value="true"/>
     <attributes name="RECEIVE_SMS" value="false"/>
+    <attributes name="iphoneloadindicatorkey" value="true"/>
     <attributes name="BIND_REMOTEVIEWS" value="false"/>
     <attributes name="appidkey" value="ksa2"/>
     <attributes name="Proximity" value="true"/>
-    <attributes name="WP8_ID_CAP_PROXIMITY" value="true"/>
     <attributes name="DELETE_CACHE_FILES" value="false"/>
+    <attributes name="WP8_ID_CAP_PROXIMITY" value="true"/>
     <attributes name="bbserviceidentifierpattern" value=""/>
     <attributes name="BATTERY_STATS" value="false"/>
     <attributes name="win8toastcapablekey" value="no"/>
@@ -171,11 +171,11 @@
     <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="true"/>
     <attributes name="SET_ALARM" value="false"/>
     <attributes name="read_device_identifying_information" value="false"/>
-    <attributes name="RECEIVE_MMS" value="false"/>
     <attributes name="androidorientation" value="Both"/>
+    <attributes name="RECEIVE_MMS" value="false"/>
     <attributes name="WRITE_SYNC_SETTINGS" value="false"/>
-    <attributes name="WRITE_EXTERNAL_STORAGE" value="true"/>
     <attributes name="tcbb440basefontsize" value="15"/>
+    <attributes name="WRITE_EXTERNAL_STORAGE" value="true"/>
     <attributes name="win8descriptionkey" value="Sample Test Application"/>
     <attributes name="REORDER_TASKS" value="false"/>
     <attributes name="iphonebundleidentifierkey" value="com.kone.KitchenSinkApp"/>
@@ -185,8 +185,8 @@
     <attributes name="EXPAND_STATUS_BAR" value="false"/>
     <attributes name="enableactionbar" value="false"/>
     <attributes name="WAKE_LOCK" value="false"/>
-    <attributes name="project.type" value="js"/>
     <attributes name="tcxhtmlbasefontsize" value="10"/>
+    <attributes name="project.type" value="js"/>
     <attributes name="ID_CAP_CONTACTS" value="true"/>
     <attributes name="defaultlocalekey" value=""/>
     <attributes name="WRITE_APN_SETTINGS" value="false"/>
@@ -382,22 +382,22 @@
     <attributes name="spaandroidtab1024basefontsize" value="16"/>
     <attributes name="SIGNAL_PERSISTENT_PROCESSES" value="false"/>
     <attributes name="tcbb240basefontsize" value="12"/>
-    <attributes name="wp8displaynamekey" value="KitchenSinkApp"/>
     <attributes name="spawindows480basefontsize" value="12"/>
+    <attributes name="wp8displaynamekey" value="KitchenSinkApp"/>
     <attributes name="wp8cycle9key" value=""/>
     <attributes name="MOUNT_UNMOUNT_FILESYSTEMS" value="false"/>
-    <attributes name="BROADCAST_WAP_PUSH" value="false"/>
     <attributes name="tcandroid480basefontsize" value="14"/>
-    <attributes name="BROADCAST_SMS" value="false"/>
+    <attributes name="BROADCAST_WAP_PUSH" value="false"/>
     <attributes name="tcandroid320basefontsize" value="12"/>
+    <attributes name="BROADCAST_SMS" value="false"/>
     <attributes name="ID_REQ_REARCAMERA" value="false"/>
     <attributes name="tcandroid360basefontsize" value="13"/>
     <attributes name="win8displaynamekey" value="KitchenSinkApp"/>
     <attributes name="wp8cycle7key" value=""/>
-    <attributes name="spaandroidtab800basefontsize" value="14"/>
     <attributes name="tcbb400basefontsize" value="14"/>
-    <attributes name="spawindows320basefontsize" value="12"/>
+    <attributes name="spaandroidtab800basefontsize" value="14"/>
     <attributes name="bbservicemenuitemlabel" value=""/>
+    <attributes name="spawindows320basefontsize" value="12"/>
     <attributes name="ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
     <attributes name="FORCE_BACK" value="false"/>
     <attributes name="fgcolorkey" value="255,255,255"/>

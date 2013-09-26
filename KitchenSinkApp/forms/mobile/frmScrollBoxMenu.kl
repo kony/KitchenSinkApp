@@ -36085,7 +36085,7 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()</value>
                             <spa_linkSkin>Skin Defaults</spa_linkSkin>
                             <spa_linkFocusSkin>Skin Defaults</spa_linkFocusSkin>
                             <pb_renderAsAnchor>false</pb_renderAsAnchor>
-                            <winphone8_contentalign>3</winphone8_contentalign>
+                            <winphone8_contentalign>0</winphone8_contentalign>
                             <winphone8_linkskin>Skin Defaults</winphone8_linkskin>
                             <winphone8_superscripttextskin>Skin Defaults</winphone8_superscripttextskin>
                             <winphone8_telephonelinkskin>Skin Defaults</winphone8_telephonelinkskin>

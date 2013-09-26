@@ -1460,7 +1460,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -2565,13 +2565,13 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
-                <winphone8_override>false</winphone8_override>
+                <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -2780,7 +2780,7 @@
             <winMobileContentAlign>middle-left</winMobileContentAlign>
             <tc_content_align>1</tc_content_align>
             <spa_contentAlignment>1</spa_contentAlignment>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -2847,7 +2847,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -3515,7 +3515,7 @@
             <winMobileContentAlign>middle-left</winMobileContentAlign>
             <tc_content_align>1</tc_content_align>
             <spa_contentAlignment>1</spa_contentAlignment>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -3576,7 +3576,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -4228,7 +4228,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -4896,7 +4896,7 @@
             <winMobileContentAlign>middle-left</winMobileContentAlign>
             <tc_content_align>1</tc_content_align>
             <spa_contentAlignment>1</spa_contentAlignment>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -4957,7 +4957,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -5609,7 +5609,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -6277,7 +6277,7 @@
             <winMobileContentAlign>middle-left</winMobileContentAlign>
             <tc_content_align>1</tc_content_align>
             <spa_contentAlignment>1</spa_contentAlignment>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -6338,7 +6338,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -6990,7 +6990,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -7646,7 +7646,7 @@
             <winMobileContentAlign>middle-left</winMobileContentAlign>
             <tc_content_align>1</tc_content_align>
             <spa_contentAlignment>1</spa_contentAlignment>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -7707,7 +7707,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -8359,7 +8359,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -9015,7 +9015,7 @@
             <winMobileContentAlign>middle-left</winMobileContentAlign>
             <tc_content_align>1</tc_content_align>
             <spa_contentAlignment>1</spa_contentAlignment>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -9076,7 +9076,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -9728,7 +9728,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -10384,7 +10384,7 @@
             <winMobileContentAlign>middle-left</winMobileContentAlign>
             <tc_content_align>1</tc_content_align>
             <spa_contentAlignment>1</spa_contentAlignment>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -11550,11 +11550,11 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -11765,7 +11765,7 @@
             <winMobileContentAlign>middle-left</winMobileContentAlign>
             <tc_content_align>1</tc_content_align>
             <spa_contentAlignment>1</spa_contentAlignment>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
@@ -11826,7 +11826,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -12478,7 +12478,7 @@
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>false</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -13134,7 +13134,7 @@
             <winMobileContentAlign>middle-left</winMobileContentAlign>
             <tc_content_align>1</tc_content_align>
             <spa_contentAlignment>1</spa_contentAlignment>
-            <winphone8_contentalign>middle-center</winphone8_contentalign>
+            <winphone8_contentalign>middle-left</winphone8_contentalign>
             <winphone8_placeholder></winphone8_placeholder>
             <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
             <bb10_contentalignment>1</bb10_contentalignment>
