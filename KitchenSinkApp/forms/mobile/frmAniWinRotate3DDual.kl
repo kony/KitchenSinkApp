@@ -781,8 +781,8 @@
         <desktopweb_resizable>false</desktopweb_resizable>
         <desktopweb_draggable>false</desktopweb_draggable>
         <desktopweb_minonlostfocus>false</desktopweb_minonlostfocus>
-        <winphone8_intransition>Default</winphone8_intransition>
-        <winphone8_outtransition>Default</winphone8_outtransition>
+        <winphone8_intransition>Rotate3DDual</winphone8_intransition>
+        <winphone8_outtransition>Rotate3DDual</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>
         <winphone8_outtransitionmode>Default</winphone8_outtransitionmode>
         <winphone8_intransitionspeed>0</winphone8_intransitionspeed>

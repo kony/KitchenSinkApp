@@ -188,11 +188,6 @@
     <container displayname="Form" id="frmAniSwitchLeft" type="form"/>
     <container displayname="Form" id="frmAniSwitchRight" type="form"/>
     <container displayname="Form" id="frmAniWin" type="form"/>
-    <container displayname="Form" id="frmAniWinPop" type="form"/>
-    <container displayname="Form" id="frmAniWinRotate3DDual" type="form"/>
-    <container displayname="Form" id="frmAniWinRotate3DSingle" type="form"/>
-    <container displayname="Form" id="frmAniWinSlide" type="form"/>
-    <container displayname="Form" id="frmAniWinSqueeze" type="form"/>
     <container displayname="Form" id="frmAnibottom" type="form"/>
     <container displayname="Form" id="frmAnibottomlefttop" type="form"/>
     <container displayname="Form" id="frmAnibottomtop" type="form"/>
@@ -346,7 +341,6 @@
     <container displayname="Form" id="frmSegSearchView" type="form"/>
     <container displayname="Form" id="frmSegSections" type="form"/>
     <container displayname="Form" id="frmSegStackView" type="form"/>
-    <container displayname="Form" id="frmSegTableView" type="form"/>
     <container displayname="Form" id="frmSegViews" type="form"/>
     <container displayname="Form" id="frmSegmentMoreFeatures" type="form"/>
     <container displayname="Form" id="frmSegmentOptions" type="form"/>
@@ -562,6 +556,12 @@
     <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmTabPageView" type="form"/>
     <container displayname="Form" id="frmWebSQLResults" type="form"/>
+    <container displayname="Form" id="frmAniWinPop" type="form"/>
+    <container displayname="Form" id="frmAniWinRotate3DDual" type="form"/>
+    <container displayname="Form" id="frmAniWinRotate3DSingle" type="form"/>
+    <container displayname="Form" id="frmAniWinSlide" type="form"/>
+    <container displayname="Form" id="frmAniWinSqueeze" type="form"/>
+    <container displayname="Form" id="frmSegTableView" type="form"/>
     <globalsequences/>
     <skins/>
 </application>

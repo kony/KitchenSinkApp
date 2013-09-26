@@ -1479,8 +1479,8 @@
             <winphone8_skin>Skin Defaults</winphone8_skin>
             <bb10_skin>Skin Defaults</bb10_skin>
         </children>
-        <winphone8_intransition>Default</winphone8_intransition>
-        <winphone8_outtransition>Default</winphone8_outtransition>
+        <winphone8_intransition>Slide</winphone8_intransition>
+        <winphone8_outtransition>Slide</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>
         <winphone8_outtransitionmode>Default</winphone8_outtransitionmode>
         <winphone8_intransitionspeed>0</winphone8_intransitionspeed>

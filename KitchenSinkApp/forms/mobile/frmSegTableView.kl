@@ -2021,7 +2021,7 @@
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>Segment</SText>
+                <SText>Table view</SText>
                 <overridePerferred>
                     <width>true</width>
                     <height>false</height>
