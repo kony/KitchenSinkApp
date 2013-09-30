@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <application id="KitchenSinkApp" name="KitchenSinkApp">
     <container displayname="Popup" id="ftrOne" type="dialog"/>
+    <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Popup" id="hdrOne" type="dialog"/>
     <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Form" id="frmBrowserOptions" type="form"/>
@@ -40,6 +41,18 @@
         <component displayname="TextBox2" id="tbxLName" type="textbox2"/>
     </container>
     <container displayname="Form" id="frmBrowserOptions" type="form"/>
+    <container displayname="Form" id="frmCal" type="form">
+        <component displayname="Calendar" id="calendar118082077329776" type="calendar"/>
+        <component displayname="Calendar" id="calendar118082077329786" type="calendar"/>
+        <component displayname="Calendar" id="calendar685080434386988" type="calendar"/>
+        <component displayname="Calendar" id="calendar118082077329814" type="calendar"/>
+        <component displayname="Calendar" id="calendar118082077329855" type="calendar"/>
+        <component displayname="Calendar" id="calendar118082077329879" type="calendar"/>
+        <component displayname="Calendar" id="calendar121144591587761" type="calendar"/>
+        <component displayname="Calendar" id="calendar121144591587811" type="calendar"/>
+        <component displayname="Calendar" id="calendar121144591587831" type="calendar"/>
+        <component displayname="Calendar" id="calendar1181029310129177" type="calendar"/>
+    </container>
     <container displayname="Form" id="frmContact" type="form"/>
     <container displayname="Form" id="frmIcons" type="form"/>
     <container displayname="Form" id="frmImage" type="form"/>
@@ -128,7 +141,6 @@
     </container>
     <container displayname="Form" id="frmBrowser" type="form"/>
     <container displayname="Form" id="frmImgStrip" type="form"/>
-    <container displayname="Popup" id="ftrOne" type="dialog"/>
     <container displayname="Popup" id="hdrIconEdit" type="dialog"/>
     <container displayname="Popup" id="hdrOne" type="dialog"/>
     <container displayname="Popup" id="hdrSearch" type="dialog">
@@ -242,7 +254,6 @@
         <component displayname="Calendar" id="calendar121144591587811" type="calendar"/>
         <component displayname="Calendar" id="calendar121144591587831" type="calendar"/>
         <component displayname="Calendar" id="calendar1181029310129177" type="calendar"/>
-        <component displayname="Calendar" id="calendar192920684267015" type="calendar"/>
     </container>
     <container displayname="Form" id="frmCalendarEvents" type="form"/>
     <container displayname="Form" id="frmCamAcsModes" type="form"/>
@@ -320,6 +331,7 @@
     <container displayname="Form" id="frmNLst2" type="form"/>
     <container displayname="Form" id="frmPhn" type="form"/>
     <container displayname="Form" id="frmPlatforms" type="form"/>
+    <container displayname="Form" id="frmPopup" type="form"/>
     <container displayname="Form" id="frmPushPull" type="form"/>
     <container displayname="Form" id="frmRdo" type="form"/>
     <container displayname="Form" id="frmRegisterAccelerometer" type="form"/>
@@ -559,7 +571,6 @@
     <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmTabPageView" type="form"/>
     <container displayname="Form" id="frmWebSQLResults" type="form"/>
-    <container displayname="Form" id="frmPopup" type="form"/>
     <globalsequences/>
     <skins/>
 </application>
