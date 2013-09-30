@@ -21,6 +21,8 @@ To build and run this app you will need to download and install [Kony Studio](ht
  * iPhone
  * SPA Android
  * SPA iPhone
+ * Windows Phone 7.5
+ * Windows Phone 8
  
 **Tablet** 
  * Android
