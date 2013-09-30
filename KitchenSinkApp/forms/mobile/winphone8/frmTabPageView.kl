@@ -2026,7 +2026,7 @@
             <tabviewdata>
                 <category>0</category>
                 <desktopWeb>tabview</desktopWeb>
-                <platform>3</platform>
+                <platform>42</platform>
                 <rc_android>tabview</rc_android>
                 <rc_bb>tabview</rc_bb>
                 <rc_bb10>tabview</rc_bb10>
@@ -6049,7 +6049,7 @@
                 <seqname></seqname>
             </evtSequence>
         </winphone8_ondevback_root>
-        <winphone8_animateheaderfooter>false</winphone8_animateheaderfooter>
+        <winphone8_animateheaderfooter>true</winphone8_animateheaderfooter>
         <bb10_autofocus>true</bb10_autofocus>
         <bb10_titleSkinId>Skin Defaults</bb10_titleSkinId>
         <blackberry10_fixed_items>0</blackberry10_fixed_items>

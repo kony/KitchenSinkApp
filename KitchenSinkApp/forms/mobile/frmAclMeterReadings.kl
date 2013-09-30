@@ -11233,6 +11233,19 @@ frmAclmeterOptions.show();</value>
         </winphone8_onorientation_root>
         <winphone8_ondevback_root>
             <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>kony.accelerometer.stopMonitoringAcceleration()
+frmAclmeterOptions.show();</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
             </evtSequence>

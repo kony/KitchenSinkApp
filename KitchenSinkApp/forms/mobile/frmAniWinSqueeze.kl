@@ -811,7 +811,7 @@
             <skinId>Skin Defaults</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
             <referenceWidth>480</referenceWidth>
-            <referenceHeight>750</referenceHeight>
+            <referenceHeight>650</referenceHeight>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>

@@ -455,6 +455,28 @@ function switchandOS3D()
 	            "lblFirst": "Switch"
 	        }];
 	}
+	else if(kony.os.deviceInfo().name == "WindowsPhone")
+	{
+		if(kony.os.deviceInfo().version.substring(0,1)=="8")
+		{
+			frmAdvancedWidgets.segFirst.widgetDataMap= {"lblFirst": "lblFirst" };
+		    frmAdvancedWidgets.segFirst.data= [{
+		            "lblFirst": "Segment"
+		        }, {
+		            "lblFirst": "Hz Image Strip"
+		        }, {
+		            "lblFirst": "Image Gallery"
+		        }, {
+		            "lblFirst": "Map"
+		        }, {
+		            "lblFirst": "Phone"
+		        }, {
+		            "lblFirst": "Browser"
+		        }, {
+		            "lblFirst": "Switch"
+		        }];
+	      }
+	}
 	else
 	{
 		frmAdvancedWidgets.segFirst.widgetDataMap= {"lblFirst": "lblFirst" };

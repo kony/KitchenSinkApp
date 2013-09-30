@@ -989,7 +989,7 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>3</left>
+                    <left>4</left>
                     <right>2</right>
                     <top>6</top>
                     <bottom>2</bottom>
@@ -1005,7 +1005,7 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>3</left>
+                    <left>4</left>
                     <right>2</right>
                     <top>6</top>
                     <bottom>2</bottom>
