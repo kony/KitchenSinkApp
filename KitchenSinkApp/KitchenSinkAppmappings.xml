@@ -70,12 +70,6 @@
     <container displayname="Form" id="frmWebSQL" type="form"/>
     <container displayname="Popup" id="popFormAnchor" type="dialog"/>
     <container displayname="Form" id="frmHome" type="form"/>
-    <container displayname="Form" id="frmCrypto" type="form">
-        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
-    </container>
     <container displayname="Form" id="frmForm" type="form">
         <component displayname="TextBox2" id="textfield2103994549623675" type="textbox2"/>
         <component displayname="TextBox2" id="textfield2103994549623701" type="textbox2"/>
@@ -91,12 +85,6 @@
         <component displayname="TextBox2" id="frmLocalTxtGet1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
-    </container>
-    <container displayname="Form" id="frmCrypto" type="form">
-        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
     <container displayname="Form" id="frmForm" type="form">
         <component displayname="TextBox2" id="textfield2103994549623675" type="textbox2"/>
@@ -116,12 +104,6 @@
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
     <container displayname="Form" id="frmBrowser" type="form"/>
-    <container displayname="Form" id="frmCrypto" type="form">
-        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
-        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
-    </container>
     <container displayname="Form" id="frmForm" type="form">
         <component displayname="TextBox2" id="textfield2103994549623675" type="textbox2"/>
         <component displayname="TextBox2" id="textfield2103994549623701" type="textbox2"/>
@@ -141,6 +123,23 @@
     </container>
     <container displayname="Form" id="frmBrowser" type="form"/>
     <container displayname="Form" id="frmImgStrip" type="form"/>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
+    </container>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+    </container>
+    <container displayname="Form" id="frmCrypto" type="form">
+        <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMd2Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD4Hash" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
+    </container>
     <container displayname="Popup" id="hdrIconEdit" type="dialog"/>
     <container displayname="Popup" id="hdrOne" type="dialog"/>
     <container displayname="Popup" id="hdrSearch" type="dialog">
@@ -273,7 +272,6 @@
         <component displayname="TextBox2" id="txtMD5Hash" type="textbox2"/>
     </container>
     <container displayname="Form" id="frmCustomCollapsTab" type="form"/>
-    <container displayname="Form" id="frmDatagrd" type="form"/>
     <container displayname="Form" id="frmDeviceInfo" type="form"/>
     <container displayname="Form" id="frmDictView" type="form"/>
     <container displayname="Form" id="frmDummy" type="form"/>
@@ -337,7 +335,6 @@
     <container displayname="Form" id="frmRegisterAccelerometer" type="form"/>
     <container displayname="Form" id="frmRichText" type="form"/>
     <container displayname="Form" id="frmRowTemplates" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmScrollSPA" type="form"/>
     <container displayname="Form" id="frmSecHdrWidoutTemplates" type="form"/>
     <container displayname="Form" id="frmSegBoxes" type="form"/>
@@ -414,7 +411,6 @@
     <container displayname="Form" id="frmDeviceInfo" type="form"/>
     <container displayname="Form" id="frmGestures" type="form"/>
     <container displayname="Form" id="frmImgStrip" type="form"/>
-    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmTabPageView" type="form"/>
     <container displayname="Form" id="frmWebSQLResults" type="form"/>
     <container displayname="Form" id="frmComplex" type="form"/>
@@ -571,6 +567,9 @@
     <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container displayname="Form" id="frmTabPageView" type="form"/>
     <container displayname="Form" id="frmWebSQLResults" type="form"/>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
+    <container displayname="Form" id="frmScrollBoxMenu" type="form"/>
+    <container displayname="Form" id="frmDatagrd" type="form"/>
     <globalsequences/>
     <skins/>
 </application>

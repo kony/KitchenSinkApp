@@ -49,6 +49,9 @@ function Encrypt()
 		alert("Error in callbackEncryptAes : "+err );
 	}
 }
+
+
+ 
  
 /*****************************************************************
 *     Name    : decrypt
@@ -78,11 +81,7 @@ function decrypt()
 		var myEncryptedTextRaw = kony.convertToRawBytes(str.substring(17));
 		var myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
 		if(kony.os.deviceInfo().name == "WindowsPhone")
-		{
-			kony.print(typeof(myClearText));
-			kony.print(JSON.stringify(myClearText));
-			
-		}
+			frmCrypto.lblDecrypt.text ="Decrypted text = "+JSON.stringify(myClearText);
 		else
 			frmCrypto.lblDecrypt.text ="Decrypted text = "+myClearText.toString();
 					
@@ -93,7 +92,7 @@ function decrypt()
 		alert("Error in callbackDecryptAes : "+err );
 	}
 }
- 
+
 
 /*****************************************************************
 *	Name    : createHashMD2
@@ -105,7 +104,10 @@ function createHashMD2()
 {
 	try
     {
-		var algo="md2";
+    	if(kony.os.deviceInfo().name == "WindowsPhone")
+    		var algo="sha1";
+    	else
+			var algo="md2";
 		var inputstr=frmCrypto.txtMd2Hash.text;
 		var myHashValue = kony.crypto.createHash(algo,inputstr);
 		frmCrypto.lblMD2Hash.text = myHashValue;		
@@ -127,7 +129,10 @@ function createHashMD4()
 {
 	try
     {
-		var algo="md4";
+    	if(kony.os.deviceInfo().name == "WindowsPhone")
+    		var algo="sha256";
+    	else
+			var algo="md4";
 		var inputstr=frmCrypto.txtMD4Hash.text;
 		var myHashValue = kony.crypto.createHash(algo,inputstr);
 		frmCrypto.lblMD4Hash.text = myHashValue		
@@ -149,7 +154,7 @@ function createHashMD5()
 {
 	try
     {
-		var algo="md5";
+    	var algo="md5";
 		var inputstr=frmCrypto.txtMD5Hash.text;
 		var myHashValue = kony.crypto.createHash(algo,inputstr);
 		frmCrypto.lblMD5Hash.text = myHashValue;		

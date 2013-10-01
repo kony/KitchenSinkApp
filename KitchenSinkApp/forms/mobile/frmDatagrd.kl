@@ -785,11 +785,11 @@
             </location>
             <size>
                 <width>448</width>
-                <height>139</height>
+                <height>77</height>
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>21</height>
+                <height>12</height>
             </sizePercent>
             <skinId>Skin Defaults</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
@@ -1254,8 +1254,8 @@
                 <winmobile>
                     <left>3</left>
                     <right>3</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
@@ -1270,8 +1270,8 @@
                 <winphone8>
                     <left>3</left>
                     <right>3</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
@@ -1388,7 +1388,7 @@
                     <colType>0</colType>
                     <rowTemplate></rowTemplate>
                     <colHeaderType>0</colHeaderType>
-                    <colHeader>FIRST</colHeader>
+                    <colHeader>First</colHeader>
                     <colHeaderData xsi:type="templateData">
                         <gridTemplateName>None</gridTemplateName>
                     </colHeaderData>
@@ -1404,7 +1404,7 @@
                     <colType>0</colType>
                     <rowTemplate></rowTemplate>
                     <colHeaderType>0</colHeaderType>
-                    <colHeader>SECOND</colHeader>
+                    <colHeader>Second</colHeader>
                     <colHeaderData xsi:type="templateData">
                         <gridTemplateName>None</gridTemplateName>
                     </colHeaderData>
@@ -1420,7 +1420,7 @@
                     <colType>0</colType>
                     <rowTemplate></rowTemplate>
                     <colHeaderType>0</colHeaderType>
-                    <colHeader>THIRD</colHeader>
+                    <colHeader>Third</colHeader>
                     <colHeaderData xsi:type="templateData">
                         <gridTemplateName>None</gridTemplateName>
                     </colHeaderData>

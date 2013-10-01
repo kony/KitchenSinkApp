@@ -455,10 +455,8 @@ function switchandOS3D()
 	            "lblFirst": "Switch"
 	        }];
 	}
-	else if(kony.os.deviceInfo().name == "WindowsPhone")
+	else if(kony.os.deviceInfo().name == "WindowsPhone" && kony.os.deviceInfo().version.substring(0,1)=="8")
 	{
-		if(kony.os.deviceInfo().version.substring(0,1)=="8")
-		{
 			frmAdvancedWidgets.segFirst.widgetDataMap= {"lblFirst": "lblFirst" };
 		    frmAdvancedWidgets.segFirst.data= [{
 		            "lblFirst": "Segment"
@@ -475,7 +473,6 @@ function switchandOS3D()
 		        }, {
 		            "lblFirst": "Switch"
 		        }];
-	      }
 	}
 	else
 	{

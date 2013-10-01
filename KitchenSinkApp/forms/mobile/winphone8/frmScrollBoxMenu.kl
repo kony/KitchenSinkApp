@@ -38689,7 +38689,7 @@
                             <height>100</height>
                         </sizePercent>
                         <skinId>btnExpand</skinId>
-                        <focusSkinId>Skin Defaults</focusSkinId>
+                        <focusSkinId>btnExpand</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
                         <rendererData>
