@@ -10,7 +10,6 @@ function segwidMultiTemplate()
 {
 	if(channel =="tablet" || channel == "desktopweb")
 	{
-		kony.print("entered ipad tablet")
 		frmSegmentTablet.segMultiRowTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3"};
 		frmSegmentTablet.segMultiRowTemp.data = [
 					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400",template:hboxtemp1}, 
@@ -20,7 +19,6 @@ function segwidMultiTemplate()
 	}
 	else
 	{
-		kony.print("entered non ipad tablet")
 		frmRowTemplates.segMultiTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3"};
 		frmRowTemplates.segMultiTemp.data = [
 					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400",template:hboxtemp1}, 

@@ -26,8 +26,8 @@ function rowTempSetData()
 function expandRowTemp()
 {
 	var index = frmSegDynRowTemplate.segDynamicRowTemp.selectedIndex[1]; 
-	if (kony.os.deviceInfo().name == "blackberry")
-		alert("Trying to expand the row at index "+index);
+	kony.print(" On expand row , segment selected row number :: " +index);
+	
 	var dataForRowTemp = {};
 	if (index == 0)
 	{
@@ -41,6 +41,7 @@ function expandRowTemp()
 	{
 		dataForRowTemp = {lbl1:"Name", lbl2:": Ricky",lbl3:"Designation",lbl4:": Senior Manager",lbl5:"Phone number",lbl6:": 7777777777",template:hbx2}
 	}
+	
 	frmSegDynRowTemplate.segDynamicRowTemp.widgetDataMap = {lbl1 :"lbl1",lbl2 : "lbl2" ,lbl3 :"lbl3",lbl4:"lbl4",lbl5:"lbl5",lbl6:"lbl6",lbl7:"lbl7",lbl8:"lbl8"}
 	frmSegDynRowTemplate.segDynamicRowTemp.setDataAt(dataForRowTemp, index )
 }
@@ -95,7 +96,7 @@ function initArray()
 function isSelected()
 {
 	var selIndex = frmSegDynRowTemplate.segDynamicRowTemp.selectedIndex[1];
-	
+	kony.print("selIndex" +selIndex);
 		if(arrForDynRow[selIndex] == 0)
 		{
 			arrForDynRow[selIndex] = 1;
