@@ -465,6 +465,7 @@
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -530,6 +531,7 @@
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -622,7 +624,7 @@
         <win_fixed_items>0</win_fixed_items>
         <win_enablescreenmenu>false</win_enablescreenmenu>
         <win_autofocus>true</win_autofocus>
-        <wm_orientation>1</wm_orientation>
+        <wm_orientation>0</wm_orientation>
         <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
         <win_intransition>Default</win_intransition>
         <win_outtransition>Default</win_outtransition>
@@ -660,6 +662,12 @@
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -689,6 +697,9 @@
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -966,13 +977,13 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>4</left>
                     <right>4</right>
@@ -1237,9 +1248,9 @@
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>px</unit>
+                    <unit>%</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -1615,13 +1626,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>1</left>
                         <right>1</right>
@@ -1882,13 +1893,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>5</left>
-                        <right>5</right>
-                        <top>5</top>
-                        <bottom>5</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>3</left>
                         <right>3</right>
@@ -2054,12 +2065,13 @@
                 <bb_content_align>1</bb_content_align>
                 <bb_display_text>true</bb_display_text>
                 <j2me_content_align>1</j2me_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <android_display_text>true</android_display_text>
                 <android_pressed_skin>Skin Defaults</android_pressed_skin>
                 <android_content_align>4</android_content_align>
                 <win_display_text>true</win_display_text>
-                <winMobileContentAlign>middle-center</winMobileContentAlign>
+                <winMobileContentAlign>top-center</winMobileContentAlign>
                 <palm_display_text>true</palm_display_text>
                 <palm_buttontype>0</palm_buttontype>
                 <symbian_display_text>true</symbian_display_text>
@@ -2315,13 +2327,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>1</left>
                         <right>1</right>
@@ -2582,13 +2594,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>5</left>
-                        <right>5</right>
-                        <top>5</top>
-                        <bottom>5</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>3</left>
                         <right>3</right>
@@ -2755,12 +2767,13 @@
                 <bb_content_align>1</bb_content_align>
                 <bb_display_text>true</bb_display_text>
                 <j2me_content_align>1</j2me_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <android_display_text>true</android_display_text>
                 <android_pressed_skin>Skin Defaults</android_pressed_skin>
                 <android_content_align>4</android_content_align>
                 <win_display_text>true</win_display_text>
-                <winMobileContentAlign>middle-center</winMobileContentAlign>
+                <winMobileContentAlign>top-center</winMobileContentAlign>
                 <palm_display_text>true</palm_display_text>
                 <palm_buttontype>0</palm_buttontype>
                 <symbian_display_text>true</symbian_display_text>
@@ -3016,13 +3029,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>1</left>
                         <right>1</right>
@@ -3283,13 +3296,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>5</left>
-                        <right>5</right>
-                        <top>5</top>
-                        <bottom>5</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>3</left>
                         <right>3</right>
@@ -3455,12 +3468,13 @@
                 <bb_content_align>1</bb_content_align>
                 <bb_display_text>true</bb_display_text>
                 <j2me_content_align>1</j2me_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <android_display_text>true</android_display_text>
                 <android_pressed_skin>Skin Defaults</android_pressed_skin>
                 <android_content_align>4</android_content_align>
                 <win_display_text>true</win_display_text>
-                <winMobileContentAlign>middle-center</winMobileContentAlign>
+                <winMobileContentAlign>top-center</winMobileContentAlign>
                 <palm_display_text>true</palm_display_text>
                 <palm_buttontype>0</palm_buttontype>
                 <symbian_display_text>true</symbian_display_text>
@@ -3725,13 +3739,13 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>1</left>
                     <right>1</right>
@@ -3992,13 +4006,13 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>1</left>
                     <right>1</right>
@@ -4141,7 +4155,7 @@
             <symbian_enable_zoom>true</symbian_enable_zoom>
             <symbian_screenlevelWidget>true</symbian_screenlevelWidget>
             <android_screenLevelWidget>false</android_screenLevelWidget>
-            <winMobile_screenlevelWidget>false</winMobile_screenlevelWidget>
+            <winMobile_screenlevelWidget>true</winMobile_screenlevelWidget>
             <winphone8_screenlevelwidget>false</winphone8_screenlevelwidget>
             <win6xMobile_screenlevelWidget>false</win6xMobile_screenlevelWidget>
         </children>
@@ -5419,13 +5433,14 @@
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
                 <j2me_longtext>false</j2me_longtext>
                 <j2me_content_align>0</j2me_content_align>
                 <android_content_align>0</android_content_align>
-                <winMobileContentAlign>middle-left</winMobileContentAlign>
+                <winMobileContentAlign>top-left</winMobileContentAlign>
                 <symbianWrapping>0</symbianWrapping>
                 <symbianContentAlign>0</symbianContentAlign>
                 <tc_renderAsanchor>false</tc_renderAsanchor>
@@ -5497,6 +5512,7 @@
                 <seqname></seqname>
             </evtSequence>
         </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

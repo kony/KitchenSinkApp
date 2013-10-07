@@ -624,7 +624,7 @@
         <win_fixed_items>0</win_fixed_items>
         <win_enablescreenmenu>false</win_enablescreenmenu>
         <win_autofocus>true</win_autofocus>
-        <wm_orientation>1</wm_orientation>
+        <wm_orientation>0</wm_orientation>
         <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
         <win_intransition>Default</win_intransition>
         <win_outtransition>Default</win_outtransition>
@@ -977,13 +977,13 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -1632,13 +1632,13 @@
                     <thinclient_override>false</thinclient_override>
                     <type>1</type>
                     <windows8>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </windows8>
-                    <windows8_override>true</windows8_override>
+                    <windows8_override>false</windows8_override>
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
@@ -2261,11 +2261,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>6</left>
-                            <right>6</right>
-                            <top>6</top>
-                            <bottom>6</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -2530,9 +2530,9 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>4</top>
-                            <bottom>4</bottom>
-                            <unit>px</unit>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -2679,7 +2679,7 @@
                     <j2me_longtext>false</j2me_longtext>
                     <j2me_content_align>0</j2me_content_align>
                     <android_content_align>0</android_content_align>
-                    <winMobileContentAlign>middle-left</winMobileContentAlign>
+                    <winMobileContentAlign>top-left</winMobileContentAlign>
                     <symbianWrapping>0</symbianWrapping>
                     <symbianContentAlign>0</symbianContentAlign>
                     <tc_renderAsanchor>false</tc_renderAsanchor>
@@ -2907,11 +2907,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>7</left>
-                            <right>7</right>
-                            <top>7</top>
-                            <bottom>7</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -3798,11 +3798,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>6</left>
-                            <right>6</right>
-                            <top>6</top>
-                            <bottom>6</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -4067,9 +4067,9 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>4</top>
-                            <bottom>4</bottom>
-                            <unit>px</unit>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -4216,7 +4216,7 @@
                     <j2me_longtext>false</j2me_longtext>
                     <j2me_content_align>0</j2me_content_align>
                     <android_content_align>0</android_content_align>
-                    <winMobileContentAlign>middle-left</winMobileContentAlign>
+                    <winMobileContentAlign>top-left</winMobileContentAlign>
                     <symbianWrapping>0</symbianWrapping>
                     <symbianContentAlign>0</symbianContentAlign>
                     <tc_renderAsanchor>false</tc_renderAsanchor>
@@ -4449,11 +4449,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>7</left>
-                            <right>7</right>
-                            <top>7</top>
-                            <bottom>7</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -4716,13 +4716,13 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
-                            <right>1</right>
+                            <left>0</left>
+                            <right>0</right>
                             <top>1</top>
                             <bottom>1</bottom>
                             <unit>%</unit>
                         </windows8>
-                        <windows8_override>false</windows8_override>
+                        <windows8_override>true</windows8_override>
                         <winmobile>
                             <left>1</left>
                             <right>1</right>
@@ -5340,11 +5340,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>6</left>
-                            <right>6</right>
-                            <top>6</top>
-                            <bottom>6</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -5609,9 +5609,9 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>4</top>
-                            <bottom>4</bottom>
-                            <unit>px</unit>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -5758,7 +5758,7 @@
                     <j2me_longtext>false</j2me_longtext>
                     <j2me_content_align>0</j2me_content_align>
                     <android_content_align>0</android_content_align>
-                    <winMobileContentAlign>middle-left</winMobileContentAlign>
+                    <winMobileContentAlign>top-left</winMobileContentAlign>
                     <symbianWrapping>0</symbianWrapping>
                     <symbianContentAlign>0</symbianContentAlign>
                     <tc_renderAsanchor>false</tc_renderAsanchor>
@@ -5991,11 +5991,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>7</left>
-                            <right>7</right>
-                            <top>7</top>
-                            <bottom>7</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -6717,7 +6717,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -6882,11 +6882,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>6</left>
-                            <right>6</right>
-                            <top>6</top>
-                            <bottom>6</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -7151,9 +7151,9 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>4</top>
-                            <bottom>4</bottom>
-                            <unit>px</unit>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -7300,7 +7300,7 @@
                     <j2me_longtext>false</j2me_longtext>
                     <j2me_content_align>0</j2me_content_align>
                     <android_content_align>0</android_content_align>
-                    <winMobileContentAlign>middle-left</winMobileContentAlign>
+                    <winMobileContentAlign>top-left</winMobileContentAlign>
                     <symbianWrapping>0</symbianWrapping>
                     <symbianContentAlign>0</symbianContentAlign>
                     <tc_renderAsanchor>false</tc_renderAsanchor>
@@ -7365,7 +7365,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -7530,11 +7530,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>7</left>
-                            <right>7</right>
-                            <top>7</top>
-                            <bottom>7</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -7797,13 +7797,13 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
-                            <right>1</right>
+                            <left>0</left>
+                            <right>0</right>
                             <top>1</top>
                             <bottom>1</bottom>
                             <unit>%</unit>
                         </windows8>
-                        <windows8_override>false</windows8_override>
+                        <windows8_override>true</windows8_override>
                         <winmobile>
                             <left>1</left>
                             <right>1</right>
@@ -8256,7 +8256,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -8421,11 +8421,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>6</left>
-                            <right>6</right>
-                            <top>6</top>
-                            <bottom>6</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -8690,9 +8690,9 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>4</top>
-                            <bottom>4</bottom>
-                            <unit>px</unit>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -8839,7 +8839,7 @@
                     <j2me_longtext>false</j2me_longtext>
                     <j2me_content_align>0</j2me_content_align>
                     <android_content_align>0</android_content_align>
-                    <winMobileContentAlign>middle-left</winMobileContentAlign>
+                    <winMobileContentAlign>top-left</winMobileContentAlign>
                     <symbianWrapping>0</symbianWrapping>
                     <symbianContentAlign>0</symbianContentAlign>
                     <tc_renderAsanchor>false</tc_renderAsanchor>
@@ -8904,7 +8904,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -9069,11 +9069,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>7</left>
-                            <right>7</right>
-                            <top>7</top>
-                            <bottom>7</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -9336,13 +9336,13 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
-                            <right>1</right>
+                            <left>0</left>
+                            <right>0</right>
                             <top>1</top>
                             <bottom>1</bottom>
                             <unit>%</unit>
                         </windows8>
-                        <windows8_override>false</windows8_override>
+                        <windows8_override>true</windows8_override>
                         <winmobile>
                             <left>1</left>
                             <right>1</right>
@@ -9960,11 +9960,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>6</left>
-                            <right>6</right>
-                            <top>6</top>
-                            <bottom>6</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -10229,9 +10229,9 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>4</top>
-                            <bottom>4</bottom>
-                            <unit>px</unit>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -10378,7 +10378,7 @@
                     <j2me_longtext>false</j2me_longtext>
                     <j2me_content_align>0</j2me_content_align>
                     <android_content_align>0</android_content_align>
-                    <winMobileContentAlign>middle-left</winMobileContentAlign>
+                    <winMobileContentAlign>top-left</winMobileContentAlign>
                     <symbianWrapping>0</symbianWrapping>
                     <symbianContentAlign>0</symbianContentAlign>
                     <tc_renderAsanchor>false</tc_renderAsanchor>
@@ -10610,11 +10610,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>7</left>
-                            <right>7</right>
-                            <top>7</top>
-                            <bottom>7</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -11336,7 +11336,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -11501,11 +11501,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>6</left>
-                            <right>6</right>
-                            <top>6</top>
-                            <bottom>6</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -11770,9 +11770,9 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>4</top>
-                            <bottom>4</bottom>
-                            <unit>px</unit>
+                            <top>1</top>
+                            <bottom>1</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -11919,7 +11919,7 @@
                     <j2me_longtext>false</j2me_longtext>
                     <j2me_content_align>0</j2me_content_align>
                     <android_content_align>0</android_content_align>
-                    <winMobileContentAlign>middle-left</winMobileContentAlign>
+                    <winMobileContentAlign>top-left</winMobileContentAlign>
                     <symbianWrapping>0</symbianWrapping>
                     <symbianContentAlign>0</symbianContentAlign>
                     <tc_renderAsanchor>false</tc_renderAsanchor>
@@ -11985,7 +11985,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -12150,11 +12150,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>12</left>
-                            <right>12</right>
-                            <top>4</top>
-                            <bottom>6</bottom>
-                            <unit>px</unit>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>false</windows8_override>
                         <winmobile>
@@ -12417,10 +12417,10 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
-                            <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>%</unit>
                         </windows8>
                         <windows8_override>false</windows8_override>
@@ -13046,11 +13046,11 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>7</left>
-                            <right>7</right>
-                            <top>7</top>
-                            <bottom>7</bottom>
-                            <unit>px</unit>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
+                            <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
@@ -13313,13 +13313,13 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>1</left>
-                            <right>1</right>
+                            <left>0</left>
+                            <right>0</right>
                             <top>1</top>
                             <bottom>1</bottom>
                             <unit>%</unit>
                         </windows8>
-                        <windows8_override>false</windows8_override>
+                        <windows8_override>true</windows8_override>
                         <winmobile>
                             <left>1</left>
                             <right>1</right>

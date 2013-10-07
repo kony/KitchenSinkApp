@@ -60,6 +60,11 @@ function platformCheck()
 				frmPlatforms.btnAndroidPF.skin = frmPlatforms.btnAndroidPF.focusSkin;
 				frmPlatforms.btnWinPF.skin = frmPlatforms.btnWinPF.focusSkin;
 				break;
+			case "Windows":
+				frmPlatforms.btnIOSPF.skin = frmPlatforms.btnIOSPF.focusSkin;
+				frmPlatforms.btnAndroidPF.skin = frmPlatforms.btnAndroidPF.focusSkin;
+				frmPlatforms.btnHTMLPF.skin = frmPlatforms.btnHTMLPF.focusSkin;
+				break;
 		}
 	}
 	else
@@ -120,7 +125,7 @@ function selectPlatform(buttonObject)
 			}
 			break;
 		case "btnWinPF":
-			if(kony.os.deviceInfo().name == "WindowsPhone")
+			if(kony.os.deviceInfo().name == "WindowsPhone" || kony.os.deviceInfo().name == "Windows")
 			{
 				frmHome.show();
 			}
