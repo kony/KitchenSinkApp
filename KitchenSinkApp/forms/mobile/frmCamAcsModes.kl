@@ -2246,14 +2246,14 @@
             <android_tap_anywhere>false</android_tap_anywhere>
             <winMobCropPhotoEnabled>false</winMobCropPhotoEnabled>
             <winMango_view>0</winMango_view>
-            <winMango_tap_anywhere>false</winMango_tap_anywhere>
-            <winMango_imgwidgetId>None</winMango_imgwidgetId>
+            <winMango_tap_anywhere>true</winMango_tap_anywhere>
+            <winMango_imgwidgetId>image21927419382155502</winMango_imgwidgetId>
             <winMango_accessMode>0</winMango_accessMode>
             <winMango_imgtype>0</winMango_imgtype>
             <winMango_imgSize>0</winMango_imgSize>
             <windows_access_mode>0</windows_access_mode>
             <winphone8_access_mode>0</winphone8_access_mode>
-            <winMango_overlayformId>None</winMango_overlayformId>
+            <winMango_overlayformId>frmCameraOverlaid</winMango_overlayformId>
             <win_image_size>false</win_image_size>
             <iphone_contentAlign>3</iphone_contentAlign>
             <android_contentAlign>3</android_contentAlign>
@@ -2266,9 +2266,9 @@
             <j2me_content_align>3</j2me_content_align>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8CropPhotoEnabled>false</winphone8CropPhotoEnabled>
-            <winphone8_imgwidgetId>None</winphone8_imgwidgetId>
-            <winphone8_overlayformId>None</winphone8_overlayformId>
-            <winphone8_tap_anywhere>false</winphone8_tap_anywhere>
+            <winphone8_imgwidgetId>image21927419382155502</winphone8_imgwidgetId>
+            <winphone8_overlayformId>frmCameraOverlaid</winphone8_overlayformId>
+            <winphone8_tap_anywhere>true</winphone8_tap_anywhere>
             <winphone8_contentalign>3</winphone8_contentalign>
         </children>
         <children xsi:type="kCamera">
@@ -2288,7 +2288,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>135</y>
+                <y>158</y>
             </location>
             <size>
                 <width>448</width>
@@ -3000,14 +3000,14 @@
             <android_tap_anywhere>false</android_tap_anywhere>
             <winMobCropPhotoEnabled>false</winMobCropPhotoEnabled>
             <winMango_view>0</winMango_view>
-            <winMango_tap_anywhere>false</winMango_tap_anywhere>
-            <winMango_imgwidgetId>None</winMango_imgwidgetId>
+            <winMango_tap_anywhere>true</winMango_tap_anywhere>
+            <winMango_imgwidgetId>image21927419382155502</winMango_imgwidgetId>
             <winMango_accessMode>0</winMango_accessMode>
             <winMango_imgtype>0</winMango_imgtype>
             <winMango_imgSize>0</winMango_imgSize>
             <windows_access_mode>0</windows_access_mode>
             <winphone8_access_mode>0</winphone8_access_mode>
-            <winMango_overlayformId>None</winMango_overlayformId>
+            <winMango_overlayformId>frmCameraOverlaid</winMango_overlayformId>
             <win_image_size>false</win_image_size>
             <iphone_contentAlign>3</iphone_contentAlign>
             <android_contentAlign>3</android_contentAlign>
@@ -3020,9 +3020,9 @@
             <j2me_content_align>3</j2me_content_align>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8CropPhotoEnabled>false</winphone8CropPhotoEnabled>
-            <winphone8_imgwidgetId>None</winphone8_imgwidgetId>
-            <winphone8_overlayformId>None</winphone8_overlayformId>
-            <winphone8_tap_anywhere>false</winphone8_tap_anywhere>
+            <winphone8_imgwidgetId>image21927419382155502</winphone8_imgwidgetId>
+            <winphone8_overlayformId>frmCameraOverlaid</winphone8_overlayformId>
+            <winphone8_tap_anywhere>true</winphone8_tap_anywhere>
             <winphone8_contentalign>3</winphone8_contentalign>
         </children>
         <children xsi:type="khBox">
@@ -3043,7 +3043,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>180</y>
+                <y>204</y>
             </location>
             <size>
                 <width>448</width>
@@ -5795,7 +5795,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>239</y>
+                <y>297</y>
             </location>
             <size>
                 <width>448</width>
