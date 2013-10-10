@@ -4,8 +4,9 @@
 *	Author  : Kony 
 *	Purpose : To set the channel parameter value as "setChannelDesktop" to identify the application is for desktopweb channels.
 ******************************************************************/
+// channel is a global variable defined to identify from which channel the app is being accessed. This is defined in the preappinit of the application properties.
 
-function setChannelDesktop()
+function setChannelDesktop() // this function is called in the preappinit of the application properties
 {
 	channel ="desktopweb";
 }
@@ -16,7 +17,7 @@ function setChannelDesktop()
 *	Purpose : To set the channel parameter value as "tablet" to identify the application is for tablet channels .
 ******************************************************************/
 
-function setChannelTablet()
+function setChannelTablet() // this function is called in the preappinit of the application properties
 {
 	channel ="tablet";
 }
@@ -27,7 +28,7 @@ function setChannelTablet()
 *	Purpose : To set the channel parameter value as "mobile" to identify the application is for mobile channels.
 ******************************************************************/
 
-function setChannelMobile()
+function setChannelMobile() // this function is called in the preappinit of the application properties
 {
 	channel ="mobile";
 }
@@ -408,7 +409,6 @@ function switchandOS3D()
 	if(kony.os.deviceInfo().name == "blackberry" || kony.os.deviceInfo().name == "android"  )
 	{
 	
-		frmAdvancedWidgets.segFirst.widgetDataMap= {"lblFirst": "lblFirst" };
 	    frmAdvancedWidgets.segFirst.data= [{
 	            "lblFirst": "Segment"
 	        }, {
@@ -426,7 +426,7 @@ function switchandOS3D()
 	}
 	else if (kony.os.deviceInfo().name == "iPad" )
 	{
-		frmAdvancedWidgets.segFirst.widgetDataMap= {"lblFirst": "lblFirst" };
+		
 	    frmAdvancedWidgets.segFirst.data= [{
 	            "lblFirst": "Segment"
 	        }, {
@@ -443,7 +443,7 @@ function switchandOS3D()
 	}
 	else if(kony.os.deviceInfo().name == "iPhone")
 	{
-		frmAdvancedWidgets.segFirst.widgetDataMap= {"lblFirst": "lblFirst" };
+		
 	    frmAdvancedWidgets.segFirst.data= [{
 	            "lblFirst": "Segment"
 	        }, {
@@ -462,7 +462,7 @@ function switchandOS3D()
 	}
 	else if(kony.os.deviceInfo().name == "WindowsPhone" && kony.os.deviceInfo().version.substring(0,1)=="8")
 	{
-			frmAdvancedWidgets.segFirst.widgetDataMap= {"lblFirst": "lblFirst" };
+			
 		    frmAdvancedWidgets.segFirst.data= [{
 		            "lblFirst": "Segment"
 		        }, {
@@ -481,7 +481,7 @@ function switchandOS3D()
 	}
 	else
 	{
-		frmAdvancedWidgets.segFirst.widgetDataMap= {"lblFirst": "lblFirst" };
+		
 	    frmAdvancedWidgets.segFirst.data= [{
 	            "lblFirst": "Segment"
 	        }, {

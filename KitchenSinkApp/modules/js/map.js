@@ -1,3 +1,4 @@
+// channel is a global variable defined to identify from which channel the app is being accessed. This is defined in the preappinit of the application properties.
 
 /*****************************************************************
 *	Name    : setLocationData
@@ -24,18 +25,7 @@ function setLocationData()
 	}
 	else
 	{
-		/* Map is not occupying whole screen
-			Imran Khan Mohammed	30-May-2013 15:06:35	From now we have introduced two psp for MAP 
-			containerHeight 
-			containerHeightReference 
-			
-			With this we can achieve this. 
-			
-			add to map model like: 
-			
-			WidgetModel.containerHeight = 100; 
-			WidgetModel.containerHeightReference = constants.MAP_HEIGHT_BY_FORM_REFERENCE; 
-			Note: currently these properties are not exposed from IDE. */
+		
 			
 		if(kony.os.deviceInfo().name == "thinclient" && channel == "tablet" && channel != "desktopweb")
 		{

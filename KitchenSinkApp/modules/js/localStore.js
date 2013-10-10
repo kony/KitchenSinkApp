@@ -1,10 +1,11 @@
 
+// channel is a global variable defined to identify from which channel the app is being accessed. This is defined in the preappinit of the application properties.
+
 /*****************************************************************
 *	Name    : setItemvalues
 *	Author  : Kony 
 *	Purpose : To set items on to the local store by taking key and value from the user.
 ******************************************************************/
-
 function setItemvalues(  )
 {
 	if((kony.os.deviceInfo().name == "thinclient" && channel == "tablet")||  channel == "desktopweb")

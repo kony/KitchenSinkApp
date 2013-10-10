@@ -1,9 +1,9 @@
+// channel is a global variable defined to identify from which channel the app is being accessed. This is defined in the preappinit of the application properties.
 /****************************************************************
 *	Name    : requestAPiKey
 *	Author  : Kony 
 *	Purpose : To request an API Key from dev.pipl.com incase if the user dont have a key
 ******************************************************************/
-
 function requestAPiKey()
 {
 	kony.application.openURL("http://dev.pipl.com/apps/mykeys");
@@ -17,7 +17,7 @@ function requestAPiKey()
 
 function APIKeyCheck()
 {
-	if(channel == "tablet" || channel == "desktopweb")
+	if(channel == "tablet" || channel == "desktopweb") 
 	{
 		if (frmAsyncDataAccess.txtAPIKey.text=="" || frmAsyncDataAccess.txtAPIKey.text==null )
 		{

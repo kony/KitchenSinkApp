@@ -4,6 +4,8 @@
 *	Author  : Kony 
 *	Purpose : To handle browser options,If inline navigation button is clicked then enabel the required buttons in 'frmBrowser' form.
 ******************************************************************/
+
+// channel is a global variable defined to identify from which channel the app is being accessed. This is defined in the preappinit of the application properties.
 function browserOptions(eventObj)
 {
 	if(channel=="tablet" || channel == "desktopweb")

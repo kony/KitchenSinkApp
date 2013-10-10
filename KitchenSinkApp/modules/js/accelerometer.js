@@ -1,12 +1,12 @@
-
+// channel is a global variable defined to identify from which channel the app is being accessed. This is defined in the preappinit of the application properties.
 /*****************************************************************
 *	Name    : regAccEvent
 *	Author  : Kony
 *	Purpose : To register acceleration events.
 ******************************************************************/
-
 function regAccEvent()
 {
+	
 	if(channel=="tablet")
 	{
 		frmDeviceFeatures.sbxDevFeatureDeatils.removeAt(1);

@@ -145,7 +145,7 @@ function advancedSPA()
 
 function segwidMultiTemplateSPA()
 {
-	frmRowTemplates.segMultiTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3",btn1:"btn1"};
+	
 	frmRowTemplates.segMultiTemp.data = [
 					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400",template:hboxtemp1}, 
 					{lbl1: "For more Info Please Visit ",btn1:"xyz.com",template:hbxTempSPA1},
@@ -164,7 +164,7 @@ function segwidMultiTemplateSPA()
 
 function segMetainfoJS()
 {
-	frmRowTemplates.segMetainfo.widgetDataMap = {lblSegmeta1:"lbl1",lblSegmeta2:"lbl2",lblSegmeta3:"lbl3"};
+	
 	frmRowTemplates.segMetainfo.setData([
 					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400",metainfo:{skin:"segrowfocus"}}, 
 					{lbl1: "Gold Card",lbl2: "$300",lbl3: "$100",metainfo:{skin:"rowFocusSkin"}}, 
@@ -182,7 +182,7 @@ function segMetainfoJS()
 
 function SecHdrWidoutTemplatesJSSPA()
 {
-	frmSecHdrWidoutTemplates.segSecHdrWidoutTmplate.widgetDataMap = {lblSecHdr1:"lblSecHdr1",lblSecHdr2:"lblSecHdr2",lblSecHdr3:"lblSecHdr3",BAccName:"BAccName",WithdrawLimit:"WithdrawLimit",CreditLimit:"CreditLimit",imgChk:"imgChk"};
+	
 	frmSecHdrWidoutTemplates.segSecHdrWidoutTmplate.data = [
 							[ {lblSecHdr1:"Credit account details",lblSecHdr2:" Account No: xxxxxx0660",template:boxRefSegHdr},					
 							    [

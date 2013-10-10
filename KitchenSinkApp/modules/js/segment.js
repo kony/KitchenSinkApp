@@ -1,4 +1,4 @@
-
+// channel is a global variable defined to identify from which channel the app is being accessed. This is defined in the preappinit of the application properties.
 
 /*****************************************************************
 *	Name    : segwidMultiTemplate
@@ -10,7 +10,7 @@ function segwidMultiTemplate()
 {
 	if(channel =="tablet" || channel == "desktopweb")
 	{
-		frmSegmentTablet.segMultiRowTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3"};
+		
 		frmSegmentTablet.segMultiRowTemp.data = [
 					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400",template:hboxtemp1}, 
 					{lbl1: "Gold Card",lbl2: "$200",lbl3: "$400",template:hboxtemp2}, 
@@ -19,7 +19,7 @@ function segwidMultiTemplate()
 	}
 	else
 	{
-		frmRowTemplates.segMultiTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3"};
+		
 		frmRowTemplates.segMultiTemp.data = [
 					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400",template:hboxtemp1}, 
 					{lbl1: "Gold Card",lbl2: "$200",lbl3: "$400",template:hboxtemp2}, 
@@ -40,7 +40,7 @@ function segwidMultiTemplate()
 function SecHdrTemplatesTab()
 {
 	
-		frmSegmentTablet.segSecHdrTemplates.widgetDataMap = {lblSecHdr1:"lblSecHdr1",lblSecHdr2:"lblSecHdr2",lblBnkAcctName:"lblBnkAcctName",lblWidDrwLimit:"lblWidDrwLimit",lblCreditLimit:"lblCreditLimit",imgChk:"imgChk"};
+		//frmSegmentTablet.segSecHdrTemplates.widgetDataMap = {lblSecHdr1:"lblSecHdr1",lblSecHdr2:"lblSecHdr2",lblBnkAcctName:"lblBnkAcctName",lblWidDrwLimit:"lblWidDrwLimit",lblCreditLimit:"lblCreditLimit",imgChk:"imgChk"};
 	
 		frmSegmentTablet.segSecHdrTemplates.data = [
 							[ {lblSecHdr1:"Credit account details",lblSecHdr2:" Account No: xxxxxx0660",template:boxRefSegHdr},					
@@ -75,7 +75,7 @@ function SecHdrTemplatesTab()
 	
 function segWidoutRowtmplateJS()
 {
-	frmRowTemplates.segWidoutRowtmplate.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3"};
+	//frmRowTemplates.segWidoutRowtmplate.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3"};
 	frmRowTemplates.segWidoutRowtmplate.setData([
 					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400"}, 
 					{lbl1: "Gold Card",lbl2: "$300",lbl3: "$100"}, 
@@ -102,7 +102,7 @@ function SecHdrWidoutTemplatesJS(evenObj)
 		frmSecHdrWidoutTemplates.lblSegMulSelect.setVisibility(false);		
 		frmSecHdrWidoutTemplates.btnSegMulSelect.setVisibility(false);
 	}
-	frmSecHdrWidoutTemplates.segSecHdrWidoutTmplate.widgetDataMap = {lblSecHdr1:"lblSecHdr1",lblSecHdr2:"lblSecHdr2",BAccName:"BAccName",WithdrawLimit:"WithdrawLimit",CreditLimit:"CreditLimit",imgChk:"imgChk"};
+	//frmSecHdrWidoutTemplates.segSecHdrWidoutTmplate.widgetDataMap = {lblSecHdr1:"lblSecHdr1",lblSecHdr2:"lblSecHdr2",BAccName:"BAccName",WithdrawLimit:"WithdrawLimit",CreditLimit:"CreditLimit",imgChk:"imgChk"};
 	
 	frmSecHdrWidoutTemplates.segSecHdrWidoutTmplate.data = [
 							[ {lblSecHdr1:"Credit account details",lblSecHdr2:" Account No: xxxxxx0660",template:boxRefSegHdr},					

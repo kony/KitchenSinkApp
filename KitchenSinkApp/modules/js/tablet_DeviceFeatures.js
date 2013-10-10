@@ -1,3 +1,5 @@
+
+// channel is a global variable defined to identify from which channel the app is being accessed. This is defined in the preappinit of the application properties.
 /*****************************************************************
 *	Name    : DevcFeatsHandleDesktopweb
 *	Author  : Kony 

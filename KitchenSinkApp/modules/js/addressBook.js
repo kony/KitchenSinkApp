@@ -12,7 +12,7 @@ function sendSMS()
 	}
 	else
 	{
-		var phoneNo ="+91 40 12345678";
+		var phoneNo ="+91 40 12345678"; // This is a dummy number
 		var text = "Hi kony developer";
 		kony.phone.sendSMS(phoneNo, text);
 	}
