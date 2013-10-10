@@ -562,7 +562,7 @@
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
         <ipad_headerOverlap>false</ipad_headerOverlap>
-        <ipad_orientation>0</ipad_orientation>
+        <ipad_orientation>2</ipad_orientation>
         <ipadMenuRenderer>true</ipadMenuRenderer>
         <ipad_transDirection>0</ipad_transDirection>
         <ipadOutTransEffect>0</ipadOutTransEffect>
@@ -13497,6 +13497,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
+        <overrideProperties>KForm.ipad_Orientation</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

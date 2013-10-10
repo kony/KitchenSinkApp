@@ -9,7 +9,7 @@
 			<pathelement location="${antjar.file}"/>
 		</classpath>
 		</taskdef>
-			
+		<osfamily property="os.family"/>	
 	<echo message="Started script..."/>
 	<property name="input.file" location="${basedir}/build.properties"/>
 	
@@ -104,15 +104,27 @@
 		</else>
 	</if>
 		
-		
-	<exec dir="." executable="cmd" failonerror="true">
-		<arg value="/c"/>
-		<arg value="run.bat"/>
-		<arg value="${input.file}"/>
-		<arg value="${ws.location}"/>
-		<arg value="${eclipse.equinox.path}"/>
-		<arg value="${global.file}"/>
-	</exec>
+    <if>
+    	<equals arg1="${os.family}" arg2="windows"/>
+    	<then>
+    		<exec dir="." executable="cmd" failonerror="true">
+    			<arg value="/c"/>
+    			<arg value="run.bat"/>
+    			<arg value="${input.file}"/>
+    			<arg value="${ws.location}"/>
+    			<arg value="${eclipse.equinox.path}"/>
+    			<arg value="${global.file}"/>
+    		</exec>
+    	</then>
+    	<else>
+	        <exec dir="." executable="/bin/bash" failonerror="true">
+	        	<arg line='-c "chmod 777 run.sh"'/>
+	        </exec>
+	        <exec dir="." executable="/bin/bash" failonerror="true">
+	        	<arg line='-c "sh run.sh ${input.file} ${ws.location} ${eclipse.equinox.path} ${global.file}"'/>
+	        </exec>
+    	</else>
+    </if>	
 	
 	<echo message="Ending script..."/>
 
