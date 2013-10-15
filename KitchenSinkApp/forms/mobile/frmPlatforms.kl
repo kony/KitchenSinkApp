@@ -14846,7 +14846,7 @@
                 </xhtmlAdvBB>
                 <xhtmlAdvBB_override>false</xhtmlAdvBB_override>
                 <spaAndroid>
-                    <left>15</left>
+                    <left>1</left>
                     <right>1</right>
                     <top>1</top>
                     <bottom>1</bottom>
@@ -14870,7 +14870,7 @@
                 <spaBBNth_override>false</spaBBNth_override>
                 <spaBB_override>false</spaBB_override>
                 <spaIphone>
-                    <left>15</left>
+                    <left>1</left>
                     <right>1</right>
                     <top>1</top>
                     <bottom>1</bottom>
