@@ -166,9 +166,9 @@ function segMetainfoJS()
 {
 	
 	frmRowTemplates.segMetainfo.setData([
-					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400",metainfo:{skin:"segrowfocus"}}, 
-					{lbl1: "Gold Card",lbl2: "$300",lbl3: "$100",metainfo:{skin:"rowFocusSkin"}}, 
-					{lbl1: "Silver Card",lbl2: "$500",lbl3: "$600",metainfo:{skin:"rowSkin"}}
+					{lblSegmeta1: "Titanium Card",lblSegmeta2: "$200",lblSegmeta3: "$400",metainfo:{skin:"segrowfocus"}}, 
+					{lblSegmeta1: "Gold Card",lblSegmeta2: "$300",lblSegmeta3: "$100",metainfo:{skin:"rowFocusSkin"}}, 
+					{lblSegmeta1: "Silver Card",lblSegmeta2: "$500",lblSegmeta3: "$600",metainfo:{skin:"rowSkin"}}
 				 ]);
 		
 }
@@ -182,7 +182,7 @@ function segMetainfoJS()
 
 function SecHdrWidoutTemplatesJSSPA()
 {
-	
+	frmSecHdrWidoutTemplates.segSecHdrWidoutTmplate.widgetDataMap = {lblSecHdr1:"lblSecHdr1",lblSecHdr2:"lblSecHdr2",lblSecHdr3:"lblSecHdr3",BAccName:"BAccName",WithdrawLimit:"WithdrawLimit",CreditLimit:"CreditLimit",imgChk:"imgChk"};
 	frmSecHdrWidoutTemplates.segSecHdrWidoutTmplate.data = [
 							[ {lblSecHdr1:"Credit account details",lblSecHdr2:" Account No: xxxxxx0660",template:boxRefSegHdr},					
 							    [

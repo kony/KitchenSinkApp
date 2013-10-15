@@ -1045,10 +1045,10 @@
                 <spaBBNth_override>false</spaBBNth_override>
                 <spaBB_override>false</spaBB_override>
                 <spaIphone>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </spaIphone>
                 <spaIphone_override>true</spaIphone_override>
