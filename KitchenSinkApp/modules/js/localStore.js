@@ -155,7 +155,8 @@ function ClearItem(  )
 {
 	kony.store.clear();
 	frmLocalStore.lblLocalClear.text = "Local Storage is cleared";
-	
+	frmLocalStore.frmLocalTxtSet1.text ="";
+	frmLocalStore.frmLocalTxtSet2.text ="";
 	frmLocalStore.frmLocalTxtGet1.text ="";
 	frmLocalStore.frmLocalLblGet1.text ="";
 	frmLocalStore.frmLocalTxtIndex.text="";

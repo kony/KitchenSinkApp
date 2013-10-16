@@ -791,8 +791,8 @@
                 <width>100</width>
                 <height>11</height>
             </sizePercent>
-            <skinId>Skin Defaults</skinId>
-            <focusSkinId>Skin Defaults</focusSkinId>
+            <skinId>hbxFooter</skinId>
+            <focusSkinId>hbxFooter</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>

@@ -1419,13 +1419,13 @@
                                 <value>
                                     <paramList>
                                         <datatype>string</datatype>
-                                        <paramName>widgetName</paramName>
+                                        <paramName>eventObj</paramName>
                                         <valType>0</valType>
-                                        <value> eventobject</value>
+                                        <value>eventobject</value>
                                         <valueMap>
                                             <entry>
                                                 <key>js</key>
-                                                <value> eventobject</value>
+                                                <value>eventobject</value>
                                             </entry>
                                         </valueMap>
                                     </paramList>
@@ -4229,6 +4229,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>

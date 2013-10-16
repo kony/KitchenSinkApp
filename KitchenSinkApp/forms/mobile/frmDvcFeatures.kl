@@ -10047,11 +10047,11 @@ frmLocalStore.frmLocalTxtSet1.text == ""</value>
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
-                <mixed_android>true</mixed_android>
+                <mixed_android>false</mixed_android>
                 <mixed_android_tab>true</mixed_android_tab>
-                <mixed_bb>true</mixed_bb>
+                <mixed_bb>false</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
-                <mixed_iphone>true</mixed_iphone>
+                <mixed_iphone>false</mixed_iphone>
                 <rc_android>false</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
@@ -10064,7 +10064,7 @@ frmLocalStore.frmLocalTxtSet1.text == ""</value>
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>false</rc_winmobile6x>
-                <rc_winphone8>true</rc_winphone8>
+                <rc_winphone8>false</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
@@ -10083,7 +10083,7 @@ frmLocalStore.frmLocalTxtSet1.text == ""</value>
                 <tc_xhtml_js>true</tc_xhtml_js>
                 <wrapper_android>true</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
-                <wrapper_bb>true</wrapper_bb>
+                <wrapper_bb>false</wrapper_bb>
                 <wrapper_ipad>true</wrapper_ipad>
                 <wrapper_iphone>true</wrapper_iphone>
             </rendererData>
@@ -11392,6 +11392,7 @@ frmLocalStore.frmLocalTxtSet1.text == ""</value>
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>

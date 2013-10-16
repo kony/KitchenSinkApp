@@ -81,7 +81,7 @@ function decrypt()
 		var myEncryptedTextRaw = kony.convertToRawBytes(str.substring(17));
 		var myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
 		if(kony.os.deviceInfo().name == "WindowsPhone")
-			frmCrypto.lblDecrypt.text ="Decrypted text = "+JSON.stringify(myClearText);
+			frmCrypto.lblDecrypt.text ="Decrypted text = "+myClearText;
 		else
 			frmCrypto.lblDecrypt.text ="Decrypted text = "+myClearText.toString();
 					
