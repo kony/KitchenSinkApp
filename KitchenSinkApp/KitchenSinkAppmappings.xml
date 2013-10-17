@@ -76,6 +76,7 @@
     </container>
     <container type="form" id="frmBadge" displayname="Form"/>
     <container type="form" id="frmBrowserOptions" displayname="Form"/>
+    <container type="form" id="frmCalendarEvents" displayname="Form"/>
     <container type="form" id="frmCameraOverlaid" displayname="Form"/>
     <container type="form" id="frmContact" displayname="Form"/>
     <container type="form" id="frmDummy" displayname="Form"/>
@@ -89,6 +90,7 @@
     </container>
     <container type="form" id="frmPlatforms" displayname="Form"/>
     <container type="form" id="frmRichText" displayname="Form"/>
+    <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
     <container type="form" id="frmSegOnReachEnd" displayname="Form"/>
     <container type="form" id="frmSegSearchView" displayname="Form"/>
     <container type="form" id="frmSlider" displayname="Form"/>
@@ -171,7 +173,6 @@
     <container type="form" id="frmGestures" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmScrollBoxMenu" displayname="Form"/>
-    <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
     <container type="dialog" id="hdrIconEdit" displayname="Popup"/>
     <container type="dialog" id="hdrOne" displayname="Popup"/>
     <container type="dialog" id="hdrSearch" displayname="Popup">
@@ -395,6 +396,7 @@
     <container type="form" id="frmSwitch" displayname="Form"/>
     <container type="form" id="frmTabCollpasible" displayname="Form"/>
     <container type="form" id="frmTabDefault" displayname="Form"/>
+    <container type="form" id="frmTabPageView" displayname="Form"/>
     <container type="form" id="frmTabScreenLevel" displayname="Form">
         <component type="textbox2" id="textfieldTS1" displayname="TextBox2"/>
         <component type="textbox2" id="textfieldTS2" displayname="TextBox2"/>
@@ -447,6 +449,7 @@
     <container type="form" id="frmRowTemplates" displayname="Form"/>
     <container type="form" id="frmScrollBoxMenu" displayname="Form"/>
     <container type="form" id="frmSegMulSelectData" displayname="Form"/>
+    <container type="form" id="frmTabPageView" displayname="Form"/>
     <container type="form" id="frmWebSQLResults" displayname="Form"/>
     <container type="form" id="frmComplex" displayname="Form"/>
     <container type="form" id="frmImgGal" displayname="Form"/>
@@ -605,11 +608,8 @@
     <container type="form" id="frmRowTemplates" displayname="Form"/>
     <container type="form" id="frmScrollBoxMenu" displayname="Form"/>
     <container type="form" id="frmSegMulSelectData" displayname="Form"/>
+    <container type="form" id="frmTabPageView" displayname="Form"/>
     <container type="form" id="frmWebSQLResults" displayname="Form"/>
-    <container type="form" id="frmTabPageView" displayname="Form"/>
-    <container type="form" id="frmTabPageView" displayname="Form"/>
-    <container type="form" id="frmTabPageView" displayname="Form"/>
-    <container type="form" id="frmCalendarEvents" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>

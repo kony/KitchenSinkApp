@@ -27,7 +27,7 @@
     <platform>0</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
-    <toList>frmSegmentMoreFeatures</toList>
+    <toList>frmSegmentMoreFeatures,frmSegmentOptions</toList>
     <fromList></fromList>
     <headersrcList></headersrcList>
     <footersrcList></footersrcList>
@@ -2852,7 +2852,6 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
-            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>

@@ -17270,19 +17270,19 @@
         <att name="Chart2d3dProperties" value="" type="String"/>
     </skin>
     <skin>
-        <att name="Name" value="hbxFooter" type="String"/>
-        <att name="WidgetType" value="HBox" type="String"/>
-        <att name="Bg_type" value="0" type="int"/>
-        <att name="Background_color" value="12,28,53" type="RGB"/>
+        <att name="Name" value="listDefault" type="String"/>
+        <att name="WidgetType" value="ListBox" type="String"/>
+        <att name="Bg_type" value="1" type="int"/>
+        <att name="Background_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
         <att name="Rightbg_gradient_style" value="0" type="int"/>
-        <att name="Background_gradient_top_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_bottom_color" value="255,255,255" type="RGB"/>
+        <att name="Background_gradient_top_color" value="128,128,128" type="RGB"/>
+        <att name="Background_gradient_bottom_color" value="98,98,98" type="RGB"/>
         <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_top_colorSet" value="0" type="int"/>
-        <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
+        <att name="Background_gradient_top_colorSet" value="1" type="int"/>
+        <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
         <att name="Background_image" value="" type="String"/>
         <att name="MobileBackground_image" value="" type="String"/>
         <att name="TabletBackground_image" value="" type="String"/>
@@ -17330,9 +17330,9 @@
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
         <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
-        <att name="Font_style" value="" type="String"/>
+        <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="118" type="String"/>
-        <att name="Font_color" value="0,0,0" type="RGB"/>
+        <att name="Font_color" value="255,255,255" type="RGB"/>
         <att name="Font_color_alpha" value="0" type="String"/>
         <att name="Rightfont_weight" value="normal" type="String"/>
         <att name="Rightfont_style" value="" type="String"/>
@@ -17400,19 +17400,19 @@
         <att name="Chart2d3dProperties" value="" type="String"/>
     </skin>
     <skin>
-        <att name="Name" value="listDefault" type="String"/>
-        <att name="WidgetType" value="ListBox" type="String"/>
-        <att name="Bg_type" value="1" type="int"/>
-        <att name="Background_color" value="255,255,255" type="RGB"/>
+        <att name="Name" value="hbxFooter" type="String"/>
+        <att name="WidgetType" value="HBox" type="String"/>
+        <att name="Bg_type" value="0" type="int"/>
+        <att name="Background_color" value="12,28,53" type="RGB"/>
         <att name="Rightbackground_color" value="255,255,255" type="RGB"/>
         <att name="Bg_gradient_style" value="0" type="int"/>
         <att name="Rightbg_gradient_style" value="0" type="int"/>
-        <att name="Background_gradient_top_color" value="128,128,128" type="RGB"/>
-        <att name="Background_gradient_bottom_color" value="98,98,98" type="RGB"/>
+        <att name="Background_gradient_top_color" value="255,255,255" type="RGB"/>
+        <att name="Background_gradient_bottom_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_gradient_top_color" value="255,255,255" type="RGB"/>
         <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
-        <att name="Background_gradient_top_colorSet" value="1" type="int"/>
-        <att name="Background_gradient_bottom_colorSet" value="1" type="int"/>
+        <att name="Background_gradient_top_colorSet" value="0" type="int"/>
+        <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
         <att name="Background_image" value="" type="String"/>
         <att name="MobileBackground_image" value="" type="String"/>
         <att name="TabletBackground_image" value="" type="String"/>
@@ -17460,9 +17460,9 @@
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
         <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
-        <att name="Font_style" value="none" type="String"/>
+        <att name="Font_style" value="" type="String"/>
         <att name="Font_size" value="118" type="String"/>
-        <att name="Font_color" value="255,255,255" type="RGB"/>
+        <att name="Font_color" value="0,0,0" type="RGB"/>
         <att name="Font_color_alpha" value="0" type="String"/>
         <att name="Rightfont_weight" value="normal" type="String"/>
         <att name="Rightfont_style" value="" type="String"/>

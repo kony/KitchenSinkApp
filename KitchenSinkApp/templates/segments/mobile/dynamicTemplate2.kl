@@ -1286,8 +1286,8 @@
                 <spaAndroid>
                     <left>0</left>
                     <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaAndroid>
                 <spaAndroid_override>true</spaAndroid_override>
@@ -1310,8 +1310,8 @@
                 <spaIphone>
                     <left>0</left>
                     <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaIphone>
                 <spaIphone_override>true</spaIphone_override>
@@ -1959,8 +1959,8 @@
                     <spaIphone>
                         <left>1</left>
                         <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaIphone>
                     <spaIphone_override>true</spaIphone_override>
@@ -2488,7 +2488,7 @@
                         <bottom>10</bottom>
                         <unit>px</unit>
                     </spaWinphone8>
-                    <spaWinphone8_override>false</spaWinphone8_override>
+                    <spaWinphone8_override>true</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -2585,7 +2585,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaAndroid>
-                    <spaAndroid_override>false</spaAndroid_override>
+                    <spaAndroid_override>true</spaAndroid_override>
                     <spaBB>
                         <left>1</left>
                         <right>1</right>
@@ -2603,13 +2603,13 @@
                     <spaBBNth_override>true</spaBBNth_override>
                     <spaBB_override>true</spaBB_override>
                     <spaIphone>
-                        <left>0</left>
+                        <left>1</left>
                         <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaIphone>
-                    <spaIphone_override>false</spaIphone_override>
+                    <spaIphone_override>true</spaIphone_override>
                     <spaWindows>
                         <left>1</left>
                         <right>1</right>
