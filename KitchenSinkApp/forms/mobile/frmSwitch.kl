@@ -2738,11 +2738,11 @@
                     <y>1</y>
                 </location>
                 <size>
-                    <width>222</width>
+                    <width>334</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>50</width>
+                    <width>75</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>lblNormalSimilar</skinId>
@@ -3380,15 +3380,15 @@
                 <widgetID>p2kwiet11798972522659</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
-                    <x>224</x>
+                    <x>336</x>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>223</width>
+                    <width>111</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>50</width>
+                    <width>25</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
@@ -4670,11 +4670,11 @@
                     <y>1</y>
                 </location>
                 <size>
-                    <width>222</width>
+                    <width>334</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>50</width>
+                    <width>75</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>lblNormalSimilar</skinId>
@@ -5258,7 +5258,7 @@
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>Switch with custom color</SText>
+                <SText>Custom color</SText>
                 <overridePerferred>
                     <width>true</width>
                     <height>false</height>
@@ -5312,15 +5312,15 @@
                 <widgetID>p2kwiet118082077312444</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
-                    <x>224</x>
+                    <x>336</x>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>223</width>
+                    <width>111</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>50</width>
+                    <width>25</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>switchCustomColorBG</skinId>
@@ -6602,11 +6602,11 @@
                     <y>1</y>
                 </location>
                 <size>
-                    <width>222</width>
+                    <width>290</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>50</width>
+                    <width>65</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
@@ -7244,15 +7244,15 @@
                 <widgetID>p2kwiet192735980047605</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
-                    <x>224</x>
+                    <x>292</x>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>223</width>
+                    <width>155</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>50</width>
+                    <width>35</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>Skin Defaults</skinId>
@@ -10466,11 +10466,11 @@
                     <y>1</y>
                 </location>
                 <size>
-                    <width>222</width>
+                    <width>334</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>50</width>
+                    <width>75</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>lblNormalSimilar</skinId>
@@ -11054,7 +11054,7 @@
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>View with Custom text &amp; Font color</SText>
+                <SText>Custom text &amp; Font</SText>
                 <overridePerferred>
                     <width>true</width>
                     <height>false</height>
@@ -11108,15 +11108,15 @@
                 <widgetID>p2kwiet118082077312471</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
-                    <x>224</x>
+                    <x>336</x>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>223</width>
+                    <width>111</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>50</width>
+                    <width>25</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>switchCustomFont</skinId>

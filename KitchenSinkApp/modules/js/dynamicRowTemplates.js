@@ -41,7 +41,7 @@ function expandRowTemp()
 	{
 		dataForRowTemp = {lbl1:"Name", lbl2:": Ricky",lbl3:"Designation",lbl4:": Senior Manager",lbl5:"Phone number",lbl6:": 7777777777",template:hbx2}
 	}
-	frmSegDynRowTemplate.segDynamicRowTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3",lbl4:"lbl4",lbl5:"lbl5",lbl6:"lbl6"}
+	frmSegDynRowTemplate.segDynamicRowTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3",lbl4:"lbl4",lbl5:"lbl5",lbl6:"lbl6",lbl7:"lbl7",lbl8:"lbl8"}
 	frmSegDynRowTemplate.segDynamicRowTemp.setDataAt(dataForRowTemp, index )
 }
 
@@ -69,7 +69,7 @@ function collapseRowTemp()
 	{
 		dataForRowTemp =  {lbl7:"Name", lbl8:": Ricky",template:hbx1}
 	}
-	frmSegDynRowTemplate.segDynamicRowTemp.widgetDataMap ={lbl7:"lbl7",lbl8:"lbl8"}
+	frmSegDynRowTemplate.segDynamicRowTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3",lbl4:"lbl4",lbl5:"lbl5",lbl6:"lbl6",lbl7:"lbl7",lbl8:"lbl8"}
 	frmSegDynRowTemplate.segDynamicRowTemp.setDataAt(dataForRowTemp, index )
 }
 

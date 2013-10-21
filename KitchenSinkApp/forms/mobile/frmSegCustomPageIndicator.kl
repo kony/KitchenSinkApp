@@ -2766,7 +2766,7 @@
                     <seqname></seqname>
                 </evtSequence>
             </event_onPush>
-            <groupCells>false</groupCells>
+            <groupCells>true</groupCells>
             <screenLevelWidget>true</screenLevelWidget>
             <showScrollBars>false</showScrollBars>
             <onRowSelect>

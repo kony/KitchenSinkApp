@@ -23,7 +23,7 @@
         <height>false</height>
     </overridePerferred>
     <projectName>KitchenSinkApp</projectName>
-    <formName>dynamicTemplate1</formName>
+    <formName>dynamicRowTemplate1</formName>
     <platform>0</platform>
     <mode>4</mode>
     <formCategory>0</formCategory>
@@ -32,7 +32,7 @@
     <headersrcList></headersrcList>
     <footersrcList></footersrcList>
     <children xsi:type="kForm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <ID>dynamicTemplate1</ID>
+        <ID>dynamicRowTemplate1</ID>
         <gridMetaData>
             <colSpan>1</colSpan>
             <column>0</column>
