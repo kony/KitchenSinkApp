@@ -1428,6 +1428,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2144,7 +2145,7 @@
                         <height>6</height>
                     </sizePercent>
                     <skinId>hbxTransWithGrayBorder</skinId>
-                    <focusSkinId>Skin Defaults</focusSkinId>
+                    <focusSkinId>hbxTransWithGrayBorder</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
                     <rendererData>
@@ -2754,6 +2755,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -3491,7 +3493,7 @@
                             <height>100</height>
                         </sizePercent>
                         <skinId>btnUIWidgetsCatTab</skinId>
-                        <focusSkinId>btnUICatTabFoc</focusSkinId>
+                        <focusSkinId>btnUIWidgetsCatTab</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
                         <rendererData>
@@ -4205,7 +4207,7 @@
                         <pb_postLuaJSEvent></pb_postLuaJSEvent>
                         <pb_blockedSkin>Skin Defaults</pb_blockedSkin>
                         <desktopWebToolTip></desktopWebToolTip>
-                        <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+                        <desktop_hoverskin>btnUIWidgetsCatTab</desktop_hoverskin>
                         <displayText>true</displayText>
                         <pressedSkin>Skin Defaults</pressedSkin>
                         <blockedSkin>Skin Defaults</blockedSkin>
@@ -6319,6 +6321,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -6358,7 +6361,7 @@
                             <height>100</height>
                         </sizePercent>
                         <skinId>btnUIWidgetsCatTab</skinId>
-                        <focusSkinId>btnUICatTabFoc</focusSkinId>
+                        <focusSkinId>btnUIWidgetsCatTab</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
                         <rendererData>
@@ -7051,7 +7054,7 @@
                         <pb_postLuaJSEvent></pb_postLuaJSEvent>
                         <pb_blockedSkin>Skin Defaults</pb_blockedSkin>
                         <desktopWebToolTip></desktopWebToolTip>
-                        <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+                        <desktop_hoverskin>btnUIWidgetsCatTab</desktop_hoverskin>
                         <displayText>true</displayText>
                         <pressedSkin>Skin Defaults</pressedSkin>
                         <blockedSkin>Skin Defaults</blockedSkin>
@@ -9907,6 +9910,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -9946,7 +9950,7 @@
                             <height>100</height>
                         </sizePercent>
                         <skinId>btnUIWidgetsCatTab</skinId>
-                        <focusSkinId>btnUICatTabFoc</focusSkinId>
+                        <focusSkinId>btnUIWidgetsCatTab</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
                         <rendererData>
@@ -10639,7 +10643,7 @@
                         <pb_postLuaJSEvent></pb_postLuaJSEvent>
                         <pb_blockedSkin>Skin Defaults</pb_blockedSkin>
                         <desktopWebToolTip></desktopWebToolTip>
-                        <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+                        <desktop_hoverskin>btnUIWidgetsCatTab</desktop_hoverskin>
                         <displayText>true</displayText>
                         <pressedSkin>Skin Defaults</pressedSkin>
                         <blockedSkin>Skin Defaults</blockedSkin>

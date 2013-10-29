@@ -782,7 +782,7 @@
         <desktopweb_draggable>false</desktopweb_draggable>
         <desktopweb_minonlostfocus>false</desktopweb_minonlostfocus>
         <children xsi:type="khBox">
-            <ID>hbox11819528318299</ID>
+            <ID>hbxDeviceFeatures</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -1420,6 +1420,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2736,14 +2737,6 @@
                             <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
                         </newSegData>
                         <newSegData>
-                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Email</data>
-                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
-                        </newSegData>
-                        <newSegData>
-                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Address book</data>
-                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
-                        </newSegData>
-                        <newSegData>
                             <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Device info</data>
                             <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
                         </newSegData>
@@ -2757,10 +2750,6 @@
                         </newSegData>
                         <newSegData>
                             <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Crypto libraries</data>
-                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
-                        </newSegData>
-                        <newSegData>
-                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Asynchronous data access</data>
                             <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
                         </newSegData>
                         <tablerowData/>

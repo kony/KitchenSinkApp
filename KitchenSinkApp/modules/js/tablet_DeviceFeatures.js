@@ -7,7 +7,6 @@
 ******************************************************************/
 function DevcFeatsHandleDesktopweb(selIndex)
 {
-	
 	var widLength = frmDeviceFeatures.sbxDevFeatureDeatils.widgets().length;
 	
 	kony.print("wid LENGTH ::"+widLength);
@@ -20,7 +19,7 @@ function DevcFeatsHandleDesktopweb(selIndex)
 			frmDeviceFeatures.sbxDevFeatureDeatils.removeAt(0);
 		}
 	}
-		
+	
 	kony.print("selIndex:: "+selIndex);
 		
 	switch (selIndex)
@@ -30,28 +29,23 @@ function DevcFeatsHandleDesktopweb(selIndex)
 				geoPosition();
 				break;
 		case 1:
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmOpenEmail.hbxOpenEmail));
+				frmDeviceInfo.addWidgets();
+				deviceInfo();
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmDeviceInfo.hbxDeviceInfo);
 				break;
 		case 2:
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmContact.hbxContactOptions));
-				break;	
+				frmLocalStore.addWidgets();
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmLocalStore.hbxLocalStore);
+				break;
 		case 3:
-				deviceInfo();
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmDeviceInfo.hbxDeviceInfo));
-				break;
-		case 4:
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmLocalStore.hbxLocalStore));
-				break;
-		case 5:
+				frmWebSQL.addWidgets();
 				frmWebSQL.lblWebSqlUpdate.text ="";
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmWebSQL.hbxTabWebSQL),owl.deepCopy(frmWebSQL.lblWebSqlUpdate));
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmWebSQL.hbxTabWebSQL,frmWebSQL.lblWebSqlUpdate);
 				break;
-		case 6:
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmCrypto.hbxCrypto));
+		case 4:		
+				frmCrypto.addWidgets();
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmCrypto.hbxCrypto);
 				break;
-		case 7:
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmAsyncDataAccess.hbxAPIKey))
-		
 		
 	}
 }
@@ -78,9 +72,8 @@ function tabDevcFeatsHandleTC(selIndex)
 			kony.print("ENTERED again");
 		}
 	}
-	//frmDeviceFeatures.sbxDevFeatureDeatils.scrollToBeginning();
 		
-		kony.print("selIndex:: "+selIndex);
+	kony.print("selIndex:: "+selIndex);
 		
 	switch (selIndex)
 	{
@@ -89,20 +82,23 @@ function tabDevcFeatsHandleTC(selIndex)
 				geoPosition();
 				break;
 		case 1:
+				frmDeviceInfo.addWidgets();
 				deviceInfo();
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmDeviceInfo.segDeviceInfo));
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmDeviceInfo.segDeviceInfo);
 				break;
 		case 2:
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmLocalStore.hbxLocalStore));
+				frmLocalStore.addWidgets();
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmLocalStore.hbxLocalStore);
 				break;
 		case 3:
+				frmWebSQL.addWidgets();
 				frmWebSQL.lblWebSqlUpdate.text ="";
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmWebSQL.hbxTabWebSQL),owl.deepCopy(frmWebSQL.lblWebSqlUpdate));
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmWebSQL.hbxTabWebSQL,frmWebSQL.lblWebSqlUpdate);
 				break;
 		case 4:
-				frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmCrypto.hbxCrypto));
+				frmCrypto.addWidgets();
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmCrypto.hbxCrypto);
 				break;
-		
 		
 	}
 }
@@ -218,13 +214,13 @@ function tabDevcFeatsHandleAndroid(selIndex)
 	switch (selIndex)
 	{
 		case 0:
-				if(kony.os.userAgent == "google_sdk")
+				if(kony.os.hasAccelerometerSupport()== false)
 					frmDeviceFeatures.sbxDevFeatureDeatils.add(frmAclMeterReadings.lblEmulatorSupport);
 				else
 					frmDeviceFeatures.sbxDevFeatureDeatils.add(frmAclMeterReadings.hbxAccelerometerOptions);
 				break;
 		case 1:
-				if(kony.os.userAgent == "google_sdk")
+				if(kony.os.hasAccelerometerSupport() == false)
 					frmDeviceFeatures.sbxDevFeatureDeatils.add(frmAclMeterReadings.lblEmulatorSupport);
 				else
 					frmDeviceFeatures.sbxDevFeatureDeatils.add(frmCamera.hbxCameraBasic,frmCamera.hbxCameraAccessModes);
@@ -281,6 +277,8 @@ function setSbxDevFeaturesDetails()
 	}
 	else if (channel == "desktopweb")
 	{
+		frmDeviceFeatures.segDeviceFeatures.selectedIndex =[0,0];
+		frmDeviceFeatures.scrollToBeginning();
 		DevcFeatsHandleDesktopweb(0)
 	}
 	else 

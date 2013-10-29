@@ -53,7 +53,7 @@
         </location>
         <size>
             <width>450</width>
-            <height>450</height>
+            <height>276</height>
         </size>
         <sizePercent>
             <width>100</width>
@@ -179,7 +179,7 @@
             </bb10>
             <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
-            <default_override>false</default_override>
+            <default_override>true</default_override>
             <defaults>
                 <left>0</left>
                 <right>0</right>
@@ -465,6 +465,7 @@
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>3</iphone_transDirection>
@@ -530,6 +531,7 @@
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -660,6 +662,12 @@
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -689,6 +697,9 @@
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -777,7 +788,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>10</height>
             </sizePercent>
             <skinId>btnSknBlack</skinId>
             <focusSkinId>btnRoundFocus</focusSkinId>
@@ -1118,12 +1129,12 @@
                 </bb10>
                 <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
-                <default_override>false</default_override>
+                <default_override>true</default_override>
                 <defaults>
                     <left>1</left>
                     <right>1</right>
-                    <top>10</top>
-                    <bottom>10</bottom>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -1141,7 +1152,7 @@
                     <bottom>4</bottom>
                     <unit>%</unit>
                 </desktop_web>
-                <desktop_web_override>true</desktop_web_override>
+                <desktop_web_override>false</desktop_web_override>
                 <ipad>
                     <left>3</left>
                     <right>3</right>
@@ -1404,6 +1415,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -1479,7 +1491,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>6</height>
+                <height>10</height>
             </sizePercent>
             <skinId>btnSknRed</skinId>
             <focusSkinId>btnRoundFocus</focusSkinId>
@@ -1820,12 +1832,12 @@
                 </bb10>
                 <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
-                <default_override>false</default_override>
+                <default_override>true</default_override>
                 <defaults>
                     <left>1</left>
                     <right>1</right>
-                    <top>10</top>
-                    <bottom>10</bottom>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -1843,7 +1855,7 @@
                     <bottom>4</bottom>
                     <unit>%</unit>
                 </desktop_web>
-                <desktop_web_override>true</desktop_web_override>
+                <desktop_web_override>false</desktop_web_override>
                 <ipad>
                     <left>3</left>
                     <right>3</right>
@@ -2106,6 +2118,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -2202,6 +2215,7 @@
                 <seqname></seqname>
             </evtSequence>
         </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
     </children>
     <contentAlign>0</contentAlign>
     <gridviewConfig>

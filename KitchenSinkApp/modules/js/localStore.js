@@ -1,4 +1,3 @@
-
 // channel is a global variable defined to identify from which channel the app is being accessed. This is defined in the preappinit of the application properties.
 
 /*****************************************************************
@@ -95,7 +94,7 @@ function GetKey( )
 {
 	var str = frmLocalStore.frmLocalTxtGetKey1.text;
 	var index = str.replace(/\D/g, '');
-	
+	kony.print("Index is SEENU :" +index )
 	if (index == "" || index == null)
 	{
 		frmLocalStore.frmLocalLblGetKey1.text = "Index is not entered";

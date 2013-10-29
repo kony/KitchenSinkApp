@@ -53,7 +53,7 @@
         </location>
         <size>
             <width>450</width>
-            <height>669</height>
+            <height>924</height>
         </size>
         <sizePercent>
             <width>100</width>
@@ -789,7 +789,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>30</height>
+                <height>22</height>
             </sizePercent>
             <overridePerferred>
                 <width>true</width>
@@ -816,7 +816,7 @@
                 <rc_j2me>true</rc_j2me>
                 <rc_palm>true</rc_palm>
                 <rc_symbian>true</rc_symbian>
-                <rc_windows8>true</rc_windows8>
+                <rc_windows8>false</rc_windows8>
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
@@ -2324,7 +2324,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>30</height>
+                <height>22</height>
             </sizePercent>
             <overridePerferred>
                 <width>true</width>
@@ -3778,7 +3778,7 @@
             </children>
         </children>
         <children xsi:type="kSegment2">
-            <ID>segment21927359800101287</ID>
+            <ID>segSPAAniList</ID>
             <gridMetaData>
                 <colSpan>1</colSpan>
                 <column>0</column>
@@ -3803,7 +3803,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>30</height>
+                <height>22</height>
             </sizePercent>
             <overridePerferred>
                 <width>true</width>
@@ -5262,7 +5262,7 @@
             </size>
             <sizePercent>
                 <width>100</width>
-                <height>8</height>
+                <height>5</height>
             </sizePercent>
             <skinId>headBox</skinId>
             <focusSkinId>headBox</focusSkinId>
@@ -5875,6 +5875,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>

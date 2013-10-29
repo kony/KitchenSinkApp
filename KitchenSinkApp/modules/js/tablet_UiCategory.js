@@ -51,55 +51,40 @@ function onWidgetCatBtnsClick(btnId)
 function tabAdvancedWidgets(selIndex)
 {
 	kony.print("selected Index is "+selIndex);
-	if(kony.os.deviceInfo().name == "thinclient")
+	
+	switch (selIndex)
 	{
-		switch (selIndex)
-		{
-			case 0:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmSegmentTablet.hbxSegmentOptions));
-					break;
-			case 1:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmImgGallery.hbxImgGallery));
-					break;
-			case 2:
-					if(kony.os.deviceInfo().name != "thinclient")
-						frmImgStrip.lblhIS.text = "No image selected";
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmImgStrip.hbxImgStrips));
-					break;
-			case 3:
-					setLocationData();
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmMap.hbxMap));
-					break;
-			case 4:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmBrowserOptions.hbxBrowserOptions));
-					break;
-		}
-	}
-	else
-	{
-		switch (selIndex)
-		{
-			case 0:
-					frmUInterface.sbxWidgetDetails.add(frmSegmentTablet.hbxSegmentOptions);
-					break;
-			case 1:
-					frmUInterface.sbxWidgetDetails.add(frmImgGallery.hbxImgGallery);
-					break;
-			case 2:
+		case 0:
+				frmSegmentTablet.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmSegmentTablet.hbxSegmentOptions);
+				break;
+		case 1:
+				frmImgGallery.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmImgGallery.hbxImgGallery);
+				break;
+		case 2:
+				frmImgStrip.addWidgets();
+				if(kony.os.deviceInfo().name != "thinclient")
 					frmImgStrip.lblhIS.text = "No image selected";
-					frmUInterface.sbxWidgetDetails.add(frmImgStrip.hbxImgStrips);
-					break;
-			case 3:
-					frmUInterface.sbxWidgetDetails.add(frmMap.hbxMap);
-					break;
-			case 4:
-					frmUInterface.sbxWidgetDetails.add(frmBrowserOptions.hbxBrowserOptions);
-					break;
-			case 5:
+				frmUInterface.sbxWidgetDetails.add(frmImgStrip.hbxImgStrips);
+				break;
+		case 3:
+				frmMap.addWidgets();
+				if(kony.os.deviceInfo().name == "thinclient")
+					setLocationData();
+				frmUInterface.sbxWidgetDetails.add(frmMap.hbxMap);
+				break;
+		case 4:
+				frmBrowserOptions.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmBrowserOptions.hbxBrowserOptions);
+				break;
+		case 5:
+				frmSwitch.addWidgets();
+				if(kony.os.deviceInfo().name != "thinclient")
 					frmUInterface.sbxWidgetDetails.add(frmSwitch.hbxSwitch);
-					break;
-		}
+				break;
 	}
+	
 }
 
 /*****************************************************************
@@ -112,111 +97,98 @@ function tabAdvancedWidgets(selIndex)
 function tabBasicWidgets(selIndex)
 {
 	kony.print("selected Index is "+selIndex);
-	
-	
-	if(kony.os.deviceInfo().name == "thinclient")
+	switch (selIndex)
 	{
-		switch (selIndex)
-		{
-			
-			case 0:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmButton.hbxButtons));
-					break;
-			case 1:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmCalendar.hbxCalendars));
-					break;
-			case 2:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmCheckbox.hbxCheckBoxes));
-					break;
-			case 3:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmComboBox.hbxComboBoxes));
-					break;
-			case 4:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmDatagrid.hbxDatagrids));
-					break;
-			case 5:
-					var UrlBased = owl.deepCopy(frmImage.hbxURLBasedImages);
-					var fitToDim = owl.deepCopy(frmImage.hbxFitToDimensions);
-					var matnAspctRtio =owl.deepCopy(frmImage.hbxMaintainAspectRatio);
-					frmUInterface.sbxWidgetDetails.add(fitToDim,matnAspctRtio,UrlBased);
-					break;
-			case 6:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmLabels.hbxLabels));
-					break;
-			case 7:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmLink.hbxLinks));
-					break;
-			case 8:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmListBox.hbxListBoxes));
-					break;
-			case 9:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmRadioButton.hbxRadioButtons));
-					break;
-			case 10:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmRichText.hbxRichText));
-					break;
-			case 11:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmTextArea.hbxTextAreas));
-					break;
-			case 12:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmTextBox.hbxTextBoxes));
-					break;		
-			case 13:
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmIcons.hbxIcons),owl.deepCopy(frmIcons.hbxMoreIcons));
-					break;
-		}
-	}
-	else
-	{	
-		switch (selIndex)
-		{
-			
-			case 0:
-					frmUInterface.sbxWidgetDetails.add(frmButton.hbxButtons);
-					break;
-			case 1:
-					frmUInterface.sbxWidgetDetails.add(frmCalendar.hbxCalendars);
-					break;
-			case 2:
-					frmUInterface.sbxWidgetDetails.add(frmCheckbox.hbxCheckBoxes);
-					break;
-			case 3:
-					frmUInterface.sbxWidgetDetails.add(frmComboBox.hbxComboBoxes);
-					break;
-			case 4:
-					frmUInterface.sbxWidgetDetails.add(frmDatagrid.hbxDatagrids);
-					break;
-			case 5:
+		case 0:
+				frmButton.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmButton.hbxButtons);
+				break;
+		case 1:
+				frmCalendar.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmCalendar.hbxCalendars);
+				break;
+		case 2:
+				frmCheckbox.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmCheckbox.hbxCheckBoxes);
+				break;
+		case 3:
+				frmComboBox.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmComboBox.hbxComboBoxes);
+				break;
+		case 4:
+				frmDatagrid.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmDatagrid.hbxDatagrids);
+				break;
+		case 5:
+				frmImage.addWidgets();
+				if(kony.os.deviceInfo().name == "thinclient")
+					frmUInterface.sbxWidgetDetails.add(frmImage.hbxFitToDimensions,frmImage.hbxMaintainAspectRatio,frmImage.hbxURLBasedImages);
+				else
 					frmUInterface.sbxWidgetDetails.add(frmImage.hbxFitToDimensions,frmImage.hbxMaintainAspectRatio,frmImage.hbxCrop,frmImage.hbxURLBasedImages);
-					break;
-			case 6:
-					frmUInterface.sbxWidgetDetails.add(frmLabels.hbxLabels);
-					break;
-			case 7:
-					frmUInterface.sbxWidgetDetails.add(frmLink.hbxLinks);
-					break;
-			case 8:
-					frmUInterface.sbxWidgetDetails.add(frmListBox.hbxListBoxes);
-					break;
-			case 9:
-					frmUInterface.sbxWidgetDetails.add(frmRadioButton.hbxRadioButtons);
-					break;
-			case 10:
-					frmUInterface.sbxWidgetDetails.add(frmRichText.hbxRichText);
-					break;
-			case 11:
-					frmUInterface.sbxWidgetDetails.add(frmSlider.hbxSliders);
-					break;
-			case 12:
+				break;
+		case 6:
+				frmLabels.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmLabels.hbxLabels);
+				break;
+		case 7:
+				frmLink.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmLink.hbxLinks);
+				break;
+		case 8:
+				frmListBox.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmListBox.hbxListBoxes);
+				break;
+		case 9:
+				frmRadioButton.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmRadioButton.hbxRadioButtons);
+				break;
+		case 10:
+				frmRichText.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmRichText.hbxRichText);
+				break;
+		case 11:
+				if(kony.os.deviceInfo().name == "thinclient")
+				{
+					frmTextArea.addWidgets();
 					frmUInterface.sbxWidgetDetails.add(frmTextArea.hbxTextAreas);
-					break;
-			case 13:
+				}
+				else
+				{
+					frmSlider.addWidgets();
+					frmUInterface.sbxWidgetDetails.add(frmSlider.hbxSliders);
+				}
+					
+				break;
+		case 12:
+				if(kony.os.deviceInfo().name == "thinclient")
+				{
+					frmTextBox.addWidgets();
 					frmUInterface.sbxWidgetDetails.add(frmTextBox.hbxTextBoxes);
-					break;		
-			case 14:
+				}					
+				else
+				{
+					frmTextArea.addWidgets();
+					frmUInterface.sbxWidgetDetails.add(frmTextArea.hbxTextAreas);
+				}
+					
+				break;
+		case 13:
+				if(kony.os.deviceInfo().name == "thinclient")
+				{
+					frmIcons.addWidgets();
 					frmUInterface.sbxWidgetDetails.add(frmIcons.hbxIcons,frmIcons.hbxMoreIcons);
-					break;
-		}
+				}
+				else
+				{
+					frmTextBox.addWidgets();
+					frmUInterface.sbxWidgetDetails.add(frmTextBox.hbxTextBoxes);
+				}
+					
+				break;		
+		case 14:
+				frmIcons.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmIcons.hbxIcons,frmIcons.hbxMoreIcons);
+				break;
 	}
 }
 
@@ -234,22 +206,17 @@ function tabContainerWidgets(selIndex)
 	switch (selIndex)
 	{
 		case 0:
-				//In thinclient ,Whenever we are adding the objects to a box/form/scrollbox 
-				//they are not cloning the object but passing the reference of an object
-				//So ,We will make use of deepCopy method to deepCopy the object and add it to box/form/scrollbox 
-
-				if(kony.os.deviceInfo().name == "thinclient")
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmFormOptions.hbxFormOptionsTab));
-				else
-					frmUInterface.sbxWidgetDetails.add(frmFormOptions.hbxFormOptionsTab);
+				frmFormOptions.addWidgets();
+				frmUInterface.sbxWidgetDetails.add(frmFormOptions.hbxFormOptionsTab);
 				break;
 		case 1:
+				frmTabPane.addWidgets();
 				if(kony.os.deviceInfo().name == "thinclient")
 				{
-					var defTab = owl.deepCopy(frmTabPane.hbxDefaultTbpTab);
-					var collpaseTab = owl.deepCopy(frmTabPane.hbxCollapseTbpTab);
-					var toggleTab = owl.deepCopy(frmTabPane.hbxToggleTbpTab);
-					var ImgPosTab = owl.deepCopy(frmTabPane.hbxImgPosTbpTab);
+					var defTab = frmTabPane.hbxDefaultTbpTab;
+					var collpaseTab = frmTabPane.hbxCollapseTbpTab;
+					var toggleTab = frmTabPane.hbxToggleTbpTab;
+					var ImgPosTab =frmTabPane.hbxImgPosTbpTab;
 					frmUInterface.sbxWidgetDetails.add(defTab,collpaseTab,toggleTab,ImgPosTab);
 				}
 				else if(channel=="tablet" && kony.os.deviceInfo().name == "android")
@@ -261,11 +228,21 @@ function tabContainerWidgets(selIndex)
 				break;
 		case 2:
 				if(kony.os.deviceInfo().name == "thinclient" && channel == "desktopweb")
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmScrollBox.hbxScrbxDemo));
+				{
+					frmScrollBox.addWidgets();
+					frmUInterface.sbxWidgetDetails.add(frmScrollBox.hbxScrbxDemo);
+				}
+					
 				else if(kony.os.deviceInfo().name == "thinclient" && channel != "desktopweb")
-					frmUInterface.sbxWidgetDetails.add(owl.deepCopy(frmScrollBoxSPA.hbxScrbxDemo));
+				{
+					frmScrollBoxSPA.addWidgets();
+					frmUInterface.sbxWidgetDetails.add(frmScrollBoxSPA.hbxScrbxDemo);
+				}
 				else
+				{
+					frmScrollBoxMenu.addWidgets();
 					frmUInterface.sbxWidgetDetails.add(frmScrollBoxMenu.sboxGlobalHome);
+				}
 				break;
 	
 	}

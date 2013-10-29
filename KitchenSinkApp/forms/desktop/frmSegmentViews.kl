@@ -1399,7 +1399,7 @@
             <createdGAVersion>5.5.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>77</y>
+                <y>3</y>
             </location>
             <size>
                 <width>448</width>
@@ -2020,6 +2020,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -3346,6 +3347,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -4631,6 +4633,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -7346,6 +7349,7 @@
                                         </gridviewConfig>
                                         <symbian_position>0</symbian_position>
                                         <tooltip></tooltip>
+                                        <tc_position>0</tc_position>
                                         <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                         <wapDirection>0</wapDirection>
                                         <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -10013,6 +10017,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -12728,6 +12733,7 @@
                                         </gridviewConfig>
                                         <symbian_position>0</symbian_position>
                                         <tooltip></tooltip>
+                                        <tc_position>0</tc_position>
                                         <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                         <wapDirection>0</wapDirection>
                                         <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>

@@ -1644,7 +1644,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </windows8>
-                    <windows8_override>false</windows8_override>
+                    <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
@@ -1911,7 +1911,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </windows8>
-                    <windows8_override>false</windows8_override>
+                    <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
@@ -13014,7 +13014,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </windows8>
-                    <windows8_override>false</windows8_override>
+                    <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>0</left>
                         <right>0</right>
@@ -13281,7 +13281,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </windows8>
-                    <windows8_override>false</windows8_override>
+                    <windows8_override>true</windows8_override>
                     <winmobile>
                         <left>0</left>
                         <right>0</right>

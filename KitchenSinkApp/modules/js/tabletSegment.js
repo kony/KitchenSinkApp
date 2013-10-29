@@ -99,44 +99,38 @@ function tabSegmentFeaturesHandle(selIndex)
 	switch (selIndex)
 	{
 		case 0:
-				if(kony.os.deviceInfo.name == "thinclient")
-				{
-					frmSegmentFeatures.sbxSegmentFeatureDetails.add(owl.deepCopy(frmSegmentTablet.segWithSections));	
-				}
-				else
-					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segWithSections);
+				if (kony.os.deviceInfo().name=="thinclient")
+					frmSegmentTablet.addWidgets();
+				frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segWithSections);
 				break;
 		case 1:
-				if(kony.os.deviceInfo.name == "thinclient")
-				{
-					frmSegmentFeatures.sbxSegmentFeatureDetails.add(owl.deepCopy(frmSegmentTablet.segRowAlternateSkin));	
-				}
-				else
-					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segRowAlternateSkin);
+				if (kony.os.deviceInfo().name=="thinclient")
+					frmSegmentTablet.addWidgets();
+				frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segRowAlternateSkin);
 				break;
 		case 2:
+				if (kony.os.deviceInfo().name=="thinclient")
+					frmSegmentTablet.addWidgets();
 				segwidMultiTemplate();
-				if(kony.os.deviceInfo.name == "thinclient")
-				{
-					frmSegmentFeatures.sbxSegmentFeatureDetails.add(owl.deepCopy(frmSegmentTablet.segMultiRowTemp));	
-				}
-				else
-					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segMultiRowTemp);
+				frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segMultiRowTemp);
 				break;
 		case 3:
+				if(kony.os.deviceInfo().name=="thinclient")
+					frmSegmentTablet.addWidgets();
+				SecHdrTemplatesTab();
 				frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segSecHdrTemplates);
 				break;
 		case 4:
-				if(kony.os.deviceInfo.name == "thinclient")
-				{
-					frmSegmentFeatures.sbxSegmentFeatureDetails.add(owl.deepCopy(frmSegmentTablet.segPreferredWidth));	
-				}
-				else
-					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segPreferredWidth);
+				if (kony.os.deviceInfo().name=="thinclient")
+					frmSegmentTablet.addWidgets();
+				frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segPreferredWidth);
 				break;
 		case 5:
 				if(kony.os.deviceInfo().name == "thinclient")
 				{
+					
+					frmSegmentTablet.addWidgets();
+					SecHdrTemplatesTab();
 					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segSecHdrTemplates,frmSegmentTablet.btnMulSelect);
 				}
 				else
@@ -147,6 +141,7 @@ function tabSegmentFeaturesHandle(selIndex)
 		case 6:
 				if(kony.os.deviceInfo().name == "thinclient")
 				{
+					frmSegDynRowTemplate.addWidgets();
 					initArray();
 					rowTempSetData();
 					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegDynRowTemplate.segDynamicRowTemp);
@@ -182,7 +177,7 @@ function tabSegmentFeaturesHandle(selIndex)
 
 function segmentFeaturesSetting()
 {
-	 
+	
 	 var data= new Array();
 	 if(kony.os.deviceInfo().name == "iPad")
 	 {
@@ -261,6 +256,7 @@ function segmentFeaturesSetting()
 	}
 	frmSegmentFeatures.segSegmentFeatureCat.selectedIndex =[0,0];
 	frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segWithSections);
+	frmSegmentFeatures.scrollToBeginning();
 }
 
 
@@ -347,19 +343,20 @@ function tabSegmentViewsHandle(selIndex)
 	if (kony.os.deviceInfo().name!="thinclient")
 		frmSegmentViews.sbxSegmentViewDetails.scrollToBeginning();
 		
-		kony.print("selected Index is "+selIndex);
+	kony.print("selected Index is "+selIndex);
 		
 	switch (selIndex)
 	{
 		case 0:
-				//owl.deepCopy is for deepCopying the object instead of passing the reference of an object
 				if(kony.os.deviceInfo().name == "thinclient" && channel != "desktopweb")
 				{
-					frmSegmentViews.sbxSegmentViewDetails.add(owl.deepCopy(frmSegmentTablet.segTableView));
+					frmSegmentTablet.addWidgets();
+					frmSegmentViews.sbxSegmentViewDetails.add(frmSegmentTablet.segTableView);
 				}
 				else if (channel == "desktopweb")
 				{
-					frmSegmentViews.sbxSegmentViewDetails.add(owl.deepCopy(frmSegmentTablet.hbxSegTableView));
+					frmSegmentTablet.addWidgets();
+					frmSegmentViews.sbxSegmentViewDetails.add(frmSegmentTablet.hbxSegTableView);
 				}
 				else
 				{
@@ -370,11 +367,13 @@ function tabSegmentViewsHandle(selIndex)
 		case 1:
 				if(kony.os.deviceInfo().name == "thinclient"&& channel != "desktopweb")
 				{
-					frmSegmentViews.sbxSegmentViewDetails.add(owl.deepCopy(frmSegmentTablet.segPageView));
+					frmSegmentTablet.addWidgets();
+					frmSegmentViews.sbxSegmentViewDetails.add(frmSegmentTablet.segPageView);
 				}
 				else if (channel == "desktopweb")
 				{
-					frmSegmentViews.sbxSegmentViewDetails.add(owl.deepCopy(frmSegmentTablet.hbxSegPageView));
+					frmSegmentTablet.addWidgets();
+					frmSegmentViews.sbxSegmentViewDetails.add(frmSegmentTablet.hbxSegPageView);
 				}
 				else
 				{

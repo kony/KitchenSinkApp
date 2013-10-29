@@ -94,7 +94,7 @@ function createTable( transactionID )
 
 function createDB(  )
 {
-	if(channel=="tablet")
+	if(channel=="tablet" || channel=="desktopweb")
 	{
 		frmDeviceFeatures.sbxDevFeatureDeatils.removeAt(2);
 	}
@@ -152,7 +152,7 @@ function insertFirstData( transactionID )
 
 function doTransactioninsertData(  )
 {
-	if(channel=="tablet")
+	if(channel=="tablet" || channel=="desktopweb")
 	{
 		frmDeviceFeatures.sbxDevFeatureDeatils.removeAt(2);
 	}
@@ -186,7 +186,7 @@ function success_sqlSelect( transactionId, resultset )
 			var addItem = { lblEmpID : rowItem.empid.toString(), lblEmpName : rowItem.empname, lblDepId : rowItem.depid.toString() } ;
 			insertTable.push(addItem);
 		}
-		if(channel == "tablet")
+		if(channel == "tablet" || channel == "desktopweb")
 		{
 			frmDeviceFeatures.sbxDevFeatureDeatils.removeAt(2);
 			frmWebSQL.segWebSQLResults.setData(insertTable);
@@ -195,7 +195,7 @@ function success_sqlSelect( transactionId, resultset )
 		else
 			frmWebSQLResults.segWebSQLResults.setData (insertTable);
 	}
-	if(channel != "tablet")
+	if(channel != "tablet" && channel !="desktopweb")
 		frmWebSQLResults.show();
 }
 
@@ -286,7 +286,7 @@ function sqlUpdate( transactionID )
 
 function doTransactionUpdate(  )
 {
-	if(channel=="tablet")
+	if(channel=="tablet" || channel=="desktopweb")
 	{
 		frmDeviceFeatures.sbxDevFeatureDeatils.removeAt(2);
 	}
@@ -340,7 +340,7 @@ function sqlDelete( transactionID )
 
 function doTransactionDelete( )
 {
-	if(channel=="tablet")
+	if(channel=="tablet" || channel=="desktopweb")
 	{
 		frmDeviceFeatures.sbxDevFeatureDeatils.removeAt(2);
 	}

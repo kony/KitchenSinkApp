@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -3085,13 +3086,13 @@
                         </desktop_web>
                         <desktop_web_override>true</desktop_web_override>
                         <ipad>
-                            <left>8</left>
+                            <left>15</left>
                             <right>0</right>
                             <top>12</top>
                             <bottom>12</bottom>
                             <unit>px</unit>
                         </ipad>
-                        <ipad_override>false</ipad_override>
+                        <ipad_override>true</ipad_override>
                         <iphonerc>
                             <left>8</left>
                             <right>0</right>
@@ -4139,8 +4140,8 @@
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>0</left>
-                            <right>0</right>
+                            <left>5</left>
+                            <right>5</right>
                             <top>2</top>
                             <bottom>2</bottom>
                             <unit>%</unit>
@@ -4429,13 +4430,13 @@
                         </desktop_web>
                         <desktop_web_override>true</desktop_web_override>
                         <ipad>
-                            <left>8</left>
+                            <left>0</left>
                             <right>0</right>
                             <top>12</top>
                             <bottom>12</bottom>
                             <unit>px</unit>
                         </ipad>
-                        <ipad_override>false</ipad_override>
+                        <ipad_override>true</ipad_override>
                         <iphonerc>
                             <left>8</left>
                             <right>0</right>
@@ -4696,7 +4697,7 @@
                         </evtSequence>
                     </onSelection>
                     <ipadView>1</ipadView>
-                    <ipad_groupCells>true</ipad_groupCells>
+                    <ipad_groupCells>false</ipad_groupCells>
                     <ipad_tickedImage></ipad_tickedImage>
                     <ipad_untickedImage></ipad_untickedImage>
                     <bb_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</bb_itemOrientation>
@@ -7384,7 +7385,7 @@
                         </evtSequence>
                     </onSelection>
                     <ipadView>1</ipadView>
-                    <ipad_groupCells>true</ipad_groupCells>
+                    <ipad_groupCells>false</ipad_groupCells>
                     <ipad_tickedImage></ipad_tickedImage>
                     <ipad_untickedImage></ipad_untickedImage>
                     <bb_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</bb_itemOrientation>

@@ -10,7 +10,7 @@ function segwidMultiTemplate()
 {
 	if(channel =="tablet" || channel == "desktopweb")
 	{
-		
+		frmSegmentTablet.segMultiRowTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3"}
 		frmSegmentTablet.segMultiRowTemp.data = [
 					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400",template:hboxtemp1}, 
 					{lbl1: "Gold Card",lbl2: "$200",lbl3: "$400",template:hboxtemp2}, 
@@ -19,7 +19,7 @@ function segwidMultiTemplate()
 	}
 	else
 	{
-		
+		//frmRowTemplates.segMultiTemp.widgetDataMap = {lbl1:"lbl1",lbl2:"lbl2",lbl3:"lbl3"}
 		frmRowTemplates.segMultiTemp.data = [
 					{lbl1: "Titanium Card",lbl2: "$200",lbl3: "$400",template:hboxtemp1}, 
 					{lbl1: "Gold Card",lbl2: "$200",lbl3: "$400",template:hboxtemp2}, 
@@ -64,6 +64,7 @@ function SecHdrTemplatesTab()
 			 					]
 							]	
 						];
+						kony.print("DONE WITH PLACING DATA TO SEGMENT //  SREENIVAS")
 	
 }
 

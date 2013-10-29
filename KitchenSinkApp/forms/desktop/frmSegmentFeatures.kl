@@ -456,75 +456,6 @@
                         </entry>
                     </paramDataMap>
                 </actionList>
-                <actionList xsi:type="eventFunctionAction">
-                    <enabled>true</enabled>
-                    <name></name>
-                    <type>6</type>
-                    <functionName>None</functionName>
-                    <functionNameMap>
-                        <entry>
-                            <key>js</key>
-                            <value>SecHdrTemplatesTab</value>
-                        </entry>
-                        <entry>
-                            <key>lua</key>
-                            <value>None</value>
-                        </entry>
-                    </functionNameMap>
-                    <paramDataMap>
-                        <entry>
-                            <key>js</key>
-                            <value/>
-                        </entry>
-                        <entry>
-                            <key>lua</key>
-                            <value/>
-                        </entry>
-                    </paramDataMap>
-                </actionList>
-                <actionList xsi:type="eventFunctionAction">
-                    <enabled>true</enabled>
-                    <name></name>
-                    <type>6</type>
-                    <functionName>None</functionName>
-                    <functionNameMap>
-                        <entry>
-                            <key>js</key>
-                            <value>dataForSeg</value>
-                        </entry>
-                    </functionNameMap>
-                    <paramData>
-                        <datatype>string</datatype>
-                        <paramName>eventObj</paramName>
-                        <valType>0</valType>
-                        <value></value>
-                        <valueMap>
-                            <entry>
-                                <key>js</key>
-                                <value></value>
-                            </entry>
-                        </valueMap>
-                    </paramData>
-                    <paramDataMap>
-                        <entry>
-                            <key>js</key>
-                            <value>
-                                <paramList>
-                                    <datatype>string</datatype>
-                                    <paramName>eventObj</paramName>
-                                    <valType>0</valType>
-                                    <value></value>
-                                    <valueMap>
-                                        <entry>
-                                            <key>js</key>
-                                            <value></value>
-                                        </entry>
-                                    </valueMap>
-                                </paramList>
-                            </value>
-                        </entry>
-                    </paramDataMap>
-                </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
             </evtSequence>
@@ -882,7 +813,7 @@
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>123</y>
+                <y>8</y>
             </location>
             <size>
                 <width>448</width>
@@ -1503,6 +1434,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>

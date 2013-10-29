@@ -25,12 +25,9 @@ function Encrypt()
 		{
 			var inputstr=frmCrypto.textEncrypt.text;
 		}
-		//if(kony.os.deviceInfo().name !="WindowsPhone")
-			var prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
-		//else
-		//	var prptobj={};
-
-		var myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);
+		
+		var prptobj={padding:"pkcs5",mode:"cbc",initializationvector:"1234567890123456"};
+		myEncryptedTextRaw = kony.crypto.encrypt(algo,encryptDecryptKey,inputstr,prptobj);
 		var myEncryptedText  = kony.convertToBase64(myEncryptedTextRaw);
 		
 		if(kony.os.deviceInfo().name == "Windows 8" || kony.os.deviceInfo().name == "WindowsPhone")
@@ -78,8 +75,14 @@ function decrypt()
 			return;
 		}
 		var str = frmCrypto.lblEncrypt.text;
-		var myEncryptedTextRaw = kony.convertToRawBytes(str.substring(17));
-		var myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRaw,prptobj);
+		//convertToRawBytes is not supported in SPA
+		if(kony.os.deviceInfo().name == "thinclient")
+		{
+			var myEncryptedTextRa = myEncryptedTextRaw;
+		}
+		else
+			var myEncryptedTextRa = kony.convertToRawBytes(str.substring(17));
+		var myClearText = kony.crypto.decrypt(algo,encryptDecryptKey,myEncryptedTextRa,prptobj);
 		if(kony.os.deviceInfo().name == "WindowsPhone")
 			frmCrypto.lblDecrypt.text ="Decrypted text = "+myClearText;
 		else

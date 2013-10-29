@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2687,6 +2688,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -4618,6 +4620,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -5271,6 +5274,7 @@
                                 </onClick>
                                 <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                                 <placeholder>Key</placeholder>
+                                <placeholder_I18N></placeholder_I18N>
                                 <keyboard_type>0</keyboard_type>
                                 <onTextChange>
                                     <evtSequence>
@@ -5338,6 +5342,18 @@
                                 <tc_autocorrect>false</tc_autocorrect>
                                 <tcPostOnclickJs></tcPostOnclickJs>
                                 <tcPreOnclickJs></tcPreOnclickJs>
+                                <spa_onBeginEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onBeginEditing>
+                                <spa_onEndEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onEndEditing>
                                 <spa_autoComplete>false</spa_autoComplete>
                                 <bb_autoFilter>false</bb_autoFilter>
                                 <bb10_autoFilter>false</bb10_autoFilter>
@@ -6037,6 +6053,7 @@
                                 </onClick>
                                 <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                                 <placeholder>Value</placeholder>
+                                <placeholder_I18N></placeholder_I18N>
                                 <keyboard_type>0</keyboard_type>
                                 <onTextChange>
                                     <evtSequence>
@@ -6104,6 +6121,18 @@
                                 <tc_autocorrect>false</tc_autocorrect>
                                 <tcPostOnclickJs></tcPostOnclickJs>
                                 <tcPreOnclickJs></tcPreOnclickJs>
+                                <spa_onBeginEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onBeginEditing>
+                                <spa_onEndEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onEndEditing>
                                 <spa_autoComplete>false</spa_autoComplete>
                                 <bb_autoFilter>false</bb_autoFilter>
                                 <bb10_autoFilter>false</bb10_autoFilter>
@@ -6809,6 +6838,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -8200,6 +8230,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -10131,6 +10162,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -10784,6 +10816,7 @@
                                 </onClick>
                                 <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                                 <placeholder>Key</placeholder>
+                                <placeholder_I18N></placeholder_I18N>
                                 <keyboard_type>0</keyboard_type>
                                 <onTextChange>
                                     <evtSequence>
@@ -10851,6 +10884,18 @@
                                 <tc_autocorrect>false</tc_autocorrect>
                                 <tcPostOnclickJs></tcPostOnclickJs>
                                 <tcPreOnclickJs></tcPreOnclickJs>
+                                <spa_onBeginEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onBeginEditing>
+                                <spa_onEndEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onEndEditing>
                                 <spa_autoComplete>false</spa_autoComplete>
                                 <bb_autoFilter>false</bb_autoFilter>
                                 <bb10_autoFilter>false</bb10_autoFilter>
@@ -12202,6 +12247,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -13593,6 +13639,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -15524,6 +15571,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -16177,6 +16225,7 @@
                                 </onClick>
                                 <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                                 <placeholder>Index</placeholder>
+                                <placeholder_I18N></placeholder_I18N>
                                 <keyboard_type>0</keyboard_type>
                                 <onTextChange>
                                     <evtSequence>
@@ -16244,6 +16293,18 @@
                                 <tc_autocorrect>false</tc_autocorrect>
                                 <tcPostOnclickJs></tcPostOnclickJs>
                                 <tcPreOnclickJs></tcPreOnclickJs>
+                                <spa_onBeginEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onBeginEditing>
+                                <spa_onEndEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onEndEditing>
                                 <spa_autoComplete>false</spa_autoComplete>
                                 <bb_autoFilter>false</bb_autoFilter>
                                 <bb10_autoFilter>false</bb10_autoFilter>
@@ -16328,7 +16389,7 @@
                                     <width>53</width>
                                     <height>100</height>
                                 </sizePercent>
-                                <skinId>lblNormalSimilar</skinId>
+                                <skinId>lblNormalTab</skinId>
                                 <focusSkinId>Skin Defaults</focusSkinId>
                                 <localeId>None</localeId>
                                 <visible>true</visible>
@@ -17595,6 +17656,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -18986,6 +19048,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -20917,6 +20980,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -21570,6 +21634,7 @@
                                 </onClick>
                                 <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                                 <placeholder>Key</placeholder>
+                                <placeholder_I18N></placeholder_I18N>
                                 <keyboard_type>0</keyboard_type>
                                 <onTextChange>
                                     <evtSequence>
@@ -21637,6 +21702,18 @@
                                 <tc_autocorrect>false</tc_autocorrect>
                                 <tcPostOnclickJs></tcPostOnclickJs>
                                 <tcPreOnclickJs></tcPreOnclickJs>
+                                <spa_onBeginEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onBeginEditing>
+                                <spa_onEndEditing>
+                                    <evtSequence>
+                                        <enabled>true</enabled>
+                                        <seqname></seqname>
+                                    </evtSequence>
+                                </spa_onEndEditing>
                                 <spa_autoComplete>false</spa_autoComplete>
                                 <bb_autoFilter>false</bb_autoFilter>
                                 <bb10_autoFilter>false</bb10_autoFilter>
@@ -21721,7 +21798,7 @@
                                     <width>53</width>
                                     <height>100</height>
                                 </sizePercent>
-                                <skinId>lblNormalSimilar</skinId>
+                                <skinId>lblNormalTab</skinId>
                                 <focusSkinId>Skin Defaults</focusSkinId>
                                 <localeId>None</localeId>
                                 <visible>true</visible>
@@ -22988,6 +23065,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -24379,6 +24457,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -26956,6 +27035,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>

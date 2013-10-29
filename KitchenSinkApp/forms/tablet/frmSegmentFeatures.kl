@@ -492,6 +492,10 @@
                             <key>js</key>
                             <value>dataForSeg</value>
                         </entry>
+                        <entry>
+                            <key>lua</key>
+                            <value>None</value>
+                        </entry>
                     </functionNameMap>
                     <paramData>
                         <datatype>string</datatype>
@@ -508,6 +512,23 @@
                     <paramDataMap>
                         <entry>
                             <key>js</key>
+                            <value>
+                                <paramList>
+                                    <datatype>string</datatype>
+                                    <paramName>eventObj</paramName>
+                                    <valType>0</valType>
+                                    <value></value>
+                                    <valueMap>
+                                        <entry>
+                                            <key>js</key>
+                                            <value></value>
+                                        </entry>
+                                    </valueMap>
+                                </paramList>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>lua</key>
                             <value>
                                 <paramList>
                                     <datatype>string</datatype>
@@ -1503,6 +1524,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -4982,6 +5004,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>

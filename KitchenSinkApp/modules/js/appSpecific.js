@@ -170,6 +170,7 @@ function appExitCallBack()
 function createAppMenu() 
 {
 	kony.print("entered app menu ********************************************************************************  ")
+	//Animation
 	if (kony.os.deviceInfo().name =="thinclient" && channel != "tablet" && channel != "desktopweb" )
 		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAniSPA.show()}];
 	else if (channel == "tablet" || channel == "desktopweb")
@@ -178,39 +179,29 @@ function createAppMenu()
    		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAniWin.show()}];
 	else
 		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAni.show()}];
-		
+	//Home	
 	var homeMItem = ["homeId", "Home", "app_home.png", function homeMenuCallBack(){frmHome.show()}];
-	var closeMItem = ["closeId", "Close", "app_close.png",function closeMenuCallBack(){kony.application.exit()}];
+	//Exit
+	if( kony.os.deviceInfo().name != "thinclient")
+		var closeMItem = ["closeId", "Close", "app_close.png",function closeMenuCallBack(){kony.application.exit()}];
+	//DeviceFeatures	
 	if (channel=="tablet" || channel == "desktopweb")
-	{
 		var featuresMItem = ["featuresId", "Features", "app_features.png",function featuresMenuCallBack(){frmDeviceFeatures.show()}];
-	}
 	else
-	{
 		var featuresMItem = ["featuresId", "Features", "app_features.png",function featuresMenuCallBack(){frmDvcFeatures.show()}];
-	}
-		
-	//var feedbackMItem = ["feedbackId", "FeedBack", "app_feedback.png",function fBackMenuCallBack(){frmHome.show()}];
-	
+	//UI Interface	
 	if (channel=="tablet"|| channel == "desktopweb")
-	{
 		var uiMItem = ["uiId", "UI", "app_ui.png",function uiMenuCallBack(){frmUInterface.show()}];
-	}
 	else
-	{
 		var uiMItem = ["uiId", "UI", "app_ui.png",function uiMenuCallBack(){frmUICategory.show()}];
-	}
-	
-	
+	//Defining app menu
 	if(channel == "mobile" && kony.os.deviceInfo().name == "WindowsPhone")
-    {
   	  	var appMenu= [homeMItem,animationMItem,featuresMItem,closeMItem];
-    }
+    else if(kony.os.deviceInfo().name == "thinclient")
+    	var appMenu= [homeMItem,uiMItem,animationMItem,featuresMItem];
     else
-    {
     	var appMenu= [homeMItem,uiMItem,animationMItem,featuresMItem,closeMItem];
-    }
-    
+    //Creating app menu	
     if(kony.os.deviceInfo().name == "thinclient"&& channel != "tablet" && channel != "desktopweb")
 	{
 		kony.application.createAppMenu("ksaAppMenu", appMenu, "appMenuSPA", "");
@@ -227,6 +218,7 @@ function createAppMenu()
     {
   	  kony.application.createAppMenu("ksaAppMenu", appMenu, "", "");
     }
+    //Set app menu
     kony.application.setCurrentAppMenu("ksaAppMenu");
     
     kony.print("Exited app menu ********************************************************************************  ")

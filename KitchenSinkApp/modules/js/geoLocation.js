@@ -6,7 +6,10 @@
 ******************************************************************/
 
 function geoSuccessCallBack(position)
-{
+{	
+	if((channel == "tablet"||channel == "desktopweb")&& kony.os.deviceInfo().name == "thinclient")
+		frmGeoCurrentNWatch.addWidgets();
+
 	try
 	{
 		frmGeoCurrentNWatch.lblFrmGeoLat.text ="= "+position.coords.latitude;
@@ -35,7 +38,7 @@ function geoSuccessCallBack(position)
 	if(channel != "tablet" && channel != "desktopweb")
 		frmGeoCurrentNWatch.show();
 	else if((channel == "tablet"||channel == "desktopweb")&& kony.os.deviceInfo().name == "thinclient")
-		frmDeviceFeatures.sbxDevFeatureDeatils.add(owl.deepCopy(frmGeoCurrentNWatch.hbxGeoLocation));
+		frmDeviceFeatures.sbxDevFeatureDeatils.add(frmGeoCurrentNWatch.hbxGeoLocation);
 	else
 		frmDeviceFeatures.sbxDevFeatureDeatils.add(frmGeoCurrentNWatch.hbxGeoLocation);
 	kony.application.dismissLoadingScreen();

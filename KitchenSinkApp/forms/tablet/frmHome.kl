@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -3444,9 +3445,9 @@
                     <desktop_kiosk_channel>true</desktop_kiosk_channel>
                     <desktop_web_channel>true</desktop_web_channel>
                     <mixed_android>true</mixed_android>
-                    <mixed_android_tab>true</mixed_android_tab>
+                    <mixed_android_tab>false</mixed_android_tab>
                     <mixed_bb>true</mixed_bb>
-                    <mixed_ipad>true</mixed_ipad>
+                    <mixed_ipad>false</mixed_ipad>
                     <mixed_iphone>true</mixed_iphone>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
@@ -3457,7 +3458,7 @@
                     <rc_j2me>true</rc_j2me>
                     <rc_palm>true</rc_palm>
                     <rc_symbian>true</rc_symbian>
-                    <rc_windows8>true</rc_windows8>
+                    <rc_windows8>false</rc_windows8>
                     <rc_winmobile>true</rc_winmobile>
                     <rc_winmobile6x>true</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>

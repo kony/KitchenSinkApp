@@ -65,6 +65,9 @@ function platformCheck()
 				frmPlatforms.btnIOSPF.skin = frmPlatforms.btnIOSPF.focusSkin;
 				frmPlatforms.btnAndroidPF.skin = frmPlatforms.btnAndroidPF.focusSkin;
 				frmPlatforms.btnHTMLPF.skin = frmPlatforms.btnHTMLPF.focusSkin;
+				frmHome.btnDvcFeatures.focusSkin = frmPlatforms.btnWinPF.focusSkin;
+				frmHome.btnFrmAnimations.focusSkin = frmPlatforms.btnWinPF.focusSkin;
+				frmHome.btnUInterface.focusSkin = frmPlatforms.btnWinPF.focusSkin;
 				break;
 		}
 	}

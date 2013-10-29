@@ -93,7 +93,7 @@
     <attributes name="bb10keystorepassword" value=""/>
     <attributes name="pathpatternkey" value=""/>
     <attributes name="wp8iconicsmallkey" value=""/>
-    <attributes name="splashlogokey" value="0=splash.png,1=splash.png,8=splash.9.png,2=splash.png,16=splashtab.png,18=splashtab.9.png,43=splashtab.png,31=splashtab.png,32=splashtab.png,45=splashtab.png,22=splash.png,23=splash.png,24=splash.png,37=splash.png"/>
+    <attributes name="splashlogokey" value="0=splash.png,1=splash.png,8=splash.9.png,2=splash.png,3=,42=,16=splashtab.png,18=splashtab.9.png,43=splash.png,31=splashtab.png,32=splashtab.png,45=splashtab.png,22=splash.png,23=splash.png,24=splash.png,37=splash.png,1000=,1001=,1002=,35=,44=,36=,21="/>
     <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="inputaccessoryviewtype" value="nextprevtoolbar"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
@@ -197,7 +197,7 @@
     <attributes name="MASTER_CLEAR" value="false"/>
     <attributes name="tcnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>
     <attributes name="wp8supportlargetileskey" value="true"/>
-    <attributes name="win8shownamekey" value="Not set"/>
+    <attributes name="win8shownamekey" value="Standard Logo only"/>
     <attributes name="androidscreensmall" value="true"/>
     <attributes name="Documents_Library_Access" value="false"/>
     <attributes name="winmobiletileimagekey" value="app_tile_image.png"/>
@@ -207,12 +207,12 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.30.QA_v201310120750"/>
+    <attributes name="currentgaversion" value="5.5.32.QA_v201310231750"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
     <attributes name="mapkey" value="AIzaSyBBR_-JLwZ9Ami6h5m7KgaGvIxpno6vFDU"/>
-    <attributes name="win8applogokey" value=""/>
+    <attributes name="win8applogokey" value="midlogo.png"/>
     <attributes name="DELETE_PACKAGES" value="false"/>
     <attributes name="UPDATE_DEVICE_STATS" value="false"/>
     <attributes name="ACCESS_NETWORK_STATE" value="true"/>
@@ -231,7 +231,7 @@
     <attributes name="WP8_ID_CAP_MEDIALIB_PHOTO" value="true"/>
     <attributes name="access_location_services" value="false"/>
     <attributes name="passwordkey" value="kds/0eUc+i3BqFqSkpCk4g=="/>
-    <attributes name="win8widelogokey" value=""/>
+    <attributes name="win8widelogokey" value="widelogo.png"/>
     <attributes name="enablecharts2d3diphone" value="false"/>
     <attributes name="backward_compatibility_mode" value="false"/>
     <attributes name="mwcontextkey" value=""/>
@@ -344,7 +344,7 @@
     <attributes name="VIBRATE" value="false"/>
     <attributes name="ID_CAP_IDENTITY_DEVICE" value="true"/>
     <attributes name="_sys_use_consumer_push" value="false"/>
-    <attributes name="win8smalllogokey" value=""/>
+    <attributes name="win8smalllogokey" value="smalllogo.png"/>
     <attributes name="SET_DEBUG_APP" value="false"/>
     <attributes name="tcandroid240basefontsize" value="10"/>
     <attributes name="win8versionbuildkey" value="0"/>

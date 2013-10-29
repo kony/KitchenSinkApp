@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -5667,7 +5668,7 @@
                 <width>100</width>
                 <height>6</height>
             </sizePercent>
-            <skinId>lblNormalTab</skinId>
+            <skinId>lblNormalSimilar</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
@@ -5741,9 +5742,9 @@
                 <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>4</left>
+                    <left>1</left>
                     <right>2</right>
-                    <top>2</top>
+                    <top>1</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </defaults>
@@ -6392,10 +6393,10 @@
                 <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>0</left>
-                    <right>0</right>
+                    <left>1</left>
+                    <right>1</right>
                     <top>0</top>
-                    <bottom>0</bottom>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -7406,8 +7407,8 @@
                     <defaults>
                         <left>1</left>
                         <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>%</unit>
                     </defaults>
                     <desktop_kiosk>
@@ -7674,6 +7675,7 @@
                 </gridviewConfig>
                 <symbian_position>0</symbian_position>
                 <tooltip></tooltip>
+                <tc_position>0</tc_position>
                 <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                 <wapDirection>0</wapDirection>
                 <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -8055,8 +8057,8 @@
                         <defaults>
                             <left>2</left>
                             <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>%</unit>
                         </defaults>
                         <desktop_kiosk>
@@ -8701,8 +8703,8 @@
                         <defaults>
                             <left>2</left>
                             <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>%</unit>
                         </defaults>
                         <desktop_kiosk>
@@ -9347,8 +9349,8 @@
                         <defaults>
                             <left>2</left>
                             <right>1</right>
-                            <top>1</top>
-                            <bottom>1</bottom>
+                            <top>0</top>
+                            <bottom>0</bottom>
                             <unit>%</unit>
                         </defaults>
                         <desktop_kiosk>
