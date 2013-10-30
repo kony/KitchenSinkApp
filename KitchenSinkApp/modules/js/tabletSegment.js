@@ -100,7 +100,7 @@ function tabSegmentFeaturesHandle(selIndex)
 	{
 		case 0:
 				if (kony.os.deviceInfo().name=="thinclient")
-					frmSegmentTablet.addWidgets();
+				frmSegmentTablet.addWidgets();
 				frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segWithSections);
 				break;
 		case 1:

@@ -144,7 +144,6 @@
         </component>
     </container>
     <container type="form" id="frmHome" displayname="Form"/>
-    <container type="dialog" id="hdr" displayname="Popup"/>
     <container type="form" id="frmAnibottom" displayname="Form"/>
     <container type="form" id="frmAnileft" displayname="Form"/>
     <container type="form" id="frmAniright" displayname="Form"/>
@@ -209,7 +208,6 @@
     <container type="dialog" id="ftrOne" displayname="Popup"/>
     <container type="dialog" id="dynamicTemplate1" displayname="Popup"/>
     <container type="dialog" id="dynamicTemplate2" displayname="Popup"/>
-    <container type="dialog" id="hdr" displayname="Popup"/>
     <container type="dialog" id="segHdrTemp1" displayname="Popup"/>
     <container type="dialog" id="segHdrTemp2" displayname="Popup"/>
     <container type="dialog" id="segLoading" displayname="Popup"/>
@@ -221,6 +219,7 @@
     <container type="dialog" id="template1" displayname="Popup"/>
     <container type="dialog" id="template2" displayname="Popup"/>
     <container type="dialog" id="template3" displayname="Popup"/>
+    <container type="dialog" id="hdr" displayname="Popup"/>
     <container type="form" id="frmAclMeterReadings" displayname="Form"/>
     <container type="form" id="frmAni2SplitHorizontalIn" displayname="Form"/>
     <container type="form" id="frmAni2SplitHorizontalOut" displayname="Form"/>
@@ -410,6 +409,8 @@
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmUInterface" displayname="Form"/>
     <container type="form" id="frmUInterface" displayname="Form"/>
+    <container type="dialog" id="hdr" displayname="Popup"/>
+    <container type="dialog" id="hdr" displayname="Popup"/>
     <globalsequences/>
     <skins/>
 </application>
