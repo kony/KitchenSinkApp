@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2742,7 +2743,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -3388,7 +3389,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -4034,7 +4035,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -4680,7 +4681,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -7910,7 +7911,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -8556,7 +8557,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -9202,7 +9203,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -11140,7 +11141,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -11786,7 +11787,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -12432,12 +12433,12 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
-                        <tabspa_ipad>false</tabspa_ipad>
-                        <tabspa_windows>false</tabspa_windows>
+                        <tabspa_ipad>true</tabspa_ipad>
+                        <tabspa_windows>true</tabspa_windows>
                         <tabspaspa_android>false</tabspaspa_android>
                         <tc_spaandroid>true</tc_spaandroid>
                         <tc_spabb>true</tc_spabb>
@@ -12453,9 +12454,9 @@
                         <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
                         <tc_xhtml_js>true</tc_xhtml_js>
                         <wrapper_android>true</wrapper_android>
-                        <wrapper_android_tab>false</wrapper_android_tab>
+                        <wrapper_android_tab>true</wrapper_android_tab>
                         <wrapper_bb>true</wrapper_bb>
-                        <wrapper_ipad>false</wrapper_ipad>
+                        <wrapper_ipad>true</wrapper_ipad>
                         <wrapper_iphone>true</wrapper_iphone>
                     </rendererData>
                     <margins>
@@ -13078,7 +13079,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -13724,7 +13725,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -14370,7 +14371,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -15016,7 +15017,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -15662,7 +15663,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -16308,7 +16309,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -16946,10 +16947,10 @@
                         <mixed_ipad>false</mixed_ipad>
                         <mixed_iphone>true</mixed_iphone>
                         <rc_android>true</rc_android>
-                        <rc_android_tab>true</rc_android_tab>
+                        <rc_android_tab>false</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
                         <rc_blackberry10>true</rc_blackberry10>
-                        <rc_ipad>false</rc_ipad>
+                        <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
@@ -16958,8 +16959,8 @@
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
-                        <tabspa_ipad>false</tabspa_ipad>
-                        <tabspa_windows>false</tabspa_windows>
+                        <tabspa_ipad>true</tabspa_ipad>
+                        <tabspa_windows>true</tabspa_windows>
                         <tabspaspa_android>false</tabspaspa_android>
                         <tc_spaandroid>true</tc_spaandroid>
                         <tc_spabb>true</tc_spabb>
@@ -16975,9 +16976,9 @@
                         <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
                         <tc_xhtml_js>true</tc_xhtml_js>
                         <wrapper_android>true</wrapper_android>
-                        <wrapper_android_tab>false</wrapper_android_tab>
+                        <wrapper_android_tab>true</wrapper_android_tab>
                         <wrapper_bb>true</wrapper_bb>
-                        <wrapper_ipad>false</wrapper_ipad>
+                        <wrapper_ipad>true</wrapper_ipad>
                         <wrapper_iphone>true</wrapper_iphone>
                     </rendererData>
                     <margins>
@@ -17592,10 +17593,10 @@
                         <mixed_ipad>false</mixed_ipad>
                         <mixed_iphone>true</mixed_iphone>
                         <rc_android>true</rc_android>
-                        <rc_android_tab>true</rc_android_tab>
+                        <rc_android_tab>false</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
                         <rc_blackberry10>true</rc_blackberry10>
-                        <rc_ipad>false</rc_ipad>
+                        <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
@@ -17604,8 +17605,8 @@
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
-                        <tabspa_ipad>false</tabspa_ipad>
-                        <tabspa_windows>false</tabspa_windows>
+                        <tabspa_ipad>true</tabspa_ipad>
+                        <tabspa_windows>true</tabspa_windows>
                         <tabspaspa_android>false</tabspaspa_android>
                         <tc_spaandroid>true</tc_spaandroid>
                         <tc_spabb>true</tc_spabb>
@@ -17621,9 +17622,9 @@
                         <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
                         <tc_xhtml_js>true</tc_xhtml_js>
                         <wrapper_android>true</wrapper_android>
-                        <wrapper_android_tab>false</wrapper_android_tab>
+                        <wrapper_android_tab>true</wrapper_android_tab>
                         <wrapper_bb>true</wrapper_bb>
-                        <wrapper_ipad>false</wrapper_ipad>
+                        <wrapper_ipad>true</wrapper_ipad>
                         <wrapper_iphone>true</wrapper_iphone>
                     </rendererData>
                     <margins>
@@ -18262,6 +18263,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

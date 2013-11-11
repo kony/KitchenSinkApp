@@ -3497,7 +3497,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -4384,13 +4384,13 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>0</left>
-                    <right>0</right>
+                    <left>25</left>
+                    <right>25</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </windows8>
-                <windows8_override>false</windows8_override>
+                <windows8_override>true</windows8_override>
                 <winmobile>
                     <left>2</left>
                     <right>2</right>
@@ -4937,16 +4937,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -8372,16 +8364,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -11809,16 +11793,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -15246,16 +15222,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -18683,16 +18651,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -22100,16 +22060,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -24237,16 +24189,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -26362,16 +26306,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -28487,16 +28423,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -30711,16 +30639,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -34175,16 +34095,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -37523,16 +37435,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -38273,16 +38177,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -42435,16 +42331,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -47877,7 +47765,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </windows8>
-                <windows8_override>false</windows8_override>
+                <windows8_override>true</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -48405,16 +48293,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -49289,7 +49169,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </windows8>
-                <windows8_override>false</windows8_override>
+                <windows8_override>true</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -49817,16 +49697,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -53212,16 +53084,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -56675,16 +56539,8 @@
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>
             <tc_postOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_postOnclickJs>
             <tc_preOnclickJs>
-                <evtSequence>
-                    <enabled>true</enabled>
-                    <seqname></seqname>
-                </evtSequence>
             </tc_preOnclickJs>
             <blockedSkin>Skin Defaults</blockedSkin>
             <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -58135,6 +57991,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

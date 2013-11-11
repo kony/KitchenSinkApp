@@ -191,6 +191,70 @@ function tabDevcFeatsHandleIpad(selIndex)
 *	Purpose : To handle the device faetures that are supported for android platform.
 ******************************************************************/
 
+function tabDevcFeatsHandleWinTab(selIndex)
+{
+	
+	var widLength = frmDeviceFeatures.sbxDevFeatureDeatils.widgets().length;
+	
+	kony.print("wid LENGTH ::"+widLength);
+	
+	if(widLength != 0)
+	{
+		for (var i=0 ;i< widLength ;i++)
+		{
+			kony.print("ENTERED");
+			frmDeviceFeatures.sbxDevFeatureDeatils.removeAt(0);
+		}
+	}
+	if (kony.os.deviceInfo().name!="thinclient")
+		frmDeviceFeatures.sbxDevFeatureDeatils.scrollToBeginning();
+		
+		kony.print("selected Index is "+selIndex);
+		
+	switch (selIndex)
+	{
+		case 0:
+				if(kony.os.hasAccelerometerSupport()== false)
+					frmDeviceFeatures.sbxDevFeatureDeatils.add(frmAclMeterReadings.lblEmulatorSupport);
+				else
+					frmDeviceFeatures.sbxDevFeatureDeatils.add(frmAclMeterReadings.hbxAccelerometerOptions);
+				break;
+		case 1:
+				if(kony.os.hasAccelerometerSupport() == false)
+					frmDeviceFeatures.sbxDevFeatureDeatils.add(frmAclMeterReadings.lblEmulatorSupport);
+				else
+					frmDeviceFeatures.sbxDevFeatureDeatils.add(frmCamera.hbxCameraBasic,frmCamera.hbxCameraAccessModes);
+				break;
+		case 2:
+				geoPosition();
+				break;
+		case 3:
+				emailSend();
+				break;
+		case 4:
+				deviceInfo();
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmDeviceInfo.segDeviceInfo);
+				break;
+		case 5 :
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmLocalStore.hbxLocalStore);
+				break;
+		case 6:
+				frmWebSQL.lblWebSqlUpdate.text ="";
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmWebSQL.hbxTabWebSQL,frmWebSQL.lblWebSqlUpdate);
+				break;
+		case 7:
+				frmDeviceFeatures.sbxDevFeatureDeatils.add(frmCrypto.hbxCrypto);
+				break;
+		
+	}
+}
+
+/*****************************************************************
+*	Name    : tabDevcFeatsHandleAndroid
+*	Author  : Kony 
+*	Purpose : To handle the device faetures that are supported for android platform.
+******************************************************************/
+
 function tabDevcFeatsHandleAndroid(selIndex)
 {
 	
@@ -280,6 +344,10 @@ function setSbxDevFeaturesDetails()
 		frmDeviceFeatures.segDeviceFeatures.selectedIndex =[0,0];
 		frmDeviceFeatures.scrollToBeginning();
 		DevcFeatsHandleDesktopweb(0)
+	}
+	else if (channel == "tablet" && kony.os.deviceInfo().name == "Windows")
+	{	
+		tabDevcFeatsHandleWinTab(0);
 	}
 	else 
 	{

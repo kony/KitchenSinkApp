@@ -60,7 +60,8 @@ function tab_LoadingScreenFull()
 
 function orientChange_frmPlatforms_androidTab()
 {
-	if(kony.os.getDeviceCurrentOrientation() == constants.DEVICE_ORIENTATION_LANDSCAPE )
+	
+	if(kony.os.deviceInfo().name == "android" && kony.os.getDeviceCurrentOrientation() == constants.DEVICE_ORIENTATION_LANDSCAPE )
 	{
 		frmPlatforms.hbxKonyLogoPFScreen.margin =[0,0,0,0];
 		frmPlatforms.lblWelcome.margin =[4,0,4,0];

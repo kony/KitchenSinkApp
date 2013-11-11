@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2912,7 +2913,7 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>2</left>
+                            <left>1</left>
                             <right>2</right>
                             <top>2</top>
                             <bottom>2</bottom>
@@ -4487,7 +4488,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -5795,7 +5796,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -7103,7 +7104,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -7971,6 +7972,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -11056,7 +11058,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -12364,7 +12366,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -13672,7 +13674,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -14540,6 +14542,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -17625,7 +17628,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -18933,7 +18936,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -20241,7 +20244,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -21109,6 +21112,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -24194,7 +24198,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -25502,7 +25506,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -26810,7 +26814,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -27411,7 +27415,7 @@
                     <left>1</left>
                     <right>1</right>
                     <top>1</top>
-                    <bottom>1</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -27678,6 +27682,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -30310,7 +30315,7 @@
                                 <width>100</width>
                                 <height>100</height>
                             </sizePercent>
-                            <skinId>rtxBlackFontNoBorder</skinId>
+                            <skinId>rtxBlackFontForTabs</skinId>
                             <focusSkinId>Skin Defaults</focusSkinId>
                             <localeId>None</localeId>
                             <visible>true</visible>
@@ -30763,10 +30768,10 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
-                                    <bottom>1</bottom>
+                                    <bottom>0</bottom>
                                     <unit>%</unit>
                                 </windows8>
                                 <windows8_override>true</windows8_override>
@@ -32071,7 +32076,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -33379,7 +33384,7 @@
                                 <thinclient_override>false</thinclient_override>
                                 <type>1</type>
                                 <windows8>
-                                    <left>2</left>
+                                    <left>1</left>
                                     <right>1</right>
                                     <top>1</top>
                                     <bottom>1</bottom>
@@ -34247,6 +34252,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -40223,6 +40229,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

@@ -199,6 +199,8 @@ function createAppMenu()
   	  	var appMenu= [homeMItem,animationMItem,featuresMItem,closeMItem];
     else if(kony.os.deviceInfo().name == "thinclient")
     	var appMenu= [homeMItem,uiMItem,animationMItem,featuresMItem];
+    else if(kony.os.deviceInfo().name == "Windows" &&channel == "tablet")
+    	var appMenu= [homeMItem,uiMItem,featuresMItem,closeMItem];
     else
     	var appMenu= [homeMItem,uiMItem,animationMItem,featuresMItem,closeMItem];
     //Creating app menu	

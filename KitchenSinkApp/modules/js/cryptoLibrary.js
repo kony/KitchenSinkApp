@@ -107,7 +107,7 @@ function createHashMD2()
 {
 	try
     {
-    	if(kony.os.deviceInfo().name == "WindowsPhone")
+    	if( kony.os.deviceInfo().name == "WindowsPhone" ||kony.os.deviceInfo().name == "Windows")
     		var algo="sha1";
     	else
 			var algo="md2";
@@ -132,7 +132,7 @@ function createHashMD4()
 {
 	try
     {
-    	if(kony.os.deviceInfo().name == "WindowsPhone")
+    	if(kony.os.deviceInfo().name == "WindowsPhone" || kony.os.deviceInfo().name == "Windows")
     		var algo="sha256";
     	else
 			var algo="md4";

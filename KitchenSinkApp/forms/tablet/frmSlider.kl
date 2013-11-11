@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -3393,8 +3394,8 @@
                     <androidMaxLabel></androidMaxLabel>
                     <androidMinSkin>Skin Defaults</androidMinSkin>
                     <androidMaxSkin>Skin Defaults</androidMaxSkin>
-                    <winMobLeftSkin>Skin Defaults</winMobLeftSkin>
-                    <winMobRightSkin>Skin Defaults</winMobRightSkin>
+                    <winMobLeftSkin>sliderLeftWin</winMobLeftSkin>
+                    <winMobRightSkin>sliderRightWin</winMobRightSkin>
                     <winMobThumbImg></winMobThumbImg>
                     <winMobFocusThumbImg></winMobFocusThumbImg>
                     <winThickness></winThickness>
@@ -6161,8 +6162,8 @@
                     <androidMaxLabel>2000</androidMaxLabel>
                     <androidMinSkin>Skin Defaults</androidMinSkin>
                     <androidMaxSkin>Skin Defaults</androidMaxSkin>
-                    <winMobLeftSkin>Skin Defaults</winMobLeftSkin>
-                    <winMobRightSkin>Skin Defaults</winMobRightSkin>
+                    <winMobLeftSkin>sliderLeftWin</winMobLeftSkin>
+                    <winMobRightSkin>sliderRightWin</winMobRightSkin>
                     <winMobThumbImg></winMobThumbImg>
                     <winMobFocusThumbImg></winMobFocusThumbImg>
                     <winThickness></winThickness>
@@ -7545,8 +7546,8 @@
                     <androidMaxLabel>100</androidMaxLabel>
                     <androidMinSkin>Skin Defaults</androidMinSkin>
                     <androidMaxSkin>Skin Defaults</androidMaxSkin>
-                    <winMobLeftSkin>Skin Defaults</winMobLeftSkin>
-                    <winMobRightSkin>Skin Defaults</winMobRightSkin>
+                    <winMobLeftSkin>sliderLeftWin</winMobLeftSkin>
+                    <winMobRightSkin>sliderRightWin</winMobRightSkin>
                     <winMobThumbImg></winMobThumbImg>
                     <winMobFocusThumbImg></winMobFocusThumbImg>
                     <winThickness></winThickness>
@@ -8848,6 +8849,27 @@
                     <max>100</max>
                     <defaultValue>0</defaultValue>
                     <step>1</step>
+                    <event_onSlide>
+                        <evtSequence>
+                            <actionList xsi:type="eventExpressionAction">
+                                <enabled>true</enabled>
+                                <name></name>
+                                <type>5</type>
+                                <expr></expr>
+                                <exprMap>
+                                    <entry>
+                                        <key>js</key>
+                                        <value>if(kony.os.deviceInfo().name == "Windows" &amp;&amp; channel == "tablet")
+{
+	sliderOnSelection(eventobject)
+}</value>
+                                    </entry>
+                                </exprMap>
+                            </actionList>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </event_onSlide>
                     <event_onSelect>
                         <evtSequence>
                             <actionList xsi:type="eventFunctionAction">
@@ -8978,8 +9000,8 @@
                     <androidMaxLabel></androidMaxLabel>
                     <androidMinSkin>Skin Defaults</androidMinSkin>
                     <androidMaxSkin>Skin Defaults</androidMaxSkin>
-                    <winMobLeftSkin>Skin Defaults</winMobLeftSkin>
-                    <winMobRightSkin>Skin Defaults</winMobRightSkin>
+                    <winMobLeftSkin>sliderLeftWin</winMobLeftSkin>
+                    <winMobRightSkin>sliderRightWin</winMobRightSkin>
                     <winMobThumbImg></winMobThumbImg>
                     <winMobFocusThumbImg></winMobFocusThumbImg>
                     <winThickness></winThickness>
@@ -9656,6 +9678,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -11032,6 +11055,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

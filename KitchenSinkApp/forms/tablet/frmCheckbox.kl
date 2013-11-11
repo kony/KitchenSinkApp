@@ -2796,7 +2796,7 @@
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>5</left>
+                            <left>2</left>
                             <right>5</right>
                             <top>2</top>
                             <bottom>2</bottom>
@@ -3441,7 +3441,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -4087,7 +4087,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -4785,7 +4785,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -5431,7 +5431,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -6828,7 +6828,7 @@
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>5</left>
+                            <left>2</left>
                             <right>5</right>
                             <top>2</top>
                             <bottom>2</bottom>
@@ -7473,7 +7473,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -8119,7 +8119,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -8172,7 +8172,7 @@
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>0</left>
+                            <left>2</left>
                             <right>0</right>
                             <top>2</top>
                             <bottom>2</bottom>
@@ -8759,8 +8759,9 @@
                     <pb_preLuaJSEvent></pb_preLuaJSEvent>
                     <pb_postLuaJSEvent></pb_postLuaJSEvent>
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
-                    <winmobile_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winmobile_itemOrientation>
+                    <winmobile_itemOrientation>CHECKBOX_ITEM_ORIENTATION_HORIZONTAL</winmobile_itemOrientation>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
+                    <overrideProperties>KCheckBox.winmobile_itemOrientation</overrideProperties>
                     <winphone8_tickedimage></winphone8_tickedimage>
                     <winphone8_untickedimage></winphone8_untickedimage>
                     <winphone8_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winphone8_itemOrientation>
@@ -8833,6 +8834,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

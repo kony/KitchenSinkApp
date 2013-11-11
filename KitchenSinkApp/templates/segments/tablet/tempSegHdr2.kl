@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2530,8 +2531,8 @@
                         <windows8>
                             <left>1</left>
                             <right>1</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
@@ -3037,16 +3038,16 @@
                     </margins>
                     <paddings>
                         <android>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </android>
                         <android_override>true</android_override>
                         <bb>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -3085,16 +3086,16 @@
                         </desktop_web>
                         <desktop_web_override>true</desktop_web_override>
                         <ipad>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </ipad>
                         <ipad_override>true</ipad_override>
                         <iphonerc>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -3117,16 +3118,16 @@
                         </palmpre>
                         <palmpre_override>false</palmpre_override>
                         <spaWinphone8>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaWinphone8>
                         <spaWinphone8_override>false</spaWinphone8_override>
                         <spaipad>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -3143,16 +3144,16 @@
                         </symbian>
                         <symbian_override>true</symbian_override>
                         <tabRCAndroid>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </tabRCAndroid>
                         <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -3174,16 +3175,16 @@
                         <thinclient_override>false</thinclient_override>
                         <type>1</type>
                         <windows8>
-                            <left>0</left>
-                            <right>2</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
                         <winmobile>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -3206,31 +3207,31 @@
                         </winphone8>
                         <winphone8_override>false</winphone8_override>
                         <xhtmlAdvBB>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </xhtmlAdvBB>
                         <xhtmlAdvBB_override>true</xhtmlAdvBB_override>
                         <spaAndroid>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaAndroid>
                         <spaAndroid_override>true</spaAndroid_override>
                         <spaBB>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaBB>
                         <spaBBNth>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -3238,56 +3239,56 @@
                         <spaBBNth_override>true</spaBBNth_override>
                         <spaBB_override>true</spaBB_override>
                         <spaIphone>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaIphone>
                         <spaIphone_override>true</spaIphone_override>
                         <spaWindows>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaWindows>
                         <spaWindows_override>true</spaWindows_override>
                         <xhtmlAdvAndroid>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </xhtmlAdvAndroid>
                         <xhtmlAdvAndroid_override>true</xhtmlAdvAndroid_override>
                         <xhtmlAdvIphone>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </xhtmlAdvIphone>
                         <xhtmlAdvIphone_override>true</xhtmlAdvIphone_override>
                         <xhtmlAdvNth>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </xhtmlAdvNth>
                         <xhtmlAdvNth_override>true</xhtmlAdvNth_override>
                         <xhtmlAdvPalm>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </xhtmlAdvPalm>
                         <xhtmlAdvPalm_override>true</xhtmlAdvPalm_override>
                         <xhtmlJS>
-                            <left>0</left>
-                            <right>2</right>
+                            <left>1</left>
+                            <right>1</right>
                             <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
@@ -3404,6 +3405,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <contentAlign>0</contentAlign>
     <gridviewConfig>

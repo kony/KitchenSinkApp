@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2721,7 +2722,7 @@
                         <width>100</width>
                         <height>4</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>listNor</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -3439,8 +3440,8 @@
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
                     <bb10_dropDownImage></bb10_dropDownImage>
-                    <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-                    <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+                    <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+                    <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
                     <bb10_placeHolder></bb10_placeHolder>
                     <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
                     <bb10_contentalignment>1</bb10_contentalignment>
@@ -3493,7 +3494,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -4155,7 +4156,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -4836,8 +4837,8 @@
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
                     <bb10_dropDownImage></bb10_dropDownImage>
-                    <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-                    <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+                    <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+                    <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
                     <bb10_placeHolder></bb10_placeHolder>
                     <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
                     <bb10_contentalignment>1</bb10_contentalignment>
@@ -4890,7 +4891,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -5552,7 +5553,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -6233,8 +6234,8 @@
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
                     <bb10_dropDownImage></bb10_dropDownImage>
-                    <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-                    <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+                    <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+                    <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
                     <bb10_placeHolder></bb10_placeHolder>
                     <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
                     <bb10_contentalignment>1</bb10_contentalignment>
@@ -6287,7 +6288,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -6949,7 +6950,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -7618,8 +7619,8 @@
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
                     <bb10_dropDownImage></bb10_dropDownImage>
-                    <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-                    <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+                    <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+                    <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
                     <bb10_placeHolder></bb10_placeHolder>
                     <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
                     <bb10_contentalignment>1</bb10_contentalignment>
@@ -7672,7 +7673,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -8334,7 +8335,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -9003,8 +9004,8 @@
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
                     <bb10_dropDownImage></bb10_dropDownImage>
-                    <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-                    <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+                    <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+                    <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
                     <bb10_placeHolder></bb10_placeHolder>
                     <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
                     <bb10_contentalignment>1</bb10_contentalignment>
@@ -9057,7 +9058,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -9719,7 +9720,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -10388,8 +10389,8 @@
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
                     <bb10_dropDownImage></bb10_dropDownImage>
-                    <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-                    <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+                    <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+                    <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
                     <bb10_placeHolder></bb10_placeHolder>
                     <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
                     <bb10_contentalignment>1</bb10_contentalignment>
@@ -11787,8 +11788,8 @@
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
                     <bb10_dropDownImage></bb10_dropDownImage>
-                    <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-                    <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+                    <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+                    <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
                     <bb10_placeHolder></bb10_placeHolder>
                     <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
                     <bb10_contentalignment>1</bb10_contentalignment>
@@ -13184,8 +13185,8 @@
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
                     <bb10_dropDownImage></bb10_dropDownImage>
-                    <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-                    <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+                    <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+                    <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
                     <bb10_placeHolder></bb10_placeHolder>
                     <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
                     <bb10_contentalignment>1</bb10_contentalignment>
@@ -13238,7 +13239,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -13900,7 +13901,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -14581,8 +14582,8 @@
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
                     <bb10_dropDownImage></bb10_dropDownImage>
-                    <bb10_nativeListFieldSkin>None</bb10_nativeListFieldSkin>
-                    <bb10_nativeListFieldFocusSkin>None</bb10_nativeListFieldFocusSkin>
+                    <bb10_nativeListFieldSkin>Skin Defaults</bb10_nativeListFieldSkin>
+                    <bb10_nativeListFieldFocusSkin>Skin Defaults</bb10_nativeListFieldFocusSkin>
                     <bb10_placeHolder></bb10_placeHolder>
                     <bb10_placeHolder_i18n>None</bb10_placeHolder_i18n>
                     <bb10_contentalignment>1</bb10_contentalignment>
@@ -14651,6 +14652,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

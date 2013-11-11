@@ -1428,6 +1428,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2754,6 +2755,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -4999,16 +5001,8 @@
                     <tc_border>3</tc_border>
                     <tc_defaultSelection>true</tc_defaultSelection>
                     <tc_postOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_postOnclickJs>
                     <tc_preOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_preOnclickJs>
                     <blockedSkin>Skin Defaults</blockedSkin>
                     <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -6298,6 +6292,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -8591,16 +8586,8 @@
                     <tc_border>3</tc_border>
                     <tc_defaultSelection>true</tc_defaultSelection>
                     <tc_postOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_postOnclickJs>
                     <tc_preOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_preOnclickJs>
                     <blockedSkin>Skin Defaults</blockedSkin>
                     <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -9890,6 +9877,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -12147,16 +12135,8 @@
                     <tc_border>3</tc_border>
                     <tc_defaultSelection>true</tc_defaultSelection>
                     <tc_postOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_postOnclickJs>
                     <tc_preOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_preOnclickJs>
                     <blockedSkin>Skin Defaults</blockedSkin>
                     <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -13546,6 +13526,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

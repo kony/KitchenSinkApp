@@ -153,10 +153,15 @@ function tabSegmentFeaturesHandle(selIndex)
 				
 				break;
 		case 7:
-				if(channel=="tablet" && kony.os.deviceInfo().name == "android")
+				if(channel=="tablet" && kony.os.deviceInfo().name == "Windows")
 				{
+					frmSegDynRowTemplate.addWidgets();
+					initArray();
+					rowTempSetData();
 					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegDynRowTemplate.segDynamicRowTemp);
 				}
+				else if (channel=="tablet" && kony.os.deviceInfo().name == "android")
+					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegDynRowTemplate.segDynamicRowTemp);
 				else
 					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.btnEditOrDone,frmSegmentTablet.segIconEditStyle);
 				break;
