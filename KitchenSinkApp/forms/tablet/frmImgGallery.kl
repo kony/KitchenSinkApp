@@ -3543,7 +3543,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -4991,7 +4991,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -5640,7 +5640,7 @@
                             <rc_j2me>true</rc_j2me>
                             <rc_palm>true</rc_palm>
                             <rc_symbian>true</rc_symbian>
-                            <rc_windows8>true</rc_windows8>
+                            <rc_windows8>false</rc_windows8>
                             <rc_winmobile>true</rc_winmobile>
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>

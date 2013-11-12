@@ -238,6 +238,12 @@ function tabContainerWidgets(selIndex)
 					frmScrollBoxSPA.addWidgets();
 					frmUInterface.sbxWidgetDetails.add(frmScrollBoxSPA.hbxScrbxDemo);
 				}
+				
+				else if(kony.os.deviceInfo().name == "Windows" && channel == "tablet")
+				{
+					frmScrollBoxMenu.addWidgets();
+					frmUInterface.sbxWidgetDetails.add(frmScrollBoxMenu.hbxScrbxDemo);
+				}
 				else
 				{
 					frmScrollBoxMenu.addWidgets();

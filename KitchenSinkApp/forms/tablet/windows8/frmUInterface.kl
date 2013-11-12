@@ -7783,7 +7783,7 @@
                     <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
-                    <visible>true</visible>
+                    <visible>false</visible>
                     <rendererData>
                         <desktop_kiosk_channel>true</desktop_kiosk_channel>
                         <desktop_web_channel>true</desktop_web_channel>
@@ -11375,7 +11375,7 @@
                     <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
-                    <visible>true</visible>
+                    <visible>false</visible>
                     <rendererData>
                         <desktop_kiosk_channel>true</desktop_kiosk_channel>
                         <desktop_web_channel>true</desktop_web_channel>
