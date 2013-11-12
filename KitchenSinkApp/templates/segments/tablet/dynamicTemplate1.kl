@@ -2531,8 +2531,8 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>2</top>
-                            <bottom>2</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
@@ -4482,8 +4482,8 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>2</top>
-                            <bottom>2</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>
@@ -6433,8 +6433,8 @@
                         <windows8>
                             <left>0</left>
                             <right>0</right>
-                            <top>2</top>
-                            <bottom>2</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </windows8>
                         <windows8_override>true</windows8_override>

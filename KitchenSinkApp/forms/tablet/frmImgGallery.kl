@@ -1402,7 +1402,6 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
-            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -4190,7 +4189,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>true</rc_windows8>
+                        <rc_windows8>false</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -4992,7 +4991,7 @@
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
                         <rc_symbian>true</rc_symbian>
-                        <rc_windows8>false</rc_windows8>
+                        <rc_windows8>true</rc_windows8>
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
@@ -5045,10 +5044,10 @@
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>2</left>
+                            <right>2</right>
+                            <top>2</top>
+                            <bottom>2</bottom>
                             <unit>%</unit>
                         </defaults>
                         <desktop_kiosk>
@@ -5313,9 +5312,9 @@
                         <default_override>true</default_override>
                         <defaults>
                             <left>1</left>
-                            <right>0</right>
+                            <right>1</right>
                             <top>1</top>
-                            <bottom>0</bottom>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </defaults>
                         <desktop_kiosk>
@@ -5582,7 +5581,6 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
-                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -5642,7 +5640,7 @@
                             <rc_j2me>true</rc_j2me>
                             <rc_palm>true</rc_palm>
                             <rc_symbian>true</rc_symbian>
-                            <rc_windows8>false</rc_windows8>
+                            <rc_windows8>true</rc_windows8>
                             <rc_winmobile>true</rc_winmobile>
                             <rc_winmobile6x>true</rc_winmobile6x>
                             <rc_winphone8>true</rc_winphone8>
@@ -5813,7 +5811,7 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </windows8>
-                            <windows8_override>false</windows8_override>
+                            <windows8_override>true</windows8_override>
                             <winmobile>
                                 <left>4</left>
                                 <right>4</right>

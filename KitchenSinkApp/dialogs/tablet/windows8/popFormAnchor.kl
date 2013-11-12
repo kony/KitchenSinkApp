@@ -24,7 +24,7 @@
     </overridePerferred>
     <projectName>KitchenSinkApp</projectName>
     <formName>popFormAnchor</formName>
-    <platform>0</platform>
+    <platform>43</platform>
     <mode>1</mode>
     <formCategory>100</formCategory>
     <toList></toList>
@@ -791,7 +791,7 @@
                 <height>6</height>
             </sizePercent>
             <skinId>btnSknBlack</skinId>
-            <focusSkinId>btnRoundFocus</focusSkinId>
+            <focusSkinId>btnSknBlack</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>
@@ -1421,7 +1421,7 @@
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
             <android_content_align>4</android_content_align>
             <win_display_text>true</win_display_text>
-            <winMobileContentAlign>top-center</winMobileContentAlign>
+            <winMobileContentAlign>middle-center</winMobileContentAlign>
             <palm_display_text>true</palm_display_text>
             <palm_buttontype>0</palm_buttontype>
             <symbian_display_text>true</symbian_display_text>
@@ -1494,7 +1494,7 @@
                 <height>6</height>
             </sizePercent>
             <skinId>btnSknRed</skinId>
-            <focusSkinId>btnRoundFocus</focusSkinId>
+            <focusSkinId>btnSknRed</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>
@@ -2124,7 +2124,7 @@
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
             <android_content_align>4</android_content_align>
             <win_display_text>true</win_display_text>
-            <winMobileContentAlign>top-center</winMobileContentAlign>
+            <winMobileContentAlign>middle-center</winMobileContentAlign>
             <palm_display_text>true</palm_display_text>
             <palm_buttontype>0</palm_buttontype>
             <symbian_display_text>true</symbian_display_text>
