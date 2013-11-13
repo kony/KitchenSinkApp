@@ -69,6 +69,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -205,6 +206,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -335,6 +337,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -469,6 +472,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -603,6 +607,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -737,6 +742,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -867,6 +873,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1001,6 +1008,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="60,149,186" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1134,6 +1142,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1268,6 +1277,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1404,6 +1414,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1538,6 +1549,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1670,6 +1682,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1800,6 +1813,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -1935,6 +1949,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="192,192,192" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2070,6 +2085,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="255,255,255" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -2201,6 +2217,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2333,6 +2350,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2465,6 +2483,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="210,210,210" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -2600,6 +2619,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2734,6 +2754,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2868,6 +2889,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -2998,6 +3020,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3132,6 +3155,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3264,6 +3288,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3400,6 +3425,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3530,6 +3556,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3665,6 +3692,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3795,6 +3823,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -3925,6 +3954,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4059,6 +4089,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="255,255,255" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4194,6 +4225,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4330,6 +4362,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4464,6 +4497,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4598,6 +4632,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4732,6 +4767,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4866,6 +4902,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="192,192,192" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -4996,6 +5033,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5130,6 +5168,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5264,6 +5303,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="205,205,205" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -5394,6 +5434,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5528,6 +5569,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5662,6 +5704,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5798,6 +5841,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -5934,6 +5978,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6064,6 +6109,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -6199,6 +6245,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6333,6 +6380,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -6467,6 +6515,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6597,6 +6646,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6729,6 +6779,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6859,6 +6910,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -6994,6 +7046,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -7124,6 +7177,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="69,69,69" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7256,6 +7310,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7391,6 +7446,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7521,6 +7577,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7656,6 +7713,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -7792,6 +7850,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -7922,6 +7981,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8056,6 +8116,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8190,6 +8251,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8320,6 +8382,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8450,6 +8513,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,255" type="RGB"/>
         <att name="Border_width" value="5" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8584,6 +8648,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8714,6 +8779,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8852,6 +8918,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -8990,6 +9057,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,255" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9124,6 +9192,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9254,6 +9323,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,255" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9388,6 +9458,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9518,6 +9589,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9652,6 +9724,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9782,6 +9855,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -9916,6 +9990,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10050,6 +10125,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="255,0,128" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10184,6 +10260,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="164,164,164" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10316,6 +10393,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10450,6 +10528,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10584,6 +10663,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10720,6 +10800,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10855,6 +10936,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -10985,6 +11067,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -11119,6 +11202,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -11253,6 +11337,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -11388,6 +11473,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -11523,6 +11609,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -11653,6 +11740,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -11783,6 +11871,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="255,255,255" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -11913,6 +12002,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="60,149,186" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -12046,6 +12136,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -12177,6 +12268,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -12311,6 +12403,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -12445,6 +12538,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -12579,6 +12673,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -12713,6 +12808,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -12847,6 +12943,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -12977,6 +13074,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -13111,6 +13209,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -13241,6 +13340,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -13371,6 +13471,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -13503,6 +13604,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -13638,6 +13740,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -13768,6 +13871,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -13902,6 +14006,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="60,149,186" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -14035,6 +14140,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -14165,6 +14271,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -14295,6 +14402,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -14425,6 +14533,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -14559,6 +14668,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -14694,6 +14804,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -14828,6 +14939,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -14960,6 +15072,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -15094,6 +15207,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -15224,6 +15338,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="90,90,90" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -15354,6 +15469,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -15484,6 +15600,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -15616,6 +15733,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -15750,6 +15868,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -15880,6 +15999,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="125,125,125" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -16014,6 +16134,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -16148,6 +16269,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -16278,6 +16400,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -16408,6 +16531,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -16542,6 +16666,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -16676,6 +16801,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -16809,6 +16935,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -16945,6 +17072,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -17075,6 +17203,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -17205,6 +17334,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -17339,6 +17469,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -17469,6 +17600,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -17599,6 +17731,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -17735,6 +17868,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -17865,6 +17999,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -17995,6 +18130,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -18125,6 +18261,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -18257,6 +18394,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -18389,6 +18527,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="125,125,125" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -18519,6 +18658,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -18653,6 +18793,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -18783,6 +18924,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="69,69,69" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -18915,6 +19057,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -19049,6 +19192,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="35,166,211" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -19179,6 +19323,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="252,199,28" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -19309,6 +19454,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -19445,6 +19591,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -19580,6 +19727,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -19710,6 +19858,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="69,69,69" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -19846,6 +19995,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -19982,6 +20132,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -20118,6 +20269,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -20248,6 +20400,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="90,90,90" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -20378,6 +20531,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -20514,6 +20668,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -20644,6 +20799,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -20776,6 +20932,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="90,135,180" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -20911,6 +21068,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -21041,6 +21199,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -21171,6 +21330,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -21305,6 +21465,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="90,90,90" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -21435,6 +21596,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -21565,6 +21727,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -21699,6 +21862,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="90,135,180" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -21834,6 +21998,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -21968,6 +22133,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -22102,6 +22268,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -22234,6 +22401,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -22366,6 +22534,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -22498,6 +22667,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -22630,6 +22800,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -22761,6 +22932,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -22895,6 +23067,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -23029,6 +23202,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="224,224,224" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -23162,6 +23336,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -23296,6 +23471,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -23430,6 +23606,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -23564,6 +23741,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -23697,6 +23875,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -23831,6 +24010,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -23961,6 +24141,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -24091,6 +24272,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -24226,6 +24408,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -24356,6 +24539,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -24491,6 +24675,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -24623,6 +24808,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -24758,6 +24944,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -24892,6 +25079,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -25026,6 +25214,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="255,0,128" type="RGB"/>
         <att name="Border_width" value="5" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -25160,6 +25349,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -25291,6 +25481,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -25421,6 +25612,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -25555,6 +25747,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -25685,6 +25878,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -25815,6 +26009,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -25951,6 +26146,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -26081,6 +26277,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -26211,6 +26408,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -26341,6 +26539,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="252,199,28" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -26471,6 +26670,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -26605,6 +26805,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -26739,6 +26940,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -26869,6 +27071,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -27003,6 +27206,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -27137,6 +27341,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="90,135,180" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -27272,6 +27477,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -27402,6 +27608,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,128,192" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -27538,6 +27745,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -27672,6 +27880,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -27803,6 +28012,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -27935,6 +28145,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="190,190,190" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -28065,6 +28276,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -28200,6 +28412,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -28330,6 +28543,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -28464,6 +28678,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -28598,6 +28813,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="157,157,157" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -28734,6 +28950,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -28864,6 +29081,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -28999,6 +29217,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -29129,6 +29348,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -29263,6 +29483,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -29393,6 +29614,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -29527,6 +29749,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -29657,6 +29880,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="255,255,255" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -29789,6 +30013,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -29925,6 +30150,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -30055,6 +30281,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -30189,6 +30416,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="64,128,128" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -30321,6 +30549,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -30455,6 +30684,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -30589,6 +30819,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -30719,6 +30950,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -30853,6 +31085,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="90,90,90" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -30983,6 +31216,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -31117,6 +31351,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -31252,6 +31487,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -31386,6 +31622,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -31516,6 +31753,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -31646,6 +31884,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -31778,6 +32017,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -31909,6 +32149,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="252,199,28" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -32039,6 +32280,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="69,69,69" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -32175,6 +32417,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -32309,6 +32552,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -32443,6 +32687,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -32577,6 +32822,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -32712,6 +32958,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -32842,6 +33089,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -32972,6 +33220,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -33106,6 +33355,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -33236,6 +33486,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -33368,6 +33619,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -33498,6 +33750,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -33632,6 +33885,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -33762,6 +34016,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -33896,6 +34151,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="255,255,255" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -34026,6 +34282,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="192,192,192" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -34159,6 +34416,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -34295,6 +34553,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -34425,6 +34684,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -34559,6 +34819,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -34693,6 +34954,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -34823,6 +35085,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -34957,6 +35220,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -35093,6 +35357,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -35227,6 +35492,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -35361,6 +35627,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -35497,6 +35764,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -35631,6 +35899,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -35767,6 +36036,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -35901,6 +36171,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -36035,6 +36306,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -36165,6 +36437,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="60,149,186" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -36298,6 +36571,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -36432,6 +36706,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="233,233,233" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -36562,6 +36837,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -36692,6 +36968,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -36822,6 +37099,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -36956,6 +37234,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -37091,6 +37370,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -37228,6 +37508,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="210,210,210" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -37365,6 +37646,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -37499,6 +37781,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="210,210,210" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -37634,6 +37917,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -37764,6 +38048,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -37900,6 +38185,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -38035,6 +38321,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -38165,6 +38452,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -38299,6 +38587,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -38435,6 +38724,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -38569,6 +38859,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -38703,6 +38994,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="90,90,90" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -38833,6 +39125,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="155,155,155" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -38969,6 +39262,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -39103,6 +39397,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -39233,6 +39528,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -39365,6 +39661,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -39499,6 +39796,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="255,128,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -39633,6 +39931,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -39763,6 +40062,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -39895,6 +40195,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -40027,6 +40328,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -40161,6 +40463,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -40291,6 +40594,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -40421,6 +40725,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -40555,6 +40860,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -40689,6 +40995,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -40821,6 +41128,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -40955,6 +41263,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -41085,6 +41394,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -41220,6 +41530,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="69,69,69" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -41355,6 +41666,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -41489,6 +41801,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -41623,6 +41936,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -41759,6 +42073,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -41893,6 +42208,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -42027,6 +42343,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -42157,6 +42474,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="192,192,192" type="RGB"/>
         <att name="Border_width" value="1" type="Integer"/>
         <att name="Border_style" value="1" type="int"/>
@@ -42287,6 +42605,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -42417,6 +42736,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -42551,6 +42871,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="64,128,128" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -42683,6 +43004,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -42813,6 +43135,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -42943,6 +43266,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="192,192,192" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -43079,6 +43403,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,153,204" type="RGB"/>
         <att name="Border_width" value="2" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>
@@ -43216,6 +43541,7 @@
         <att name="Rightfont_size" value="100" type="String"/>
         <att name="Rightfont_name" value="None" type="String"/>
         <att name="BorderType" value="0" type="int"/>
+        <att name="BorderRadius" value="0" type="Integer"/>
         <att name="Border_color" value="0,0,0" type="RGB"/>
         <att name="Border_width" value="0" type="Integer"/>
         <att name="Border_style" value="0" type="int"/>

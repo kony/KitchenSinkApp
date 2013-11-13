@@ -133,6 +133,10 @@ function tabSegmentFeaturesHandle(selIndex)
 					SecHdrTemplatesTab();
 					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segSecHdrTemplates,frmSegmentTablet.btnMulSelect);
 				}
+				else if (kony.os.deviceInfo().name == "Windows" && channel == "tablet")
+				{
+					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.lblSegWithGrpCels,frmSegmentTablet.segGroupCellsWinTab,frmSegmentTablet.lblSegWidoutGrpCel,frmSegmentTablet.segWdtGroupCellsWinTab);
+				}
 				else
 				{
 					frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.lblSegWithGrpCels,frmSegmentTablet.segGroupCells,frmSegmentTablet.lblSegWidoutGrpCel,frmSegmentTablet.segWidoutGrpCells);

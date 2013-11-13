@@ -33,9 +33,9 @@ function browserOptions(eventObj)
 	{
 		case "Browser with static content":
 			frmBrowser.title = "Static HTML";
-			if (kony.os.deviceInfo().name == "thinclient" && channel!="tablet"&& channel!="desktopweb")
+			if (kony.os.deviceInfo().name == "thinclient" && channel=="mobile")
 				frmBrowser.brwDemo.htmlString ="<h3><font color=\"white\"><br/><br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/></font></h3> ";
-			else if(kony.os.deviceInfo().name == "android" && channel != "tablet")
+			else if(kony.os.deviceInfo().name == "android" && channel == "mobile")
 				frmBrowser.brwDemo.htmlString ="<p><font size=\"3\" color=\"black\">This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.</font></p>";
 			else if(channel== "tablet" && kony.os.deviceInfo().name =="android")
 				frmBrowser.brwDemo.htmlString ="<p><font size=\"5\" color=\"white\"><br/>This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.<br/> This area will contain everything that will be visible through a web browser, such as text and graphics. All of the information will be HTML coded.</font></p>";
