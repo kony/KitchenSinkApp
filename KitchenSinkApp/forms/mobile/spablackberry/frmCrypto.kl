@@ -79,6 +79,7 @@
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
+            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -121,6 +122,7 @@
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
+            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -168,6 +170,14 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
+            <bb10>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </bb10>
+            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>true</default_override>
             <defaults>
@@ -431,13 +441,10 @@
                             <value>frmCrypto.textEncrypt.text ="";
 frmCrypto.lblEncrypt.text ="";
 frmCrypto.lblDecrypt.text="";
-if (kony.os.deviceInfo().name !="android")
-{
-	frmCrypto.txtMd2Hash.text = "";
-	frmCrypto.lblMD2Hash.text = "";
-	frmCrypto.txtMD4Hash.text = "";
-	frmCrypto.lblMD4Hash.text = "";
-}
+frmCrypto.txtMd2Hash.text = "";
+frmCrypto.lblMD2Hash.text = "";
+frmCrypto.txtMD4Hash.text = "";
+frmCrypto.lblMD4Hash.text = "";
 frmCrypto.txtMD5Hash.text = "";
 frmCrypto.lblMD5Hash.text = "";</value>
                         </entry>
@@ -484,6 +491,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -549,6 +557,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -642,6 +651,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
         <win_enablescreenmenu>false</win_enablescreenmenu>
         <win_autofocus>true</win_autofocus>
         <wm_orientation>2</wm_orientation>
+        <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
         <win_intransition>Default</win_intransition>
         <win_outtransition>Default</win_outtransition>
         <win_intransitionmode>Default</win_intransitionmode>
@@ -660,6 +670,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
         <winphone8_layout>Vertical</winphone8_layout>
         <winphone8_showformtitle>false</winphone8_showformtitle>
         <winphone8_backButton>false</winphone8_backButton>
+        <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
@@ -677,6 +688,12 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -706,6 +723,9 @@ frmCrypto.lblMD5Hash.text = "";</value>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -736,7 +756,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
         <spa_noCache>true</spa_noCache>
         <spa_onLoadJSEvent></spa_onLoadJSEvent>
         <spa_unLoadJSEvent></spa_unLoadJSEvent>
-        <spa_popup_transition>None</spa_popup_transition>
+        <spa_popup_transition>leftCenter</spa_popup_transition>
         <spa_deviceOrientation>0</spa_deviceOrientation>
         <spa_out_popup_transition>None</spa_out_popup_transition>
         <spa_scroll_bounce>true</spa_scroll_bounce>
@@ -812,6 +832,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>true</rc_j2me>
@@ -859,6 +880,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -1118,6 +1147,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -1378,6 +1415,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
+            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -1390,6 +1428,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -1449,6 +1488,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -1496,6 +1536,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -1755,6 +1803,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -2050,6 +2106,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
+                    <android_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</android_containerHeightMode>
                     <android_onEndEditing>
                         <evtSequence>
                             <enabled>true</enabled>
@@ -2063,6 +2120,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </evtSequence>
                     </android_onBeginEditing>
                     <android_placeHoler>Skin Defaults</android_placeHoler>
+                    <spa_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</spa_containerHeightMode>
                     <spa_blockedUI>Skin Defaults</spa_blockedUI>
                     <tc_blockedUI>Skin Defaults</tc_blockedUI>
                     <rendererData>
@@ -2076,6 +2134,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -2123,6 +2182,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -2382,6 +2449,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -2545,10 +2620,10 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </spaAndroid>
                         <spaAndroid_override>false</spaAndroid_override>
                         <spaBB>
-                            <left>0</left>
+                            <left>2</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaBB>
                         <spaBBNth>
@@ -2559,15 +2634,15 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <unit>%</unit>
                         </spaBBNth>
                         <spaBBNth_override>false</spaBBNth_override>
-                        <spaBB_override>false</spaBB_override>
+                        <spaBB_override>true</spaBB_override>
                         <spaIphone>
-                            <left>0</left>
+                            <left>2</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaIphone>
-                        <spaIphone_override>false</spaIphone_override>
+                        <spaIphone_override>true</spaIphone_override>
                         <spaWindows>
                             <left>0</left>
                             <right>0</right>
@@ -2642,7 +2717,11 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     </onClick>
                     <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                     <placeholder>Give text for encryption..</placeholder>
+                    <placeholder_I18N></placeholder_I18N>
                     <keyboard_type>0</keyboard_type>
+                    <overrideProperties>KTextBox2.ipad_containerHeightMode</overrideProperties>
+                    <overrideProperties>KTextBox2.iphone_containerHeightMode</overrideProperties>
+                    <overrideProperties>KTextBox2.spa_containerHeightMode</overrideProperties>
                     <onTextChange>
                         <evtSequence>
                             <enabled>true</enabled>
@@ -2651,6 +2730,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     </onTextChange>
                     <parent_placeholderSkin>Skin Defaults</parent_placeholderSkin>
                     <iphone_placeholderSkin>Skin Defaults</iphone_placeholderSkin>
+                    <iphone_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</iphone_containerHeightMode>
                     <iphone_showProgressIndicator>true</iphone_showProgressIndicator>
                     <iphone_paste_board>4</iphone_paste_board>
                     <iphone_npi>0</iphone_npi>
@@ -2672,6 +2752,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <iphoneCloseButtonText>Done</iphoneCloseButtonText>
                     <iphone_label_in_keyboard>0</iphone_label_in_keyboard>
                     <ipad_placeholderSkin>Skin Defaults</ipad_placeholderSkin>
+                    <ipad_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</ipad_containerHeightMode>
                     <ipad_closeButtonText></ipad_closeButtonText>
                     <ipad_showCloseButton>true</ipad_showCloseButton>
                     <ipad_label_in_keyboard>0</ipad_label_in_keyboard>
@@ -2691,9 +2772,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <ipad_leftview></ipad_leftview>
                     <ipad_clear_required>true</ipad_clear_required>
                     <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
+                    <bb_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</bb_containerHeightMode>
+                    <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
                     <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
+                    <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
                     <android_keyboard_type>0</android_keyboard_type>
+                    <parent_nativeFocusSkin>Skin Defaults</parent_nativeFocusSkin>
                     <bb_nativeFocusSkin>Skin Defaults</bb_nativeFocusSkin>
+                    <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                     <c_autocorrect>false</c_autocorrect>
                     <c_autocomplete>false</c_autocomplete>
                     <spa_autoCorrect>false</spa_autoCorrect>
@@ -2702,8 +2788,21 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <tc_autocorrect>false</tc_autocorrect>
                     <tcPostOnclickJs></tcPostOnclickJs>
                     <tcPreOnclickJs></tcPreOnclickJs>
+                    <spa_onBeginEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </spa_onBeginEditing>
+                    <spa_onEndEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </spa_onEndEditing>
                     <spa_autoComplete>false</spa_autoComplete>
                     <bb_autoFilter>false</bb_autoFilter>
+                    <bb10_autoFilter>false</bb10_autoFilter>
                     <android_autoFilter>false</android_autoFilter>
                     <wm_autoFilter>false</wm_autoFilter>
                     <c_autoFilter>false</c_autoFilter>
@@ -2738,11 +2837,26 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </evtSequence>
                     </desktopweb_onBeginEditing>
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+                    <windows_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows_containerHeightMode>
+                    <windows8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows8_containerHeightMode>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <parent_contentalignment>middle-left</parent_contentalignment>
                     <iphone_contentAlignment>1</iphone_contentAlignment>
                     <ipad_content_align>1</ipad_content_align>
                     <bb_content_align>1</bb_content_align>
+                    <bb10_onBeginEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </bb10_onBeginEditing>
+                    <bb10_onEndEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </bb10_onEndEditing>
+                    <bb10_content_align>1</bb10_content_align>
                     <j2me_content_align>1</j2me_content_align>
                     <android_content_align>4</android_content_align>
                     <winMobileContentAlign>middle-center</winMobileContentAlign>
@@ -2750,6 +2864,10 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <spa_contentAlignment>3</spa_contentAlignment>
                     <winphone8_autofilter>false</winphone8_autofilter>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
+                    <c_containerheightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</c_containerheightMode>
+                    <winphone8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</winphone8_containerHeightMode>
+                    <general_containerHeightReference>CONTAINER_HEIGHT_BY_FORM_REFERENCE</general_containerHeightReference>
+                    <general_containerHeight></general_containerHeight>
                 </children>
                 <children xsi:type="kButton">
                     <ID>button1930040990147649</ID>
@@ -2793,6 +2911,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -2840,6 +2959,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -3099,6 +3226,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -3264,8 +3399,8 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <spaBB>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaBB>
                         <spaBBNth>
@@ -3276,15 +3411,15 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <unit>%</unit>
                         </spaBBNth>
                         <spaBBNth_override>false</spaBBNth_override>
-                        <spaBB_override>false</spaBB_override>
+                        <spaBB_override>true</spaBB_override>
                         <spaIphone>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaIphone>
-                        <spaIphone_override>false</spaIphone_override>
+                        <spaIphone_override>true</spaIphone_override>
                         <spaWindows>
                             <left>0</left>
                             <right>0</right>
@@ -3392,6 +3527,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bb_content_align>1</bb_content_align>
                     <bb_display_text>true</bb_display_text>
                     <j2me_content_align>1</j2me_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <android_display_text>true</android_display_text>
                     <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -3437,6 +3573,8 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_displaytext>true</winphone8_displaytext>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
+                    <bb10_contentalignment>1</bb10_contentalignment>
+                    <bb10displaytext>true</bb10displaytext>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblEncrypt</ID>
@@ -3465,7 +3603,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <width>100</width>
                         <height>34</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>lblNormalSimilar</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -3480,6 +3618,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -3527,6 +3666,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -3786,6 +3933,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -4045,6 +4200,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -4064,6 +4220,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <desktopweb_onRightClick>
                     <evtSequence>
@@ -4125,6 +4282,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>true</rc_j2me>
@@ -4172,6 +4330,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -4431,6 +4597,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -4691,6 +4865,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
+            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -4703,6 +4878,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -4762,6 +4938,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -4809,6 +4986,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -5068,6 +5253,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -5374,6 +5567,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -5421,6 +5615,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -5680,6 +5882,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -5845,8 +6055,8 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <spaBB>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaBB>
                         <spaBBNth>
@@ -5857,15 +6067,15 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <unit>%</unit>
                         </spaBBNth>
                         <spaBBNth_override>false</spaBBNth_override>
-                        <spaBB_override>false</spaBB_override>
+                        <spaBB_override>true</spaBB_override>
                         <spaIphone>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaIphone>
-                        <spaIphone_override>false</spaIphone_override>
+                        <spaIphone_override>true</spaIphone_override>
                         <spaWindows>
                             <left>0</left>
                             <right>0</right>
@@ -5973,6 +6183,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bb_content_align>1</bb_content_align>
                     <bb_display_text>true</bb_display_text>
                     <j2me_content_align>1</j2me_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <android_display_text>true</android_display_text>
                     <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -6018,6 +6229,8 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_displaytext>true</winphone8_displaytext>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
+                    <bb10_contentalignment>1</bb10_contentalignment>
+                    <bb10displaytext>true</bb10displaytext>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblDecrypt</ID>
@@ -6046,7 +6259,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <width>100</width>
                         <height>34</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>lblNormalSimilar</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -6061,6 +6274,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -6108,6 +6322,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -6367,6 +6589,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -6626,6 +6856,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -6645,6 +6876,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <desktopweb_onRightClick>
                     <evtSequence>
@@ -6703,17 +6935,18 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <mixed_bb>true</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
                 <mixed_iphone>true</mixed_iphone>
-                <rc_android>false</rc_android>
+                <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
-                <rc_j2me>false</rc_j2me>
-                <rc_palm>false</rc_palm>
-                <rc_symbian>false</rc_symbian>
+                <rc_j2me>true</rc_j2me>
+                <rc_palm>true</rc_palm>
+                <rc_symbian>true</rc_symbian>
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>true</rc_winmobile>
-                <rc_winmobile6x>false</rc_winmobile6x>
+                <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
@@ -6753,6 +6986,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -7012,6 +7253,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -7272,6 +7521,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
+            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -7284,6 +7534,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -7343,6 +7594,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -7390,6 +7642,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -7649,6 +7909,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -7940,10 +8208,11 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <width>100</width>
                         <height>31</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>txtBxSkin</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
+                    <android_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</android_containerHeightMode>
                     <android_onEndEditing>
                         <evtSequence>
                             <enabled>true</enabled>
@@ -7957,6 +8226,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </evtSequence>
                     </android_onBeginEditing>
                     <android_placeHoler>Skin Defaults</android_placeHoler>
+                    <spa_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</spa_containerHeightMode>
                     <spa_blockedUI>Skin Defaults</spa_blockedUI>
                     <tc_blockedUI>Skin Defaults</tc_blockedUI>
                     <rendererData>
@@ -7970,6 +8240,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -8017,6 +8288,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -8276,6 +8555,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -8536,7 +8823,11 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     </onClick>
                     <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                     <placeholder>Enter String</placeholder>
+                    <placeholder_I18N></placeholder_I18N>
                     <keyboard_type>0</keyboard_type>
+                    <overrideProperties>KTextBox2.ipad_containerHeightMode</overrideProperties>
+                    <overrideProperties>KTextBox2.iphone_containerHeightMode</overrideProperties>
+                    <overrideProperties>KTextBox2.spa_containerHeightMode</overrideProperties>
                     <onTextChange>
                         <evtSequence>
                             <enabled>true</enabled>
@@ -8545,6 +8836,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     </onTextChange>
                     <parent_placeholderSkin>Skin Defaults</parent_placeholderSkin>
                     <iphone_placeholderSkin>Skin Defaults</iphone_placeholderSkin>
+                    <iphone_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</iphone_containerHeightMode>
                     <iphone_showProgressIndicator>true</iphone_showProgressIndicator>
                     <iphone_paste_board>4</iphone_paste_board>
                     <iphone_npi>0</iphone_npi>
@@ -8566,6 +8858,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <iphoneCloseButtonText>Done</iphoneCloseButtonText>
                     <iphone_label_in_keyboard>0</iphone_label_in_keyboard>
                     <ipad_placeholderSkin>Skin Defaults</ipad_placeholderSkin>
+                    <ipad_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</ipad_containerHeightMode>
                     <ipad_closeButtonText></ipad_closeButtonText>
                     <ipad_showCloseButton>true</ipad_showCloseButton>
                     <ipad_label_in_keyboard>0</ipad_label_in_keyboard>
@@ -8585,9 +8878,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <ipad_leftview></ipad_leftview>
                     <ipad_clear_required>true</ipad_clear_required>
                     <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
+                    <bb_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</bb_containerHeightMode>
+                    <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
                     <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
+                    <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
                     <android_keyboard_type>0</android_keyboard_type>
+                    <parent_nativeFocusSkin>Skin Defaults</parent_nativeFocusSkin>
                     <bb_nativeFocusSkin>Skin Defaults</bb_nativeFocusSkin>
+                    <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                     <c_autocorrect>false</c_autocorrect>
                     <c_autocomplete>false</c_autocomplete>
                     <spa_autoCorrect>false</spa_autoCorrect>
@@ -8596,8 +8894,21 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <tc_autocorrect>false</tc_autocorrect>
                     <tcPostOnclickJs></tcPostOnclickJs>
                     <tcPreOnclickJs></tcPreOnclickJs>
+                    <spa_onBeginEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </spa_onBeginEditing>
+                    <spa_onEndEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </spa_onEndEditing>
                     <spa_autoComplete>false</spa_autoComplete>
                     <bb_autoFilter>false</bb_autoFilter>
+                    <bb10_autoFilter>false</bb10_autoFilter>
                     <android_autoFilter>false</android_autoFilter>
                     <wm_autoFilter>false</wm_autoFilter>
                     <c_autoFilter>false</c_autoFilter>
@@ -8632,11 +8943,26 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </evtSequence>
                     </desktopweb_onBeginEditing>
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+                    <windows_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows_containerHeightMode>
+                    <windows8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows8_containerHeightMode>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <parent_contentalignment>middle-left</parent_contentalignment>
                     <iphone_contentAlignment>1</iphone_contentAlignment>
                     <ipad_content_align>1</ipad_content_align>
                     <bb_content_align>1</bb_content_align>
+                    <bb10_onBeginEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </bb10_onBeginEditing>
+                    <bb10_onEndEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </bb10_onEndEditing>
+                    <bb10_content_align>1</bb10_content_align>
                     <j2me_content_align>1</j2me_content_align>
                     <android_content_align>4</android_content_align>
                     <winMobileContentAlign>middle-center</winMobileContentAlign>
@@ -8644,6 +8970,10 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_autofilter>false</winphone8_autofilter>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
+                    <c_containerheightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</c_containerheightMode>
+                    <winphone8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</winphone8_containerHeightMode>
+                    <general_containerHeightReference>CONTAINER_HEIGHT_BY_FORM_REFERENCE</general_containerHeightReference>
+                    <general_containerHeight></general_containerHeight>
                 </children>
                 <children xsi:type="kButton">
                     <ID>button1930040990150784</ID>
@@ -8687,6 +9017,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -8734,6 +9065,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -8993,6 +9332,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -9286,6 +9633,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bb_content_align>1</bb_content_align>
                     <bb_display_text>true</bb_display_text>
                     <j2me_content_align>1</j2me_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <android_display_text>true</android_display_text>
                     <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -9331,6 +9679,8 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_displaytext>true</winphone8_displaytext>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
+                    <bb10_contentalignment>1</bb10_contentalignment>
+                    <bb10displaytext>true</bb10displaytext>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblMD2Hash</ID>
@@ -9359,7 +9709,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <width>100</width>
                         <height>34</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>lblNormalSimilar</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -9374,6 +9724,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -9421,6 +9772,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -9680,6 +10039,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -9939,6 +10306,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -9958,6 +10326,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <desktopweb_onRightClick>
                     <evtSequence>
@@ -10016,17 +10385,18 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <mixed_bb>true</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
                 <mixed_iphone>true</mixed_iphone>
-                <rc_android>false</rc_android>
+                <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
-                <rc_j2me>false</rc_j2me>
-                <rc_palm>false</rc_palm>
-                <rc_symbian>false</rc_symbian>
+                <rc_j2me>true</rc_j2me>
+                <rc_palm>true</rc_palm>
+                <rc_symbian>true</rc_symbian>
                 <rc_windows8>true</rc_windows8>
                 <rc_winmobile>true</rc_winmobile>
-                <rc_winmobile6x>false</rc_winmobile6x>
+                <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
                 <tabspa_windows>true</tabspa_windows>
@@ -10066,6 +10436,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -10325,6 +10703,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -10585,6 +10971,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
+            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -10597,6 +10984,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -10656,6 +11044,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -10703,6 +11092,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -10962,6 +11359,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -11253,10 +11658,11 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <width>100</width>
                         <height>27</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>txtBxSkin</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
+                    <android_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</android_containerHeightMode>
                     <android_onEndEditing>
                         <evtSequence>
                             <enabled>true</enabled>
@@ -11270,6 +11676,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </evtSequence>
                     </android_onBeginEditing>
                     <android_placeHoler>Skin Defaults</android_placeHoler>
+                    <spa_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</spa_containerHeightMode>
                     <spa_blockedUI>Skin Defaults</spa_blockedUI>
                     <tc_blockedUI>Skin Defaults</tc_blockedUI>
                     <rendererData>
@@ -11283,6 +11690,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -11330,6 +11738,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -11589,6 +12005,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -11849,7 +12273,11 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     </onClick>
                     <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                     <placeholder>Enter String</placeholder>
+                    <placeholder_I18N></placeholder_I18N>
                     <keyboard_type>0</keyboard_type>
+                    <overrideProperties>KTextBox2.ipad_containerHeightMode</overrideProperties>
+                    <overrideProperties>KTextBox2.iphone_containerHeightMode</overrideProperties>
+                    <overrideProperties>KTextBox2.spa_containerHeightMode</overrideProperties>
                     <onTextChange>
                         <evtSequence>
                             <enabled>true</enabled>
@@ -11858,6 +12286,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     </onTextChange>
                     <parent_placeholderSkin>Skin Defaults</parent_placeholderSkin>
                     <iphone_placeholderSkin>Skin Defaults</iphone_placeholderSkin>
+                    <iphone_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</iphone_containerHeightMode>
                     <iphone_showProgressIndicator>true</iphone_showProgressIndicator>
                     <iphone_paste_board>4</iphone_paste_board>
                     <iphone_npi>0</iphone_npi>
@@ -11879,6 +12308,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <iphoneCloseButtonText>Done</iphoneCloseButtonText>
                     <iphone_label_in_keyboard>0</iphone_label_in_keyboard>
                     <ipad_placeholderSkin>Skin Defaults</ipad_placeholderSkin>
+                    <ipad_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</ipad_containerHeightMode>
                     <ipad_closeButtonText></ipad_closeButtonText>
                     <ipad_showCloseButton>true</ipad_showCloseButton>
                     <ipad_label_in_keyboard>0</ipad_label_in_keyboard>
@@ -11898,9 +12328,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <ipad_leftview></ipad_leftview>
                     <ipad_clear_required>true</ipad_clear_required>
                     <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
+                    <bb_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</bb_containerHeightMode>
+                    <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
                     <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
+                    <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
                     <android_keyboard_type>0</android_keyboard_type>
+                    <parent_nativeFocusSkin>Skin Defaults</parent_nativeFocusSkin>
                     <bb_nativeFocusSkin>Skin Defaults</bb_nativeFocusSkin>
+                    <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                     <c_autocorrect>false</c_autocorrect>
                     <c_autocomplete>false</c_autocomplete>
                     <spa_autoCorrect>false</spa_autoCorrect>
@@ -11909,8 +12344,21 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <tc_autocorrect>false</tc_autocorrect>
                     <tcPostOnclickJs></tcPostOnclickJs>
                     <tcPreOnclickJs></tcPreOnclickJs>
+                    <spa_onBeginEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </spa_onBeginEditing>
+                    <spa_onEndEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </spa_onEndEditing>
                     <spa_autoComplete>false</spa_autoComplete>
                     <bb_autoFilter>false</bb_autoFilter>
+                    <bb10_autoFilter>false</bb10_autoFilter>
                     <android_autoFilter>false</android_autoFilter>
                     <wm_autoFilter>false</wm_autoFilter>
                     <c_autoFilter>false</c_autoFilter>
@@ -11945,11 +12393,26 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </evtSequence>
                     </desktopweb_onBeginEditing>
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+                    <windows_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows_containerHeightMode>
+                    <windows8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows8_containerHeightMode>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <parent_contentalignment>middle-left</parent_contentalignment>
                     <iphone_contentAlignment>1</iphone_contentAlignment>
                     <ipad_content_align>1</ipad_content_align>
                     <bb_content_align>1</bb_content_align>
+                    <bb10_onBeginEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </bb10_onBeginEditing>
+                    <bb10_onEndEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </bb10_onEndEditing>
+                    <bb10_content_align>1</bb10_content_align>
                     <j2me_content_align>1</j2me_content_align>
                     <android_content_align>4</android_content_align>
                     <winMobileContentAlign>middle-center</winMobileContentAlign>
@@ -11957,6 +12420,10 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <spa_contentAlignment>1</spa_contentAlignment>
                     <winphone8_autofilter>false</winphone8_autofilter>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
+                    <c_containerheightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</c_containerheightMode>
+                    <winphone8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</winphone8_containerHeightMode>
+                    <general_containerHeightReference>CONTAINER_HEIGHT_BY_FORM_REFERENCE</general_containerHeightReference>
+                    <general_containerHeight></general_containerHeight>
                 </children>
                 <children xsi:type="kButton">
                     <ID>button1930040990151288</ID>
@@ -12000,6 +12467,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -12047,6 +12515,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -12306,6 +12782,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -12607,6 +13091,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bb_content_align>1</bb_content_align>
                     <bb_display_text>true</bb_display_text>
                     <j2me_content_align>1</j2me_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <android_display_text>true</android_display_text>
                     <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -12652,6 +13137,8 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_displaytext>true</winphone8_displaytext>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
+                    <bb10_contentalignment>1</bb10_contentalignment>
+                    <bb10displaytext>true</bb10displaytext>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblMD4Hash</ID>
@@ -12695,6 +13182,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -12742,6 +13230,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -13001,6 +13497,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -13260,6 +13764,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -13279,6 +13784,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <desktopweb_onRightClick>
                     <evtSequence>
@@ -13340,6 +13846,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>true</rc_j2me>
@@ -13387,6 +13894,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -13646,6 +14161,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
@@ -13906,6 +14429,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
+            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -13918,6 +14442,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -13977,6 +14502,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -14024,6 +14550,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -14283,6 +14817,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>true</default_override>
                     <defaults>
@@ -14578,6 +15120,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
+                    <android_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</android_containerHeightMode>
                     <android_onEndEditing>
                         <evtSequence>
                             <enabled>true</enabled>
@@ -14591,6 +15134,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </evtSequence>
                     </android_onBeginEditing>
                     <android_placeHoler>Skin Defaults</android_placeHoler>
+                    <spa_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</spa_containerHeightMode>
                     <spa_blockedUI>Skin Defaults</spa_blockedUI>
                     <tc_blockedUI>Skin Defaults</tc_blockedUI>
                     <rendererData>
@@ -14604,6 +15148,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -14651,6 +15196,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -14910,6 +15463,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -15073,10 +15634,10 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </spaAndroid>
                         <spaAndroid_override>false</spaAndroid_override>
                         <spaBB>
-                            <left>0</left>
+                            <left>2</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaBB>
                         <spaBBNth>
@@ -15087,15 +15648,15 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <unit>%</unit>
                         </spaBBNth>
                         <spaBBNth_override>false</spaBBNth_override>
-                        <spaBB_override>false</spaBB_override>
+                        <spaBB_override>true</spaBB_override>
                         <spaIphone>
-                            <left>0</left>
+                            <left>2</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaIphone>
-                        <spaIphone_override>false</spaIphone_override>
+                        <spaIphone_override>true</spaIphone_override>
                         <spaWindows>
                             <left>0</left>
                             <right>0</right>
@@ -15170,7 +15731,11 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     </onClick>
                     <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
                     <placeholder>Enter String</placeholder>
+                    <placeholder_I18N></placeholder_I18N>
                     <keyboard_type>0</keyboard_type>
+                    <overrideProperties>KTextBox2.ipad_containerHeightMode</overrideProperties>
+                    <overrideProperties>KTextBox2.iphone_containerHeightMode</overrideProperties>
+                    <overrideProperties>KTextBox2.spa_containerHeightMode</overrideProperties>
                     <onTextChange>
                         <evtSequence>
                             <enabled>true</enabled>
@@ -15179,6 +15744,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     </onTextChange>
                     <parent_placeholderSkin>Skin Defaults</parent_placeholderSkin>
                     <iphone_placeholderSkin>Skin Defaults</iphone_placeholderSkin>
+                    <iphone_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</iphone_containerHeightMode>
                     <iphone_showProgressIndicator>true</iphone_showProgressIndicator>
                     <iphone_paste_board>4</iphone_paste_board>
                     <iphone_npi>0</iphone_npi>
@@ -15200,6 +15766,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <iphoneCloseButtonText>Done</iphoneCloseButtonText>
                     <iphone_label_in_keyboard>0</iphone_label_in_keyboard>
                     <ipad_placeholderSkin>Skin Defaults</ipad_placeholderSkin>
+                    <ipad_containerHeightMode>TEXTBOX_DEFAULT_PLATFORM_HEIGHT</ipad_containerHeightMode>
                     <ipad_closeButtonText></ipad_closeButtonText>
                     <ipad_showCloseButton>true</ipad_showCloseButton>
                     <ipad_label_in_keyboard>0</ipad_label_in_keyboard>
@@ -15219,9 +15786,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <ipad_leftview></ipad_leftview>
                     <ipad_clear_required>true</ipad_clear_required>
                     <ipad_showProgressIndicator>true</ipad_showProgressIndicator>
+                    <bb_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</bb_containerHeightMode>
+                    <parent_nativeSkin>Skin Defaults</parent_nativeSkin>
                     <bb_nativeSkin>Skin Defaults</bb_nativeSkin>
+                    <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
                     <android_keyboard_type>0</android_keyboard_type>
+                    <parent_nativeFocusSkin>Skin Defaults</parent_nativeFocusSkin>
                     <bb_nativeFocusSkin>Skin Defaults</bb_nativeFocusSkin>
+                    <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                     <c_autocorrect>false</c_autocorrect>
                     <c_autocomplete>false</c_autocomplete>
                     <spa_autoCorrect>false</spa_autoCorrect>
@@ -15230,8 +15802,21 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <tc_autocorrect>false</tc_autocorrect>
                     <tcPostOnclickJs></tcPostOnclickJs>
                     <tcPreOnclickJs></tcPreOnclickJs>
+                    <spa_onBeginEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </spa_onBeginEditing>
+                    <spa_onEndEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </spa_onEndEditing>
                     <spa_autoComplete>false</spa_autoComplete>
                     <bb_autoFilter>false</bb_autoFilter>
+                    <bb10_autoFilter>false</bb10_autoFilter>
                     <android_autoFilter>false</android_autoFilter>
                     <wm_autoFilter>false</wm_autoFilter>
                     <c_autoFilter>false</c_autoFilter>
@@ -15266,11 +15851,26 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         </evtSequence>
                     </desktopweb_onBeginEditing>
                     <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
+                    <windows_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows_containerHeightMode>
+                    <windows8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</windows8_containerHeightMode>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <parent_contentalignment>middle-left</parent_contentalignment>
                     <iphone_contentAlignment>1</iphone_contentAlignment>
                     <ipad_content_align>1</ipad_content_align>
                     <bb_content_align>1</bb_content_align>
+                    <bb10_onBeginEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </bb10_onBeginEditing>
+                    <bb10_onEndEditing>
+                        <evtSequence>
+                            <enabled>true</enabled>
+                            <seqname></seqname>
+                        </evtSequence>
+                    </bb10_onEndEditing>
+                    <bb10_content_align>1</bb10_content_align>
                     <j2me_content_align>1</j2me_content_align>
                     <android_content_align>4</android_content_align>
                     <winMobileContentAlign>middle-center</winMobileContentAlign>
@@ -15278,6 +15878,10 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <spa_contentAlignment>3</spa_contentAlignment>
                     <winphone8_autofilter>false</winphone8_autofilter>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
+                    <c_containerheightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</c_containerheightMode>
+                    <winphone8_containerHeightMode>TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT</winphone8_containerHeightMode>
+                    <general_containerHeightReference>CONTAINER_HEIGHT_BY_FORM_REFERENCE</general_containerHeightReference>
+                    <general_containerHeight></general_containerHeight>
                 </children>
                 <children xsi:type="kButton">
                     <ID>button1930040990151315</ID>
@@ -15321,6 +15925,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -15368,6 +15973,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -15627,6 +16240,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -15792,8 +16413,8 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <spaBB>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaBB>
                         <spaBBNth>
@@ -15804,15 +16425,15 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <unit>%</unit>
                         </spaBBNth>
                         <spaBBNth_override>false</spaBBNth_override>
-                        <spaBB_override>false</spaBB_override>
+                        <spaBB_override>true</spaBB_override>
                         <spaIphone>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>3</top>
+                            <bottom>3</bottom>
                             <unit>%</unit>
                         </spaIphone>
-                        <spaIphone_override>false</spaIphone_override>
+                        <spaIphone_override>true</spaIphone_override>
                         <spaWindows>
                             <left>0</left>
                             <right>0</right>
@@ -15928,6 +16549,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bb_content_align>1</bb_content_align>
                     <bb_display_text>true</bb_display_text>
                     <j2me_content_align>1</j2me_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <android_display_text>true</android_display_text>
                     <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -15973,6 +16595,8 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_displaytext>true</winphone8_displaytext>
                     <winphone8_contentalign>middle-center</winphone8_contentalign>
+                    <bb10_contentalignment>1</bb10_contentalignment>
+                    <bb10displaytext>true</bb10displaytext>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblMD5Hash</ID>
@@ -16001,7 +16625,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <width>100</width>
                         <height>31</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>lblNormalSimilar</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -16016,6 +16640,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <rc_android>true</rc_android>
                         <rc_android_tab>true</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
+                        <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>true</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
@@ -16063,6 +16688,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>2</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -16322,6 +16955,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>
+                        <bb10>
+                            <left>0</left>
+                            <right>0</right>
+                            <top>0</top>
+                            <bottom>0</bottom>
+                            <unit>%</unit>
+                        </bb10>
+                        <bb10_override>false</bb10_override>
                         <bb_override>false</bb_override>
                         <default_override>true</default_override>
                         <defaults>
@@ -16581,6 +17222,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <ipad_longtext>false</ipad_longtext>
                     <ipad_wrapping>0</ipad_wrapping>
                     <ipad_content_align>0</ipad_content_align>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <bb_longtext>false</bb_longtext>
                     <bb_content_align>0</bb_content_align>
@@ -16600,6 +17242,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <desktopweb_toolTip></desktopweb_toolTip>
                     <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                     <winphone8_contentalign>middle-left</winphone8_contentalign>
+                    <bb10_contentalignment>0</bb10_contentalignment>
                 </children>
                 <desktopweb_onRightClick>
                     <evtSequence>
@@ -16661,6 +17304,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <rc_android>false</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>false</rc_blackberry>
+                <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>false</rc_iphone>
                 <rc_j2me>false</rc_j2me>
@@ -16708,6 +17352,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>false</default_override>
                 <defaults>
@@ -16967,6 +17619,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
+                <bb10>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </bb10>
+                <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
                 <default_override>false</default_override>
                 <defaults>
@@ -17227,6 +17887,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <ipad_option>0</ipad_option>
             <ipad_fixed_height>false</ipad_fixed_height>
             <bb_position>0</bb_position>
+            <bb10_position>0</bb10_position>
             <j2me_position>0</j2me_position>
             <android_position>0</android_position>
             <wm_position>0</wm_position>
@@ -17239,6 +17900,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -17292,6 +17954,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
+                    <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
                     <rc_j2me>true</rc_j2me>
@@ -17339,6 +18002,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>false</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -17598,6 +18269,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                         <bottom>1</bottom>
                         <unit>%</unit>
                     </bb>
+                    <bb10>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </bb10>
+                    <bb10_override>false</bb10_override>
                     <bb_override>true</bb_override>
                     <default_override>false</default_override>
                     <defaults>
@@ -17857,6 +18536,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <ipad_longtext>false</ipad_longtext>
                 <ipad_wrapping>0</ipad_wrapping>
                 <ipad_content_align>0</ipad_content_align>
+                <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
                 <bb_content_align>0</bb_content_align>
@@ -17876,6 +18556,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <desktopweb_toolTip></desktopweb_toolTip>
                 <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
                 <winphone8_contentalign>middle-left</winphone8_contentalign>
+                <bb10_contentalignment>0</bb10_contentalignment>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -17906,6 +18587,35 @@ frmCrypto.lblMD5Hash.text = "";</value>
             </evtSequence>
         </winphone8_ondevback_root>
         <winphone8_animateheaderfooter>false</winphone8_animateheaderfooter>
+        <bb10_autofocus>true</bb10_autofocus>
+        <bb10_titleSkinId>Skin Defaults</bb10_titleSkinId>
+        <blackberry10_fixed_items>0</blackberry10_fixed_items>
+        <bb10_enablescreenmenu>false</bb10_enablescreenmenu>
+        <bb10_enablescreenformmenu>false</bb10_enablescreenformmenu>
+        <bb10_ignoreescape>false</bb10_ignoreescape>
+        <bb10_trans_direction>0</bb10_trans_direction>
+        <bb10_trans_out_direction>0</bb10_trans_out_direction>
+        <bb10Titlebar>true</bb10Titlebar>
+        <bb10_orientation>0</bb10_orientation>
+        <bb10_onOrientation_root>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </bb10_onOrientation_root>
+        <bb10MenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bb10MenuPosition>
+        <bb10_undockappheader>false</bb10_undockappheader>
+        <bb10_undockappfooter>false</bb10_undockappfooter>
+        <bb10SkinAroundPopup>Skin Defaults</bb10SkinAroundPopup>
+        <bb10_onEscape10_root>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
@@ -17959,6 +18669,7 @@ frmCrypto.lblMD5Hash.text = "";</value>
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
+            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -18006,6 +18717,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
+            <bb10>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </bb10>
+            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>true</default_override>
             <defaults>
@@ -18265,6 +18984,14 @@ frmCrypto.lblMD5Hash.text = "";</value>
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
+            <bb10>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </bb10>
+            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>true</default_override>
             <defaults>

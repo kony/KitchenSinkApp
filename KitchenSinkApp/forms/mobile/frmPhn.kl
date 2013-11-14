@@ -1291,10 +1291,10 @@
                 </spaAndroid>
                 <spaAndroid_override>true</spaAndroid_override>
                 <spaBB>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>4</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </spaBB>
                 <spaBBNth>
@@ -1939,8 +1939,8 @@
                 <spaBB>
                     <left>1</left>
                     <right>1</right>
-                    <top>4</top>
-                    <bottom>4</bottom>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </spaBB>
                 <spaBBNth>
@@ -2567,10 +2567,10 @@
                 </spaAndroid>
                 <spaAndroid_override>true</spaAndroid_override>
                 <spaBB>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>4</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </spaBB>
                 <spaBBNth>
@@ -3215,8 +3215,8 @@
                 <spaBB>
                     <left>1</left>
                     <right>1</right>
-                    <top>4</top>
-                    <bottom>4</bottom>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </spaBB>
                 <spaBBNth>
@@ -3954,6 +3954,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -4669,6 +4670,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
