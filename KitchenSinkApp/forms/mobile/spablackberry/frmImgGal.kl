@@ -5084,8 +5084,8 @@
                 </spaAndroid>
                 <spaAndroid_override>false</spaAndroid_override>
                 <spaBB>
-                    <left>0</left>
-                    <right>0</right>
+                    <left>2</left>
+                    <right>2</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
@@ -5098,15 +5098,15 @@
                     <unit>%</unit>
                 </spaBBNth>
                 <spaBBNth_override>false</spaBBNth_override>
-                <spaBB_override>false</spaBB_override>
+                <spaBB_override>true</spaBB_override>
                 <spaIphone>
-                    <left>0</left>
-                    <right>0</right>
+                    <left>2</left>
+                    <right>2</right>
                     <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </spaIphone>
-                <spaIphone_override>false</spaIphone_override>
+                <spaIphone_override>true</spaIphone_override>
                 <spaWindows>
                     <left>0</left>
                     <right>0</right>
