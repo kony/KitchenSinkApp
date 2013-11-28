@@ -2817,8 +2817,8 @@
                 <bb>
                     <left>4</left>
                     <right>4</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -3082,10 +3082,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -3096,7 +3096,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -4209,8 +4209,8 @@
                 <bb>
                     <left>4</left>
                     <right>4</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -4474,10 +4474,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -4488,7 +4488,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -5601,8 +5601,8 @@
                 <bb>
                     <left>4</left>
                     <right>4</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -5866,10 +5866,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -5880,7 +5880,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -6993,8 +6993,8 @@
                 <bb>
                     <left>4</left>
                     <right>4</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -7258,10 +7258,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -7272,7 +7272,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -8385,8 +8385,8 @@
                 <bb>
                     <left>4</left>
                     <right>4</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -8650,10 +8650,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -8664,7 +8664,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -9777,8 +9777,8 @@
                 <bb>
                     <left>4</left>
                     <right>4</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -10042,10 +10042,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -10056,7 +10056,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -10179,10 +10179,10 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
@@ -10195,10 +10195,10 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
@@ -10523,8 +10523,8 @@
                 <bb>
                     <left>4</left>
                     <right>4</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -10788,10 +10788,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -10802,7 +10802,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -10925,10 +10925,10 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
@@ -10941,10 +10941,10 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
@@ -11908,15 +11908,15 @@
                     <left>12</left>
                     <right>12</right>
                     <top>0</top>
-                    <bottom>12</bottom>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </android>
                 <android_override>true</android_override>
                 <bb>
                     <left>4</left>
                     <right>4</right>
-                    <top>0</top>
-                    <bottom>4</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -11964,7 +11964,7 @@
                     <left>12</left>
                     <right>12</right>
                     <top>0</top>
-                    <bottom>12</bottom>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </iphonerc>
                 <iphonerc_override>true</iphonerc_override>
@@ -12053,7 +12053,7 @@
                     <left>12</left>
                     <right>12</right>
                     <top>0</top>
-                    <bottom>12</bottom>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
@@ -12069,7 +12069,7 @@
                     <left>12</left>
                     <right>12</right>
                     <top>0</top>
-                    <bottom>12</bottom>
+                    <bottom>0</bottom>
                     <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
@@ -12077,7 +12077,7 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvBB>
                 <xhtmlAdvBB_override>true</xhtmlAdvBB_override>
@@ -12085,7 +12085,7 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaAndroid>
                 <spaAndroid_override>true</spaAndroid_override>
@@ -12093,14 +12093,14 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaBB>
                 <spaBBNth>
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaBBNth>
                 <spaBBNth_override>true</spaBBNth_override>
@@ -12109,7 +12109,7 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaIphone>
                 <spaIphone_override>true</spaIphone_override>
@@ -12117,7 +12117,7 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaWindows>
                 <spaWindows_override>true</spaWindows_override>
@@ -12125,7 +12125,7 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvAndroid>
                 <xhtmlAdvAndroid_override>true</xhtmlAdvAndroid_override>
@@ -12133,7 +12133,7 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvIphone>
                 <xhtmlAdvIphone_override>true</xhtmlAdvIphone_override>
@@ -12141,7 +12141,7 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvNth>
                 <xhtmlAdvNth_override>true</xhtmlAdvNth_override>
@@ -12149,7 +12149,7 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlAdvPalm>
                 <xhtmlAdvPalm_override>true</xhtmlAdvPalm_override>
@@ -12157,7 +12157,7 @@
                     <left>4</left>
                     <right>4</right>
                     <top>0</top>
-                    <bottom>4</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </xhtmlJS>
                 <xhtmlJS_override>true</xhtmlJS_override>
@@ -12180,10 +12180,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -12194,7 +12194,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -12317,10 +12317,10 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
@@ -12333,10 +12333,10 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>

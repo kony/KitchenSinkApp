@@ -98,6 +98,12 @@ function platformCheck()
 				frmPlatforms.btnAndroidPF.skin = frmPlatforms.btnAndroidPF.focusSkin;
 				frmPlatforms.btnHTMLPF.skin = frmPlatforms.btnHTMLPF.focusSkin;
 				break;
+			case "blackberry":
+				frmPlatforms.btnIOSPF.skin = frmPlatforms.btnIOSPF.focusSkin;
+				frmPlatforms.btnAndroidPF.skin = frmPlatforms.btnAndroidPF.focusSkin;
+				frmPlatforms.btnHTMLPF.skin = frmPlatforms.btnHTMLPF.focusSkin;
+				frmPlatforms.btnWinPF.skin = frmPlatforms.btnWinPF.focusSkin;
+				break;
 		}
 	}
 	

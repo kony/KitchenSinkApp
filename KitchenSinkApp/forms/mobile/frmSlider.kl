@@ -4744,8 +4744,8 @@ frmSlider.lblSlid.text = 0;</value>
             <ipadMinImg></ipadMinImg>
             <ipadRightSkin>Skin Defaults</ipadRightSkin>
             <ipadThumbImg></ipadThumbImg>
-            <bbLeftSkin>Skin Defaults</bbLeftSkin>
-            <bbRightSkin>Skin Defaults</bbRightSkin>
+            <bbLeftSkin>sliderLeft</bbLeftSkin>
+            <bbRightSkin>sliderRight</bbRightSkin>
             <bbThumbImg></bbThumbImg>
             <bbFocusThumbImg></bbFocusThumbImg>
             <bbThickness></bbThickness>

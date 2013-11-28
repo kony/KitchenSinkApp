@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -3736,10 +3737,10 @@
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -5053,10 +5054,10 @@
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -6370,10 +6371,10 @@
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -7687,10 +7688,10 @@
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -9004,10 +9005,10 @@
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -9141,11 +9142,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -9157,11 +9158,11 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
-                    <unit>px</unit>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
+                    <unit>%</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -9373,6 +9374,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

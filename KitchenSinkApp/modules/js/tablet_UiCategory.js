@@ -25,6 +25,9 @@ function onWidgetCatBtnsClick(btnId)
 			frmUInterface.segBasicWidgets.setVisibility(false);
 		else
 			frmUInterface.segBasicWidgets.setVisibility(true);
+		
+		
+		//alert(" visibility is :: "+frmUInterface.segBasicWidgets.isVisible);
 			
 		frmUInterface.segContainerWidgets.setVisibility(false);
 		frmUInterface.segAdvancedWidgets.setVisibility(false);

@@ -607,7 +607,7 @@
         <bb_ignoreescape>false</bb_ignoreescape>
         <bb_orientation>0</bb_orientation>
         <blackberry_no_of_items>0</blackberry_no_of_items>
-        <bb_titleskinId>Skin Defaults</bb_titleskinId>
+        <bb_titleskinId>titleBB</bb_titleskinId>
         <bbTitlebar>true</bbTitlebar>
         <BBSkinAroundPopup>Skin Defaults</BBSkinAroundPopup>
         <autofocus>true</autofocus>
@@ -6606,8 +6606,8 @@
                             <bb>
                                 <left>2</left>
                                 <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </bb>
                             <bb10>
@@ -9276,7 +9276,7 @@
                         </android>
                         <android_override>true</android_override>
                         <bb>
-                            <left>3</left>
+                            <left>1</left>
                             <right>3</right>
                             <top>0</top>
                             <bottom>0</bottom>
@@ -9543,10 +9543,10 @@
                         </android>
                         <android_override>true</android_override>
                         <bb>
-                            <left>1</left>
+                            <left>2</left>
                             <right>1</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </bb>
                         <bb10>
@@ -11300,9 +11300,9 @@
                         </android>
                         <android_override>true</android_override>
                         <bb>
-                            <left>4</left>
+                            <left>1</left>
                             <right>2</right>
-                            <top>2</top>
+                            <top>0</top>
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </bb>

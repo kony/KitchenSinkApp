@@ -607,7 +607,7 @@
         <bb_ignoreescape>false</bb_ignoreescape>
         <bb_orientation>0</bb_orientation>
         <blackberry_no_of_items>0</blackberry_no_of_items>
-        <bb_titleskinId>titleBBBckColor</bb_titleskinId>
+        <bb_titleskinId>title</bb_titleskinId>
         <bbTitlebar>true</bbTitlebar>
         <BBSkinAroundPopup>Skin Defaults</BBSkinAroundPopup>
         <autofocus>true</autofocus>

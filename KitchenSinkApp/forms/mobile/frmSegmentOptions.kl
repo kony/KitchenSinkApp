@@ -2420,10 +2420,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -2434,7 +2434,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -3120,10 +3120,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -3134,7 +3134,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -4538,10 +4538,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -4552,7 +4552,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -5290,10 +5290,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -5304,7 +5304,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -6018,10 +6018,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -6032,7 +6032,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -6718,10 +6718,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -6732,7 +6732,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -7108,8 +7108,8 @@
                 <mixed_iphone>false</mixed_iphone>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
-                <rc_blackberry>true</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry>false</rc_blackberry>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>true</rc_iphone>
                 <rc_j2me>false</rc_j2me>
@@ -7128,13 +7128,13 @@
                 <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
                 <tc_spawinphone8>true</tc_spawinphone8>
-                <tc_xhtml>true</tc_xhtml>
-                <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
-                <tc_xhtml_advbb>true</tc_xhtml_advbb>
-                <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
-                <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                <tc_xhtml_js>true</tc_xhtml_js>
+                <tc_xhtml>false</tc_xhtml>
+                <tc_xhtml_advandroid1>false</tc_xhtml_advandroid1>
+                <tc_xhtml_advbb>false</tc_xhtml_advbb>
+                <tc_xhtml_adviphone1>false</tc_xhtml_adviphone1>
+                <tc_xhtml_advnth>false</tc_xhtml_advnth>
+                <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                <tc_xhtml_js>false</tc_xhtml_js>
                 <wrapper_android>false</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
                 <wrapper_bb>false</wrapper_bb>
@@ -8118,10 +8118,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -8132,7 +8132,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -8846,10 +8846,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -8860,14 +8860,14 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>10</top>
-                    <bottom>10</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
                     <left>0</left>
@@ -8886,18 +8886,18 @@
                 </desktop_web>
                 <desktop_web_override>true</desktop_web_override>
                 <ipad>
-                    <left>6</left>
-                    <right>6</right>
-                    <top>24</top>
-                    <bottom>24</bottom>
-                    <unit>px</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
                 </ipad>
-                <ipad_override>true</ipad_override>
+                <ipad_override>false</ipad_override>
                 <iphonerc>
                     <left>3</left>
                     <right>3</right>
-                    <top>13</top>
-                    <bottom>13</bottom>
+                    <top>12</top>
+                    <bottom>12</bottom>
                     <unit>px</unit>
                 </iphonerc>
                 <iphonerc_override>true</iphonerc_override>
@@ -8981,12 +8981,12 @@
                     <bottom>10</bottom>
                     <unit>px</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>3</left>
                     <right>3</right>
-                    <top>13</top>
-                    <bottom>13</bottom>
+                    <top>12</top>
+                    <bottom>12</bottom>
                     <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
@@ -9001,8 +9001,8 @@
                 <winphone8>
                     <left>3</left>
                     <right>3</right>
-                    <top>13</top>
-                    <bottom>13</bottom>
+                    <top>12</top>
+                    <bottom>12</bottom>
                     <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
@@ -9017,16 +9017,16 @@
                 <spaAndroid>
                     <left>1</left>
                     <right>1</right>
-                    <top>5</top>
-                    <bottom>5</bottom>
+                    <top>4</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </spaAndroid>
                 <spaAndroid_override>true</spaAndroid_override>
                 <spaBB>
                     <left>1</left>
                     <right>1</right>
-                    <top>5</top>
-                    <bottom>5</bottom>
+                    <top>4</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </spaBB>
                 <spaBBNth>
@@ -9041,8 +9041,8 @@
                 <spaIphone>
                     <left>1</left>
                     <right>1</right>
-                    <top>5</top>
-                    <bottom>5</bottom>
+                    <top>4</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </spaIphone>
                 <spaIphone_override>true</spaIphone_override>

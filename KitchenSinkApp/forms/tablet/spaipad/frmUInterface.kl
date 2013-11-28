@@ -491,6 +491,7 @@
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -556,6 +557,7 @@
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -686,6 +688,12 @@
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -715,6 +723,9 @@
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -1417,6 +1428,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2073,10 +2085,12 @@
                     </evtSequence>
                 </event_onPush>
                 <parent_position>0</parent_position>
+                <iphone_bounces>true</iphone_bounces>
                 <iphone_position>0</iphone_position>
                 <iphone_scrollvisible>true</iphone_scrollvisible>
                 <parent_pagingenabled>true</parent_pagingenabled>
                 <iphone_pagingenabled>false</iphone_pagingenabled>
+                <ipad_bounces>true</ipad_bounces>
                 <ipad_scrollvisible>true</ipad_scrollvisible>
                 <ipad_pagingenabled>false</ipad_pagingenabled>
                 <ipad_position>0</ipad_position>
@@ -2741,6 +2755,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -3435,6 +3450,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -4115,6 +4131,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -4984,16 +5001,8 @@
                     <tc_border>3</tc_border>
                     <tc_defaultSelection>true</tc_defaultSelection>
                     <tc_postOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_postOnclickJs>
                     <tc_preOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_preOnclickJs>
                     <blockedSkin>Skin Defaults</blockedSkin>
                     <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -5621,6 +5630,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -6282,6 +6292,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -6976,6 +6987,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -7656,6 +7668,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -7765,7 +7778,7 @@
                     <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
-                    <visible>true</visible>
+                    <visible>false</visible>
                     <rendererData>
                         <desktop_kiosk_channel>true</desktop_kiosk_channel>
                         <desktop_web_channel>true</desktop_web_channel>
@@ -8569,16 +8582,8 @@
                     <tc_border>3</tc_border>
                     <tc_defaultSelection>true</tc_defaultSelection>
                     <tc_postOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_postOnclickJs>
                     <tc_preOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_preOnclickJs>
                     <blockedSkin>Skin Defaults</blockedSkin>
                     <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -9206,6 +9211,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -9867,6 +9873,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -10561,6 +10568,7 @@
                         <bb_content_align>1</bb_content_align>
                         <bb_display_text>true</bb_display_text>
                         <j2me_content_align>1</j2me_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <android_display_text>true</android_display_text>
                         <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -11241,6 +11249,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -11350,7 +11359,7 @@
                     <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
-                    <visible>true</visible>
+                    <visible>false</visible>
                     <rendererData>
                         <desktop_kiosk_channel>true</desktop_kiosk_channel>
                         <desktop_web_channel>true</desktop_web_channel>
@@ -12118,16 +12127,8 @@
                     <tc_border>3</tc_border>
                     <tc_defaultSelection>true</tc_defaultSelection>
                     <tc_postOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_postOnclickJs>
                     <tc_preOnclickJs>
-                        <evtSequence>
-                            <enabled>true</enabled>
-                            <seqname></seqname>
-                        </evtSequence>
                     </tc_preOnclickJs>
                     <blockedSkin>Skin Defaults</blockedSkin>
                     <spaBlockedUISkin>Skin Defaults</spaBlockedUISkin>
@@ -12755,6 +12756,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -13424,10 +13426,12 @@
                     </evtSequence>
                 </event_onPush>
                 <parent_position>0</parent_position>
+                <iphone_bounces>true</iphone_bounces>
                 <iphone_position>0</iphone_position>
                 <iphone_scrollvisible>true</iphone_scrollvisible>
                 <parent_pagingenabled>false</parent_pagingenabled>
                 <iphone_pagingenabled>false</iphone_pagingenabled>
+                <ipad_bounces>true</ipad_bounces>
                 <ipad_scrollvisible>true</ipad_scrollvisible>
                 <ipad_pagingenabled>false</ipad_pagingenabled>
                 <ipad_position>0</ipad_position>
@@ -13512,6 +13516,9 @@
                 <seqname></seqname>
             </evtSequence>
         </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

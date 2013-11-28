@@ -8,9 +8,9 @@
     <skin name="datagrid_alternate_skin" value="dgRow"/>
     <skin name="textfield_skin" value="tbxNormal"/>
     <skin name="datagrid_header_skin" value="dgHead"/>
-    <skin name="label_skin" value="lblNormal"/>
-    <skin name="segment_sec_skin_focus" value="segHeader"/>
     <skin name="camera_skin" value="camNormal"/>
+    <skin name="segment_sec_skin_focus" value="segHeader"/>
+    <skin name="label_skin" value="lblNormal"/>
     <skin name="calendar_skin" value="calNormal"/>
     <skin name="bb_slider_left_skin_key" value="sliderLeft"/>
     <skin name="form_skin" value="frm"/>
@@ -23,27 +23,27 @@
     <skin name="imagegallery2_skin_focus" value="gal2Focus"/>
     <skin name="listbox_skin_focus" value="listFoc"/>
     <skin name="himgstrip_skin" value="hStripNormal"/>
-    <skin name="android_form_title_skin" value="titleBar"/>
     <skin name="bb_form_title_skin" value="titleBar"/>
+    <skin name="android_form_title_skin" value="titleBar"/>
     <skin name="switch_skin" value="swtNormal"/>
     <skin name="phone_skin" value="phoneNormal"/>
     <skin name="datagrid_row_skin_focus" value="dgFocus"/>
-    <skin name="textarea2_skin_focus" value="txtAreaFocus"/>
     <skin name="calendar_skin_focus" value="calFocus"/>
+    <skin name="textarea2_skin_focus" value="txtAreaFocus"/>
     <skin name="imagegallery_skin_focus" value="galFocus"/>
     <skin name="textarea_skin_focus" value="txtFocus"/>
-    <skin name="listbox_skin" value="listNor"/>
     <skin name="tabpane_inactive_skin" value="tabInactive"/>
+    <skin name="listbox_skin" value="listNor"/>
     <skin name="segment_skin_focus" value="segFocus"/>
     <skin name="datagrid_row_skin" value="dgRow"/>
     <skin name="segment2_row_skin" value="rowSkin"/>
     <skin name="combobox_skin_focus" value="cboxFocus"/>
     <skin name="combobox_skin" value="cboxNormal"/>
     <skin name="link_skin_focus" value="lnkFocus"/>
-    <skin name="segment2_secheader_skin" value="sectionHeaderSkin"/>
     <skin name="segment2_row_focus_skin" value="rowFocusSkin"/>
-    <skin name="segment_skin" value="segNormal"/>
+    <skin name="segment2_secheader_skin" value="sectionHeaderSkin"/>
     <skin name="android_slider_right_skin" value="No Skin"/>
+    <skin name="segment_skin" value="segNormal"/>
     <skin name="tabpane_active_focus_skin" value="tabFocus"/>
     <skin name="bb_slider_right_skin_key" value="sliderRight"/>
     <skin name="button_skin" value="btnNormal"/>

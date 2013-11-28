@@ -115,9 +115,9 @@
             <desktop_kiosk_channel>true</desktop_kiosk_channel>
             <desktop_web_channel>true</desktop_web_channel>
             <mixed_android>true</mixed_android>
-            <mixed_android_tab>true</mixed_android_tab>
+            <mixed_android_tab>false</mixed_android_tab>
             <mixed_bb>true</mixed_bb>
-            <mixed_ipad>true</mixed_ipad>
+            <mixed_ipad>false</mixed_ipad>
             <mixed_iphone>true</mixed_iphone>
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
@@ -16959,8 +16959,8 @@
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
-                        <tabspa_ipad>true</tabspa_ipad>
-                        <tabspa_windows>true</tabspa_windows>
+                        <tabspa_ipad>false</tabspa_ipad>
+                        <tabspa_windows>false</tabspa_windows>
                         <tabspaspa_android>false</tabspaspa_android>
                         <tc_spaandroid>true</tc_spaandroid>
                         <tc_spabb>true</tc_spabb>
@@ -17605,8 +17605,8 @@
                         <rc_winmobile>true</rc_winmobile>
                         <rc_winmobile6x>true</rc_winmobile6x>
                         <rc_winphone8>true</rc_winphone8>
-                        <tabspa_ipad>true</tabspa_ipad>
-                        <tabspa_windows>true</tabspa_windows>
+                        <tabspa_ipad>false</tabspa_ipad>
+                        <tabspa_windows>false</tabspa_windows>
                         <tabspaspa_android>false</tabspaspa_android>
                         <tc_spaandroid>true</tc_spaandroid>
                         <tc_spabb>true</tc_spabb>

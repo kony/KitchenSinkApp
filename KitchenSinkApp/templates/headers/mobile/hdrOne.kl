@@ -798,11 +798,11 @@
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
-                <mixed_android>true</mixed_android>
+                <mixed_android>false</mixed_android>
                 <mixed_android_tab>true</mixed_android_tab>
-                <mixed_bb>true</mixed_bb>
+                <mixed_bb>false</mixed_bb>
                 <mixed_ipad>true</mixed_ipad>
-                <mixed_iphone>true</mixed_iphone>
+                <mixed_iphone>false</mixed_iphone>
                 <rc_android>false</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
@@ -825,16 +825,16 @@
                 <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
                 <tc_spawinphone8>true</tc_spawinphone8>
-                <tc_xhtml>true</tc_xhtml>
-                <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
-                <tc_xhtml_advbb>true</tc_xhtml_advbb>
-                <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
-                <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                <tc_xhtml_js>true</tc_xhtml_js>
+                <tc_xhtml>false</tc_xhtml>
+                <tc_xhtml_advandroid1>false</tc_xhtml_advandroid1>
+                <tc_xhtml_advbb>false</tc_xhtml_advbb>
+                <tc_xhtml_adviphone1>false</tc_xhtml_adviphone1>
+                <tc_xhtml_advnth>false</tc_xhtml_advnth>
+                <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                <tc_xhtml_js>false</tc_xhtml_js>
                 <wrapper_android>true</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
-                <wrapper_bb>true</wrapper_bb>
+                <wrapper_bb>false</wrapper_bb>
                 <wrapper_ipad>true</wrapper_ipad>
                 <wrapper_iphone>true</wrapper_iphone>
             </rendererData>
@@ -1402,6 +1402,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -1449,23 +1450,23 @@
                 <rendererData>
                     <desktop_kiosk_channel>true</desktop_kiosk_channel>
                     <desktop_web_channel>true</desktop_web_channel>
-                    <mixed_android>true</mixed_android>
+                    <mixed_android>false</mixed_android>
                     <mixed_android_tab>true</mixed_android_tab>
-                    <mixed_bb>true</mixed_bb>
+                    <mixed_bb>false</mixed_bb>
                     <mixed_ipad>true</mixed_ipad>
-                    <mixed_iphone>true</mixed_iphone>
+                    <mixed_iphone>false</mixed_iphone>
                     <rc_android>true</rc_android>
                     <rc_android_tab>true</rc_android_tab>
                     <rc_blackberry>true</rc_blackberry>
                     <rc_blackberry10>true</rc_blackberry10>
                     <rc_ipad>true</rc_ipad>
                     <rc_iphone>true</rc_iphone>
-                    <rc_j2me>true</rc_j2me>
-                    <rc_palm>true</rc_palm>
-                    <rc_symbian>true</rc_symbian>
+                    <rc_j2me>false</rc_j2me>
+                    <rc_palm>false</rc_palm>
+                    <rc_symbian>false</rc_symbian>
                     <rc_windows8>true</rc_windows8>
                     <rc_winmobile>true</rc_winmobile>
-                    <rc_winmobile6x>true</rc_winmobile6x>
+                    <rc_winmobile6x>false</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
                     <tabspa_windows>true</tabspa_windows>
@@ -1476,16 +1477,16 @@
                     <tc_spaiphone>true</tc_spaiphone>
                     <tc_spawindows>true</tc_spawindows>
                     <tc_spawinphone8>true</tc_spawinphone8>
-                    <tc_xhtml>true</tc_xhtml>
-                    <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
-                    <tc_xhtml_advbb>true</tc_xhtml_advbb>
-                    <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
-                    <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                    <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                    <tc_xhtml_js>true</tc_xhtml_js>
+                    <tc_xhtml>false</tc_xhtml>
+                    <tc_xhtml_advandroid1>false</tc_xhtml_advandroid1>
+                    <tc_xhtml_advbb>false</tc_xhtml_advbb>
+                    <tc_xhtml_adviphone1>false</tc_xhtml_adviphone1>
+                    <tc_xhtml_advnth>false</tc_xhtml_advnth>
+                    <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                    <tc_xhtml_js>false</tc_xhtml_js>
                     <wrapper_android>true</wrapper_android>
                     <wrapper_android_tab>true</wrapper_android_tab>
-                    <wrapper_bb>true</wrapper_bb>
+                    <wrapper_bb>false</wrapper_bb>
                     <wrapper_ipad>true</wrapper_ipad>
                     <wrapper_iphone>true</wrapper_iphone>
                 </rendererData>
@@ -2163,7 +2164,7 @@
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>false</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>false</rc_iphone>
                 <rc_j2me>false</rc_j2me>
@@ -2182,13 +2183,13 @@
                 <tc_spaiphone>false</tc_spaiphone>
                 <tc_spawindows>false</tc_spawindows>
                 <tc_spawinphone8>true</tc_spawinphone8>
-                <tc_xhtml>true</tc_xhtml>
-                <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
-                <tc_xhtml_advbb>true</tc_xhtml_advbb>
-                <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
-                <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                <tc_xhtml_js>true</tc_xhtml_js>
+                <tc_xhtml>false</tc_xhtml>
+                <tc_xhtml_advandroid1>false</tc_xhtml_advandroid1>
+                <tc_xhtml_advbb>false</tc_xhtml_advbb>
+                <tc_xhtml_adviphone1>false</tc_xhtml_adviphone1>
+                <tc_xhtml_advnth>false</tc_xhtml_advnth>
+                <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                <tc_xhtml_js>false</tc_xhtml_js>
                 <wrapper_android>false</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
                 <wrapper_bb>false</wrapper_bb>
@@ -2759,6 +2760,7 @@
             </gridviewConfig>
             <symbian_position>0</symbian_position>
             <tooltip></tooltip>
+            <tc_position>0</tc_position>
             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
             <wapDirection>0</wapDirection>
             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -2826,6 +2828,8 @@
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <contentAlign>0</contentAlign>
     <gridviewConfig>
