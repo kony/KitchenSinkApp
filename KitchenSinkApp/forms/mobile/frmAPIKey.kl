@@ -607,7 +607,7 @@
         <bb_ignoreescape>false</bb_ignoreescape>
         <bb_orientation>0</bb_orientation>
         <blackberry_no_of_items>0</blackberry_no_of_items>
-        <bb_titleskinId>Skin Defaults</bb_titleskinId>
+        <bb_titleskinId>titleBB</bb_titleskinId>
         <bbTitlebar>true</bbTitlebar>
         <BBSkinAroundPopup>Skin Defaults</BBSkinAroundPopup>
         <autofocus>true</autofocus>
@@ -2157,7 +2157,7 @@
                 <android_override>true</android_override>
                 <bb>
                     <left>2</left>
-                    <right>3</right>
+                    <right>2</right>
                     <top>1</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
@@ -2423,10 +2423,10 @@
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -2930,8 +2930,8 @@
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>4</left>
-                    <right>4</right>
+                    <left>2</left>
+                    <right>2</right>
                     <top>4</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
@@ -3904,10 +3904,10 @@
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -5537,6 +5537,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
+        <overrideProperties>KForm.bbTitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

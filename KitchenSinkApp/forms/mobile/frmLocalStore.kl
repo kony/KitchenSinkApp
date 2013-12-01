@@ -3714,10 +3714,10 @@
                             </android>
                             <android_override>true</android_override>
                             <bb>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
                             <bb10>
@@ -3728,7 +3728,7 @@
                                 <unit>%</unit>
                             </bb10>
                             <bb10_override>false</bb10_override>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
                                 <left>1</left>
@@ -4505,10 +4505,10 @@
                             </android>
                             <android_override>true</android_override>
                             <bb>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
                             <bb10>
@@ -4519,7 +4519,7 @@
                                 <unit>%</unit>
                             </bb10>
                             <bb10_override>false</bb10_override>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
                                 <left>1</left>
@@ -9280,10 +9280,10 @@
                             </android>
                             <android_override>true</android_override>
                             <bb>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
                             <bb10>
@@ -9294,7 +9294,7 @@
                                 <unit>%</unit>
                             </bb10>
                             <bb10_override>false</bb10_override>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
                                 <left>1</left>
@@ -14693,10 +14693,10 @@
                             </android>
                             <android_override>true</android_override>
                             <bb>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
                             <bb10>
@@ -14707,7 +14707,7 @@
                                 <unit>%</unit>
                             </bb10>
                             <bb10_override>false</bb10_override>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
                                 <left>1</left>
@@ -20106,10 +20106,10 @@
                             </android>
                             <android_override>true</android_override>
                             <bb>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>2</left>
+                                <right>2</right>
+                                <top>2</top>
+                                <bottom>2</bottom>
                                 <unit>%</unit>
                             </bb>
                             <bb10>
@@ -20120,7 +20120,7 @@
                                 <unit>%</unit>
                             </bb10>
                             <bb10_override>false</bb10_override>
-                            <bb_override>false</bb_override>
+                            <bb_override>true</bb_override>
                             <default_override>true</default_override>
                             <defaults>
                                 <left>1</left>

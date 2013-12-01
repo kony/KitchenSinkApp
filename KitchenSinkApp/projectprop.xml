@@ -17,6 +17,7 @@
     <attributes name="READ_SMS" value="false"/>
     <attributes name="applepushfunc" value="None"/>
     <attributes name="Internet(Client)" value="true"/>
+    <attributes name="cloud_web_xml_custom_others" value=""/>
     <attributes name="certs_trust_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
     <attributes name="MODIFY_AUDIO_SETTINGS" value="false"/>
     <attributes name="tcnth480basefontsize" value="17"/>
@@ -60,6 +61,7 @@
     <attributes name="androidmapkey" value="0YW7LQ_ON4_GfRt4bYcgXO-kkSrxlOyipmMN7CA"/>
     <attributes name="enablesearchbar" value="false"/>
     <attributes name="wp8descriptionkey" value="Sample Test Application"/>
+    <attributes name="cloud_web_xml_custom_mappings" value=""/>
     <attributes name="BROADCAST_STICKY" value="false"/>
     <attributes name="GET_ACCOUNTS" value="true"/>
     <attributes name="SET_PROCESS_LIMIT" value="false"/>
@@ -112,6 +114,7 @@
     <attributes name="HARDWARE_TEST" value="false"/>
     <attributes name="WP8_ID_CAP_APPOINTMENTS" value="true"/>
     <attributes name="USE_CREDENTIALS" value="false"/>
+    <attributes name="cloud_web_xml_custom_listeners" value=""/>
     <attributes name="GET_PACKAGE_SIZE" value="false"/>
     <attributes name="allowselfsignedcertificate" value="false"/>
     <attributes name="NFC" value="false"/>
@@ -209,7 +212,7 @@
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="Location" value="true"/>
     <attributes name="ACCESS_SURFACE_FLINGER" value="false"/>
-    <attributes name="currentgaversion" value="5.5.37.QA_v201311181450"/>
+    <attributes name="currentgaversion" value="5.5.37.QA_v201311272226_r5"/>
     <attributes name="mwhttpsportkey" value=""/>
     <attributes name="pathkey" value=""/>
     <attributes name="vendornamekey" value="KonyLabs"/>
@@ -316,12 +319,13 @@
     <attributes name="winmangotiletitlekey" value="KitchenSinkApp"/>
     <attributes name="WP8_ID_CAP_ISV_CAMERA" value="true"/>
     <attributes name="READ_CALENDAR" value="false"/>
+    <attributes name="cloud_web_xml_custom_filters" value=""/>
     <attributes name="Removable_Storage" value="true"/>
     <attributes name="access_pimdomain_contacts" value="false"/>
     <attributes name="androidInstallLocnPref" value="false"/>
     <attributes name="tcpalm240basefontsize" value="10"/>
     <attributes name="CHANGE_WIFI_MULTICAST_STATE" value="false"/>
-    <attributes name="cloud_url" value="http://10.10.5.94:8080"/>
+    <attributes name="cloud_url" value="http://127.0.0.1:8080"/>
     <attributes name="certs_key_store_pwd" value="kds/0eUc+i3BqFqSkpCk4g=="/>
     <attributes name="CALL_PRIVILEGED" value="false"/>
     <attributes name="SUBSCRIBED_FEEDS_READ" value="false"/>
@@ -331,7 +335,7 @@
     <attributes name="sessionmanager" value="Kony Session Manager"/>
     <attributes name="appversioncode" value="1"/>
     <attributes name="RECEIVE_WAP_PUSH" value="false"/>
-    <attributes name="cloud_selected_ipaddress_list" value="http://127.0.0.1:8080,http://10.10.5.94:8080"/>
+    <attributes name="cloud_selected_ipaddress_list" value="http://127.0.0.1:8080"/>
     <attributes name="customgcmbroadcastreceiver" value=""/>
     <attributes name="WP8_ID_CAP_REMOVABLE_STORAGE" value="true"/>
     <attributes name="MODIFY_PHONE_STATE" value="false"/>

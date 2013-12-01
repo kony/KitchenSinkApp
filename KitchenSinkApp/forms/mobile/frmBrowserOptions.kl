@@ -625,7 +625,7 @@
         <bb_ignoreescape>false</bb_ignoreescape>
         <bb_orientation>0</bb_orientation>
         <blackberry_no_of_items>0</blackberry_no_of_items>
-        <bb_titleskinId>Skin Defaults</bb_titleskinId>
+        <bb_titleskinId>titleBB</bb_titleskinId>
         <bbTitlebar>true</bbTitlebar>
         <BBSkinAroundPopup>Skin Defaults</BBSkinAroundPopup>
         <autofocus>true</autofocus>
@@ -5837,6 +5837,7 @@
             <winphone8_position>0</winphone8_position>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
+        <overrideProperties>KForm.bbTitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
@@ -5859,7 +5860,7 @@
         </winphone8_ondevback_root>
         <winphone8_animateheaderfooter>false</winphone8_animateheaderfooter>
         <bb10_autofocus>true</bb10_autofocus>
-        <bb10_titleSkinId>Skin Defaults</bb10_titleSkinId>
+        <bb10_titleSkinId>titleBB</bb10_titleSkinId>
         <blackberry10_fixed_items>0</blackberry10_fixed_items>
         <bb10_enablescreenmenu>false</bb10_enablescreenmenu>
         <bb10_enablescreenformmenu>false</bb10_enablescreenformmenu>

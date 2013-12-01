@@ -2986,7 +2986,7 @@
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>2</left>
+                    <left>4</left>
                     <right>2</right>
                     <top>2</top>
                     <bottom>2</bottom>

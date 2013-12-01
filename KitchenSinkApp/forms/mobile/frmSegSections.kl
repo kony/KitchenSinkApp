@@ -805,7 +805,7 @@
                 <rc_android>false</rc_android>
                 <rc_android_tab>true</rc_android_tab>
                 <rc_blackberry>false</rc_blackberry>
-                <rc_blackberry10>true</rc_blackberry10>
+                <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
                 <rc_iphone>false</rc_iphone>
                 <rc_j2me>false</rc_j2me>
@@ -824,13 +824,13 @@
                 <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
                 <tc_spawinphone8>true</tc_spawinphone8>
-                <tc_xhtml>true</tc_xhtml>
-                <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
-                <tc_xhtml_advbb>true</tc_xhtml_advbb>
-                <tc_xhtml_adviphone1>true</tc_xhtml_adviphone1>
-                <tc_xhtml_advnth>true</tc_xhtml_advnth>
-                <tc_xhtml_advpalm1>true</tc_xhtml_advpalm1>
-                <tc_xhtml_js>true</tc_xhtml_js>
+                <tc_xhtml>false</tc_xhtml>
+                <tc_xhtml_advandroid1>false</tc_xhtml_advandroid1>
+                <tc_xhtml_advbb>false</tc_xhtml_advbb>
+                <tc_xhtml_adviphone1>false</tc_xhtml_adviphone1>
+                <tc_xhtml_advnth>false</tc_xhtml_advnth>
+                <tc_xhtml_advpalm1>false</tc_xhtml_advpalm1>
+                <tc_xhtml_js>false</tc_xhtml_js>
                 <wrapper_android>false</wrapper_android>
                 <wrapper_android_tab>true</wrapper_android_tab>
                 <wrapper_bb>false</wrapper_bb>
@@ -1498,10 +1498,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -1512,7 +1512,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
@@ -1765,10 +1765,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>2</left>
+                    <right>2</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -1779,7 +1779,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>false</default_override>
                 <defaults>
                     <left>0</left>

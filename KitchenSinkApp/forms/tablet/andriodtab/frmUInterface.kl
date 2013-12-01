@@ -428,6 +428,25 @@
         <headerId>None</headerId>
         <footerId>None</footerId>
         <title>User interface</title>
+        <preShow_root>
+            <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>frmUInterface.segBasicWidgets.setVisibility(false);
+</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </preShow_root>
         <init>
             <evtSequence>
                 <actionList xsi:type="eventFunctionAction">
@@ -7821,7 +7840,7 @@
                     <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
-                    <visible>false</visible>
+                    <visible>true</visible>
                     <rendererData>
                         <desktop_kiosk_channel>true</desktop_kiosk_channel>
                         <desktop_web_channel>true</desktop_web_channel>
@@ -11440,7 +11459,7 @@
                     <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
-                    <visible>false</visible>
+                    <visible>true</visible>
                     <rendererData>
                         <desktop_kiosk_channel>true</desktop_kiosk_channel>
                         <desktop_web_channel>true</desktop_web_channel>

@@ -15440,8 +15440,8 @@
                         <bb>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </bb>
                         <bb10>
@@ -16106,7 +16106,7 @@
                             <default_override>true</default_override>
                             <defaults>
                                 <left>1</left>
-                                <right>1</right>
+                                <right>0</right>
                                 <top>1</top>
                                 <bottom>1</bottom>
                                 <unit>%</unit>
