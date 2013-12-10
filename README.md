@@ -1,3 +1,5 @@
+To get started, first click the Download ZIP button to the right to download this tutorial's assets.
+
 KitchenSinkApp
 =======================
 Showcase collection of UI and device features available to developers using the Kony Development Cloud.
