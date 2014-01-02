@@ -9,7 +9,6 @@
     <container type="dialog" id="ftrOne" displayname="Popup"/>
     <container type="dialog" id="hdr" displayname="Popup"/>
     <container type="form" id="frmBrowserOptions" displayname="Form"/>
-    <container type="form" id="frmIcons" displayname="Form"/>
     <container type="form" id="frmMap" displayname="Form">
         <component type="map" id="mapNrm" displayname="Map">
             <attributes value="AIzaSyBBR_-JLwZ9Ami6h5m7KgaGvIxpno6vFDU" platform="general" name="key" datatype="string"/>
@@ -72,7 +71,6 @@
     <container type="form" id="frmCameraOverlaid" displayname="Form"/>
     <container type="form" id="frmContact" displayname="Form"/>
     <container type="form" id="frmDummy" displayname="Form"/>
-    <container type="form" id="frmIcons" displayname="Form"/>
     <container type="form" id="frmImage" displayname="Form"/>
     <container type="form" id="frmLink" displayname="Form"/>
     <container type="form" id="frmMap" displayname="Form">
@@ -81,7 +79,6 @@
         </component>
     </container>
     <container type="form" id="frmRichText" displayname="Form"/>
-    <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
     <container type="form" id="frmSegOnReachEnd" displayname="Form"/>
     <container type="form" id="frmSegSearchView" displayname="Form"/>
     <container type="form" id="frmSlider" displayname="Form"/>
@@ -165,7 +162,6 @@
     <container type="form" id="frmGestures" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmScrollBoxMenu" displayname="Form"/>
-    <container type="form" id="frmPlatforms" displayname="Form"/>
     <container type="dialog" id="hdrIconEdit" displayname="Popup"/>
     <container type="dialog" id="hdrOne" displayname="Popup"/>
     <container type="dialog" id="hdrSearch" displayname="Popup">
@@ -297,7 +293,6 @@
         <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
     </container>
     <container type="form" id="frmCustomCollapsTab" displayname="Form"/>
-    <container type="form" id="frmDatagrd" displayname="Form"/>
     <container type="form" id="frmDeviceInfo" displayname="Form"/>
     <container type="form" id="frmDictView" displayname="Form"/>
     <container type="form" id="frmDummy" displayname="Form"/>
@@ -368,7 +363,6 @@
     <container type="form" id="frmSegCoverFlowView" displayname="Form"/>
     <container type="form" id="frmSegCustomPageIndicator" displayname="Form"/>
     <container type="form" id="frmSegCylinderView" displayname="Form"/>
-    <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
     <container type="form" id="frmSegInvertCylinderView" displayname="Form"/>
     <container type="form" id="frmSegInvertRotaryView" displayname="Form"/>
     <container type="form" id="frmSegLinearView" displayname="Form"/>
@@ -380,7 +374,6 @@
     <container type="form" id="frmSegSections" displayname="Form"/>
     <container type="form" id="frmSegStackView" displayname="Form"/>
     <container type="form" id="frmSegTableView" displayname="Form"/>
-    <container type="form" id="frmSegViews" displayname="Form"/>
     <container type="form" id="frmSegmentMoreFeatures" displayname="Form"/>
     <container type="form" id="frmSegmentOptions" displayname="Form"/>
     <container type="form" id="frmSlider" displayname="Form"/>
@@ -610,6 +603,13 @@
     <container type="form" id="frmSegMulSelectData" displayname="Form"/>
     <container type="form" id="frmTabPageView" displayname="Form"/>
     <container type="form" id="frmWebSQLResults" displayname="Form"/>
+    <container type="form" id="frmPlatforms" displayname="Form"/>
+    <container type="form" id="frmIcons" displayname="Form"/>
+    <container type="form" id="frmDatagrd" displayname="Form"/>
+    <container type="form" id="frmIcons" displayname="Form"/>
+    <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
+    <container type="form" id="frmSegViews" displayname="Form"/>
+    <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>

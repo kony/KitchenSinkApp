@@ -2111,7 +2111,7 @@
                     <width>18</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>lblBlue</skinId>
+                <skinId>lblSub</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>

@@ -1131,13 +1131,13 @@
             </margins>
             <paddings>
                 <android>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </android>
-                <android_override>false</android_override>
+                <android_override>true</android_override>
                 <bb>
                     <left>0</left>
                     <right>0</right>
@@ -2171,7 +2171,7 @@
                     <android>
                         <left>0</left>
                         <right>0</right>
-                        <top>2</top>
+                        <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </android>

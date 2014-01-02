@@ -2806,7 +2806,7 @@
                 <margins>
                     <android>
                         <left>0</left>
-                        <right>0</right>
+                        <right>3</right>
                         <top>3</top>
                         <bottom>3</bottom>
                         <unit>%</unit>
@@ -3504,7 +3504,7 @@
                 <margins>
                     <android>
                         <left>0</left>
-                        <right>0</right>
+                        <right>5</right>
                         <top>3</top>
                         <bottom>3</bottom>
                         <unit>%</unit>
@@ -4202,7 +4202,7 @@
                 <margins>
                     <android>
                         <left>0</left>
-                        <right>0</right>
+                        <right>2</right>
                         <top>3</top>
                         <bottom>3</bottom>
                         <unit>%</unit>
