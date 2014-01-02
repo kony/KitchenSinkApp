@@ -3058,10 +3058,10 @@
             </margins>
             <paddings>
                 <android>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>6</top>
-                    <bottom>6</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>12</top>
+                    <bottom>12</bottom>
                     <unit>px</unit>
                 </android>
                 <android_override>true</android_override>
@@ -5046,18 +5046,18 @@
             </margins>
             <paddings>
                 <android>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>12</top>
+                    <bottom>12</bottom>
                     <unit>px</unit>
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -5191,11 +5191,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
-                    <unit>%</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
+                    <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -5207,11 +5207,11 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
-                    <unit>%</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
+                    <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -6363,18 +6363,18 @@
             </margins>
             <paddings>
                 <android>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>12</top>
+                    <bottom>12</bottom>
                     <unit>px</unit>
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -6508,11 +6508,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
-                    <unit>%</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
+                    <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -6524,11 +6524,11 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
-                    <unit>%</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
+                    <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>
@@ -7680,18 +7680,18 @@
             </margins>
             <paddings>
                 <android>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>12</top>
+                    <bottom>12</bottom>
                     <unit>px</unit>
                 </android>
                 <android_override>true</android_override>
                 <bb>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -7825,11 +7825,11 @@
                 </windows8>
                 <windows8_override>false</windows8_override>
                 <winmobile>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
-                    <unit>%</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
+                    <unit>px</unit>
                 </winmobile>
                 <winmobile6x>
                     <left>1</left>
@@ -7841,11 +7841,11 @@
                 <winmobile6x_override>true</winmobile6x_override>
                 <winmobile_override>true</winmobile_override>
                 <winphone8>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>2</top>
-                    <bottom>2</bottom>
-                    <unit>%</unit>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>3</top>
+                    <bottom>3</bottom>
+                    <unit>px</unit>
                 </winphone8>
                 <winphone8_override>true</winphone8_override>
                 <xhtmlAdvBB>

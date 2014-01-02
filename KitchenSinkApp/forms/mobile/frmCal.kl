@@ -16926,10 +16926,10 @@
             </margins>
             <paddings>
                 <android>
-                    <left>4</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>8</left>
+                    <right>8</right>
+                    <top>8</top>
+                    <bottom>8</bottom>
                     <unit>px</unit>
                 </android>
                 <android_override>true</android_override>

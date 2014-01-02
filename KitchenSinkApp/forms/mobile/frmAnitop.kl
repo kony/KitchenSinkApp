@@ -22,7 +22,7 @@
         <width>true</width>
         <height>false</height>
     </overridePerferred>
-    <projectName>FormTransitions</projectName>
+    <projectName>KitchenSinkApp</projectName>
     <formName>frmAnitop</formName>
     <platform>0</platform>
     <mode>0</mode>
@@ -79,6 +79,7 @@
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
+            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -89,12 +90,14 @@
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
+            <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>true</tc_spawindows>
+            <tc_spawinphone8>true</tc_spawinphone8>
             <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -119,6 +122,7 @@
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
+            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -129,12 +133,14 @@
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
+            <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>true</tc_spawindows>
+            <tc_spawinphone8>true</tc_spawinphone8>
             <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -164,6 +170,14 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
+            <bb10>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </bb10>
+            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>false</default_override>
             <defaults>
@@ -221,6 +235,14 @@
                 <unit>%</unit>
             </palmpre>
             <palmpre_override>false</palmpre_override>
+            <spaWinphone8>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </spaWinphone8>
+            <spaWinphone8_override>false</spaWinphone8_override>
             <spaipad>
                 <left>0</left>
                 <right>0</right>
@@ -230,6 +252,7 @@
             </spaipad>
             <spaipad_override>false</spaipad_override>
             <spatablet_android_override>false</spatablet_android_override>
+            <spatablet_windows_override>false</spatablet_windows_override>
             <symbian>
                 <left>0</left>
                 <right>0</right>
@@ -253,6 +276,13 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </tabspaAndroid>
+            <tabspaWindows>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </tabspaWindows>
             <thinclient>
                 <left>0</left>
                 <right>0</right>
@@ -391,6 +421,7 @@
             </xhtmlNormal>
             <xhtmlNormal_override>false</xhtmlNormal_override>
         </paddings>
+        <contentAlign>0</contentAlign>
         <idle_timeout>false</idle_timeout>
         <retain_scrollPosition>false</retain_scrollPosition>
         <dialog_width>80</dialog_width>
@@ -434,6 +465,7 @@
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -499,6 +531,7 @@
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -592,6 +625,7 @@
         <win_enablescreenmenu>false</win_enablescreenmenu>
         <win_autofocus>true</win_autofocus>
         <wm_orientation>2</wm_orientation>
+        <wm_maxappmenubuttons>4</wm_maxappmenubuttons>
         <win_intransition>Default</win_intransition>
         <win_outtransition>Default</win_outtransition>
         <win_intransitionmode>Default</win_intransitionmode>
@@ -610,6 +644,7 @@
         <winphone8_layout>Vertical</winphone8_layout>
         <winphone8_showformtitle>false</winphone8_showformtitle>
         <winphone8_backButton>false</winphone8_backButton>
+        <winphone8_maxappmenubuttons>4</winphone8_maxappmenubuttons>
         <win8TitleBarData>
             <backButtonSkin>Skin Defaults</backButtonSkin>
             <showBackButton>true</showBackButton>
@@ -627,6 +662,12 @@
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -656,6 +697,9 @@
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -687,6 +731,7 @@
         <spa_onLoadJSEvent></spa_onLoadJSEvent>
         <spa_unLoadJSEvent></spa_unLoadJSEvent>
         <spa_popup_transition>topCenter</spa_popup_transition>
+        <spa_deviceOrientation>0</spa_deviceOrientation>
         <spa_out_popup_transition>none</spa_out_popup_transition>
         <spa_scroll_bounce>true</spa_scroll_bounce>
         <spa_form_transparency></spa_form_transparency>
@@ -703,6 +748,12 @@
         <pb_onLoadJSEvent></pb_onLoadJSEvent>
         <pb_unLoadJSEvent></pb_unLoadJSEvent>
         <pb_popup_transition>None</pb_popup_transition>
+        <desktopweb_onDeviceBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </desktopweb_onDeviceBack>
         <desktopweb_titleBarConfig>
             <closeIconPath>close.png</closeIconPath>
             <maxIconPath>max.png</maxIconPath>
@@ -712,6 +763,55 @@
         <desktopweb_resizable>false</desktopweb_resizable>
         <desktopweb_draggable>false</desktopweb_draggable>
         <desktopweb_minonlostfocus>false</desktopweb_minonlostfocus>
+        <winphone8_intransition>Default</winphone8_intransition>
+        <winphone8_outtransition>Default</winphone8_outtransition>
+        <winphone8_intransitionmode>Default</winphone8_intransitionmode>
+        <winphone8_outtransitionmode>Default</winphone8_outtransitionmode>
+        <winphone8_intransitionspeed>0</winphone8_intransitionspeed>
+        <winphone8_outtransitionspeed>0</winphone8_outtransitionspeed>
+        <winphone8_orientation>2</winphone8_orientation>
+        <winphone8_onorientation_root>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </winphone8_onorientation_root>
+        <winphone8_ondevback_root>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </winphone8_ondevback_root>
+        <winphone8_animateheaderfooter>false</winphone8_animateheaderfooter>
+        <bb10_autofocus>true</bb10_autofocus>
+        <bb10_titleSkinId>Skin Defaults</bb10_titleSkinId>
+        <blackberry10_fixed_items>0</blackberry10_fixed_items>
+        <bb10_enablescreenmenu>false</bb10_enablescreenmenu>
+        <bb10_enablescreenformmenu>false</bb10_enablescreenformmenu>
+        <bb10_ignoreescape>false</bb10_ignoreescape>
+        <bb10_trans_direction>0</bb10_trans_direction>
+        <bb10_trans_out_direction>0</bb10_trans_out_direction>
+        <bb10Titlebar>true</bb10Titlebar>
+        <bb10_orientation>0</bb10_orientation>
+        <bb10_onOrientation_root>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </bb10_onOrientation_root>
+        <bb10MenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bb10MenuPosition>
+        <bb10_undockappheader>false</bb10_undockappheader>
+        <bb10_undockappfooter>false</bb10_undockappfooter>
+        <bb10SkinAroundPopup>Skin Defaults</bb10SkinAroundPopup>
+        <bb10_onEscape10_root>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
@@ -765,6 +865,7 @@
             <rc_android>true</rc_android>
             <rc_android_tab>true</rc_android_tab>
             <rc_blackberry>true</rc_blackberry>
+            <rc_blackberry10>true</rc_blackberry10>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
             <rc_j2me>true</rc_j2me>
@@ -775,12 +876,14 @@
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
+            <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>true</tc_spawindows>
+            <tc_spawinphone8>true</tc_spawinphone8>
             <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -810,6 +913,14 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
+            <bb10>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </bb10>
+            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>false</default_override>
             <defaults>
@@ -867,6 +978,14 @@
                 <unit>%</unit>
             </palmpre>
             <palmpre_override>false</palmpre_override>
+            <spaWinphone8>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </spaWinphone8>
+            <spaWinphone8_override>false</spaWinphone8_override>
             <spaipad>
                 <left>0</left>
                 <right>0</right>
@@ -876,6 +995,7 @@
             </spaipad>
             <spaipad_override>false</spaipad_override>
             <spatablet_android_override>false</spatablet_android_override>
+            <spatablet_windows_override>false</spatablet_windows_override>
             <symbian>
                 <left>0</left>
                 <right>0</right>
@@ -899,6 +1019,13 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </tabspaAndroid>
+            <tabspaWindows>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </tabspaWindows>
             <thinclient>
                 <left>0</left>
                 <right>0</right>
@@ -1053,6 +1180,14 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </bb>
+            <bb10>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </bb10>
+            <bb10_override>false</bb10_override>
             <bb_override>false</bb_override>
             <default_override>false</default_override>
             <defaults>
@@ -1110,6 +1245,14 @@
                 <unit>%</unit>
             </palmpre>
             <palmpre_override>false</palmpre_override>
+            <spaWinphone8>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </spaWinphone8>
+            <spaWinphone8_override>false</spaWinphone8_override>
             <spaipad>
                 <left>0</left>
                 <right>0</right>
@@ -1119,6 +1262,7 @@
             </spaipad>
             <spaipad_override>false</spaipad_override>
             <spatablet_android_override>false</spatablet_android_override>
+            <spatablet_windows_override>false</spatablet_windows_override>
             <symbian>
                 <left>0</left>
                 <right>0</right>
@@ -1142,6 +1286,13 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </tabspaAndroid>
+            <tabspaWindows>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </tabspaWindows>
             <thinclient>
                 <left>0</left>
                 <right>0</right>
@@ -1281,7 +1432,9 @@
             <xhtmlNormal_override>false</xhtmlNormal_override>
         </paddings>
         <tooltip></tooltip>
+        <contentAlign>0</contentAlign>
     </children>
+    <contentAlign>0</contentAlign>
     <gridviewConfig>
         <referenceHeight>0</referenceHeight>
         <referenceWidth>0</referenceWidth>

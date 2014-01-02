@@ -6269,7 +6269,7 @@
                     <width>100</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>Skin Defaults</skinId>
+                <skinId>cboxNormal</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -7987,7 +7987,7 @@
             </margins>
             <paddings>
                 <android>
-                    <left>0</left>
+                    <left>1</left>
                     <right>0</right>
                     <top>0</top>
                     <bottom>0</bottom>

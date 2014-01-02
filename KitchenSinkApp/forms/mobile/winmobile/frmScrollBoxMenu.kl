@@ -2713,6 +2713,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -4039,6 +4040,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -5324,6 +5326,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -7327,6 +7330,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -8632,6 +8636,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -10635,6 +10640,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -12638,6 +12644,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -14641,6 +14648,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -16644,6 +16652,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -18647,6 +18656,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -19952,6 +19962,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -21955,6 +21966,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -23958,6 +23970,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -25961,6 +25974,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -27964,6 +27978,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -29967,6 +29982,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -31970,6 +31986,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -33973,6 +33990,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -35976,6 +35994,7 @@
                                     </gridviewConfig>
                                     <symbian_position>0</symbian_position>
                                     <tooltip></tooltip>
+                                    <tc_position>0</tc_position>
                                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                                     <wapDirection>0</wapDirection>
                                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -38650,6 +38669,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -40638,6 +40658,7 @@
                     </gridviewConfig>
                     <symbian_position>0</symbian_position>
                     <tooltip></tooltip>
+                    <tc_position>0</tc_position>
                     <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                     <wapDirection>0</wapDirection>
                     <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -41964,6 +41985,7 @@
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -43973,6 +43995,7 @@ Do not dwell in the past, do not dream of the future, concentrate the mind on th
                             </onTextChange>
                             <autoCapitalize>TEXTAREA_AUTO_CAPITALIZE_NONE</autoCapitalize>
                             <placeholder></placeholder>
+                            <placeholder_I18N></placeholder_I18N>
                             <iphone_editable>true</iphone_editable>
                             <iphone_paste_board>4</iphone_paste_board>
                             <ipad_closeButtonText></ipad_closeButtonText>
@@ -44026,6 +44049,18 @@ Do not dwell in the past, do not dream of the future, concentrate the mind on th
                             <wm_placeHolder_i18nId>None</wm_placeHolder_i18nId>
                             <wmango_keyboardInput>Default</wmango_keyboardInput>
                             <tooltip></tooltip>
+                            <bb10_onBeginEditing>
+                                <evtSequence>
+                                    <enabled>true</enabled>
+                                    <seqname></seqname>
+                                </evtSequence>
+                            </bb10_onBeginEditing>
+                            <bb10_onEndEditing>
+                                <evtSequence>
+                                    <enabled>true</enabled>
+                                    <seqname></seqname>
+                                </evtSequence>
+                            </bb10_onEndEditing>
                             <palm_txttype>0</palm_txttype>
                             <symbianPlaceHolderText></symbianPlaceHolderText>
                             <symbianPlaceHolderI18nKey>None</symbianPlaceHolderI18nKey>
@@ -45401,6 +45436,7 @@ Do not dwell in the past, do not dream of the future, concentrate the mind on th
                             </gridviewConfig>
                             <symbian_position>0</symbian_position>
                             <tooltip></tooltip>
+                            <tc_position>0</tc_position>
                             <TCBlockedUISkin>Skin Defaults</TCBlockedUISkin>
                             <wapDirection>0</wapDirection>
                             <spa_blockedUISkin>Skin Defaults</spa_blockedUISkin>
@@ -47427,6 +47463,8 @@ Do not dwell in the past, do not dream of the future, concentrate the mind on th
             </evtSequence>
         </bb10_onEscape10_root>
         <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
+        <bb10_showbottomactionbar>true</bb10_showbottomactionbar>
+        <bb10_enablepeekgesture>true</bb10_enablepeekgesture>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>

@@ -1106,13 +1106,13 @@
             </margins>
             <paddings>
                 <android>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>12</top>
+                    <bottom>12</bottom>
+                    <unit>px</unit>
                 </android>
-                <android_override>false</android_override>
+                <android_override>true</android_override>
                 <bb>
                     <left>2</left>
                     <right>2</right>
@@ -1162,13 +1162,13 @@
                 </ipad>
                 <ipad_override>false</ipad_override>
                 <iphonerc>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>12</top>
+                    <bottom>12</bottom>
+                    <unit>px</unit>
                 </iphonerc>
-                <iphonerc_override>false</iphonerc_override>
+                <iphonerc_override>true</iphonerc_override>
                 <j2me>
                     <left>0</left>
                     <right>0</right>
@@ -1806,13 +1806,13 @@
             </margins>
             <paddings>
                 <android>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>12</top>
+                    <bottom>12</bottom>
+                    <unit>px</unit>
                 </android>
-                <android_override>false</android_override>
+                <android_override>true</android_override>
                 <bb>
                     <left>2</left>
                     <right>2</right>
@@ -1862,13 +1862,13 @@
                 </ipad>
                 <ipad_override>false</ipad_override>
                 <iphonerc>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>12</top>
+                    <bottom>12</bottom>
+                    <unit>px</unit>
                 </iphonerc>
-                <iphonerc_override>false</iphonerc_override>
+                <iphonerc_override>true</iphonerc_override>
                 <j2me>
                     <left>0</left>
                     <right>0</right>

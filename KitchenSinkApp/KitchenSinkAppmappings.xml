@@ -25,7 +25,6 @@
     <container type="dialog" id="winMangoHeader" displayname="Popup"/>
     <container type="dialog" id="ftrOne" displayname="Popup"/>
     <container type="dialog" id="hdr" displayname="Popup"/>
-    <container type="form" id="frmAclMeterReadings" displayname="Form"/>
     <container type="form" id="frmAni2SplitHorizontalIn" displayname="Form"/>
     <container type="form" id="frmAni2SplitHorizontalOut" displayname="Form"/>
     <container type="form" id="frmAni2SplitVerticalIn" displayname="Form"/>
@@ -81,7 +80,6 @@
             <attributes value="AIzaSyBBR_-JLwZ9Ami6h5m7KgaGvIxpno6vFDU" platform="general" name="key" datatype="string"/>
         </component>
     </container>
-    <container type="form" id="frmPlatforms" displayname="Form"/>
     <container type="form" id="frmRichText" displayname="Form"/>
     <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
     <container type="form" id="frmSegOnReachEnd" displayname="Form"/>
@@ -167,6 +165,7 @@
     <container type="form" id="frmGestures" displayname="Form"/>
     <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmScrollBoxMenu" displayname="Form"/>
+    <container type="form" id="frmPlatforms" displayname="Form"/>
     <container type="dialog" id="hdrIconEdit" displayname="Popup"/>
     <container type="dialog" id="hdrOne" displayname="Popup"/>
     <container type="dialog" id="hdrSearch" displayname="Popup">
@@ -421,6 +420,7 @@
     <container type="form" id="frmWebSQLResults" displayname="Form"/>
     <container type="form" id="frmsegGroupMode" displayname="Form"/>
     <container type="dialog" id="popFormAnchor" displayname="Popup"/>
+    <container type="form" id="frmAclMeterReadings" displayname="Form"/>
     <container type="form" id="frmAdvancedWidgets" displayname="Form"/>
     <container type="form" id="frmBasicWidgets" displayname="Form"/>
     <container type="form" id="frmContainerWidgets" displayname="Form"/>
@@ -450,6 +450,12 @@
     <container type="form" id="frmScrollBoxMenu" displayname="Form"/>
     <container type="form" id="frmSegPageView" displayname="Form"/>
     <container type="form" id="frmSegSections" displayname="Form"/>
+    <container type="form" id="frmTabScreenLevel" displayname="Form">
+        <component type="textbox2" id="textfieldTS1" displayname="TextBox2"/>
+        <component type="textbox2" id="textfieldTS2" displayname="TextBox2"/>
+        <component type="combobox" id="comboboxTS1" displayname="ComboBox"/>
+        <component type="calendar" id="calendarTS1" displayname="Calendar"/>
+    </container>
     <container type="form" id="frmsegGroupMode" displayname="Form"/>
     <container type="form" id="frmAdvancedWidgets" displayname="Form"/>
     <container type="form" id="frmBasicWidgets" displayname="Form"/>

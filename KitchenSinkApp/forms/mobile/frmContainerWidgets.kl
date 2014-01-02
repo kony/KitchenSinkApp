@@ -2440,7 +2440,7 @@
                 </bb10>
                 <bb10_override>false</bb10_override>
                 <bb_override>false</bb_override>
-                <default_override>true</default_override>
+                <default_override>false</default_override>
                 <defaults>
                     <left>0</left>
                     <right>0</right>
