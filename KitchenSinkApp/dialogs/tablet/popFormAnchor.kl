@@ -1214,8 +1214,8 @@
                 <tabRCAndroid>
                     <left>3</left>
                     <right>3</right>
-                    <top>12</top>
-                    <bottom>12</bottom>
+                    <top>15</top>
+                    <bottom>9</bottom>
                     <unit>px</unit>
                 </tabRCAndroid>
                 <tablet_rc_android_override>true</tablet_rc_android_override>
@@ -1917,8 +1917,8 @@
                 <tabRCAndroid>
                     <left>3</left>
                     <right>3</right>
-                    <top>12</top>
-                    <bottom>12</bottom>
+                    <top>15</top>
+                    <bottom>9</bottom>
                     <unit>px</unit>
                 </tabRCAndroid>
                 <tablet_rc_android_override>true</tablet_rc_android_override>

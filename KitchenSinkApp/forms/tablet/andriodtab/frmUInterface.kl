@@ -439,7 +439,7 @@
                         <entry>
                             <key>js</key>
                             <value>frmUInterface.segBasicWidgets.setVisibility(false);
-</value>
+frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
                         </entry>
                     </exprMap>
                 </actionList>
@@ -447,7 +447,7 @@
                 <seqname></seqname>
             </evtSequence>
         </preShow_root>
-        <init>
+        <postShow_root>
             <evtSequence>
                 <actionList xsi:type="eventFunctionAction">
                     <enabled>true</enabled>
@@ -467,6 +467,12 @@
                         </entry>
                     </paramDataMap>
                 </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </postShow_root>
+        <init>
+            <evtSequence>
                 <enabled>true</enabled>
                 <seqname></seqname>
             </evtSequence>

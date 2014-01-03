@@ -2903,7 +2903,7 @@
                 <mixed_ipad>false</mixed_ipad>
                 <mixed_iphone>true</mixed_iphone>
                 <rc_android>true</rc_android>
-                <rc_android_tab>true</rc_android_tab>
+                <rc_android_tab>false</rc_android_tab>
                 <rc_blackberry>true</rc_blackberry>
                 <rc_blackberry10>true</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
@@ -2915,9 +2915,9 @@
                 <rc_winmobile>true</rc_winmobile>
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
-                <tabspa_ipad>true</tabspa_ipad>
-                <tabspa_windows>true</tabspa_windows>
-                <tabspaspa_android>true</tabspaspa_android>
+                <tabspa_ipad>false</tabspa_ipad>
+                <tabspa_windows>false</tabspa_windows>
+                <tabspaspa_android>false</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>

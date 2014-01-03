@@ -4857,7 +4857,7 @@
                         <mixed_ipad>false</mixed_ipad>
                         <mixed_iphone>true</mixed_iphone>
                         <rc_android>true</rc_android>
-                        <rc_android_tab>true</rc_android_tab>
+                        <rc_android_tab>false</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
                         <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>false</rc_ipad>
@@ -5503,7 +5503,7 @@
                         <mixed_ipad>false</mixed_ipad>
                         <mixed_iphone>true</mixed_iphone>
                         <rc_android>true</rc_android>
-                        <rc_android_tab>true</rc_android_tab>
+                        <rc_android_tab>false</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
                         <rc_blackberry10>true</rc_blackberry10>
                         <rc_ipad>false</rc_ipad>

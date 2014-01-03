@@ -9719,10 +9719,10 @@
                         </symbian>
                         <symbian_override>false</symbian_override>
                         <tabRCAndroid>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>5</left>
+                            <right>1</right>
+                            <top>5</top>
+                            <bottom>5</bottom>
                             <unit>%</unit>
                         </tabRCAndroid>
                         <tablet_rc_android_override>false</tablet_rc_android_override>

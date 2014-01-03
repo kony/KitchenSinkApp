@@ -307,8 +307,8 @@ function setTabUiSbxWidDetails()
 	{
 		kony.print("\n\n\n\n\n\n\n\n\n\n Do nothing for now");
 		//In android platform, We can not read segContainerWidgets in init instead we can read it in post show
-		//frmUInterface.segContainerWidgets.selectedIndex=[0,0];
-		//tabUIHandle(frmUInterface.segContainerWidgets);
+		frmUInterface.segContainerWidgets.selectedIndex=[0,0];
+		tabUIHandle(frmUInterface.segContainerWidgets);
 	}
 	else
 	{
