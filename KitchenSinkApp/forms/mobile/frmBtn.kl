@@ -10293,7 +10293,7 @@
                 <height>3</height>
             </sizePercent>
             <skinId>ninePatch</skinId>
-            <focusSkinId>ninePatch</focusSkinId>
+            <focusSkinId>skinBtnFoc</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>

@@ -2111,7 +2111,7 @@ frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
                 <ipad_scrollvisible>true</ipad_scrollvisible>
                 <ipad_pagingenabled>false</ipad_pagingenabled>
                 <ipad_position>0</ipad_position>
-                <android_position>0</android_position>
+                <android_position>1</android_position>
                 <android_scrollbarVisible>true</android_scrollbarVisible>
                 <android_pagingEnabled>false</android_pagingEnabled>
                 <bb_position>0</bb_position>
@@ -5006,6 +5006,9 @@ frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
                     <rowItemWidth></rowItemWidth>
                     <coverflowDepth></coverflowDepth>
                     <coverflowAngle></coverflowAngle>
+                    <projectionAngle></projectionAngle>
+                    <spaceBetweenRowItems></spaceBetweenRowItems>
+                    <isCircular>true</isCircular>
                     <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
                     <containerHeight></containerHeight>
                     <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -8625,6 +8628,9 @@ frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
                     <rowItemWidth></rowItemWidth>
                     <coverflowDepth></coverflowDepth>
                     <coverflowAngle></coverflowAngle>
+                    <projectionAngle></projectionAngle>
+                    <spaceBetweenRowItems></spaceBetweenRowItems>
+                    <isCircular>true</isCircular>
                     <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
                     <containerHeight></containerHeight>
                     <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -12204,6 +12210,9 @@ frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
                     <rowItemWidth></rowItemWidth>
                     <coverflowDepth></coverflowDepth>
                     <coverflowAngle></coverflowAngle>
+                    <projectionAngle></projectionAngle>
+                    <spaceBetweenRowItems></spaceBetweenRowItems>
+                    <isCircular>true</isCircular>
                     <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
                     <containerHeight></containerHeight>
                     <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -13558,7 +13567,7 @@ frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
                 <ipad_scrollvisible>true</ipad_scrollvisible>
                 <ipad_pagingenabled>false</ipad_pagingenabled>
                 <ipad_position>0</ipad_position>
-                <android_position>0</android_position>
+                <android_position>1</android_position>
                 <android_scrollbarVisible>true</android_scrollbarVisible>
                 <android_pagingEnabled>false</android_pagingEnabled>
                 <bb_position>0</bb_position>

@@ -694,7 +694,7 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()
             <skinID>Skin Defaults</skinID>
             <visible>true</visible>
         </win8TitleBarData>
-        <android_orientation>2</android_orientation>
+        <android_orientation>0</android_orientation>
         <android_transition_effect>0</android_transition_effect>
         <android_isModal>false</android_isModal>
         <android_footerOverlap>false</android_footerOverlap>
@@ -3382,7 +3382,7 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()
                         </overridePerferred>
                         <orientation>1</orientation>
                         <scrollOption>1</scrollOption>
-                        <fixedHeight>99</fixedHeight>
+                        <fixedHeight>91</fixedHeight>
                         <heightReference>0</heightReference>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
@@ -30140,7 +30140,7 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </android>
-                        <android_override>false</android_override>
+                        <android_override>true</android_override>
                         <bb>
                             <left>0</left>
                             <right>0</right>
@@ -33367,7 +33367,7 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()</value>
                         </overridePerferred>
                         <orientation>1</orientation>
                         <scrollOption>1</scrollOption>
-                        <fixedHeight>90</fixedHeight>
+                        <fixedHeight>76</fixedHeight>
                         <heightReference>0</heightReference>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
@@ -33506,13 +33506,13 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()</value>
                             </rendererData>
                             <margins>
                                 <android>
-                                    <left>0</left>
-                                    <right>0</right>
-                                    <top>0</top>
-                                    <bottom>0</bottom>
+                                    <left>2</left>
+                                    <right>2</right>
+                                    <top>2</top>
+                                    <bottom>2</bottom>
                                     <unit>%</unit>
                                 </android>
-                                <android_override>false</android_override>
+                                <android_override>true</android_override>
                                 <bb>
                                     <left>0</left>
                                     <right>0</right>

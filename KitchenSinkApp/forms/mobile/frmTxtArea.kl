@@ -11908,7 +11908,7 @@
                     <left>12</left>
                     <right>12</right>
                     <top>0</top>
-                    <bottom>0</bottom>
+                    <bottom>4</bottom>
                     <unit>px</unit>
                 </android>
                 <android_override>true</android_override>

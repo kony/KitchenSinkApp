@@ -3519,6 +3519,8 @@
                 <enableScrollBounce>true</enableScrollBounce>
                 <flingVelocity>0</flingVelocity>
                 <flipInterval>0</flipInterval>
+                <isCircular>false</isCircular>
+                <projectionAngle>0</projectionAngle>
                 <scrollDistance>0</scrollDistance>
             </viewConfig>
             <tc_postLuaJSEvent></tc_postLuaJSEvent>
@@ -5634,6 +5636,8 @@
                 <enableScrollBounce>true</enableScrollBounce>
                 <flingVelocity>100</flingVelocity>
                 <flipInterval>10</flipInterval>
+                <isCircular>false</isCircular>
+                <projectionAngle>0</projectionAngle>
                 <scrollDistance>50</scrollDistance>
             </viewConfig>
             <tc_postLuaJSEvent></tc_postLuaJSEvent>
@@ -7055,6 +7059,8 @@
                 <enableScrollBounce>true</enableScrollBounce>
                 <flingVelocity>0</flingVelocity>
                 <flipInterval>0</flipInterval>
+                <isCircular>false</isCircular>
+                <projectionAngle>0</projectionAngle>
                 <scrollDistance>0</scrollDistance>
             </viewConfig>
             <tc_postLuaJSEvent></tc_postLuaJSEvent>

@@ -6938,6 +6938,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -10394,6 +10397,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -13734,6 +13740,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -14476,6 +14485,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -18630,6 +18642,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -24592,6 +24607,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -25996,6 +26014,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>0</iphone_executeonClosure>
@@ -29383,6 +29404,9 @@
             <rowItemWidth></rowItemWidth>
             <coverflowDepth></coverflowDepth>
             <coverflowAngle></coverflowAngle>
+            <projectionAngle></projectionAngle>
+            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
             <iphone_executeonClosure>0</iphone_executeonClosure>

@@ -6,23 +6,21 @@
         <component type="textbox2" id="txtMD4Hash" displayname="TextBox2"/>
         <component type="textbox2" id="txtMD5Hash" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmForm" displayname="Form">
-        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
-        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
-        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
-        <component type="combobox" id="combobox1931202839100076" displayname="ComboBox"/>
-        <component type="calendar" id="calBDate" displayname="Calendar"/>
-        <component type="calendar" id="calendar1930135169583315" displayname="Calendar"/>
-    </container>
     <container type="form" id="frmFormOptions" displayname="Form"/>
     <container type="form" id="frmGeoCurrentNWatch" displayname="Form"/>
-    <container type="form" id="frmImgStrip" displayname="Form"/>
     <container type="form" id="frmLocalStore" displayname="Form">
         <component type="textbox2" id="frmLocalTxtSet1" displayname="TextBox2"/>
         <component type="textbox2" id="frmLocalTxtSet2" displayname="TextBox2"/>
         <component type="textbox2" id="frmLocalTxtGet1" displayname="TextBox2"/>
         <component type="textbox2" id="frmLocalTxtGetKey1" displayname="TextBox2"/>
         <component type="textbox2" id="frmLocalTxtIndex" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmImgStrip" displayname="Form"/>
+    <container type="form" id="frmForm" displayname="Form">
+        <component type="textbox2" id="tbxName" displayname="TextBox2"/>
+        <component type="textbox2" id="tbxPassword" displayname="TextBox2"/>
+        <component type="combobox" id="cmbCountry" displayname="ComboBox"/>
+        <component type="calendar" id="calBDate" displayname="Calendar"/>
     </container>
     <container type="form" id="frmBrowser" displayname="Form"/>
     <container type="form" id="frmBrowserOptions" displayname="Form"/>
@@ -53,6 +51,7 @@
             <attributes value="AIzaSyBBR_-JLwZ9Ami6h5m7KgaGvIxpno6vFDU" platform="general" name="key" datatype="string"/>
         </component>
     </container>
+    <container type="form" id="frmAclMeterReadings" displayname="Form"/>
     <container type="form" id="frmForm" displayname="Form">
         <component type="textbox2" id="textfield2103994549623675" displayname="TextBox2"/>
         <component type="textbox2" id="textfield2103994549623701" displayname="TextBox2"/>
@@ -252,6 +251,7 @@
     <container type="form" id="frmSegDynRowTemplate" displayname="Form"/>
     <container type="form" id="frmSegOnReachEnd" displayname="Form"/>
     <container type="form" id="frmSegSearchView" displayname="Form"/>
+    <container type="form" id="frmSlider" displayname="Form"/>
     <container type="form" id="frmSwitch" displayname="Form"/>
     <container type="form" id="frmWebSQL" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
@@ -260,7 +260,6 @@
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmIcons" displayname="Form"/>
     <container type="form" id="frmScrollBoxMenu" displayname="Form"/>
-    <container type="form" id="frmSlider" displayname="Form"/>
     <container type="dialog" id="popFormAnchor" displayname="Popup"/>
     <container type="dialog" id="hdrOne" displayname="Popup"/>
     <container type="dialog" id="hdrSearch" displayname="Popup">

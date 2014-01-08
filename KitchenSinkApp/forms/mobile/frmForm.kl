@@ -2808,11 +2808,11 @@
             </rendererData>
             <margins>
                 <android>
-                    <left>3</left>
-                    <right>3</right>
+                    <left>13</left>
+                    <right>13</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </android>
                 <android_override>true</android_override>
                 <bb>
@@ -4246,11 +4246,11 @@
             </rendererData>
             <margins>
                 <android>
-                    <left>3</left>
-                    <right>3</right>
+                    <left>13</left>
+                    <right>13</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </android>
                 <android_override>true</android_override>
                 <bb>
@@ -5668,11 +5668,11 @@
             </rendererData>
             <margins>
                 <android>
-                    <left>3</left>
-                    <right>3</right>
+                    <left>11</left>
+                    <right>11</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </android>
                 <android_override>true</android_override>
                 <bb>
@@ -9263,11 +9263,11 @@
             </rendererData>
             <margins>
                 <android>
-                    <left>3</left>
-                    <right>3</right>
+                    <left>13</left>
+                    <right>13</right>
                     <top>0</top>
                     <bottom>0</bottom>
-                    <unit>%</unit>
+                    <unit>px</unit>
                 </android>
                 <android_override>true</android_override>
                 <bb>
@@ -10609,8 +10609,8 @@
             </rendererData>
             <margins>
                 <android>
-                    <left>12</left>
-                    <right>12</right>
+                    <left>15</left>
+                    <right>15</right>
                     <top>6</top>
                     <bottom>12</bottom>
                     <unit>px</unit>

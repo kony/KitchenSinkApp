@@ -6990,8 +6990,8 @@
                 <winphone8_view>COMBOBOX_VIEW_TYPE_LISTVIEW</winphone8_view>
                 <bb10_contentalignment>1</bb10_contentalignment>
                 <bb10_dropDownImage></bb10_dropDownImage>
-                <bb10_nativeSkin>None</bb10_nativeSkin>
-                <bb10_nativeFocusSkin>None</bb10_nativeFocusSkin>
+                <bb10_nativeSkin>Skin Defaults</bb10_nativeSkin>
+                <bb10_nativeFocusSkin>Skin Defaults</bb10_nativeFocusSkin>
                 <bb10_placeHolder></bb10_placeHolder>
                 <bb10_ph_i18nId>None</bb10_ph_i18nId>
             </children>
