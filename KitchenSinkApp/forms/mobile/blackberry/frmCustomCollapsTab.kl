@@ -24,7 +24,7 @@
     </overridePerferred>
     <projectName>KitchenSinkApp</projectName>
     <formName>frmCustomCollapsTab</formName>
-    <platform>0</platform>
+    <platform>2</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
     <toList>frmTabs</toList>
@@ -1380,7 +1380,7 @@
             <tabviewdata>
                 <category>0</category>
                 <desktopWeb>tabview</desktopWeb>
-                <platform>0</platform>
+                <platform>2</platform>
                 <rc_android>collapsibleview</rc_android>
                 <rc_bb>collapsibleview</rc_bb>
                 <rc_bb10>tabview</rc_bb10>
@@ -1411,8 +1411,8 @@
             <iphone_pageOffDotImage></iphone_pageOffDotImage>
             <iphone_pageOnDotImage></iphone_pageOnDotImage>
             <page_indicator>true</page_indicator>
-            <expanded_image>tabdown1.png</expanded_image>
-            <collapsible_image>tabup1.png</collapsible_image>
+            <expanded_image>tabdown.png</expanded_image>
+            <collapsible_image>tabup.png</collapsible_image>
             <iphone_mutual_exclusive>false</iphone_mutual_exclusive>
             <iphone_pageskin>Skin Defaults</iphone_pageskin>
             <activetabIds></activetabIds>
@@ -6662,7 +6662,7 @@
                 <c_ToolTip></c_ToolTip>
                 <tooltip></tooltip>
                 <bb_longtext>false</bb_longtext>
-                <bb_content_align>0</bb_content_align>
+                <bb_content_align>4</bb_content_align>
                 <j2me_longtext>false</j2me_longtext>
                 <j2me_content_align>0</j2me_content_align>
                 <android_content_align>0</android_content_align>

@@ -1214,7 +1214,7 @@
                 <tabRCAndroid>
                     <left>3</left>
                     <right>3</right>
-                    <top>15</top>
+                    <top>20</top>
                     <bottom>9</bottom>
                     <unit>px</unit>
                 </tabRCAndroid>
@@ -1917,7 +1917,7 @@
                 <tabRCAndroid>
                     <left>3</left>
                     <right>3</right>
-                    <top>15</top>
+                    <top>20</top>
                     <bottom>9</bottom>
                     <unit>px</unit>
                 </tabRCAndroid>

@@ -430,16 +430,39 @@
         <title>User interface</title>
         <preShow_root>
             <evtSequence>
-                <actionList xsi:type="eventExpressionAction">
+                <actionList xsi:type="eventDecisionAction">
+                    <mainaction>
+                        <mainaction xsi:type="eventExpressionAction">
+                            <enabled>true</enabled>
+                            <name></name>
+                            <type>5</type>
+                            <expr></expr>
+                            <exprMap>
+                                <entry>
+                                    <key>js</key>
+                                    <value>frmUInterface.segBasicWidgets.setVisibility(false);
+frmUInterface.segAdvancedWidgets.setVisibility(false);
+</value>
+                                </entry>
+                            </exprMap>
+                        </mainaction>
+                        <enabled>true</enabled>
+                        <name>true</name>
+                        <type>0</type>
+                    </mainaction>
+                    <mainaction>
+                        <enabled>true</enabled>
+                        <name>false</name>
+                        <type>0</type>
+                    </mainaction>
                     <enabled>true</enabled>
                     <name></name>
-                    <type>5</type>
+                    <type>3</type>
                     <expr></expr>
                     <exprMap>
                         <entry>
                             <key>js</key>
-                            <value>frmUInterface.segBasicWidgets.setVisibility(false);
-frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
+                            <value>andTab==0</value>
                         </entry>
                     </exprMap>
                 </actionList>
@@ -449,23 +472,65 @@ frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
         </preShow_root>
         <postShow_root>
             <evtSequence>
-                <actionList xsi:type="eventFunctionAction">
+                <actionList xsi:type="eventDecisionAction">
+                    <mainaction>
+                        <mainaction xsi:type="eventFunctionAction">
+                            <enabled>true</enabled>
+                            <name></name>
+                            <type>6</type>
+                            <functionName>None</functionName>
+                            <functionNameMap>
+                                <entry>
+                                    <key>js</key>
+                                    <value>setTabUiSbxWidDetails</value>
+                                </entry>
+                                <entry>
+                                    <key>lua</key>
+                                    <value>None</value>
+                                </entry>
+                            </functionNameMap>
+                            <paramDataMap>
+                                <entry>
+                                    <key>js</key>
+                                    <value/>
+                                </entry>
+                                <entry>
+                                    <key>lua</key>
+                                    <value/>
+                                </entry>
+                            </paramDataMap>
+                        </mainaction>
+                        <mainaction xsi:type="eventExpressionAction">
+                            <enabled>true</enabled>
+                            <name></name>
+                            <type>5</type>
+                            <expr></expr>
+                            <exprMap>
+                                <entry>
+                                    <key>js</key>
+                                    <value>andTab=1;</value>
+                                </entry>
+                            </exprMap>
+                        </mainaction>
+                        <enabled>true</enabled>
+                        <name>true</name>
+                        <type>0</type>
+                    </mainaction>
+                    <mainaction>
+                        <enabled>true</enabled>
+                        <name>false</name>
+                        <type>0</type>
+                    </mainaction>
                     <enabled>true</enabled>
                     <name></name>
-                    <type>6</type>
-                    <functionName>None</functionName>
-                    <functionNameMap>
+                    <type>3</type>
+                    <expr></expr>
+                    <exprMap>
                         <entry>
                             <key>js</key>
-                            <value>setTabUiSbxWidDetails</value>
+                            <value>andTab==0</value>
                         </entry>
-                    </functionNameMap>
-                    <paramDataMap>
-                        <entry>
-                            <key>js</key>
-                            <value/>
-                        </entry>
-                    </paramDataMap>
+                    </exprMap>
                 </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
@@ -2111,7 +2176,7 @@ frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
                 <ipad_scrollvisible>true</ipad_scrollvisible>
                 <ipad_pagingenabled>false</ipad_pagingenabled>
                 <ipad_position>0</ipad_position>
-                <android_position>1</android_position>
+                <android_position>0</android_position>
                 <android_scrollbarVisible>true</android_scrollbarVisible>
                 <android_pagingEnabled>false</android_pagingEnabled>
                 <bb_position>0</bb_position>
@@ -13567,7 +13632,7 @@ frmUInterface.segAdvancedWidgets.setVisibility(false);</value>
                 <ipad_scrollvisible>true</ipad_scrollvisible>
                 <ipad_pagingenabled>false</ipad_pagingenabled>
                 <ipad_position>0</ipad_position>
-                <android_position>1</android_position>
+                <android_position>0</android_position>
                 <android_scrollbarVisible>true</android_scrollbarVisible>
                 <android_pagingEnabled>false</android_pagingEnabled>
                 <bb_position>0</bb_position>

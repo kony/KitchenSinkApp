@@ -4815,7 +4815,7 @@ frmSlider.lblSlid.text = 0;</value>
             <createdGAVersion>5.0.0</createdGAVersion>
             <location>
                 <x>1</x>
-                <y>261</y>
+                <y>229</y>
             </location>
             <size>
                 <width>448</width>
@@ -4885,7 +4885,7 @@ frmSlider.lblSlid.text = 0;</value>
                     <left>2</left>
                     <right>2</right>
                     <top>2</top>
-                    <bottom>2</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -5152,7 +5152,7 @@ frmSlider.lblSlid.text = 0;</value>
                     <left>1</left>
                     <right>1</right>
                     <top>1</top>
-                    <bottom>1</bottom>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -5530,7 +5530,7 @@ frmSlider.lblSlid.text = 0;</value>
                 <bb>
                     <left>4</left>
                     <right>4</right>
-                    <top>4</top>
+                    <top>0</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
