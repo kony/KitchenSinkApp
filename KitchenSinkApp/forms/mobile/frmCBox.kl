@@ -11752,7 +11752,7 @@
                     <left>12</left>
                     <right>12</right>
                     <top>4</top>
-                    <bottom>4</bottom>
+                    <bottom>6</bottom>
                     <unit>px</unit>
                 </iphonerc>
                 <iphonerc_override>true</iphonerc_override>
@@ -12276,7 +12276,7 @@
             <placeHolderI18NId>None</placeHolderI18NId>
             <popupTitle></popupTitle>
             <dropDownImage></dropDownImage>
-            <iphonedropDownImage></iphonedropDownImage>
+            <iphonedropDownImage>trans1.png</iphonedropDownImage>
             <iphone_groupCells>false</iphone_groupCells>
             <iphone_tickedImage></iphone_tickedImage>
             <iphone_untickedImage></iphone_untickedImage>

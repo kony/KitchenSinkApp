@@ -44095,11 +44095,11 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()</value>
                                 </location>
                                 <createdGAVersion>5.0.0</createdGAVersion>
                                 <size>
-                                    <width>247</width>
+                                    <width>168</width>
                                     <height>48</height>
                                 </size>
                                 <sizePercent>
-                                    <width>23</width>
+                                    <width>16</width>
                                     <height>100</height>
                                 </sizePercent>
                                 <skinId>Skin Defaults</skinId>
@@ -44789,15 +44789,15 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()</value>
                                 <widgetID>p2kwiet192911746939456</widgetID>
                                 <createdGAVersion>5.0.0</createdGAVersion>
                                 <location>
-                                    <x>249</x>
+                                    <x>180</x>
                                     <y>1</y>
                                 </location>
                                 <size>
-                                    <width>810</width>
+                                    <width>879</width>
                                     <height>48</height>
                                 </size>
                                 <sizePercent>
-                                    <width>77</width>
+                                    <width>83</width>
                                     <height>100</height>
                                 </sizePercent>
                                 <skinId>lblNormalSimilar</skinId>

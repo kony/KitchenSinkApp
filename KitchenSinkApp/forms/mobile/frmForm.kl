@@ -10932,10 +10932,10 @@
                 </ipad>
                 <ipad_override>false</ipad_override>
                 <iphonerc>
-                    <left>4</left>
-                    <right>4</right>
-                    <top>4</top>
-                    <bottom>4</bottom>
+                    <left>6</left>
+                    <right>6</right>
+                    <top>6</top>
+                    <bottom>6</bottom>
                     <unit>px</unit>
                 </iphonerc>
                 <iphonerc_override>true</iphonerc_override>
@@ -11345,7 +11345,7 @@
                 <iphonerc>
                     <left>4</left>
                     <right>2</right>
-                    <top>1</top>
+                    <top>0</top>
                     <bottom>3</bottom>
                     <unit>%</unit>
                 </iphonerc>

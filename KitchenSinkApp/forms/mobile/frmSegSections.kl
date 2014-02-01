@@ -2044,7 +2044,7 @@
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">label117989725237559.txt</data>
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">label117989725237559.i18key</data>
                     </newData>
-                    <updatedToNewData>true</updatedToNewData>
+                    <updatedToNewData>false</updatedToNewData>
                 </segHeadData>
                 <segHeadData>
                     <name></name>
@@ -2077,7 +2077,7 @@
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">NA</data>
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"></data>
                     </newData>
-                    <updatedToNewData>true</updatedToNewData>
+                    <updatedToNewData>false</updatedToNewData>
                 </segHeadData>
                 <segHeadData>
                     <name></name>
@@ -2110,7 +2110,7 @@
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">$500</data>
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"></data>
                     </newData>
-                    <updatedToNewData>true</updatedToNewData>
+                    <updatedToNewData>false</updatedToNewData>
                 </segHeadData>
                 <segHeadData>
                     <name></name>
@@ -2128,7 +2128,7 @@
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"></data>
                     </newData>
                     <newData>
-                        <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Gold CArd</data>
+                        <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Gold Card</data>
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"></data>
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">$200</data>
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"></data>
@@ -2143,7 +2143,7 @@
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">$500</data>
                         <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"></data>
                     </newData>
-                    <updatedToNewData>true</updatedToNewData>
+                    <updatedToNewData>false</updatedToNewData>
                 </segHeadData>
                 <tablerowData/>
                 <dummydata>false</dummydata>
@@ -3004,7 +3004,7 @@
                         </android>
                         <android_override>true</android_override>
                         <bb>
-                            <left>4</left>
+                            <left>1</left>
                             <right>1</right>
                             <top>1</top>
                             <bottom>1</bottom>
@@ -3650,7 +3650,7 @@
                         </android>
                         <android_override>true</android_override>
                         <bb>
-                            <left>4</left>
+                            <left>1</left>
                             <right>1</right>
                             <top>1</top>
                             <bottom>1</bottom>
@@ -4296,7 +4296,7 @@
                         </android>
                         <android_override>true</android_override>
                         <bb>
-                            <left>4</left>
+                            <left>1</left>
                             <right>1</right>
                             <top>1</top>
                             <bottom>1</bottom>

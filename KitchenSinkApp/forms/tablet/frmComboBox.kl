@@ -11605,7 +11605,6 @@
                         <updatedToNewTableRowData>true</updatedToNewTableRowData>
                         <updatedToNewImageData>true</updatedToNewImageData>
                     </choiceData>
-                    <overrideProperties>KComboBox.ipaddropDownImage</overrideProperties>
                     <blockedUISkin>Skin Defaults</blockedUISkin>
                     <placeHolder></placeHolder>
                     <placeHolderI18NId>None</placeHolderI18NId>

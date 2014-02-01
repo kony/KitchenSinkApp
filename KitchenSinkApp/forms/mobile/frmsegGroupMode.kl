@@ -4849,13 +4849,13 @@
             </rendererData>
             <margins>
                 <android>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </android>
-                <android_override>false</android_override>
+                <android_override>true</android_override>
                 <bb>
                     <left>2</left>
                     <right>2</right>

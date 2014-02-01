@@ -1419,7 +1419,7 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()
                 <height>false</height>
             </overridePerferred>
             <orientation>0</orientation>
-            <scrollOption>3</scrollOption>
+            <scrollOption>0</scrollOption>
             <fixedHeight></fixedHeight>
             <heightReference>0</heightReference>
             <skinId>Skin Defaults</skinId>
@@ -3382,7 +3382,7 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()
                         </overridePerferred>
                         <orientation>1</orientation>
                         <scrollOption>1</scrollOption>
-                        <fixedHeight>91</fixedHeight>
+                        <fixedHeight>100</fixedHeight>
                         <heightReference>0</heightReference>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
@@ -33367,7 +33367,7 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()</value>
                         </overridePerferred>
                         <orientation>1</orientation>
                         <scrollOption>1</scrollOption>
-                        <fixedHeight>76</fixedHeight>
+                        <fixedHeight>92</fixedHeight>
                         <heightReference>0</heightReference>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
@@ -36267,7 +36267,7 @@ Please click top left button to observe scrolling towards right.Again click the 
                             <margins>
                                 <android>
                                     <left>0</left>
-                                    <right>1</right>
+                                    <right>0</right>
                                     <top>0</top>
                                     <bottom>0</bottom>
                                     <unit>%</unit>
@@ -36958,7 +36958,7 @@ Please click top left button to observe scrolling towards right.Again click the 
                                 <android>
                                     <left>2</left>
                                     <right>1</right>
-                                    <top>1</top>
+                                    <top>2</top>
                                     <bottom>1</bottom>
                                     <unit>%</unit>
                                 </android>

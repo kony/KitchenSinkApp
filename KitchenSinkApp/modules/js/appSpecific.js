@@ -169,10 +169,13 @@ function appExitCallBack()
 
 function createAppMenu() 
 {
+	
 	kony.print("entered app menu ********************************************************************************  ")
 	//Animation
 	if (kony.os.deviceInfo().name =="thinclient" && channel != "tablet" && channel != "desktopweb" )
 		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAniSPA.show()}];
+	else if (channel == "mobile" && kony.os.deviceInfo().name == "android")
+   		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAniAnd.show()}];
 	else if (channel == "tablet" || channel == "desktopweb")
    		var animationMItem =  ["animationId", "Animation", "app_animation.png",function aniMenuCallBack(){frmAnimations.show()}];
 	else if (channel == "mobile" &&  kony.os.deviceInfo().name == "WindowsPhone")

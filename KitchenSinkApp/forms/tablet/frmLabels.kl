@@ -16950,7 +16950,7 @@
                         <rc_android_tab>false</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
                         <rc_blackberry10>true</rc_blackberry10>
-                        <rc_ipad>true</rc_ipad>
+                        <rc_ipad>false</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>
@@ -17596,7 +17596,7 @@
                         <rc_android_tab>false</rc_android_tab>
                         <rc_blackberry>true</rc_blackberry>
                         <rc_blackberry10>true</rc_blackberry10>
-                        <rc_ipad>true</rc_ipad>
+                        <rc_ipad>false</rc_ipad>
                         <rc_iphone>true</rc_iphone>
                         <rc_j2me>true</rc_j2me>
                         <rc_palm>true</rc_palm>

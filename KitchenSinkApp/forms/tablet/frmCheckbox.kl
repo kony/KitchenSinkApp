@@ -4140,7 +4140,7 @@
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>5</left>
+                            <left>2</left>
                             <right>5</right>
                             <top>2</top>
                             <bottom>2</bottom>
@@ -5484,7 +5484,7 @@
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>5</left>
+                            <left>2</left>
                             <right>5</right>
                             <top>2</top>
                             <bottom>2</bottom>

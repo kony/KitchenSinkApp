@@ -1387,7 +1387,7 @@
 &lt;br/&gt;
 &lt;br/&gt;
 &lt;b&gt;This is&lt;/b&gt;&lt;sup&gt;Superscript&lt;/sup&gt; &lt;br/&gt;&lt;br/&gt;
-&lt;a href="http://www.kony.com"&gt;This is link (Click to visit kony.com)&lt;/a&gt;
+&lt;font color="white"&gt;&lt;a href="http://www.kony.com"&gt;This is link (Click to visit kony.com)&lt;/a&gt;&lt;/font&gt;
 &lt;br/&gt;&lt;br/&gt;
 &lt;b&gt;Below is an image&lt;/b&gt;&lt;br/&gt;
 &lt;img src="http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080525/1211728825.png" alt="image" height="60" width="60" &gt;&lt;/img&gt;</SText>

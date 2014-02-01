@@ -381,7 +381,8 @@ function advanced()
 		case 6:
 			if(kony.os.deviceInfo().name == "blackberry" || kony.os.deviceInfo().name == "android" || kony.os.deviceInfo().name == "thinclient")
 			{
-				alert("Available only in iPhone and WindowsPhone");
+				frmPickerView.show();
+				//alert("Available only in iPhone and WindowsPhone");
 				break;
 			}
 			else
@@ -390,15 +391,21 @@ function advanced()
 				break;
 			}			
 		case 7:
-			if(kony.os.deviceInfo().name == "WindowsPhone")
+			if(kony.os.deviceInfo().name == "WindowsPhone" && kony.os.deviceInfo().version.substring(0,1)=="7")
 			{
 				set3DOSData();
 				frm3DObj.show();
 				break;
 			}
-			else
+			else 
 			{
-				alert("Available only for WindowsPhone");
+				frmPickerView.show();
+				break;
+			}
+		case 8:
+			if(kony.os.deviceInfo().name == "WindowsPhone")
+			{
+				frmPickerView.show();
 				break;
 			}
 	} 
@@ -429,6 +436,8 @@ function switchandOS3D()
 	            "lblFirst": "Phone"
 	        }, {
 	            "lblFirst": "Browser"
+	        },{
+	            "lblFirst": "Picker view"
 	        }];
 	
 	}
@@ -466,6 +475,8 @@ function switchandOS3D()
 	            "lblFirst": "Browser"
 	        }, {
 	            "lblFirst": "Switch"
+	        },{
+	            "lblFirst": "Picker view"
 	        }];
 	}
 	else if(kony.os.deviceInfo().name == "WindowsPhone" && kony.os.deviceInfo().version.substring(0,1)=="8")
@@ -485,7 +496,9 @@ function switchandOS3D()
 		            "lblFirst": "Browser"
 		        }, {
 		            "lblFirst": "Switch"
-		        }];
+		        },{
+	          		"lblFirst": "Picker view"
+	        	}];
 	}
 	else
 	{
@@ -506,6 +519,8 @@ function switchandOS3D()
 	            "lblFirst": "Switch"
 	        }, {
 	            "lblFirst": "ObjectSelector3D"
+	        },{
+	            "lblFirst": "Picker view"
 	        }];
 	}
 
