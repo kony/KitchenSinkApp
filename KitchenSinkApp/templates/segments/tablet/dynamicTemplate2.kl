@@ -1157,8 +1157,8 @@
                 <ipad>
                     <left>0</left>
                     <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </ipad>
                 <ipad_override>true</ipad_override>

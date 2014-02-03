@@ -12314,13 +12314,13 @@
                 </desktop_web>
                 <desktop_web_override>false</desktop_web_override>
                 <ipad>
-                    <left>0</left>
-                    <right>0</right>
+                    <left>1</left>
+                    <right>60</right>
                     <top>0</top>
-                    <bottom>0</bottom>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </ipad>
-                <ipad_override>false</ipad_override>
+                <ipad_override>true</ipad_override>
                 <iphonerc>
                     <left>4</left>
                     <right>2</right>
@@ -12581,10 +12581,10 @@
                 </desktop_web>
                 <desktop_web_override>true</desktop_web_override>
                 <ipad>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>20</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </ipad>
                 <ipad_override>false</ipad_override>
@@ -12820,7 +12820,7 @@
                 <updatedToNewTableRowData>true</updatedToNewTableRowData>
                 <updatedToNewImageData>true</updatedToNewImageData>
             </choiceData>
-            <itemOrient>1</itemOrient>
+            <itemOrient>0</itemOrient>
             <tickedImage></tickedImage>
             <untickedImage></untickedImage>
             <focustickedImage></focustickedImage>
@@ -12836,7 +12836,7 @@
                 </evtSequence>
             </onSelection>
             <ipadView>0</ipadView>
-            <ipad_groupCells>false</ipad_groupCells>
+            <ipad_groupCells>true</ipad_groupCells>
             <ipad_tickedImage></ipad_tickedImage>
             <ipad_untickedImage></ipad_untickedImage>
             <bb_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</bb_itemOrientation>
@@ -12868,6 +12868,9 @@
             <desktop_hoverskin>Skin Defaults</desktop_hoverskin>
             <winmobile_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winmobile_itemOrientation>
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
+            <overrideProperties>KCheckBox.android_itemOrientation</overrideProperties>
+            <overrideProperties>KCheckBox.spa_itemOrientation</overrideProperties>
+            <overrideProperties>KCheckBox.winmobile_itemOrientation</overrideProperties>
             <winphone8_tickedimage></winphone8_tickedimage>
             <winphone8_untickedimage></winphone8_untickedimage>
             <winphone8_itemOrientation>CHECKBOX_ITEM_ORIENTATION_VERTICAL</winphone8_itemOrientation>

@@ -16796,7 +16796,7 @@
                         <bb_override>true</bb_override>
                         <default_override>true</default_override>
                         <defaults>
-                            <left>0</left>
+                            <left>2</left>
                             <right>0</right>
                             <top>1</top>
                             <bottom>1</bottom>

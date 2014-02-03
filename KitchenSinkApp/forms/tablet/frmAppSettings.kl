@@ -12726,7 +12726,7 @@
                             </xhtmlNormal>
                             <xhtmlNormal_override>false</xhtmlNormal_override>
                         </paddings>
-                        <SText>TextBox2</SText>
+                        <SText>Hi</SText>
                         <overridePerferred>
                             <width>true</width>
                             <height>false</height>

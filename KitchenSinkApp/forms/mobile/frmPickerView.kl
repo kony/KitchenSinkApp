@@ -7471,8 +7471,8 @@
                 <width>100</width>
                 <height>6</height>
             </sizePercent>
-            <skinId>sknBtnNormalSampleApp</skinId>
-            <focusSkinId>sknBtnFocusSampleApp</focusSkinId>
+            <skinId>Skin Defaults</skinId>
+            <focusSkinId>Skin Defaults</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>
@@ -7812,10 +7812,10 @@
                 <bb_override>false</bb_override>
                 <default_override>true</default_override>
                 <defaults>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -7847,7 +7847,7 @@
                     <right>3</right>
                     <top>12</top>
                     <bottom>12</bottom>
-                    <unit>px</unit>
+                    <unit>%</unit>
                 </iphonerc>
                 <iphonerc_override>false</iphonerc_override>
                 <j2me>

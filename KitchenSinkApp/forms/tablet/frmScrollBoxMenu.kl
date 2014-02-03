@@ -40723,11 +40723,11 @@
                             <y>1</y>
                         </location>
                         <size>
-                            <width>167</width>
+                            <width>104</width>
                             <height>42</height>
                         </size>
                         <sizePercent>
-                            <width>16</width>
+                            <width>10</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>btnExpand</skinId>
@@ -41458,15 +41458,15 @@ frmScrollBoxMenu.sboxGlobalHome.scrollToEnd()</value>
                         <widgetID>p2kwiet192911746939451</widgetID>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <location>
-                            <x>169</x>
+                            <x>106</x>
                             <y>1</y>
                         </location>
                         <size>
-                            <width>894</width>
+                            <width>957</width>
                             <height>42</height>
                         </size>
                         <sizePercent>
-                            <width>84</width>
+                            <width>90</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>lblTransparent</skinId>

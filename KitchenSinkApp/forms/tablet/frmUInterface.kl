@@ -440,18 +440,10 @@
                             <key>js</key>
                             <value>setTabUiSbxWidDetails</value>
                         </entry>
-                        <entry>
-                            <key>lua</key>
-                            <value>None</value>
-                        </entry>
                     </functionNameMap>
                     <paramDataMap>
                         <entry>
                             <key>js</key>
-                            <value/>
-                        </entry>
-                        <entry>
-                            <key>lua</key>
                             <value/>
                         </entry>
                     </paramDataMap>
@@ -11980,6 +11972,10 @@
                         </newSegData>
                         <newSegData>
                             <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Switch</data>
+                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
+                        </newSegData>
+                        <newSegData>
+                            <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">Picker view</data>
                             <data xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema">None</data>
                         </newSegData>
                         <tablerowData/>

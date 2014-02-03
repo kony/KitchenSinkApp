@@ -86,10 +86,13 @@ function tabAdvancedWidgets(selIndex)
 				if(kony.os.deviceInfo().name != "thinclient")
 					frmUInterface.sbxWidgetDetails.add(frmSwitch.hbxSwitch);
 				break;
-	}
-	
+		case 6:
+				frmPickerView.addWidgets();
+				if(kony.os.deviceInfo().name != "thinclient")
+					frmUInterface.sbxWidgetDetails.add(frmPickerView.hbxPickerViewTablet);
+				break;	
 }
-
+}
 /*****************************************************************
 *	Name    : tabBasicWidgets
 *	Author  : Kony 
