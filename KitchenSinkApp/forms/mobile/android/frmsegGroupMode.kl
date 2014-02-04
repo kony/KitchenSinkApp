@@ -4850,7 +4850,7 @@
             <margins>
                 <android>
                     <left>2</left>
-                    <right>0</right>
+                    <right>2</right>
                     <top>2</top>
                     <bottom>2</bottom>
                     <unit>%</unit>

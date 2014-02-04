@@ -6126,7 +6126,7 @@ frmSlider.lblSlid.text = 0;</value>
             <androidMaxLabel>100</androidMaxLabel>
             <androidMinSkin>Skin Defaults</androidMinSkin>
             <androidMaxSkin>Skin Defaults</androidMaxSkin>
-            <winMobLeftSkin>Skin Defaults</winMobLeftSkin>
+            <winMobLeftSkin>sliderLeft</winMobLeftSkin>
             <winMobRightSkin>Skin Defaults</winMobRightSkin>
             <winMobThumbImg></winMobThumbImg>
             <winMobFocusThumbImg></winMobFocusThumbImg>
@@ -6147,7 +6147,7 @@ frmSlider.lblSlid.text = 0;</value>
             <spa_maxLabelSkin>Skin Defaults</spa_maxLabelSkin>
             <spa_maxLabel></spa_maxLabel>
             <spa_thickness>5</spa_thickness>
-            <winphone8_LeftSkin>Skin Defaults</winphone8_LeftSkin>
+            <winphone8_LeftSkin>sliderRight</winphone8_LeftSkin>
             <winphone8_RightSkin>Skin Defaults</winphone8_RightSkin>
             <winphone8_ThumbImg></winphone8_ThumbImg>
             <winphone8_FocusThumbImg></winphone8_FocusThumbImg>
@@ -7563,7 +7563,7 @@ frmSlider.lblSlid.text = 0;</value>
             <androidMaxLabel></androidMaxLabel>
             <androidMinSkin>Skin Defaults</androidMinSkin>
             <androidMaxSkin>Skin Defaults</androidMaxSkin>
-            <winMobLeftSkin>Skin Defaults</winMobLeftSkin>
+            <winMobLeftSkin>sliderLeft</winMobLeftSkin>
             <winMobRightSkin>Skin Defaults</winMobRightSkin>
             <winMobThumbImg></winMobThumbImg>
             <winMobFocusThumbImg></winMobFocusThumbImg>
@@ -7584,7 +7584,7 @@ frmSlider.lblSlid.text = 0;</value>
             <spa_maxLabelSkin>Skin Defaults</spa_maxLabelSkin>
             <spa_maxLabel></spa_maxLabel>
             <spa_thickness>5</spa_thickness>
-            <winphone8_LeftSkin>Skin Defaults</winphone8_LeftSkin>
+            <winphone8_LeftSkin>sliderRight</winphone8_LeftSkin>
             <winphone8_RightSkin>Skin Defaults</winphone8_RightSkin>
             <winphone8_ThumbImg></winphone8_ThumbImg>
             <winphone8_FocusThumbImg></winphone8_FocusThumbImg>
