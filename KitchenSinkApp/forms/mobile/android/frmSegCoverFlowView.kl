@@ -24,7 +24,7 @@
     </overridePerferred>
     <projectName>KitchenSinkApp</projectName>
     <formName>frmSegCoverFlowView</formName>
-    <platform>0</platform>
+    <platform>8</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
     <toList>frmSegOptions</toList>
@@ -651,7 +651,7 @@
             <skinID>Skin Defaults</skinID>
             <visible>true</visible>
         </win8TitleBarData>
-        <android_orientation>2</android_orientation>
+        <android_orientation>0</android_orientation>
         <android_transition_effect>0</android_transition_effect>
         <android_isModal>false</android_isModal>
         <android_footerOverlap>false</android_footerOverlap>
@@ -692,7 +692,7 @@
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
             <background_image></background_image>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBarAndroid</skinID>
             <visible>true</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
@@ -793,7 +793,7 @@
             <skinId>lblSub</skinId>
             <focusSkinId>Skin Defaults</focusSkinId>
             <localeId>None</localeId>
-            <visible>true</visible>
+            <visible>false</visible>
             <rendererData>
                 <desktop_kiosk_channel>true</desktop_kiosk_channel>
                 <desktop_web_channel>true</desktop_web_channel>
@@ -1493,7 +1493,7 @@
                 <android>
                     <left>4</left>
                     <right>4</right>
-                    <top>8</top>
+                    <top>4</top>
                     <bottom>2</bottom>
                     <unit>%</unit>
                 </android>
@@ -2132,11 +2132,11 @@
             <selection_indctrId>None</selection_indctrId>
             <render_seperator>true</render_seperator>
             <c_viewConfig></c_viewConfig>
-            <rowItemWidth></rowItemWidth>
+            <rowItemWidth>50</rowItemWidth>
             <coverflowDepth></coverflowDepth>
-            <coverflowAngle></coverflowAngle>
-            <projectionAngle></projectionAngle>
-            <spaceBetweenRowItems></spaceBetweenRowItems>
+            <coverflowAngle>45</coverflowAngle>
+            <projectionAngle>60</projectionAngle>
+            <spaceBetweenRowItems>10</spaceBetweenRowItems>
             <isCircular>true</isCircular>
             <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
             <containerHeight></containerHeight>
@@ -2819,7 +2819,7 @@
                 <bb_content_align>0</bb_content_align>
                 <j2me_longtext>false</j2me_longtext>
                 <j2me_content_align>0</j2me_content_align>
-                <android_content_align>0</android_content_align>
+                <android_content_align>4</android_content_align>
                 <winMobileContentAlign>middle-left</winMobileContentAlign>
                 <symbianWrapping>0</symbianWrapping>
                 <symbianContentAlign>0</symbianContentAlign>
@@ -4823,7 +4823,7 @@
                 <bb_content_align>0</bb_content_align>
                 <j2me_longtext>false</j2me_longtext>
                 <j2me_content_align>0</j2me_content_align>
-                <android_content_align>0</android_content_align>
+                <android_content_align>4</android_content_align>
                 <winMobileContentAlign>middle-left</winMobileContentAlign>
                 <symbianWrapping>0</symbianWrapping>
                 <symbianContentAlign>0</symbianContentAlign>
