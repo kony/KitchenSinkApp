@@ -31,7 +31,7 @@
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="certs_trust_store_type" value="JKS"/>
     <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="false"/>
-    <attributes name="removeprintstatements" value="false"/>
+    <attributes name="removeprintstatements" value="true"/>
     <attributes name="appversionkey" value="1.0.0"/>
     <attributes name="WP8_ID_CAP_GAMERSERVICES" value="false"/>
     <attributes name="BIND_WALLPAPER" value="false"/>
@@ -145,7 +145,7 @@
     <attributes name="READ_FRAME_BUFFER" value="false"/>
     <attributes name="wp8fliplargekey" value=""/>
     <attributes name="BIND_DEVICE_ADMIN" value="false"/>
-    <attributes name="build" value="debug"/>
+    <attributes name="build" value="release"/>
     <attributes name="MANAGE_APP_TOKENS" value="false"/>
     <attributes name="Pictures_Library_Access" value="true"/>
     <attributes name="RECEIVE_BOOT_COMPLETED" value="false"/>

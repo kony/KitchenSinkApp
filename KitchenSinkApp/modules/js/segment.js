@@ -86,6 +86,40 @@ function segWidoutRowtmplateJS()
 }
 
 /*****************************************************************
+*	Name    : segmentSingleSelect
+*	Author  : Kony 
+*	Purpose : To add different section header templates to the segment with single selection behaviour.
+******************************************************************/
+function segmentSingleSelect(evenObj)
+{
+	
+	frmSegSinleSelect.segSecHdrWidoutTmplate.widgetDataMap = {lblSecHdr1:"lblSecHdr1",lblSecHdr2:"lblSecHdr2",BAccName:"BAccName",WithdrawLimit:"WithdrawLimit",CreditLimit:"CreditLimit",imgChk:"imgChk"};
+	
+	frmSegSinleSelect.segSecHdrWidoutTmplate.data = [
+							[ {lblSecHdr1:"Credit account details",lblSecHdr2:" Account No: xxxxxx0660",template:boxRefSegHdr},					
+							    [
+								   	{BAccName: "Titanium card",WithdrawLimit: "$200",CreditLimit: "$400",imgChk:"checkboxwhite.png"}, 
+									{BAccName: "Gold card",WithdrawLimit: "$500",CreditLimit: "$800",imgChk:"checkboxwhite.png"}, 
+									{BAccName: "Silver card",WithdrawLimit: "$700",CreditLimit: "$200",imgChk:"checkboxwhite.png"}
+								]
+							],
+							
+							[ {lblSecHdr1:"Savings account details",lblSecHdr2:" Account No: xxxxxx5221",template:boxRefSegHdr1},								
+								[
+									{BAccName:"Savings 1", WithdrawLimit: "$300",CreditLimit:"N/A",imgChk:"checkboxwhite.png"},
+			 					 	{BAccName: "Savings 2", WithdrawLimit: "$400",CreditLimit: "N/A",imgChk:"checkboxwhite.png"}
+								 ]
+							],
+							[ {lblSecHdr1:"Checking account details",lblSecHdr2:" Account No: xxxxxx7657",template:boxRefSegHdr2},
+								[
+									{BAccName: "Checking 1",WithdrawLimit: "N/A",CreditLimit: "$400",imgChk:"checkboxwhite.png"},
+								 	{BAccName: "Checking 2",WithdrawLimit: "N/A",CreditLimit: "$800",imgChk:"checkboxwhite.png"}
+			 					]
+							]	
+						];
+	frmSegSinleSelect.show();
+}
+/*****************************************************************
 *	Name    : SecHdrWidoutTemplatesJS
 *	Author  : Kony 
 *	Purpose : To add different section header templates to the segment.Segment is created without any row templates.
@@ -246,6 +280,25 @@ function multiSelectTab()
 		if(kony.os.deviceInfo().name == "iPad")
 			frmSegmentFeatures.sbxSegmentFeatureDetails.scrollToWidget(frmSegmentTablet.segMultiSelectData);
 }
+
+/*****************************************************************
+*	Name    : singleSelect
+*	Author  : Kony 
+*	Purpose : To show the selected data from the segment 'frmSegSinleSelect'
+*****************************************************************/
+
+function singleSelect()
+{
+	var selectedItems  =  frmSegSinleSelect.segSecHdrWidoutTmplate.selectedItems;
+	if (selectedItems == null || selectedItems == "")
+	{
+		alert("No item is selected. Please select atleast one item from the above segment");
+		return;
+	}
+	else
+		alert("Your selection :: "+selectedItems[0]["BAccName"]+"  "+selectedItems[0]["WithdrawLimit"]+"  "+selectedItems[0]["CreditLimit"]);
+}
+
 /*****************************************************************
 *	Name    : multiSelect
 *	Author  : Kony 

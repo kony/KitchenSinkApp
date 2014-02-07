@@ -636,6 +636,7 @@
     <container type="form" id="frmUInterface" displayname="Form"/>
     <container type="form" id="frmWebSQL" displayname="Form"/>
     <container type="dialog" id="popFormAnchor" displayname="Popup"/>
+    <container type="form" id="frmSegSinleSelect" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>
