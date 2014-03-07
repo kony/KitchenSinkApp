@@ -28,6 +28,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -91,6 +92,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -169,6 +171,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -232,6 +235,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -310,6 +314,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -373,6 +378,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -451,6 +457,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -514,6 +521,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -592,6 +600,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -655,6 +664,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -733,6 +743,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -796,6 +807,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -874,6 +886,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -937,6 +950,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1010,6 +1024,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1073,6 +1088,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1155,6 +1171,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1218,6 +1235,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1296,6 +1314,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1359,6 +1378,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1441,6 +1461,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1504,6 +1525,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1586,6 +1608,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1649,6 +1672,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1732,6 +1756,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1795,6 +1820,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -1877,6 +1903,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1940,6 +1967,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2022,6 +2050,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2085,6 +2114,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2164,6 +2194,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2227,6 +2258,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2309,6 +2341,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2372,6 +2405,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2450,6 +2484,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2513,6 +2548,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2595,6 +2631,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2658,6 +2695,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2736,6 +2774,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2799,6 +2838,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>
@@ -2881,6 +2921,7 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
+        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2944,6 +2985,7 @@
         <att name="Right_bg_alpha" value="0" type="String"/>
         <att name="Right_bg_top_alpha" value="0" type="String"/>
         <att name="Right_bg_bottom_alpha" value="0" type="String"/>
+        <att name="Rightbg_one_color_style" value="0" type="String"/>
         <att name="Border_color_alpha" value="0" type="String"/>
         <att name="PgIndicatorImgURL" value="" type="String"/>
         <att name="PgIndicatorImgPositon" value="" type="String"/>

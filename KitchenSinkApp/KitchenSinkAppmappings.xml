@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <application name="KitchenSinkApp" id="KitchenSinkApp">
     <container type="dialog" id="hdrOne" displayname="Popup"/>
-    <container type="dialog" id="hdr" displayname="Popup"/>
     <container type="dialog" id="hdrOne" displayname="Popup"/>
+    <container type="dialog" id="hdr" displayname="Popup"/>
     <container type="dialog" id="hdr" displayname="Popup"/>
     <container type="form" id="frmBrowserOptions" displayname="Form"/>
     <container type="form" id="frmIcons" displayname="Form"/>
