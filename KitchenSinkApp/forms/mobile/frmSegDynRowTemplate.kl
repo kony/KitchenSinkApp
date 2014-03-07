@@ -777,6 +777,12 @@
                 <seqname></seqname>
             </evtSequence>
         </spa_onOrientation_root>
+        <spa_onDeviceBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </spa_onDeviceBack>
         <pb_submitsecure>false</pb_submitsecure>
         <pb_titleBar>true</pb_titleBar>
         <pb_capture_gps>false</pb_capture_gps>
@@ -1994,10 +2000,10 @@
                 <spaBBNth_override>true</spaBBNth_override>
                 <spaBB_override>true</spaBB_override>
                 <spaIphone>
-                    <left>2</left>
-                    <right>2</right>
-                    <top>4</top>
-                    <bottom>4</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </spaIphone>
                 <spaIphone_override>true</spaIphone_override>
