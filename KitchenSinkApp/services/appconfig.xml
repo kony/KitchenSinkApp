@@ -1,0 +1,20 @@
+<application desc="" id="ksa2" name="" smscode="">
+   <app-config>
+      <config-param name="userid" value=""/>
+      <config-param name="preprocessorname" value=""/>
+      <config-param name="urlprovider" value=""/>
+      <config-param name="dataprovider" value=""/>
+      <config-param name="postprocessorname" value=""/>
+      <config-param name="sockettimeout" value=""/>
+      <config-param name="includecookies" value=""/>
+      <config-param name="cachable" value="false"/>
+      <config-param name="cacheduration" value=""/>
+      <config-param name="responseEncoding" value="UTF-8"/>
+      <config-param name="isembedxmlpresent" value="false"/>
+      <config-param name="ignorehttpproxy" value=""/>
+      <config-param name="server.auth.mode" value="basic"/>
+      <config-param name="server.auth.host" value=""/>
+      <config-param name="server.auth.ntlm.domain" value=""/>
+      <config-param name="ispasswordencrypted" value="false"/>
+   </app-config>
+</application>

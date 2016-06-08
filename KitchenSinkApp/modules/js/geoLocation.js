@@ -17,7 +17,7 @@ function geoSuccessCallBack(position)
 		frmGeoCurrentNWatch.lblFrmGeoAlt.text ="= " + position.coords.altitude;
 		frmGeoCurrentNWatch.lblFrmGeoAccur.text= "= " + position.coords.accuracy;
 		frmGeoCurrentNWatch.lblFrmGeoHead.text ="= "+ position.coords.heading;
-		if (kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad")
+		if (kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPhone Simulator" || kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
 		{
 			frmGeoCurrentNWatch.lblFrmGeoSpeed.text = "= " + position.coords.speed;
 		}
@@ -67,7 +67,8 @@ function geoErrorCallBack(positionerror)
 function geoPosition()
 {      
 		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false,null);
-		var positionoptions = kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack);
+		var positionoptions = {timeout: 15000};
+		kony.location.getCurrentPosition(geoSuccessCallBack, geoErrorCallBack,positionoptions);
 }
 
 /*****************************************************************

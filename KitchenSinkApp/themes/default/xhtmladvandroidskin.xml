@@ -28,7 +28,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -134,7 +133,7 @@
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -173,7 +172,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -277,7 +275,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -316,7 +314,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -420,7 +417,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -459,7 +456,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -564,7 +560,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -603,7 +599,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -707,7 +702,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -746,7 +741,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -851,7 +845,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -890,7 +884,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -995,7 +988,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1034,7 +1027,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1142,7 +1134,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1181,7 +1173,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1289,7 +1280,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1328,7 +1319,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1432,7 +1422,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1471,7 +1461,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1579,7 +1568,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1618,7 +1607,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1723,7 +1711,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1762,7 +1750,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -1867,7 +1854,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1906,7 +1893,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2010,7 +1996,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2049,7 +2035,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2155,7 +2140,7 @@
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
         <att name="FontNameMap" value="SPA Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2194,7 +2179,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2298,7 +2282,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2337,7 +2321,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2445,7 +2428,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2484,7 +2467,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2588,7 +2570,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2627,7 +2609,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2731,7 +2712,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2770,7 +2751,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -2878,7 +2858,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2917,7 +2897,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3022,7 +3001,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3061,7 +3040,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3169,7 +3147,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3208,7 +3186,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3317,7 +3294,7 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3356,7 +3333,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3464,7 +3440,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3503,7 +3479,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3611,7 +3586,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3650,7 +3625,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3756,7 +3730,7 @@
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3795,7 +3769,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -3900,7 +3873,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3939,7 +3912,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4043,7 +4015,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4082,7 +4054,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4186,7 +4157,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4225,7 +4196,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4334,7 +4304,7 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4373,7 +4343,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4481,7 +4450,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4520,7 +4489,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4628,7 +4596,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4667,7 +4635,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4772,7 +4739,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4811,7 +4778,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -4919,7 +4885,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4958,7 +4924,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5063,7 +5028,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5102,7 +5067,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5206,7 +5170,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5245,7 +5209,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5349,7 +5312,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5388,7 +5351,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5496,7 +5458,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5535,7 +5497,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5639,7 +5600,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5678,7 +5639,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5782,7 +5742,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5821,7 +5781,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -5925,7 +5884,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5964,7 +5923,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6068,7 +6026,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -6107,7 +6065,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6216,7 +6173,7 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -6255,7 +6212,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6363,7 +6319,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -6402,7 +6358,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6511,7 +6466,7 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -6550,7 +6505,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6655,7 +6609,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -6694,7 +6648,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6798,7 +6751,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -6837,7 +6790,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -6942,7 +6894,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -6981,7 +6933,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7085,7 +7036,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -7124,7 +7075,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7228,7 +7178,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -7267,7 +7217,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7371,7 +7320,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -7410,7 +7359,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7515,7 +7463,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -7554,7 +7502,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7662,7 +7609,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -7701,7 +7648,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7809,7 +7755,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -7848,7 +7794,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -7956,7 +7901,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -7995,7 +7940,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8099,7 +8043,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -8138,7 +8082,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8247,7 +8190,7 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="IPhone,HelveticaNeue-Bold" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -8286,7 +8229,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8394,7 +8336,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -8433,7 +8375,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8542,7 +8483,7 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -8581,7 +8522,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8686,7 +8626,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -8725,7 +8665,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8833,7 +8772,7 @@
 <att name="TxtShadow_x" value="0" type="Integer"/>
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -8872,7 +8811,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -8977,7 +8915,7 @@
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -9016,7 +8954,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_bb_image" value="" type="String"/>
         <att name="Bg_bb10_image" value="" type="String"/>
         <att name="Bg_winmobile_image" value="" type="String"/>
@@ -9125,7 +9062,7 @@
 <att name="TxtShadow_y" value="0" type="Integer"/>
 <att name="TxtBlurRadius" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv Android,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111001111101111111111100001111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>

@@ -28,7 +28,6 @@
         <att name="Bg_medium_image" value="" type="String"/>
         <att name="Bg_small_image" value="" type="String"/>
         <att name="Bg_gradient" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
-        <att name="Bg_gradientRight" value="false,0,00000000 0,ffffff00 100,midpoints:50,positions:0 545,xpositionValues:0 100" type="String"/>
         <att name="Bg_img_type" value="0" type="int"/>
         <att name="Bg_left_image" value="" type="String"/>
         <att name="Bg_middle_image" value="" type="String"/>
@@ -131,7 +130,7 @@
        <att name="Child_leftBorderRadius" value="10" type="int"/>
        <att name="Child_rightBorderRadius" value="10" type="int"/>
        <att name="Child_bottomBorderRadius" value="10" type="int"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="11111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>

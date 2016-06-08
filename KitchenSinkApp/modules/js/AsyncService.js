@@ -128,7 +128,7 @@ function onReadyStateChange()
 	{
 		kony.print("Response type is "+this.responseType)
 		//kony.print("Type is "+typeof(this.response))
-		if (kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad")
+		if (kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPhone Simulator" || kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
 		{
 			if (this.response != null && this.response != "")
 			{
@@ -201,7 +201,7 @@ function httpRequestCall()
  			frmDeviceFeatures.sbxDevFeatureDeatils.remove(frmAsyncDataAccess.hbxAsyncDataDisplay);
  		
 		flag = 1;
-		if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad"  )
+		if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPhone Simulator" || kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator" )
 			kony.application.showLoadingScreen("loadingscreen","Please wait...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,{shouldShowLabelInBottom :true,separatorHeight:30});
 		else
 			kony.application.showLoadingScreen("loadingscreen","Please wait...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,null);

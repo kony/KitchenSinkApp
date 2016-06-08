@@ -52,6 +52,7 @@ function platformCheck()
 				frmPlatforms.btnHTMLPF.skin = frmPlatforms.btnHTMLPF.focusSkin;
 				break;
 			case "iPad":
+			case "iPad Simulator":
 				frmPlatforms.btnAndroidPF.skin = frmPlatforms.btnAndroidPF.focusSkin;
 				frmPlatforms.btnWinPF.skin = frmPlatforms.btnWinPF.focusSkin;
 				frmPlatforms.btnHTMLPF.skin = frmPlatforms.btnHTMLPF.focusSkin;
@@ -80,7 +81,8 @@ function platformCheck()
 				frmPlatforms.btnWinPF.skin = frmPlatforms.btnWinPF.focusSkin;
 				frmPlatforms.btnHTMLPF.skin = frmPlatforms.btnHTMLPF.focusSkin;
 				break;
-			case "iPhone":
+			case "iPhone": 
+			case "iPhone Simulator":
 				frmPlatforms.btnBlackberryPF.skin = frmPlatforms.btnBlackberryPF.focusSkin;
 				frmPlatforms.btnAndroidPF.skin = frmPlatforms.btnAndroidPF.focusSkin;
 				frmPlatforms.btnWinPF.skin = frmPlatforms.btnWinPF.focusSkin;
@@ -128,7 +130,7 @@ function selectPlatform(buttonObject)
 			}
 			break;
 		case "btnIOSPF":
-			if(kony.os.deviceInfo().name == "iPhone"||kony.os.deviceInfo().name == "iPad")
+			if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPhone Simulator" ||kony.os.deviceInfo().name == "iPad" ||kony.os.deviceInfo().name == "iPad Simulator")
 			{
 				frmHome.show();
 			}
@@ -216,11 +218,15 @@ function uICategory()
 			frmAdvancedWidgets.show();
 			break;
 		case 3:
-			if(kony.os.deviceInfo().name=="iPad")
+			if(kony.os.deviceInfo().name=="iPad" || kony.os.deviceInfo().name=="iPad Simulator" )
 				frmIpadSpecificFeatures.show();
+			else if(kony.os.deviceInfo().name=="iPhone" || kony.os.deviceInfo().name=="iPhone Simulator" || kony.os.deviceInfo().name=="android" || kony.os.deviceInfo().name=="thinclient"|| kony.os.deviceInfo().name=="WindowsPhone")
+				frmFlex.show();
 			else
-				alert("These features specific to IPad only")
+				alert("Not available in this channel");
 			break;
+		
+			
 	}
 	
 }
@@ -351,7 +357,7 @@ function advanced()
 			frmMap.show();
 			break;
 		case 4:
-			if(kony.os.deviceInfo().name =="iPad")
+			if(kony.os.deviceInfo().name =="iPad" || kony.os.deviceInfo().name=="iPad Simulator")
 			{
 				frmBrowserOptions.show();			
 				break;
@@ -367,7 +373,7 @@ function advanced()
 				break;	
 			}
 		case 5:
-			if(kony.os.deviceInfo().name =="iPad")
+			if(kony.os.deviceInfo().name =="iPad" || kony.os.deviceInfo().name=="iPad Simulator")
 			{
 				frmSwitch.show();
 				break;
@@ -441,7 +447,7 @@ function switchandOS3D()
 	        }];
 	
 	}
-	else if (kony.os.deviceInfo().name == "iPad" )
+	else if (kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator" )
 	{
 		
 	    frmAdvancedWidgets.segFirst.data= [{
@@ -458,7 +464,7 @@ function switchandOS3D()
 	            "lblFirst": "Switch"
 	        }];
 	}
-	else if(kony.os.deviceInfo().name == "iPhone")
+	else if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPhone Simulator" )
 	{
 		
 	    frmAdvancedWidgets.segFirst.data= [{

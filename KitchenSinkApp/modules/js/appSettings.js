@@ -9,7 +9,7 @@ function onsuccesscallback(key,value)
 {
 	if ( value== null || value == "")
 	{
-		if(kony.os.deviceInfo().name == "iPad")
+		if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
 		{
 			frmAppSettings.lblMsgSetR.text = "Empty";
 		}
@@ -20,7 +20,7 @@ function onsuccesscallback(key,value)
 	}
 	else
 	{
-		if(kony.os.deviceInfo().name == "iPad")
+		if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
 		{
 			frmAppSettings.lblMsgSetR.text = value;
 		}
@@ -50,7 +50,7 @@ function onfailureback(errorcode,errormessage)
 
 function onsuccesscallbackR(key,value)
 {
-	if(kony.os.deviceInfo().name == "iPad")
+	if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
 	{
 		frmAppSettings.lblMsgSetR1.text = value;
 		switch(value)
@@ -155,7 +155,7 @@ function onfailurebackw(errorcode,errormessage)
 
 function onsuccesscallbackWrite(key,value)
 {	
-	if(kony.os.deviceInfo().name == "iPad")
+	if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
 	{
 		frmAppSettings.lblAppAfterSet.text = "App settings are successful";
 	}
@@ -185,7 +185,7 @@ function onfailurebackWrite(errorcode,errormessage)
 
 function read()
 {
-	if(kony.os.deviceInfo().name == "iPad")
+	if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
 	{
 		frmDeviceFeatures.sbxDevFeatureDeatils.removeAt(1);
 	}
@@ -201,7 +201,7 @@ function read()
 
 function write()
 {
-	if(kony.os.deviceInfo().name == "iPad")
+	if(kony.os.deviceInfo().name == "iPad"|| kony.os.deviceInfo().name=="iPad Simulator")
 	{
 		var str1 = frmAppSettings.txtAppSet.text+" ";
 		var str2 = frmAppSettings.CmbAppSet.selectedKey;
