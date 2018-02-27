@@ -28,11 +28,11 @@
             </entry>
             <entry>
                 <key>Bottom</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Right</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Width</key>
@@ -44,31 +44,31 @@
             </entry>
             <entry>
                 <key>Center X</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Center Y</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Z Index</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Min Width</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Min Height</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Max Width</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Max Height</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>content OffsetX</key>
@@ -174,11 +174,11 @@
                 </entry>
                 <entry>
                     <key>Bottom</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Right</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Width</key>
@@ -190,31 +190,31 @@
                 </entry>
                 <entry>
                     <key>Center X</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Center Y</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Z Index</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Min Width</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Min Height</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Max Width</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Max Height</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>content OffsetX</key>
@@ -1136,11 +1136,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Bottom</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Right</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Width</key>
@@ -1152,31 +1152,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Center X</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Center Y</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Z Index</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>content OffsetX</key>
@@ -1891,11 +1891,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -1907,31 +1907,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -2674,6 +2674,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -2757,6 +2758,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <seqname></seqname>
                 </evtSequence>
             </event_onTouchCancel>
+            <winphone8_enableCache>false</winphone8_enableCache>
         </children>
         <children xsi:type="khBox">
             <ID>hbxRotateDevice</ID>
@@ -2798,11 +2800,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Bottom</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Right</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Width</key>
@@ -2814,31 +2816,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Center X</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Center Y</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Z Index</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>content OffsetX</key>
@@ -3553,11 +3555,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -3569,31 +3571,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -4336,6 +4338,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -4419,6 +4422,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <seqname></seqname>
                 </evtSequence>
             </event_onTouchCancel>
+            <winphone8_enableCache>false</winphone8_enableCache>
         </children>
         <children xsi:type="kLabel">
             <ID>lblRotateDevice</ID>
@@ -4460,11 +4464,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Bottom</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Right</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Width</key>
@@ -4476,31 +4480,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Center X</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Center Y</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Z Index</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>content OffsetX</key>
@@ -5243,6 +5247,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <seqname></seqname>
                 </evtSequence>
             </event_onTouchCancel>
+            <winphone8_enableCache>false</winphone8_enableCache>
         </children>
         <children xsi:type="khBox">
             <ID>hbxPlatinumAcc</ID>
@@ -5284,11 +5289,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Bottom</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Right</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Width</key>
@@ -5300,31 +5305,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Center X</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Center Y</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Z Index</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>content OffsetX</key>
@@ -6039,11 +6044,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -6055,31 +6060,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -6778,11 +6783,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -6794,31 +6799,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -7561,6 +7566,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="khBox">
                     <ID>hbxTotal</ID>
@@ -7602,11 +7608,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -7618,31 +7624,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -8357,11 +8363,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </entry>
                                 <entry>
                                     <key>Bottom</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Right</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Width</key>
@@ -8373,31 +8379,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </entry>
                                 <entry>
                                     <key>Center X</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Center Y</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Z Index</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>content OffsetX</key>
@@ -9096,11 +9102,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     </entry>
                                     <entry>
                                         <key>Bottom</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Right</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Width</key>
@@ -9112,31 +9118,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     </entry>
                                     <entry>
                                         <key>Center X</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Center Y</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Z Index</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Min Width</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Min Height</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Max Width</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Max Height</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>content OffsetX</key>
@@ -9879,6 +9885,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <seqname></seqname>
                                 </evtSequence>
                             </event_onTouchCancel>
+                            <winphone8_enableCache>false</winphone8_enableCache>
                         </children>
                         <children xsi:type="kLabel">
                             <ID>lblAsset</ID>
@@ -9920,11 +9927,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     </entry>
                                     <entry>
                                         <key>Bottom</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Right</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Width</key>
@@ -9936,31 +9943,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     </entry>
                                     <entry>
                                         <key>Center X</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Center Y</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Z Index</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Min Width</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Min Height</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Max Width</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Max Height</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>content OffsetX</key>
@@ -10703,6 +10710,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                                     <seqname></seqname>
                                 </evtSequence>
                             </event_onTouchCancel>
+                            <winphone8_enableCache>false</winphone8_enableCache>
                         </children>
                         <desktopweb_onRightClick>
                             <evtSequence>
@@ -10785,6 +10793,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <seqname></seqname>
                             </evtSequence>
                         </event_onTouchCancel>
+                        <winphone8_enableCache>false</winphone8_enableCache>
                     </children>
                     <children xsi:type="kLabel">
                         <ID>lblValue</ID>
@@ -10826,11 +10835,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </entry>
                                 <entry>
                                     <key>Bottom</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Right</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Width</key>
@@ -10842,31 +10851,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </entry>
                                 <entry>
                                     <key>Center X</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Center Y</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Z Index</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>content OffsetX</key>
@@ -11609,6 +11618,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <seqname></seqname>
                             </evtSequence>
                         </event_onTouchCancel>
+                        <winphone8_enableCache>false</winphone8_enableCache>
                     </children>
                     <general_contextMenu>None</general_contextMenu>
                     <desktopweb_onRightClick>
@@ -11692,6 +11702,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <desktopweb_onRightClick>
                     <evtSequence>
@@ -11774,6 +11785,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -11857,6 +11869,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                     <seqname></seqname>
                 </evtSequence>
             </event_onTouchCancel>
+            <winphone8_enableCache>false</winphone8_enableCache>
         </children>
         <children xsi:type="kSegment2">
             <children xsi:type="khBox">
@@ -11899,11 +11912,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -11915,31 +11928,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -12654,11 +12667,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -12670,31 +12683,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -13393,11 +13406,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </entry>
                                 <entry>
                                     <key>Bottom</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Right</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Width</key>
@@ -13409,31 +13422,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </entry>
                                 <entry>
                                     <key>Center X</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Center Y</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Z Index</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>content OffsetX</key>
@@ -14176,6 +14189,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <seqname></seqname>
                             </evtSequence>
                         </event_onTouchCancel>
+                        <winphone8_enableCache>false</winphone8_enableCache>
                     </children>
                     <children xsi:type="kLabel">
                         <ID>lblWMTDIS</ID>
@@ -14217,11 +14231,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </entry>
                                 <entry>
                                     <key>Bottom</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Right</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Width</key>
@@ -14233,31 +14247,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 </entry>
                                 <entry>
                                     <key>Center X</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Center Y</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Z Index</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>content OffsetX</key>
@@ -15000,6 +15014,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                                 <seqname></seqname>
                             </evtSequence>
                         </event_onTouchCancel>
+                        <winphone8_enableCache>false</winphone8_enableCache>
                     </children>
                     <desktopweb_onRightClick>
                         <evtSequence>
@@ -15082,6 +15097,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -15165,6 +15181,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <children xsi:type="khBox">
                 <ID>hbxValueDiff</ID>
@@ -15206,11 +15223,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -15222,31 +15239,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -15961,11 +15978,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -15977,31 +15994,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -16744,6 +16761,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblValueWMDisney</ID>
@@ -16785,11 +16803,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -16801,31 +16819,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -17568,6 +17586,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblDiffWallmartDisney</ID>
@@ -17609,11 +17628,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -17625,31 +17644,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -18392,6 +18411,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -18475,6 +18495,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <children xsi:type="khBox">
                 <ID>hbxWMDPrice</ID>
@@ -18516,11 +18537,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -18532,31 +18553,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -19271,11 +19292,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -19287,31 +19308,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -20054,6 +20075,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblWMDValue</ID>
@@ -20095,11 +20117,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -20111,31 +20133,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -20878,6 +20900,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblWMDDiff</ID>
@@ -20919,11 +20942,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -20935,31 +20958,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -21702,6 +21725,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -21785,6 +21809,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <children xsi:type="kLine">
                 <ID>linePrice</ID>
@@ -21826,11 +21851,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -21842,31 +21867,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -22569,6 +22594,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <children xsi:type="khBox">
                 <ID>hbxAvgVolume</ID>
@@ -22610,11 +22636,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -22626,31 +22652,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -23365,11 +23391,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -23381,31 +23407,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -24148,6 +24174,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblAvgValue</ID>
@@ -24189,11 +24216,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -24205,31 +24232,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -24972,6 +24999,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblAvgDiff</ID>
@@ -25013,11 +25041,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -25029,31 +25057,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -25796,6 +25824,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -25879,6 +25908,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <children xsi:type="kLine">
                 <ID>linAvgVolume</ID>
@@ -25920,11 +25950,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -25936,31 +25966,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -26663,6 +26693,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <children xsi:type="khBox">
                 <ID>hbxPETrailing</ID>
@@ -26704,11 +26735,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -26720,31 +26751,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -27459,11 +27490,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -27475,31 +27506,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -28242,6 +28273,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblPEValue</ID>
@@ -28283,11 +28315,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -28299,31 +28331,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -29066,6 +29098,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblPEDiff</ID>
@@ -29107,11 +29140,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -29123,31 +29156,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -29890,6 +29923,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -29973,6 +30007,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <children xsi:type="kLine">
                 <ID>linPEDiff</ID>
@@ -30014,11 +30049,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -30030,31 +30065,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -30757,6 +30792,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <children xsi:type="khBox">
                 <ID>hbxMarketCap</ID>
@@ -30798,11 +30834,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -30814,31 +30850,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -31553,11 +31589,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -31569,31 +31605,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -32336,6 +32372,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <children xsi:type="kLabel">
                     <ID>lblMarketCapValue</ID>
@@ -32377,11 +32414,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -32393,31 +32430,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -33160,6 +33197,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <general_contextMenu>None</general_contextMenu>
                 <desktopweb_onRightClick>
@@ -33243,6 +33281,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <clipBounds>true</clipBounds>
             <containerWeight>0</containerWeight>
@@ -33336,11 +33375,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Bottom</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Right</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Width</key>
@@ -33352,31 +33391,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                     </entry>
                     <entry>
                         <key>Center X</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Center Y</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Z Index</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>content OffsetX</key>
@@ -34031,6 +34070,7 @@ if (kony.os.deviceInfo().name != "thinclient")
             <tooltip></tooltip>
             <visible>true</visible>
             <widgetID>p2kwiet121043302115814</widgetID>
+            <winphone8_enableCache>false</winphone8_enableCache>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
             <android_dockingHeader>false</android_dockingHeader>
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -34429,6 +34469,7 @@ if (kony.os.deviceInfo().name != "thinclient")
         </event_onTouchCancel>
         <iphone_statusBarHidden>Apply App Setting</iphone_statusBarHidden>
         <ipad_statusBarHidden>Apply App Setting</ipad_statusBarHidden>
+        <winphone8_enableCache>false</winphone8_enableCache>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
@@ -34470,11 +34511,11 @@ if (kony.os.deviceInfo().name != "thinclient")
                 </entry>
                 <entry>
                     <key>Bottom</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Right</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Width</key>
@@ -34486,31 +34527,31 @@ if (kony.os.deviceInfo().name != "thinclient")
                 </entry>
                 <entry>
                     <key>Center X</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Center Y</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Z Index</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Min Width</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Min Height</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Max Width</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Max Height</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>content OffsetX</key>
@@ -35216,6 +35257,7 @@ if (kony.os.deviceInfo().name != "thinclient")
                 <seqname></seqname>
             </evtSequence>
         </event_onTouchCancel>
+        <winphone8_enableCache>false</winphone8_enableCache>
     </children>
     <contentAlign>0</contentAlign>
     <gridviewConfig>
@@ -35225,4 +35267,5 @@ if (kony.os.deviceInfo().name != "thinclient")
     </gridviewConfig>
     <containerWeight>0</containerWeight>
     <projectState>0</projectState>
+    <winphone8_enableCache>false</winphone8_enableCache>
 </kPage>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <application id="KitchenSinkApp" name="KitchenSinkApp">
-    <container isflex="false" displayname="Popup" id="ftrOne" type="dialog"/>
     <container isflex="false" displayname="Popup" id="hdrOne" type="dialog"/>
-    <container isflex="false" displayname="Popup" id="ftrOne" type="dialog"/>
     <container isflex="false" displayname="Popup" id="hdrOne" type="dialog"/>
-    <container isflex="false" displayname="Popup" id="ftrOne" type="dialog"/>
     <container isflex="false" displayname="Popup" id="hdr" type="dialog"/>
     <container isflex="false" displayname="Popup" id="hdr" type="dialog"/>
     <container isflex="false" displayname="Form" id="frmBrowserOptions" type="form"/>
@@ -16,62 +13,13 @@
     </container>
     <container isflex="false" displayname="Popup" id="popFormAnchor" type="dialog"/>
     <container isflex="false" displayname="Popup" id="hdrOne" type="dialog"/>
-    <container isflex="false" displayname="Popup" id="hdrSearch" type="dialog">
-        <component displayname="TextBox2" id="tbxSearchORE" type="textbox2">
-            <attributes datatype="boolean" name="enablesearchbar" platform="spa" value="true"/>
-        </component>
-    </container>
-    <container isflex="false" displayname="Popup" id="winMangoHeader" type="dialog"/>
-    <container isflex="false" displayname="Popup" id="ftrOne" type="dialog"/>
     <container isflex="false" displayname="Popup" id="hdr" type="dialog"/>
     <container isflex="false" displayname="Popup" id="hdr" type="dialog"/>
-    <container isflex="false" displayname="Form" id="frmAni2SplitHorizontalIn" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAni2SplitHorizontalOut" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAni2SplitVerticalIn" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAni2SplitVerticalOut" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAni4SplitIn" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAni4SplitOut" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAni4SplitRotateIn" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAni4SplitRotateOut" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniCloth" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniCurl" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniDoor" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniFade" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniFlip" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniFlipLeft" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniFlipRight" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniMoveIn" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniMoveInFromBottom" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniMoveInFromTop" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniPush" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniReveal" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniRotateExchange" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniSwitchLeft" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAniSwitchRight" type="form"/>
     <container isflex="false" displayname="Form" id="frmAnibottom" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAnibottomlefttop" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAnibottomtop" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAnibottomtopstyle1" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAnifromcenter" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAnifromleft" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAnifromright" type="form"/>
     <container isflex="false" displayname="Form" id="frmAnileft" type="form"/>
     <container isflex="false" displayname="Form" id="frmAniright" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAnitoleft" type="form"/>
     <container isflex="false" displayname="Form" id="frmAnitop" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAnitoprightbottom" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAnitoright" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAppSettings" type="form"/>
-    <container isflex="false" displayname="Form" id="frmAsyncDataAccess" type="form">
-        <component displayname="TextBox2" id="tbxFName" type="textbox2"/>
-        <component displayname="TextBox2" id="tbxLName" type="textbox2"/>
-    </container>
-    <container isflex="false" displayname="Form" id="frmBadge" type="form"/>
     <container isflex="false" displayname="Form" id="frmBrowserOptions" type="form"/>
-    <container isflex="false" displayname="Form" id="frmCalendarEvents" type="form"/>
-    <container isflex="false" displayname="Form" id="frmCameraOverlaid" type="form"/>
-    <container isflex="false" displayname="Form" id="frmContact" type="form"/>
-    <container isflex="false" displayname="Form" id="frmDummy" type="form"/>
     <container isflex="false" displayname="Form" id="frmIcons" type="form"/>
     <container isflex="false" displayname="Form" id="frmImage" type="form"/>
     <container isflex="false" displayname="Form" id="frmLink" type="form"/>
@@ -80,21 +28,13 @@
             <attributes datatype="string" name="key" platform="general" value="AIzaSyBBR_-JLwZ9Ami6h5m7KgaGvIxpno6vFDU"/>
         </component>
     </container>
-    <container isflex="false" displayname="Form" id="frmPickerView" type="form">
-        <component displayname="PickerView" id="pickOne" type="pickerview">
-            <attributes datatype="string" name="customPicker" platform="spa" value="1"/>
-        </component>
-    </container>
     <container isflex="false" displayname="Form" id="frmPlatforms" type="form"/>
     <container isflex="false" displayname="Form" id="frmRichText" type="form"/>
     <container isflex="false" displayname="Form" id="frmSegDynRowTemplate" type="form"/>
     <container isflex="false" displayname="Form" id="frmSegOnReachEnd" type="form"/>
-    <container isflex="false" displayname="Form" id="frmSegSearchView" type="form"/>
-    <container isflex="false" displayname="Form" id="frmSlider" type="form"/>
     <container isflex="false" displayname="Form" id="frmSwitch" type="form"/>
     <container isflex="false" displayname="Form" id="frmWebSQL" type="form"/>
     <container isflex="false" displayname="Popup" id="popFormAnchor" type="dialog"/>
-    <container isflex="false" displayname="Form" id="frmAclMeterReadings" type="form"/>
     <container isflex="false" displayname="Form" id="frmHome" type="form"/>
     <container isflex="false" displayname="Form" id="frmCrypto" type="form">
         <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
@@ -141,7 +81,6 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
-    <container isflex="false" displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container isflex="false" displayname="Form" id="frmBrowser" type="form"/>
     <container isflex="false" displayname="Form" id="frmCrypto" type="form">
         <component displayname="TextBox2" id="textEncrypt" type="textbox2"/>
@@ -166,12 +105,9 @@
         <component displayname="TextBox2" id="frmLocalTxtGetKey1" type="textbox2"/>
         <component displayname="TextBox2" id="frmLocalTxtIndex" type="textbox2"/>
     </container>
-    <container isflex="false" displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container isflex="false" displayname="Form" id="frmBrowser" type="form"/>
     <container isflex="false" displayname="Form" id="frmDeviceInfo" type="form"/>
-    <container isflex="false" displayname="Form" id="frmGestures" type="form"/>
     <container isflex="false" displayname="Form" id="frmImgStrip" type="form"/>
-    <container isflex="false" displayname="Form" id="frmScrollBoxMenu" type="form"/>
     <container isflex="false" displayname="Popup" id="hdrIconEdit" type="dialog"/>
     <container isflex="false" displayname="Popup" id="hdrOne" type="dialog"/>
     <container isflex="false" displayname="Popup" id="hdrSearch" type="dialog">
@@ -311,7 +247,6 @@
     <container isflex="false" displayname="Form" id="frmDummy" type="form"/>
     <container isflex="false" displayname="Form" id="frmDvcFeatures" type="form"/>
     <container isflex="false" displayname="Form" id="frmEmail" type="form"/>
-    <container isflex="false" displayname="Form" id="frmFlex" type="form"/>
     <container isflex="false" displayname="Form" id="frmForm" type="form">
         <component displayname="TextBox2" id="tbxName" type="textbox2"/>
         <component displayname="TextBox2" id="tbxPassword" type="textbox2"/>

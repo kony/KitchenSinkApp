@@ -24,7 +24,7 @@ function tab_LoadingScreenCenter()
 	if(flag == 0)
 	{	
 		flag = 1;
-		if( kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name == "iPad Simulator"|| kony.os.deviceInfo().name == "iPad Simulator"  )
+		if( kony.os.deviceInfo().name == "iPad"  )
 			kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true, true,{shouldShowLabelInBottom :true,separatorHeight:30});
 		else
 			kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true, true,null);
@@ -44,7 +44,7 @@ function tab_LoadingScreenFull()
 	if(flag1 == 0)
 	{
 		flag1 =1;
-		if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPhone Simulator" || kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name == "iPad Simulator")
+		if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad" )
 			kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,{shouldShowLabelInBottom :true,separatorHeight:30});
 		else
 			kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,null);

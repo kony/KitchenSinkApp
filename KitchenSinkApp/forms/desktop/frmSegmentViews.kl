@@ -28,11 +28,11 @@
             </entry>
             <entry>
                 <key>Bottom</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Right</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Width</key>
@@ -44,31 +44,31 @@
             </entry>
             <entry>
                 <key>Center X</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Center Y</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Z Index</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Min Width</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Min Height</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Max Width</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>Max Height</key>
-                <value>dp</value>
+                <value>default</value>
             </entry>
             <entry>
                 <key>content OffsetX</key>
@@ -174,11 +174,11 @@
                 </entry>
                 <entry>
                     <key>Bottom</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Right</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Width</key>
@@ -190,31 +190,31 @@
                 </entry>
                 <entry>
                     <key>Center X</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Center Y</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Z Index</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Min Width</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Min Height</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Max Width</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Max Height</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>content OffsetX</key>
@@ -1017,11 +1017,11 @@
                     </entry>
                     <entry>
                         <key>Bottom</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Right</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Width</key>
@@ -1033,31 +1033,31 @@
                     </entry>
                     <entry>
                         <key>Center X</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Center Y</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Z Index</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>content OffsetX</key>
@@ -1760,6 +1760,7 @@
                     <seqname></seqname>
                 </evtSequence>
             </event_onTouchCancel>
+            <winphone8_enableCache>false</winphone8_enableCache>
         </children>
         <children xsi:type="khBox">
             <ID>hbox68508043476623</ID>
@@ -1801,11 +1802,11 @@
                     </entry>
                     <entry>
                         <key>Bottom</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Right</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Width</key>
@@ -1817,31 +1818,31 @@
                     </entry>
                     <entry>
                         <key>Center X</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Center Y</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Z Index</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Min Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Width</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>Max Height</key>
-                        <value>dp</value>
+                        <value>default</value>
                     </entry>
                     <entry>
                         <key>content OffsetX</key>
@@ -2556,11 +2557,11 @@
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -2572,31 +2573,31 @@
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -3336,11 +3337,11 @@
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -3352,31 +3353,31 @@
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -4091,11 +4092,11 @@
                                 </entry>
                                 <entry>
                                     <key>Bottom</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Right</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Width</key>
@@ -4107,31 +4108,31 @@
                                 </entry>
                                 <entry>
                                     <key>Center X</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Center Y</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Z Index</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Min Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Width</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>Max Height</key>
-                                    <value>dp</value>
+                                    <value>default</value>
                                 </entry>
                                 <entry>
                                     <key>content OffsetX</key>
@@ -4830,11 +4831,11 @@
                                     </entry>
                                     <entry>
                                         <key>Bottom</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Right</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Width</key>
@@ -4846,31 +4847,31 @@
                                     </entry>
                                     <entry>
                                         <key>Center X</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Center Y</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Z Index</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Min Width</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Min Height</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Max Width</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Max Height</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>content OffsetX</key>
@@ -5585,11 +5586,11 @@
                                         </entry>
                                         <entry>
                                             <key>Bottom</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Right</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Width</key>
@@ -5601,31 +5602,31 @@
                                         </entry>
                                         <entry>
                                             <key>Center X</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Center Y</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Z Index</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Min Width</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Min Height</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Max Width</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Max Height</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>content OffsetX</key>
@@ -6325,11 +6326,11 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Bottom</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Right</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Width</key>
@@ -6341,31 +6342,31 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Center X</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Center Y</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Z Index</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>content OffsetX</key>
@@ -7108,6 +7109,7 @@
                                                 <seqname></seqname>
                                             </evtSequence>
                                         </event_onTouchCancel>
+                                        <winphone8_enableCache>false</winphone8_enableCache>
                                     </children>
                                     <children xsi:type="khBox">
                                         <ID>hbox685080434157332</ID>
@@ -7149,11 +7151,11 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Bottom</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Right</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Width</key>
@@ -7165,31 +7167,31 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Center X</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Center Y</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Z Index</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>content OffsetX</key>
@@ -7904,11 +7906,11 @@
                                                     </entry>
                                                     <entry>
                                                         <key>Bottom</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Right</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Width</key>
@@ -7920,31 +7922,31 @@
                                                     </entry>
                                                     <entry>
                                                         <key>Center X</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Center Y</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Z Index</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Min Width</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Min Height</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Max Width</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Max Height</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>content OffsetX</key>
@@ -8733,6 +8735,7 @@
                                                     <seqname></seqname>
                                                 </evtSequence>
                                             </event_onTouchCancel>
+                                            <winphone8_enableCache>false</winphone8_enableCache>
                                         </children>
                                         <general_contextMenu>None</general_contextMenu>
                                         <desktopweb_onRightClick>
@@ -8816,6 +8819,7 @@
                                                 <seqname></seqname>
                                             </evtSequence>
                                         </event_onTouchCancel>
+                                        <winphone8_enableCache>false</winphone8_enableCache>
                                     </children>
                                     <children xsi:type="kLabel">
                                         <ID>label685080434157336</ID>
@@ -8857,11 +8861,11 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Bottom</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Right</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Width</key>
@@ -8873,31 +8877,31 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Center X</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Center Y</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Z Index</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>content OffsetX</key>
@@ -9640,6 +9644,7 @@
                                                 <seqname></seqname>
                                             </evtSequence>
                                         </event_onTouchCancel>
+                                        <winphone8_enableCache>false</winphone8_enableCache>
                                     </children>
                                     <clipBounds>true</clipBounds>
                                     <containerWeight>0</containerWeight>
@@ -9733,11 +9738,11 @@
                                             </entry>
                                             <entry>
                                                 <key>Bottom</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Right</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Width</key>
@@ -9749,31 +9754,31 @@
                                             </entry>
                                             <entry>
                                                 <key>Center X</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Center Y</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Z Index</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Min Width</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Min Height</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Max Width</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Max Height</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>content OffsetX</key>
@@ -10428,6 +10433,7 @@
                                     <tooltip></tooltip>
                                     <visible>true</visible>
                                     <widgetID>p2kwiet68508043466315</widgetID>
+                                    <winphone8_enableCache>false</winphone8_enableCache>
                                     <alternateRowSkin>Skin Defaults</alternateRowSkin>
                                     <android_dockingHeader>false</android_dockingHeader>
                                     <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -10675,6 +10681,7 @@
                                         <seqname></seqname>
                                     </evtSequence>
                                 </event_onTouchCancel>
+                                <winphone8_enableCache>false</winphone8_enableCache>
                             </children>
                             <children xsi:type="kLabel">
                                 <ID>label685080434184959</ID>
@@ -10716,11 +10723,11 @@
                                         </entry>
                                         <entry>
                                             <key>Bottom</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Right</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Width</key>
@@ -10732,31 +10739,31 @@
                                         </entry>
                                         <entry>
                                             <key>Center X</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Center Y</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Z Index</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Min Width</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Min Height</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Max Width</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Max Height</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>content OffsetX</key>
@@ -11499,6 +11506,7 @@
                                         <seqname></seqname>
                                     </evtSequence>
                                 </event_onTouchCancel>
+                                <winphone8_enableCache>false</winphone8_enableCache>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
                             <desktopweb_onRightClick>
@@ -11582,6 +11590,7 @@
                                     <seqname></seqname>
                                 </evtSequence>
                             </event_onTouchCancel>
+                            <winphone8_enableCache>false</winphone8_enableCache>
                         </children>
                         <children xsi:type="khBox">
                             <ID>hbox685080434189790</ID>
@@ -11623,11 +11632,11 @@
                                     </entry>
                                     <entry>
                                         <key>Bottom</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Right</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Width</key>
@@ -11639,31 +11648,31 @@
                                     </entry>
                                     <entry>
                                         <key>Center X</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Center Y</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Z Index</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Min Width</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Min Height</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Max Width</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>Max Height</key>
-                                        <value>dp</value>
+                                        <value>default</value>
                                     </entry>
                                     <entry>
                                         <key>content OffsetX</key>
@@ -12378,11 +12387,11 @@
                                         </entry>
                                         <entry>
                                             <key>Bottom</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Right</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Width</key>
@@ -12394,31 +12403,31 @@
                                         </entry>
                                         <entry>
                                             <key>Center X</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Center Y</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Z Index</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Min Width</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Min Height</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Max Width</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Max Height</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>content OffsetX</key>
@@ -13118,11 +13127,11 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Bottom</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Right</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Width</key>
@@ -13134,31 +13143,31 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Center X</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Center Y</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Z Index</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>content OffsetX</key>
@@ -13901,6 +13910,7 @@
                                                 <seqname></seqname>
                                             </evtSequence>
                                         </event_onTouchCancel>
+                                        <winphone8_enableCache>false</winphone8_enableCache>
                                     </children>
                                     <children xsi:type="khBox">
                                         <ID>hbox685080434163632</ID>
@@ -13942,11 +13952,11 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Bottom</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Right</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Width</key>
@@ -13958,31 +13968,31 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Center X</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Center Y</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Z Index</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>content OffsetX</key>
@@ -14697,11 +14707,11 @@
                                                     </entry>
                                                     <entry>
                                                         <key>Bottom</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Right</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Width</key>
@@ -14713,31 +14723,31 @@
                                                     </entry>
                                                     <entry>
                                                         <key>Center X</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Center Y</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Z Index</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Min Width</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Min Height</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Max Width</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>Max Height</key>
-                                                        <value>dp</value>
+                                                        <value>default</value>
                                                     </entry>
                                                     <entry>
                                                         <key>content OffsetX</key>
@@ -15526,6 +15536,7 @@
                                                     <seqname></seqname>
                                                 </evtSequence>
                                             </event_onTouchCancel>
+                                            <winphone8_enableCache>false</winphone8_enableCache>
                                         </children>
                                         <general_contextMenu>None</general_contextMenu>
                                         <desktopweb_onRightClick>
@@ -15609,6 +15620,7 @@
                                                 <seqname></seqname>
                                             </evtSequence>
                                         </event_onTouchCancel>
+                                        <winphone8_enableCache>false</winphone8_enableCache>
                                     </children>
                                     <children xsi:type="kLabel">
                                         <ID>label685080434163636</ID>
@@ -15650,11 +15662,11 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Bottom</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Right</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Width</key>
@@ -15666,31 +15678,31 @@
                                                 </entry>
                                                 <entry>
                                                     <key>Center X</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Center Y</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Z Index</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Min Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Width</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>Max Height</key>
-                                                    <value>dp</value>
+                                                    <value>default</value>
                                                 </entry>
                                                 <entry>
                                                     <key>content OffsetX</key>
@@ -16433,6 +16445,7 @@
                                                 <seqname></seqname>
                                             </evtSequence>
                                         </event_onTouchCancel>
+                                        <winphone8_enableCache>false</winphone8_enableCache>
                                     </children>
                                     <clipBounds>true</clipBounds>
                                     <containerWeight>0</containerWeight>
@@ -16526,11 +16539,11 @@
                                             </entry>
                                             <entry>
                                                 <key>Bottom</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Right</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Width</key>
@@ -16542,31 +16555,31 @@
                                             </entry>
                                             <entry>
                                                 <key>Center X</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Center Y</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Z Index</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Min Width</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Min Height</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Max Width</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>Max Height</key>
-                                                <value>dp</value>
+                                                <value>default</value>
                                             </entry>
                                             <entry>
                                                 <key>content OffsetX</key>
@@ -17221,6 +17234,7 @@
                                     <tooltip></tooltip>
                                     <visible>true</visible>
                                     <widgetID>p2kwiet68508043469465</widgetID>
+                                    <winphone8_enableCache>false</winphone8_enableCache>
                                     <alternateRowSkin>Skin Defaults</alternateRowSkin>
                                     <android_dockingHeader>false</android_dockingHeader>
                                     <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -17468,6 +17482,7 @@
                                         <seqname></seqname>
                                     </evtSequence>
                                 </event_onTouchCancel>
+                                <winphone8_enableCache>false</winphone8_enableCache>
                             </children>
                             <children xsi:type="kLabel">
                                 <ID>label685080434197182</ID>
@@ -17509,11 +17524,11 @@
                                         </entry>
                                         <entry>
                                             <key>Bottom</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Right</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Width</key>
@@ -17525,31 +17540,31 @@
                                         </entry>
                                         <entry>
                                             <key>Center X</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Center Y</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Z Index</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Min Width</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Min Height</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Max Width</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>Max Height</key>
-                                            <value>dp</value>
+                                            <value>default</value>
                                         </entry>
                                         <entry>
                                             <key>content OffsetX</key>
@@ -18292,6 +18307,7 @@
                                         <seqname></seqname>
                                     </evtSequence>
                                 </event_onTouchCancel>
+                                <winphone8_enableCache>false</winphone8_enableCache>
                             </children>
                             <general_contextMenu>None</general_contextMenu>
                             <desktopweb_onRightClick>
@@ -18375,6 +18391,7 @@
                                     <seqname></seqname>
                                 </evtSequence>
                             </event_onTouchCancel>
+                            <winphone8_enableCache>false</winphone8_enableCache>
                         </children>
                         <desktopweb_onRightClick>
                             <evtSequence>
@@ -18457,6 +18474,7 @@
                                 <seqname></seqname>
                             </evtSequence>
                         </event_onTouchCancel>
+                        <winphone8_enableCache>false</winphone8_enableCache>
                     </children>
                     <general_contextMenu>None</general_contextMenu>
                     <desktopweb_onRightClick>
@@ -18540,6 +18558,7 @@
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <winphone8_position>0</winphone8_position>
                 <containerWeight>0</containerWeight>
@@ -18616,6 +18635,7 @@
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <children xsi:type="kScrollBox">
                 <ID>scrollbox685080434212094</ID>
@@ -18657,11 +18677,11 @@
                         </entry>
                         <entry>
                             <key>Bottom</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Right</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Width</key>
@@ -18673,31 +18693,31 @@
                         </entry>
                         <entry>
                             <key>Center X</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Center Y</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Z Index</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Min Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Width</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>Max Height</key>
-                            <value>dp</value>
+                            <value>default</value>
                         </entry>
                         <entry>
                             <key>content OffsetX</key>
@@ -19437,11 +19457,11 @@
                             </entry>
                             <entry>
                                 <key>Bottom</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Right</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Width</key>
@@ -19453,31 +19473,31 @@
                             </entry>
                             <entry>
                                 <key>Center X</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Center Y</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Z Index</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Min Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Width</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>Max Height</key>
-                                <value>dp</value>
+                                <value>default</value>
                             </entry>
                             <entry>
                                 <key>content OffsetX</key>
@@ -20220,6 +20240,7 @@
                             <seqname></seqname>
                         </evtSequence>
                     </event_onTouchCancel>
+                    <winphone8_enableCache>false</winphone8_enableCache>
                 </children>
                 <winphone8_position>0</winphone8_position>
                 <containerWeight>0</containerWeight>
@@ -20296,6 +20317,7 @@
                         <seqname></seqname>
                     </evtSequence>
                 </event_onTouchCancel>
+                <winphone8_enableCache>false</winphone8_enableCache>
             </children>
             <general_contextMenu>None</general_contextMenu>
             <desktopweb_onRightClick>
@@ -20379,6 +20401,7 @@
                     <seqname></seqname>
                 </evtSequence>
             </event_onTouchCancel>
+            <winphone8_enableCache>false</winphone8_enableCache>
         </children>
         <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
@@ -20516,6 +20539,7 @@
         </event_onTouchCancel>
         <iphone_statusBarHidden>Apply App Setting</iphone_statusBarHidden>
         <ipad_statusBarHidden>Apply App Setting</ipad_statusBarHidden>
+        <winphone8_enableCache>false</winphone8_enableCache>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
@@ -20557,11 +20581,11 @@
                 </entry>
                 <entry>
                     <key>Bottom</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Right</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Width</key>
@@ -20573,31 +20597,31 @@
                 </entry>
                 <entry>
                     <key>Center X</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Center Y</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Z Index</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Min Width</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Min Height</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Max Width</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>Max Height</key>
-                    <value>dp</value>
+                    <value>default</value>
                 </entry>
                 <entry>
                     <key>content OffsetX</key>
@@ -21303,6 +21327,7 @@
                 <seqname></seqname>
             </evtSequence>
         </event_onTouchCancel>
+        <winphone8_enableCache>false</winphone8_enableCache>
     </children>
     <contentAlign>0</contentAlign>
     <gridviewConfig>
@@ -21312,4 +21337,5 @@
     </gridviewConfig>
     <containerWeight>0</containerWeight>
     <projectState>0</projectState>
+    <winphone8_enableCache>false</winphone8_enableCache>
 </kPage>

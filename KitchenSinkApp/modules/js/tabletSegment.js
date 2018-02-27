@@ -188,7 +188,7 @@ function segmentFeaturesSetting()
 {
 	
 	 var data= new Array();
-	 if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name == "iPad Simulator")
+	 if(kony.os.deviceInfo().name == "iPad")
 	 {
 	 		data= [{
 	            "lblSegFeatures": "Segment with sections"
@@ -278,7 +278,7 @@ function segmentFeaturesSetting()
 function segmentViewsSetting()
 {
 	var data=new Array();
-	if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name == "iPad Simulator")
+	if(kony.os.deviceInfo().name == "iPad")
 	{
        	data = [{
             "lblSegViewCat": "Table view"

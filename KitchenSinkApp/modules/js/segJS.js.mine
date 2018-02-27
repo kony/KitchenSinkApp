@@ -254,7 +254,7 @@ function groupMap()
 }
 function searchBy()
 {
-	if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPhone Simulator" || kony.os.deviceInfo().name == "iPad" )
+	if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad" )
 	{
 		frmSeg1.show();
 		

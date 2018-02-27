@@ -229,7 +229,7 @@ function groupMap()
 }
 function searchBy()
 {
-	if(kony.os.deviceInfo().name == "iphone" || kony.os.deviceInfo().name == "iPhone Simulator" || kony.os.deviceInfo().name == "ipad" )
+	if(kony.os.deviceInfo().name == "iphone" || kony.os.deviceInfo().name == "ipad" )
 	{
 		frmSeg1.show();
 	}

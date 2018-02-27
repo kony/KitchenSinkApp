@@ -73,7 +73,7 @@ function onCaptureFrmOverLayTab(cameraObj)
 {
 	kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,null);
 	frmCamera.imageFrmCamFrmOverRef.rawBytes=cameraObj.rawBytes;
-	if (kony.os.deviceInfo().name != "android" && kony.os.deviceInfo().name != "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
+	if (kony.os.deviceInfo().name != "android" && kony.os.deviceInfo().name != "iPad")
 		frmCameraFrmOverlay.show();
 	kony.application.dismissLoadingScreen();
 }
@@ -149,7 +149,7 @@ function onCapturePrivate(cameraObj)
 {
 	kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,null);
 	frmCamAcsModes.img2CamAcc.rawBytes = cameraObj.rawBytes;
-	if (kony.os.deviceInfo().name != "iPhone" && kony.os.deviceInfo().name != "iPhone Simulator")
+	if (kony.os.deviceInfo().name != "iPhone")
 		frmCamAcsModes.lblFrmCamAccessModes.text = "Second image from left is the captured image in private mode. You can not see the image in image Gallery of the camera .To observe this ,Hide the application and open camera and go to image gallery."
 	else
 		frmCamAcsModes.lblFrmCamAccessModes.text = "First image from left is the captured image in private mode. You can not see the image in image Gallery of the camera .To observe this ,Hide the application and open camera and go to image gallery."
@@ -168,7 +168,7 @@ function onCaptureinMemory(cameraObj)
 {
 	kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,null);
 	frmCamAcsModes.img3CamAcc.rawBytes = cameraObj.rawBytes;
-	if (kony.os.deviceInfo().name != "iPhone" && kony.os.deviceInfo().name != "iPhone Simulator")	
+	if (kony.os.deviceInfo().name != "iPhone")	
 		frmCamAcsModes.lblFrmCamAccessModes.text = "Third image from left is the captured image in inMemory mode. You can not see the image in image Gallery of the camera .To observe this ,Hide the application and open camera and go to image gallery."
 	else
 		frmCamAcsModes.lblFrmCamAccessModes.text = "Second image from left is the captured image in inMemory mode. You can not see the image in image Gallery of the camera .To observe this ,Hide the application and open camera and go to image gallery."

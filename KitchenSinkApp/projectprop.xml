@@ -1,10 +1,9 @@
 <properties>
-    <attributes name="apmformExit" value="false"/>
     <attributes name="wp81spublisherdisplaynamekey" value="KonyLabs"/>
     <attributes name="SET_WALLPAPER_HINTS" value="false"/>
     <attributes name="BIND_REMOTEVIEWS" value="false"/>
     <attributes name="mapkey" value="AIzaSyBBR_-JLwZ9Ami6h5m7KgaGvIxpno6vFDU"/>
-    <attributes name="removeprintstatements" value="false"/>
+    <attributes name="removeprintstatements" value="true"/>
     <attributes name="iphoneloadindicatorkey" value="true"/>
     <attributes name="defaultlocalekey" value=""/>
     <attributes name="READ_CALENDAR" value="false"/>
@@ -41,10 +40,9 @@
     <attributes name="andapplicationtags" value=""/>
     <attributes name="RECORD_AUDIO" value="false"/>
     <attributes name="Text_Messaging" value="true"/>
-    <attributes name="apmgestureswipe" value="false"/>
     <attributes name="appaddrkey" value="http://10.10.4.55:8080"/>
     <attributes name="appnamekey" value="KitchenSinkApp"/>
-    <attributes name="currentgaversion" value="6.5.1.GA_v201507231955"/>
+    <attributes name="currentgaversion" value="6.0.3.GA_v201503251356"/>
     <attributes name="SET_TIME" value="false"/>
     <attributes name="sessionmanager" value="Kony Session Manager"/>
     <attributes name="SYSTEM_ALERT_WINDOW" value="false"/>
@@ -56,10 +54,8 @@
     <attributes name="spawindowstabbasefontsize" value="17"/>
     <attributes name="WP8_ID_CAP_MEDIALIB_PLAYBACK" value="true"/>
     <attributes name="WP8_ID_CAP_WEBBROWSERCOMPONENT" value="true"/>
-    <attributes name="iosenablejsbindings" value="false"/>
     <attributes name="tcbb240basefontsize" value="12"/>
     <attributes name="bb10buildid" value=""/>
-    <attributes name="apmerrorunhandledexception" value="false"/>
     <attributes name="READ_CONTACTS" value="true"/>
     <attributes name="schemekey" value=""/>
     <attributes name="wintilebackcolornamekey" value="128,128,128"/>
@@ -72,7 +68,6 @@
     <attributes name="Removable_Storage" value="true"/>
     <attributes name="access_shared" value="false"/>
     <attributes name="ACCOUNT_MANAGER" value="false"/>
-    <attributes name="apmtouchorclick" value="false"/>
     <attributes name="enablecharts2d3diphone" value="false"/>
     <attributes name="tcbb440basefontsize" value="15"/>
     <attributes name="extendTop" value="false"/>
@@ -104,11 +99,9 @@
     <attributes name="KILL_BACKGROUND_PROCESSES" value="false"/>
     <attributes name="andmanifesttags" value=""/>
     <attributes name="BIND_APPWIDGET" value="false"/>
-    <attributes name="apmservicerequest" value="false"/>
     <attributes name="Internet(Client)" value="true"/>
     <attributes name="SELECTED_THEME" value="default"/>
     <attributes name="ID_CAP_IDENTITY_DEVICE" value="true"/>
-    <attributes name="apmcrash" value="false"/>
     <attributes name="VIBRATE" value="false"/>
     <attributes name="bbserviceidentifierpattern" value=""/>
     <attributes name="ID_REQ_MAGNETOMETER" value="false"/>
@@ -153,7 +146,6 @@
     <attributes name="EXPAND_STATUS_BAR" value="false"/>
     <attributes name="wp81slockscreennotificationskey" value="Not set"/>
     <attributes name="DISABLE_KEYGUARD" value="false"/>
-    <attributes name="apmorientationchange" value="false"/>
     <attributes name="tcbb360basefontsize" value="13"/>
     <attributes name="winsmoothscrollkey" value="true"/>
     <attributes name="DELETE_PACKAGES" value="false"/>
@@ -180,7 +172,6 @@
     <attributes name="androidmapkey2" value=""/>
     <attributes name="bb10versionnumber" value=""/>
     <attributes name="wp8iconimagekey" value=""/>
-    <attributes name="apmformEntry" value="false"/>
     <attributes name="project.type" value="js"/>
     <attributes name="win8shortnamekey" value="KitchenSinkApp"/>
     <attributes name="access_pimdomain_calendars" value="false"/>
@@ -218,7 +209,6 @@
     <attributes name="tcnth360basefontsize" value="13"/>
     <attributes name="access_pimdomain_contacts" value="false"/>
     <attributes name="SET_ACTIVITY_WATCHER" value="false"/>
-    <attributes name="apmserviceresponse" value="false"/>
     <attributes name="urlschemanameorder" value=""/>
     <attributes name="ID_CAP_NETWORKING" value="true"/>
     <attributes name="UseSQLCipherFIPS" value="false"/>
@@ -240,7 +230,6 @@
     <attributes name="WP8_ID_CAP_PHONEDIALER" value="true"/>
     <attributes name="bb10urlscheme" value=""/>
     <attributes name="apppackagekey" value="com.kony.KitchenSinkApp"/>
-    <attributes name="watchenabled" value="false"/>
     <attributes name="andtargetsdkkey" value="4.4"/>
     <attributes name="wp81sdescriptionkey" value="Sample Test Application"/>
     <attributes name="tcbjs240basefontsize" value="10"/>
@@ -272,7 +261,7 @@
     <attributes name="SIGNAL_PERSISTENT_PROCESSES" value="false"/>
     <attributes name="desktopwebbasefontsize" value="16"/>
     <attributes name="REORDER_TASKS" value="false"/>
-    <attributes name="andminsdkkey" value="2.1"/>
+    <attributes name="andminsdkkey" value="4.0"/>
     <attributes name="Proximity" value="true"/>
     <attributes name="androidscreenresizeable" value="false"/>
     <attributes name="GET_ACCOUNTS" value="true"/>
@@ -298,7 +287,6 @@
     <attributes name="deviceexception" value="Unknown Error Occurred &lt;br/&gt; Contact System Admin"/>
     <attributes name="wp81spackagepublichernamekey" value="Kony"/>
     <attributes name="HARDWARE_TEST" value="false"/>
-    <attributes name="androidenablejsbindings" value="false"/>
     <attributes name="tcandroid240basefontsize" value="10"/>
     <attributes name="post_notification" value="false"/>
     <attributes name="spawindows320basefontsize" value="12"/>
@@ -342,13 +330,11 @@
     <attributes name="WRITE_SMS" value="false"/>
     <attributes name="access_phone" value="false"/>
     <attributes name="enablefocushtml5iphonbb" value="false"/>
-    <attributes name="enableautomaticeventcap" value="false"/>
     <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="false"/>
     <attributes name="genericexceptionalert" value="false"/>
     <attributes name="tcbjs320basefontsize" value="10"/>
     <attributes name="APPLICATION_THEME" value="default"/>
     <attributes name="wp8packagepublisheridkey" value="8a1caf1a-9d09-43b3-82c0-8f803dd6dc33"/>
-    <attributes name="disablehttpskey" value="false"/>
     <attributes name="Music_Library" value="true"/>
     <attributes name="Location" value="true"/>
     <attributes name="DIAGNOSTIC" value="false"/>
@@ -398,7 +384,6 @@
     <attributes name="iphonewebshrtcutkey" value=""/>
     <attributes name="spawindows480basefontsize" value="12"/>
     <attributes name="usegoogleplaylocationservices" value="false"/>
-    <attributes name="isCrittercismEnabled" value="false"/>
     <attributes name="pasteboardtype" value="systemlevel"/>
     <attributes name="spaipadbasefontsize" value="17"/>
     <attributes name="READ_SYNC_SETTINGS" value="false"/>
@@ -446,16 +431,11 @@
     <attributes name="andapplicationattrs" value=""/>
     <attributes name="BRICK" value="false"/>
     <attributes name="WP8_ID_CAP_PUSH_NOTIFICATION" value="true"/>
-    <attributes name="enablelocalnotifications" value="false"/>
     <attributes name="tcandroid320basefontsize" value="12"/>
     <attributes name="USE_SIP" value="false"/>
     <attributes name="Videos_Library_Access" value="true"/>
     <attributes name="wp8enforceMaxMemory" value="false"/>
-    <attributes name="build" value="debug"/>
+    <attributes name="build" value="release"/>
     <attributes name="spaandroidtab800basefontsize" value="14"/>
-    <attributes name="mobilepreappiniteven" value="ksa2preappinit"/>
-    <attributes name="isA11yConfigEnabled" value="false"/>
-    <attributes name="tabletpreappiniteven" value="ksa2preappinit"/>
-    <attributes name="desktoppreappiniteven" value="ksa2preappinit"/>
     <attributes name="defaultlocalekey" value=""/>
 </properties>

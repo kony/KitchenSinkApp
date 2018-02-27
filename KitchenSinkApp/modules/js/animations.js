@@ -6,7 +6,7 @@
 
 function goToFrmAni()
 {
-	if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
+	if(kony.os.deviceInfo().name == "iPad")
 		frmAnimations.show();
 	else
 		frmAni.show();

@@ -236,7 +236,7 @@ function segwidDictionary(  )
 	[ "  W", [ { cname : "Wake Island " } , { cname : "Wallis and Futuna" }  ] ],
 	[ "  Y", [ { cname : "Yemen " }  ] ],
 	[ "  Z", [ { cname : "Zambia " } , { cname : "Zimbabwe" }  ] ] ];
-	if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
+	if(kony.os.deviceInfo().name == "iPad")
 		frmSegDictView.segDictView.setDataWithSections (segdata);
 	else
 		frmDictView.segStates.setDataWithSections (segdata);
@@ -277,7 +277,7 @@ function multiSelectTab()
 		frmSegmentTablet.segMultiSelectData.setData(arr);
 		frmSegmentFeatures.sbxSegmentFeatureDetails.add(frmSegmentTablet.segMultiSelectData);
 		//below is supported for iOS and windows8 platfors only
-		if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name=="iPad Simulator")
+		if(kony.os.deviceInfo().name == "iPad")
 			frmSegmentFeatures.sbxSegmentFeatureDetails.scrollToWidget(frmSegmentTablet.segMultiSelectData);
 }
 
@@ -382,11 +382,11 @@ function dataForSeg(eventObj)
 	[ "  W", [ { cname : "Wake Island " ,metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE}} , { cname : "Wallis and Futuna" ,metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE}}  ] ],
 	[ "  Y", [ { cname : "Yemen " ,metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE}}  ] ],
 	[ "  Z", [ { cname : "Zambia ",metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE} } , { cname : "Zimbabwe",metaInfo :{editMode:constants.SEGUI_EDIT_MODE_DELETE} }  ] ] ];
-	if((kony.os.deviceInfo().name != "iPad" && kony.os.deviceInfo().name != "iPad Simulator" && channel=="tablet") || (channel == "desktopweb"))
+	if((kony.os.deviceInfo().name != "iPad" && channel=="tablet") || (channel == "desktopweb"))
 	{
 		kony.print("do nothing");
 	}
-	else if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name == "iPad Simulator")
+	else if(kony.os.deviceInfo().name == "iPad")
 	{
 		frmSegmentTablet.segIconEditStyle.setDataWithSections(segdata);
 		frmSegSwipe.segSwipeToDelete.setDataWithSections(segdata);
@@ -463,13 +463,13 @@ function refresh(seguiWidget)
 	if (j == 24)
 		j = 0;
 	var data = { cname : "Inserted contact"+j  }
-	if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPhone Simulator" || kony.os.deviceInfo().name == "iPad" )
+	if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad" )
 		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,{shouldShowLabelInBottom :true,separatorHeight:30});
 	else
 		kony.application.showLoadingScreen("loadingscreen","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,null);
 
 	kony.timer.schedule("newTimer", dismiLoadScrnRefresh,2,false);
-	if(kony.os.deviceInfo().name == "iPad" || kony.os.deviceInfo().name == "iPad Simulator" )
+	if(kony.os.deviceInfo().name == "iPad" )
 	{
 		frmSegPull.segPullToRefresh.setDataAt(data, 0, j);
 	}
